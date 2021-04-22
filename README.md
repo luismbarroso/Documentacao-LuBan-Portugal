@@ -6,4 +6,4 @@
   <strong>Nome do Aluno:</strong> Luis Barroso // <strong>Número do Aluno:</strong> 190203015
 </p>
 
-Consiste num projeto para criação de documentação de forma simples e rápida usado o Markdown. 
+Consiste num projecto para criação de documentação de forma simples e rápida usado o Markdown, HTML, Python e CSS.
