@@ -1,4 +1,4 @@
-# Criação de Documentação para o Lu ban Workshop Portugal
+# Criação de Documentação
 
 Este documento consiste num pequeno guia com alguns comandos basicos para a criação de documentação para a Lu ban Workshop Portugal.
 
