@@ -99,7 +99,7 @@ O Move é função que permite, como o próprio nome indica, mover valores de en
     NOTA: A Variável colocada na saida do Move "%QW80" é o Output padrão da Carta analógico do PLC.  O Endereço do HSC pode ser encontrado em "Device configuration > System constants"
 
 <div align="center">
-  <img src="../../source/manuais/manual_enconder_imagens/img_programacao/2.png" width="650" />
+  <img src="../../source/manuais/manual_enconder_imagens/img_programacao/2.PNG" width="650" />
   
   <i>Imagem 7</i>
 </div>
