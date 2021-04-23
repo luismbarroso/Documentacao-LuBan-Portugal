@@ -43,7 +43,7 @@ Para os Titulos são usados **"#"**, quantos mais **"#"** mais pequenos o seu te
 
 #### Formatação de Texto
 
-A formatação de texto pode ser feita a **"Negrito"**, **"Italico"**, **"Negrito/Italico"** e **"Riscado"**
+A Formatação de Texto pode ser feita a **"Negrito"**, **"Italico"**, **"Negrito/Italico"** e **"Riscado"**
 
     Negrito: ***Lu ban Workshop Portugal**
     Italico: *Lu ban Workshop Portugal*
@@ -73,7 +73,7 @@ As tabelas são feitas da seguinte maneira:
 
 #### Tipos de Lista
 
-As Listas podem ser feitas com **"-"**, uma Lista sem ordem, ou através de **"numeração"**, umas lista com ordem.
+As Listas podem ser feitas com **"-"**, uma lista sem ordem, ou através de **"numeração"**, umas lista com ordem.
 
     1. Primeiro Item
     2. Segundo Item
@@ -83,13 +83,13 @@ As Listas podem ser feitas com **"-"**, uma Lista sem ordem, ou através de **"n
 
 #### Imagens (Markdown)
 
-Para inserir imagens usamos o seguinte comando:
+Para inserir Imagens usamos o seguinte comando:
 
     ![alt text](Logo_Luban.jpg)
 
 #### Links
 
-Para inserir links usamos o seguinte comando:
+Para inserir Links usamos o seguinte comando:
 
     [title](https://http://www.ips.pt/)
 
