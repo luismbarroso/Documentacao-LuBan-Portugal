@@ -5,8 +5,8 @@
 <div align="center">
   <h2> IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal </h2>
 </div>
- ⠀ 
-  ⠀ 
+
+<img src="./manuais/logos/Logo_Luban.png" width="110" /> ⠀ 
 
 # Manual Encoder
 
