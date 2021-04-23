@@ -31,7 +31,7 @@ utilizado (PTO).
 1.Em **“Device configuration”** clique com o botão direito sobre o PLC e selecione o opção **“Properties”**.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/1.png" width="650" />
+  <img src="../../source/manuais/manual_enconder_imagens/img_conf_basica/1.png" width="650" />
   
   <i>Imagem 1</i>
 </div>
