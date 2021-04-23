@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="ie=edge" http-equiv="x-ua-compatible"/>
+  <meta content="Copy to clipboard" name="lang:clipboard.copy"/>
+  <meta content="Copied to clipboard" name="lang:clipboard.copied"/>
+  <meta content="en" name="lang:search.language"/>
+  <meta content="True" name="lang:search.pipeline.stopwords"/>
+  <meta content="True" name="lang:search.pipeline.trimmer"/>
+  <meta content="No matching documents" name="lang:search.result.none"/>
+  <meta content="1 matching document" name="lang:search.result.one"/>
+  <meta content="# matching documents" name="lang:search.result.other"/>
+  <meta content="[\s\-]+" name="lang:search.tokenizer"/>
+  <link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto:300,400,400i,700&amp;display=fallback" rel="stylesheet"/>
+  <style>
+   body,
+      input {
+        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
+      }
+
+      code,
+      kbd,
+      pre {
+        font-family: "Roboto Mono", "Courier New", Courier, monospace
+      }
+  </style>
+  <link href="../_static/stylesheets/application.css" rel="stylesheet"/>
+  <link href="../_static/stylesheets/application-palette.css" rel="stylesheet"/>
+  <link href="../_static/stylesheets/application-fixes.css" rel="stylesheet"/>
+  <link href="../_static/fonts/material-icons.css" rel="stylesheet"/>
+  <meta content="4b231b" name="theme-color"/>
+  <script src="../_static/javascripts/modernizr.js">
+  </script>
+  <script>
+   window.ga = window.ga || function () {
+          (ga.q = ga.q || []).push(arguments)
+      };
+      ga.l = +new Date;
+      ga('create', 'UA-XXXXX', 'auto');
+      ga('send', 'pageview');
+  </script>
+  <script async="" src="https://www.google-analytics.com/analytics.js">
+  </script>
+  <title>
+   Manual Encoder — Documentação Luban
+  </title>
+  <link href="../_static/pygments.css" rel="stylesheet" type="text/css"/>
+  <link href="../_static/material.css" rel="stylesheet" type="text/css"/>
+  <link href="../_static/copybutton.css" rel="stylesheet" type="text/css"/>
+  <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js">
+  </script>
+  <script src="../_static/jquery.js">
+  </script>
+  <script src="../_static/underscore.js">
+  </script>
+  <script src="../_static/doctools.js">
+  </script>
+  <script src="../_static/clipboard.min.js">
+  </script>
+  <script src="../_static/copybutton.js">
+  </script>
+  <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js">
+  </script>
+  <link href="../_static/Logo_Luban.png" rel="shortcut icon"/>
+  <link href="../genindex.html" rel="index" title="Index"/>
+  <link href="../search.html" rel="search" title="Search"/>
+ </head>
+ <body data-md-color-accent="orange" data-md-color-primary="brown" dir="ltr">
+  <svg class="md-svg">
+   <defs data-children-count="0">
+    <svg height="448" id="__github" viewbox="0 0 416 448" width="416" xmlns="http://www.w3.org/2000/svg">
+     <path d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z" fill="currentColor">
+     </path>
+    </svg>
+   </defs>
+  </svg>
+  <input class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+  <input class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+  <label class="md-overlay" data-md-component="overlay" for="__drawer">
+  </label>
+  <a class="md-skip" href="#manuais/manual_enconder" tabindex="1">
+   Skip to content
+  </a>
+  <header class="md-header" data-md-component="header" style="background-color: #4b231b; color: #f3e9e7;">
+   <nav class="md-header-nav md-grid">
+    <div class="md-flex navheader">
+     <div class="md-flex__cell md-flex__cell--shrink">
+      <a class="md-header-nav__button md-logo" href="../index.html" title="Documentação Luban">
+       <img alt="Documentação Luban logo" height="72" src="../_static/Logo_Luban.png"/>
+      </a>
+     </div>
+     <div class="md-flex__cell md-flex__cell--shrink">
+      <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer">
+      </label>
+     </div>
+     <div class="md-flex__cell md-flex__cell--stretch">
+      <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+       <span class="md-header-nav__topic">
+        Documentação Luban
+       </span>
+       <span class="md-header-nav__topic">
+        Manual Encoder
+       </span>
+      </div>
+     </div>
+     <div class="md-flex__cell md-flex__cell--shrink">
+      <label class="md-icon md-icon--search md-header-nav__button" for="__search">
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+       <label class="md-search__overlay" for="__search">
+       </label>
+       <div class="md-search__inner" role="search">
+        <form action="../search.html" class="md-search__form" method="GET" name="search">
+         <input autocapitalize="off" autocomplete="off" class="md-search__input" data-md-component="query" data-md-state="active" name="q" placeholder="Search" spellcheck="false" type="text"/>
+         <label class="md-icon md-search__icon" for="__search">
+         </label>
+         <button class="md-icon md-search__icon" data-md-component="reset" tabindex="-1" type="reset">
+          
+         </button>
+        </form>
+        <div class="md-search__output">
+         <div class="md-search__scrollwrap" data-md-scrollfix="">
+          <div class="md-search-result" data-md-component="result">
+           <div class="md-search-result__meta">
+            Type to start searching
+           </div>
+           <ol class="md-search-result__list">
+           </ol>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="md-flex__cell md-flex__cell--shrink">
+      <div class="md-header-nav__source">
+       <a class="md-source" data-md-source="github" href="https://github.com/luismbarroso/Documentation_Luban" title="Go to repository">
+        <div class="md-source__icon">
+         <svg height="28" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <use height="24" width="24" xlink:href="#__github">
+          </use>
+         </svg>
+        </div>
+        <div class="md-source__repository">
+         Documentação Luban
+        </div>
+       </a>
+      </div>
+     </div>
+     <script src="../_static/javascripts/version_dropdown.js">
+     </script>
+     <script>
+      var json_loc = "../"versions.json"",
+        target_loc = "../../",
+        text = "Versions";
+    $( document ).ready( add_version_dropdown(json_loc, target_loc, text));
+     </script>
+    </div>
+   </nav>
+  </header>
+  <div class="md-container">
+   <main class="md-main">
+    <div class="md-main__inner md-grid" data-md-component="container">
+     <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" style="margin-top: 50px;">
+      <div class="md-sidebar__scrollwrap">
+       <div class="md-sidebar__inner">
+        <nav class="md-nav md-nav--primary" data-md-level="0">
+         <label class="md-nav__title md-nav__title--site" for="__drawer">
+          <a class="md-nav__button md-logo" href="../index.html" title="Documentação Luban">
+           <img alt=" logo" height="48" src="../_static/Logo_Luban.png" width="48"/>
+          </a>
+          <a href="../index.html" title="Documentação Luban">
+           Documentação Luban
+          </a>
+         </label>
+         <div class="md-nav__source">
+          <a class="md-source" data-md-source="github" href="https://github.com/luismbarroso/Documentation_Luban" title="Go to repository">
+           <div class="md-source__icon">
+            <svg height="28" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+             <use height="24" width="24" xlink:href="#__github">
+             </use>
+            </svg>
+           </div>
+           <div class="md-source__repository">
+            Documentação Luban
+           </div>
+          </a>
+         </div>
+         <ul class="md-nav__list">
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="../grupo10.html">
+            Indice (Grupo 10 - SX-185Q)
+           </a>
+          </li>
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="../grupo20.html">
+            Indice (Grupo 20 - THMSRB-3DS)
+           </a>
+          </li>
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="../grupo30.html">
+            Indice (Grupo 30 - YL335B)
+           </a>
+          </li>
+          <li class="md-nav__item">
+           <span class="md-nav__link caption" style="margin-top: 30px;">
+            <span class="caption-text">
+             How to do
+            </span>
+           </span>
+          </li>
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="../criacao_de_documenta%C3%A7%C3%A3o.html">
+            Criação de Documentação para o Lu ban Workshop Portugal
+           </a>
+          </li>
+         </ul>
+        </nav>
+       </div>
+      </div>
+     </div>
+     <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+      <div class="md-sidebar__scrollwrap">
+       <div class="md-sidebar__inner">
+        <nav class="md-nav md-nav--secondary">
+         <label class="md-nav__title" for="__toc">
+          Contents
+         </label>
+         <ul class="md-nav__list" data-md-scrollfix="">
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="#manuais-manual-enconder--page-root">
+            Manual Encoder
+           </a>
+           <nav class="md-nav">
+            <ul class="md-nav__list">
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="#indice">
+               Indice
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="#basico-i">
+               Básico I
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="#configuracao-basica-do-encoder-no-tia-portal">
+               Configuração Básica do Encoder no TIA Portal
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="#introducao-a-programacao-de-encoders">
+               Introdução à programação de encoders
+              </a>
+              <nav class="md-nav">
+               <ul class="md-nav__list">
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="#ctrl-hsc">
+                  CTRL_HSC
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="#move">
+                  Move
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="#valor-do-id">
+                  Valor do %ID…
+                 </a>
+                </li>
+               </ul>
+              </nav>
+             </li>
+            </ul>
+           </nav>
+          </li>
+          <li class="md-nav__item">
+           <a class="md-nav__extra_link" href="../_sources/manuais/manual_enconder.md.txt">
+            Show Source
+           </a>
+          </li>
+          <li class="md-nav__item" id="searchbox">
+          </li>
+         </ul>
+        </nav>
+       </div>
+      </div>
+     </div>
+     <div class="md-content">
+      <article class="md-content__inner md-typeset" role="main">
+       <div align="center">
+        <img src="../../../source/manuais/logos/Logo_Luban.png" width="80"/>
+        <img src="../../../source/manuais/logos/Logo_IPS.jpg" width="110"/>
+       </div>
+       <div align="center">
+        <h2>
+         IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal
+        </h2>
+       </div>
+       ⠀ 
+  ⠀
+       <h1 id="manuais-manual-enconder--page-root">
+        Manual Encoder
+        <a class="headerlink" href="#manuais-manual-enconder--page-root" title="Permalink to this headline">
+         ¶
+        </a>
+       </h1>
+       <p>
+        <strong>
+         Autor:
+        </strong>
+        …
+       </p>
+       <h2 id="indice">
+        Indice
+        <a class="headerlink" href="#indice" title="Permalink to this headline">
+         ¶
+        </a>
+       </h2>
+       <ul class="simple">
+        <li>
+         <p>
+          <a class="reference external" href="#basico-i">
+           Básico I
+          </a>
+         </p>
+        </li>
+        <li>
+         <p>
+          <a class="reference external" href="#configuracao-basica-do-encoder-no-tia-portal">
+           Configuração Básica do Encoder no TIA Portal
+          </a>
+         </p>
+        </li>
+        <li>
+         <p>
+          <a class="reference external" href="#introducao-a-programacao-de-encoders">
+           Introdução à programação de encoders
+          </a>
+         </p>
+         <ul>
+          <li>
+           <p>
+            <a class="reference external" href="#ctrl-hsc">
+             CTRL_HSC
+            </a>
+           </p>
+          </li>
+          <li>
+           <p>
+            <a class="reference external" href="#move">
+             Move
+            </a>
+           </p>
+          </li>
+          <li>
+           <p>
+            <a class="reference external" href="#valor-do-id">
+             Valor do %ID…
+            </a>
+           </p>
+          </li>
+         </ul>
+        </li>
+       </ul>
+       <h2 id="basico-i">
+        Básico I
+        <a class="headerlink" href="#basico-i" title="Permalink to this headline">
+         ¶
+        </a>
+       </h2>
+       <p>
+        Durante esta primeira parte será ensinado o básico sobre o servo. Desde as bases de configuração até às bases de programação, abordando apenas a informação essencial para
+conseguir por em prática uma ideia implementando um servo no processo. Serão ainda abordados alguns conceitos básicos em relação ao servo e ao método de comunicação
+utilizado (PTO).
+       </p>
+       <h2 id="configuracao-basica-do-encoder-no-tia-portal">
+        Configuração Básica do Encoder no TIA Portal
+        <a class="headerlink" href="#configuracao-basica-do-encoder-no-tia-portal" title="Permalink to this headline">
+         ¶
+        </a>
+       </h2>
+       <p>
+        1.Em
+        <strong>
+         “Device configuration”
+        </strong>
+        clique com o botão direito sobre o PLC e selecione o opção
+        <strong>
+         “Properties”
+        </strong>
+        .
+       </p>
+       <div align="center">
+        <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/1.png" width="650"/>
+        <p>
+         <i>
+          Imagem 1
+         </i>
+        </p>
+       </div>
+       <p>
+        2.Na aba
+        <strong>
+         “High speed counters (HSC)”
+        </strong>
+        , abra
+        <strong>
+         “HSC1”
+        </strong>
+        e clique em
+        <strong>
+         “General”
+        </strong>
+        e de seguida marque a opção
+        <strong>
+         “Enable this high speed counter”
+        </strong>
+        .
+       </p>
+       <div align="center">
+        <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/2.png" width="650"/>
+        <p>
+         <i>
+          Imagem 2
+         </i>
+        </p>
+       </div>
+       <p>
+        3.Ainda na aba
+        <strong>
+         “HSC1”
+        </strong>
+        vá a
+        <strong>
+         “Function”
+        </strong>
+        e em
+        <strong>
+         “Operating phase”
+        </strong>
+        escolha a opção
+        <strong>
+         “A/B Counter”
+        </strong>
+        .
+       </p>
+       <div align="center">
+        <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/3.png" width="650"/>
+        <p>
+         <i>
+          Imagem 3
+         </i>
+        </p>
+       </div>
+       <p>
+        4.Em
+        <strong>
+         “Hardware inputs”
+        </strong>
+        certifique-se de que tem as entradas devidamente ligadas com o encoder, e de que as mesmas são entradas de alta velocidade.
+       </p>
+       <div align="center">
+        <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/4.png" width="650"/>
+        <p>
+         <i>
+          Imagem 4
+         </i>
+        </p>
+       </div>
+       <p>
+        5.De seguida na aba
+        <strong>
+         “DI 14/DQ 10”
+        </strong>
+        vá em
+        <strong>
+         “Digital inputs”
+        </strong>
+        e clique nos
+        <strong>
+         “Channels”
+        </strong>
+        (exemplo Channel0 e Channel1 para as entradas %I0.0 e %I0.1) correspondentes às entradas de alta velocidade configuradas no passo anterior, e escolha o filtro de sinal adequado para a sua utilização.
+       </p>
+       <div align="center">
+        <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/5.png" width="650"/>
+        <p>
+         <i>
+          Imagem 5
+         </i>
+        </p>
+       </div>
+       <p>
+        6.E a configuração do Encoder está concluída.
+       </p>
+       <h2 id="introducao-a-programacao-de-encoders">
+        Introdução à programação de encoders
+        <a class="headerlink" href="#introducao-a-programacao-de-encoders" title="Permalink to this headline">
+         ¶
+        </a>
+       </h2>
+       <p>
+        A programação de encoders é bastante simples uma vez que na base a sua programação passa por apenas fazer leituras dos valores do encoder e aplicar alguns ajustes às configurações do encoder ao longo do processo.
+       </p>
+       <h3 id="ctrl-hsc">
+        CTRL_HSC
+        <a class="headerlink" href="#ctrl-hsc" title="Permalink to this headline">
+         ¶
+        </a>
+       </h3>
+       <p>
+        O CTRL_HSC contém um endereço, este é um endereço de um intervalo configurado para o encoder nas propriedades do contador de alta velocidade. Á medida que o tapete se move, esse valor irá também aumentar, desta forma, é possivel defenir o caminho que cada peça toma. No exemplo que iremos demostrar, usamos o HSC1, por padrão o endereço a utilizar é %ID1000.
+       </p>
+       <div class="highlight-default notranslate">
+        <div class="highlight">
+         <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">Para</span> <span class="n">saber</span> <span class="n">o</span> <span class="n">endereço</span> <span class="n">do</span> <span class="n">HSC</span> <span class="n">que</span> <span class="n">está</span> <span class="n">usar</span><span class="p">,</span> <span class="n">dois</span> <span class="n">cliques</span> <span class="n">em</span> <span class="s2">"Device configuration &gt; System constants Device configuration &gt; General &gt; (Seleciona o HSC que está a usar) &gt; I/O adreesses"</span>
+</pre>
+        </div>
+       </div>
+       <p>
+        <strong>
+         Principais parâmetros:
+        </strong>
+       </p>
+       <ul>
+        <li>
+         <p>
+          <strong>
+           HSC:
+          </strong>
+          Endereço do HSC
+         </p>
+        </li>
+        <li>
+         <p>
+          <strong>
+           CV:
+          </strong>
+          Quando ativado, permite uma nova contagem
+         </p>
+         <div class="highlight-default notranslate">
+          <div class="highlight">
+           <pre><span></span>  <span class="n">NOTA</span><span class="p">:</span> <span class="n">O</span> <span class="n">Endereço</span> <span class="n">do</span> <span class="n">HSC</span> <span class="n">pode</span> <span class="n">ser</span> <span class="n">encontrado</span> <span class="n">em</span> <span class="s2">"Device configuration &gt; System constants"</span>
+</pre>
+          </div>
+         </div>
+        </li>
+       </ul>
+       <div align="center">
+        <img src="../../../source/manuais/manual_enconder_imagens/img_programacao/1.png" width="650"/>
+        <p>
+         <i>
+          Imagem 6
+         </i>
+        </p>
+       </div>
+       <h3 id="move">
+        Move
+        <a class="headerlink" href="#move" title="Permalink to this headline">
+         ¶
+        </a>
+       </h3>
+       <p>
+        O Move é função que permite, como o próprio nome indica, mover valores de entrada de forma a serem aplicados numa saida. No exemplo que iremos demostrar, usaremos a função
+        <strong>
+         “Move”
+        </strong>
+        para colocar o tapete em funcionamento.
+       </p>
+       <div class="highlight-default notranslate">
+        <div class="highlight">
+         <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">A</span> <span class="n">Variável</span> <span class="n">colocada</span> <span class="n">na</span> <span class="n">saida</span> <span class="n">do</span> <span class="n">Move</span> <span class="s2">"%QW80"</span> <span class="n">é</span> <span class="n">o</span> <span class="n">Output</span> <span class="n">padrão</span> <span class="n">da</span> <span class="n">Carta</span> <span class="n">analógico</span> <span class="n">do</span> <span class="n">PLC</span><span class="o">.</span>  <span class="n">O</span> <span class="n">Endereço</span> <span class="n">do</span> <span class="n">HSC</span> <span class="n">pode</span> <span class="n">ser</span> <span class="n">encontrado</span> <span class="n">em</span> <span class="s2">"Device configuration &gt; System constants"</span>
+</pre>
+        </div>
+       </div>
+       <div align="center">
+        <img src="../../../source/manuais/manual_enconder_imagens/img_programacao/2.png" width="650"/>
+        <p>
+         <i>
+          Imagem 7
+         </i>
+        </p>
+       </div>
+       <h3 id="valor-do-id">
+        Valor do %ID…
+        <a class="headerlink" href="#valor-do-id" title="Permalink to this headline">
+         ¶
+        </a>
+       </h3>
+       <p>
+        Para consultar o valor do %ID…, pode usar uma
+        <strong>
+         “Whatch Table”
+        </strong>
+       </p>
+       <div align="center">
+        <img src="../../../source/manuais/manual_enconder_imagens/img_programacao/4.png" width="650"/>
+        <p>
+         <i>
+          Imagem 8
+         </i>
+        </p>
+       </div>
+      </article>
+     </div>
+    </div>
+   </main>
+  </div>
+  <footer class="md-footer">
+   <div class="md-footer-nav">
+    <nav class="md-footer-nav__inner md-grid">
+    </nav>
+   </div>
+   <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+     <div class="md-footer-copyright">
+      <div class="md-footer-copyright__highlight">
+       © Copyright 2021, Luis Barroso.
+      </div>
+      Last updated on
+              Apr 22, 2021.
+      <br/>
+      Created using
+      <a href="http://www.sphinx-doc.org/">
+       Sphinx
+      </a>
+      3.5.4.
+             and
+      <a href="https://github.com/bashtage/sphinx-material/">
+       Material for
+              Sphinx
+      </a>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script src="../_static/javascripts/application.js">
+  </script>
+  <script>
+   app.initialize({version: "1.0.4", url: {base: ".."}})
+  </script>
+ </body>
+</html>
