@@ -487,7 +487,7 @@ Assim que o servo dispara a paragem de emergÃªncia quando um dos fins de curso Ã
     NOTA: Ativar o "Enable" no bloco "MC_Power"
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/6.jpg" width="200" /> <img src="../../../source/manuais/manual_servo_imagens/img_erros_axis/7.jpg" width="200" />
+  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/6.jpg" width="200" /> <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/7.jpg" width="200" />
   
   <i>Imagem 38/39</i>
 
