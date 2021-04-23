@@ -31,7 +31,7 @@ utilizado (PTO).
 1.Em **“Device configuration”** clique com o botão direito sobre o PLC e selecione o opção **“Properties”**.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/1.png" width="650" />
+  <img src="../../source/manuais/manual_enconder_imagens/img_conf_basica/1.png" width="650" />
   
   <i>Imagem 1</i>
 </div>
@@ -39,7 +39,7 @@ utilizado (PTO).
 2.Na aba **“High speed counters (HSC)”**, abra **“HSC1”** e clique em **“General”** e de seguida marque a opção **“Enable this high speed counter”**.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/2.png" width="650" />
+  <img src="../../source/manuais/manual_enconder_imagens/img_conf_basica/2.png" width="650" />
   
   <i>Imagem 2</i>
 </div>
@@ -47,7 +47,7 @@ utilizado (PTO).
 3.Ainda na aba **“HSC1”** vá a **“Function”** e em **“Operating phase”** escolha a opção **“A/B Counter”**.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/3.png" width="650" />
+  <img src="../../source/manuais/manual_enconder_imagens/img_conf_basica/3.png" width="650" />
   
   <i>Imagem 3</i>
 </div>
@@ -55,7 +55,7 @@ utilizado (PTO).
 4.Em **“Hardware inputs”** certifique-se de que tem as entradas devidamente ligadas com o encoder, e de que as mesmas são entradas de alta velocidade.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/4.png" width="650" />
+  <img src="../../source/manuais/manual_enconder_imagens/img_conf_basica/4.png" width="650" />
   
   <i>Imagem 4</i>
 </div>
@@ -63,7 +63,7 @@ utilizado (PTO).
 5.De seguida na aba **“DI 14/DQ 10”** vá em **“Digital inputs”** e clique nos **“Channels”** (exemplo Channel0 e Channel1 para as entradas %I0.0 e %I0.1) correspondentes às entradas de alta velocidade configuradas no passo anterior, e escolha o filtro de sinal adequado para a sua utilização.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/5.png" width="650" />
+  <img src="../../source/manuais/manual_enconder_imagens/img_conf_basica/5.png" width="650" />
   
   <i>Imagem 5</i>
 </div>
@@ -87,7 +87,7 @@ O CTRL_HSC contém um endereço, este é um endereço de um intervalo configurad
         NOTA: O Endereço do HSC pode ser encontrado em "Device configuration > System constants"
 
 <div align="center">
-  <img src="../../../source/manuais/manual_enconder_imagens/img_programacao/1.png" width="650" />
+  <img src="../../source/manuais/manual_enconder_imagens/img_programacao/1.png" width="650" />
   
   <i>Imagem 6</i>
 </div>
@@ -99,7 +99,7 @@ O Move é função que permite, como o próprio nome indica, mover valores de en
     NOTA: A Variável colocada na saida do Move "%QW80" é o Output padrão da Carta analógico do PLC.  O Endereço do HSC pode ser encontrado em "Device configuration > System constants"
 
 <div align="center">
-  <img src="../../../source/manuais/manual_enconder_imagens/img_programacao/2.png" width="650" />
+  <img src="../../source/manuais/manual_enconder_imagens/img_programacao/2.png" width="650" />
   
   <i>Imagem 7</i>
 </div>
@@ -109,7 +109,7 @@ O Move é função que permite, como o próprio nome indica, mover valores de en
 Para consultar o valor do %ID..., pode usar uma **"Whatch Table"**
 
 <div align="center">
-  <img src="../../../source/manuais/manual_enconder_imagens/img_programacao/4.png" width="650" />
+  <img src="../../source/manuais/manual_enconder_imagens/img_programacao/4.png" width="650" />
   
   <i>Imagem 8</i>
 </div>
