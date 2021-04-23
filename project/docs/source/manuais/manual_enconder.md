@@ -22,6 +22,8 @@
 
 ### Básico I
 
+<img src="../../source/manuais/logos/GEMMA.svg" width="110" /> 
+
 Durante esta primeira parte será ensinado o básico sobre o servo. Desde as bases de configuração até às bases de programação, abordando apenas a informação essencial para
 conseguir por em prática uma ideia implementando um servo no processo. Serão ainda abordados alguns conceitos básicos em relação ao servo e ao método de comunicação
 utilizado (PTO). 
