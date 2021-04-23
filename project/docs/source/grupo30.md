@@ -26,6 +26,7 @@
   - [Line 32](#line-32) 
   - [Line 33](#line-33) 
 - [Software](#software)
+  - [GEMMA](#gemma)
   - [TIA Portal](#tia-portal) 
 - [Manuais Gerais](#manuais-gerais)
 
@@ -214,6 +215,11 @@ Enconder_Z|%I0.2|Enconder Z
 ### Line 33
 
 ## Software
+### Gemma
+
+![Gemma](../../source/manuais/logos/GEMMA.svg)
+<img src="../../source/manuais/logos/GEMMA.svg" width="110" /> 
+
 ### TIA Portal
 
 ## Manuais Gerais
