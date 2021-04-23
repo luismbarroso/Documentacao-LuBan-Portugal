@@ -217,8 +217,8 @@ Enconder_Z|%I0.2|Enconder Z
 ## Software
 ### Gemma
 
-![Gemma](../../source/manuais/logos/GEMMA.svg)
-<img src="../../source/manuais/logos/GEMMA.svg" width="110" /> 
+![](../../source/manuais/logos/GEMMA.svg)
+
 
 ### TIA Portal
 
