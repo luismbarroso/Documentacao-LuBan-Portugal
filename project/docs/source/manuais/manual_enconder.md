@@ -5,7 +5,8 @@
 <div align="center">
   <h2> IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal </h2>
 </div>
-
+ ⠀ 
+  ⠀ 
 
 # Manual Encoder
 
