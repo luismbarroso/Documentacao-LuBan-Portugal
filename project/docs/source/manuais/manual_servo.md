@@ -61,7 +61,7 @@ informação fornecida durante a configuração do servo no TIA Portal.
 1.Na aba **“Technology objects”** clique em  **“Add new object”.**
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/1.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/1.PNG" width="650" />
   
   <i>Imagem 1</i>
 </div>
@@ -69,7 +69,7 @@ informação fornecida durante a configuração do servo no TIA Portal.
 2.No menu **“Motion Control”** na pasta **“Motion Control”** selecione **“TO_PositioningAxis”**.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/2.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/2.PNG" width="650" />
   
   <i>Imagem 2</i>
 </div>
@@ -78,7 +78,7 @@ informação fornecida durante a configuração do servo no TIA Portal.
 drive no PLC e nas unidades de medida em **“Position Unit”** escolha **“mm”** (milímetros).
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/3.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/3.PNG" width="650" />
   
   <i>Imagem 3</i>
 </div>
@@ -87,7 +87,7 @@ drive no PLC e nas unidades de medida em **“Position Unit”** escolha **“mm
 ligadas ao drive.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/4.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/4.PNG" width="650" />
   
   <i>Imagem 4</i>
 </div>
@@ -96,7 +96,7 @@ ligadas ao drive.
 laboratório podem ser usados os valores na (Imagem 5).
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/5.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/5.PNG" width="650" />
   
   <i>Imagem 5</i>
 </div>
@@ -106,7 +106,7 @@ medida máximos) e de baixa (para valores de medida mínimos) e selecione em amb
 de curso seja acionado.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/6.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/6.PNG" width="650" />
   
   <i>Imagem 6</i>
 </div>
@@ -118,7 +118,7 @@ que se pretende para o processo.
 e calibre as velocidades.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/8.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/8.PNG" width="650" />
   
   <i>Imagem 7</i>
 </div>
@@ -156,7 +156,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
 2.Clique em online, selecione o equipamento a configurar e clique em **“Ok”**.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/2.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/2.PNG" width="650" />
   
   <i>Imagem 8</i>
 </div>
@@ -164,7 +164,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
 3.Na aba **“Select drive”** clique no botão **“Select motor”**.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/3.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/3.PNG" width="650" />
   
   <i>Imagem 9</i>
 </div>
@@ -174,7 +174,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
     NOTA: O ID do motor pode ser encontrado na placa de identificação no motor.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/4.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/4.PNG" width="650" />
   
   <i>Imagem 10</i>
 </div>
@@ -184,7 +184,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
     NOTA: Para melhor entender desta fase leia as “Noções sobre o servo para PROFINET”.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/5.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/5.PNG" width="650" />
   
   <i>Imagem 11</i>
 </div>
@@ -193,7 +193,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
 “Save and active”**.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/6.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/6.PNG" width="650" />
   
   <i>Imagem 12</i>
 </div>
@@ -201,7 +201,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
 7.Concluídos os passos anteriores, va na barra superior do V-ASSISTANT, em “Tools” clique **"Restart Drive”**. E fica concluída a primeira fase da configuração.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/7.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/7.PNG" width="650" />
   
   <i>Imagem 13</i>
 </div>
@@ -214,7 +214,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
     NOTA: O mesmo terá de aparecer em “Network view” como no exemplo.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/1.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/1.PNG" width="650" />
   
   <i>Imagem 14</i>
 </div>
@@ -223,7 +223,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
 o telegram escolhido durante a configuração do V90 com o V-ASSISTANT.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/2.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/2.PNG" width="650" />
   
   <i>Imagem 15</i>
 </div>
@@ -231,7 +231,7 @@ o telegram escolhido durante a configuração do V90 com o V-ASSISTANT.
 3.Ainda na janela do dispositivo clique com o botão direito no mesmo e clique em **"Properties"**.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/3.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/3.PNG" width="650" />
   
   <i>Imagem 16</i>
 </div>
@@ -239,7 +239,7 @@ o telegram escolhido durante a configuração do V90 com o V-ASSISTANT.
 4.Em **"General"**, nomeie o dispositivo com o mesmo nome dado durante a configuração no V-ASSISTANT.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/4.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/4.PNG" width="650" />
   
   <i>Imagem 17</i>
 </div>
@@ -249,7 +249,7 @@ automatically"**  e novamente coloque o nome dado ao dispositivo durante a confi
 V-ASSISTANT.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/5.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/5.PNG" width="650" />
   
   <i>Imagem 18</i>
 </div>
@@ -257,7 +257,7 @@ V-ASSISTANT.
 6.Clique novamente sobre o dispositivo V90 e clique na opção **"Assign device name"**.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/6.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/6.PNG" width="650" />
   
   <i>Imagem 19</i>
 </div>
@@ -265,7 +265,7 @@ V-ASSISTANT.
 7.Clique em **"Update list"** e de seguida clique sobre o dispositivo a configurar e clique no botão **"Assign name"**.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/7.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/7.PNG" width="650" />
   
   <i>Imagem 20</i>
 </div>
@@ -273,7 +273,7 @@ V-ASSISTANT.
 8.Na **"Network view"** ligue o V90 ao PLC.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/8.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/8.PNG" width="650" />
   
   <i>Imagem 21</i>
 </div>
@@ -284,7 +284,7 @@ devidamente adicionado.
     NOTA: Este passo é muito importante, sem ele o dispositivo poderá não funcionar corretamente. Tome também atenção à portas nas ligações entre o PLC e o V90.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/9.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/9.PNG" width="650" />
   
   <i>Imagem 22</i>
 </div>
@@ -296,7 +296,7 @@ devidamente adicionado.
 1. No menu lateral de dispositivos em **"Technology Objects"** clique em **"Add new** **object"**.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/10.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/10.PNG" width="650" />
   
   <i>Imagem 23</i>
 </div>
@@ -304,7 +304,7 @@ devidamente adicionado.
 2. Em **"Motion control"** clique sobre **"TO_PositioningAxis"**, em name coloque o nome para esse eixo (para facilitar dê-lhe o mesmo nome dado ao servo) e clique **"OK”**.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/11.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/11.PNG" width="650" />
   
   <i>Imagem 24</i>
 </div>
@@ -312,7 +312,7 @@ devidamente adicionado.
 3. Em **“General”** escolha a opção **"PROFIdrive"**.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/12.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/12.PNG" width="650" />
   
   <i>Imagem 25</i>
 </div>
@@ -320,7 +320,7 @@ devidamente adicionado.
 4. Em **"Drive"** clique nos **"..."** e escolha o drive configurado.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/13.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/13.PNG" width="650" />
   
   <i>Imagem 26</i>
 </div>
@@ -328,7 +328,7 @@ devidamente adicionado.
 5. Em **"Encoder"** marque a opção **"Encoder on PROFINET/PROFIBUS"**. E de seguido no campo a vermelho clique nos **"..."** e selecione o **"Encoder1"**.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/14.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/14.PNG" width="650" />
   
   <i>Imagem 27</i>
 </div>
@@ -349,7 +349,7 @@ nosso processo.
 **MC_Power** – é uma função que deve ser chamada e ligada antes de qualquer instrução de movimento, sem ela não será possível comando o servo.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_programacao/1.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_programacao/1.PNG" width="650" />
   
   <i>Imagem 28</i>
 </div>
@@ -363,7 +363,7 @@ nosso processo.
 **MC_Home** – é a função responsável de levar o servo até ao local onde está situado o sensor configurado para “homing”, a sua posição inicial.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_programacao/2.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_programacao/2.PNG" width="650" />
   
   <i>Imagem 29</i>
 </div>
@@ -379,7 +379,7 @@ nosso processo.
 **MC_Reset** – é a função que permite ignorar erros causados pela paragem do servo ao entrar em contacto com um fim de curso ou erros de configuração.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_programacao/3.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_programacao/3.PNG" width="650" />
   
   <i>Imagem 29</i>
 </div>
@@ -393,7 +393,7 @@ nosso processo.
 **MC_Halt** – é a função que para os movimentos do servo.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_programacao/4.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_programacao/4.PNG" width="650" />
   
   <i>Imagem 29</i>
 </div>
@@ -407,7 +407,7 @@ nosso processo.
 **MC_MoveJog** – é uma das funções de movimento do servo, esta em especifico permite que o servo se mova enquanto uma das entras permaneça ativa.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_programacao/5.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_programacao/5.PNG" width="650" />
   
   <i>Imagem 30</i>
 </div>
@@ -421,7 +421,7 @@ nosso processo.
 #### MC_MoveAbsolute
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_programacao/6.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_programacao/6.PNG" width="650" />
   
   <i>Imagem 31</i>
 </div>
@@ -439,7 +439,7 @@ nosso processo.
 **MC_MoveRelative** – é a função responsável por mover o servo uma determinada distancia relativamente à sua atual coordenada.
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_programacao/7.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_programacao/7.PNG" width="650" />
   
   <i>Imagem 32</i>
 </div>
@@ -461,7 +461,7 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
     NOTA: Para sabermos o estado do Axis é necessário clicar em "Monitor All"
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/1.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/1.PNG" width="650" />
   
   <i>Imagem 33</i>
 </div> 
@@ -469,7 +469,7 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
 2.Para remover o **"Axis Error"** é necessário fazer o **"Disable"** no bloco **"MC_Power"**. Após o fazer volte ao **Diagnostics** e deve obter o resutlado apresentado na **"Figura 35"**
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/2.png" width="400" /> <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/3.png" width="400" />
+  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/2.PNG" width="400" /> <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/3.PNG" width="400" />
   
   <i>Imagem 34/35</i>
 </div> 
@@ -477,7 +477,7 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
 3.Com o **"disable"** feito, no bloco **"MC_Reset"**, faça o **"Execute"**. Após o fazer volte ao **Diagnostics** e deve obter o resutlado apresentado na **"Figura 37"**
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/4.png" width="400" /> <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/5.png" width="400" />
+  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/4.PNG" width="400" /> <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/5.PNG" width="400" />
   
   <i>Imagem 36/37</i>
 </div> 
@@ -487,11 +487,11 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
     NOTA: Ativar o "Enable" no bloco "MC_Power"
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/6.jpg" width="200" /> <img src="../../../source/manuais/manual_servo_imagens/img_erros_axis/7.jpg" width="200" />
+  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/6.jpg" width="200" /> <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/7.jpg" width="200" />
   
   <i>Imagem 38/39</i>
 
-  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/8.png" width="650" /> 
+  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/8.PNG" width="650" /> 
   
   <i>Imagem 40</i>
 </div> 
