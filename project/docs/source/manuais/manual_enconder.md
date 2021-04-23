@@ -1,7 +1,7 @@
-<div align="center">
+<p align="center">
   <img src="../../source/manuais/logos/Logo_Luban.png" width="80" />   
   <img src="../../source/manuais/logos/Logo_IPS.jpg" width="110" /> 
-</div>
+</p>
 <div align="center">
   <h2> IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal (2) </h2>
 </div>
