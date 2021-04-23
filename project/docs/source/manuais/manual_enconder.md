@@ -20,8 +20,6 @@
   - [Move](#move)
   - [Valor do %ID…](#valor-do-id)
 
-![TESTE](../../source/manuais/manual_enconder_imagens/img_conf_basica/1.png)
-
 ### Básico I
 
 Durante esta primeira parte será ensinado o básico sobre o servo. Desde as bases de configuração até às bases de programação, abordando apenas a informação essencial para
