@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="../../../source/manuais/logos/Logo_Luban.png" width="80" />   
+  <img src="../../source/manuais/logos/Logo_Luban.png" width="80" />   
   <img src="../../source/manuais/logos/Logo_IPS.jpg" width="110" /> 
 </div>
 <div align="center">
   <h2> IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal </h2>
 </div>
  ⠀ 
-  ⠀ 
+<img src="./manuais/logos/Logo_IPS.jpg" width="110" /> 
 
 # Manual Servo Motor
 
