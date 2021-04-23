@@ -477,7 +477,7 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
 3.Com o **"disable"** feito, no bloco **"MC_Reset"**, faça o **"Execute"**. Após o fazer volte ao **Diagnostics** e deve obter o resutlado apresentado na **"Figura 37"**
 
 <div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/4.PNG" width="400" /> <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/5.png" width="400" />
+  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/4.PNG" width="400" /> <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/5.PNG" width="400" />
   
   <i>Imagem 36/37</i>
 </div> 
