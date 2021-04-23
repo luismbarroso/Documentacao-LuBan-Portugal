@@ -204,8 +204,8 @@ Enconder_Z|%I0.2|Enconder Z
 ### Inversor de Frequência
 ### Siemens S7 1200
 ### Manuais
--  [Manual Enconder](./manuais/manual_enconder.md)
--  [Manual Servo Motor](./manuais/manual_servo.md)
+#### Manual Enconder](./manuais/manual_enconder.md)
+#### Manual Servo Motor](./manuais/manual_servo.md)
 ## Lines
 ### Line 31
 ### Line 32
