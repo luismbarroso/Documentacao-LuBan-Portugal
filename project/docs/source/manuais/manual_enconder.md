@@ -69,7 +69,7 @@ O CTRL_HSC contém um endereço, este é um endereço de um intervalo configurad
 
         NOTA: O Endereço do HSC pode ser encontrado em "Device configuration > System constants"
 
-![6](../../source/manuais/manual_enconder_imagens/img_conf_basica/3_1.png)
+![6](../../source/manuais/manual_enconder_imagens/img_programacao/3_1.png)
 *Imagem 6*
 
 #### Move
