@@ -1,8 +1,6 @@
-![](./logos/Logo_Luban_IPS_2.PNG)
-
-# teste 1
-
-<img alt="Logo Luban" src="../_images/Logo_Luban_IPS_2.png">
+<div align="center">
+  <img alt="Logo Luban" src="../_images/Logo_Luban_IPS_2.png">
+</div>
 
 <div><h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
 
@@ -28,7 +26,7 @@ utilizado (PTO).
 
 1.Em **“Device configuration”** clique com o botão direito sobre o PLC e selecione o opção **“Properties”**.
 
-![1](../../source/manuais/manual_enconder_imagens/img_conf_basica/1.PNG)
+<img alt="Logo Luban" src="../_images/2_1.png">
 *Imagem 1*
 
 2.Na aba **“High speed counters (HSC)”**, abra **“HSC1”** e clique em **“General”** e de seguida marque a opção **“Enable this high speed counter”**.
