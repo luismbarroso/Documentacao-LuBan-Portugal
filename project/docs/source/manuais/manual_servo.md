@@ -12,6 +12,10 @@
 
 **Autor:** ...
 
+<div align="center">
+![](./manuais/logos/Logo_IPS.jpg)
+</div>
+
 ### Indice
 - [Básico I](#basico-i)
 - [Servos na Oficina Luban](#servos-na-oficina-luban)	
