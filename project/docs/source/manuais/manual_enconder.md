@@ -2,6 +2,14 @@
   <img alt="Logo Luban" src="../_images/Logo_Luban_IPS_2.png">
 </div>
 
+# Teste 1
+<div align="center">
+  <img alt="Logo Luban" src="../_images/Logo_Luban_IPS_2.png" width="80">   
+</div>
+
+# Teste 2
+<img alt="Logo Luban" src="../_images/Logo_Luban_IPS_2.png" width="80">   
+
 <div><h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
 
 # Manual Encoder
