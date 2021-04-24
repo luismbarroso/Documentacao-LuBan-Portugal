@@ -1,9 +1,14 @@
 <div align="center">
-<img alt="Teste" src="../_images/Logo_Luban.PNG">
-<img alt="Teste" src="../_images/Logo_IPS.PNG">
+  <img alt="Teste" src="../_images/Logo_Luban.PNG">
+  <img alt="Teste" src="../_images/Logo_IPS.PNG">
 </div>
 
+![](../../source/manuais/logos/Logo_IPS.PNG)
+![](../../source/manuais/logos/Logo_IPS.png)
+<img alt="Teste" src="../_images/Logo_IPS.png">
 <img alt="Teste" src="../_images/Logo_IPS.PNG">
+
+
 
 <div><h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
 
