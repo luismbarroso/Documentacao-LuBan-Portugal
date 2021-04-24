@@ -1,6 +1,6 @@
-![](../../source/manuais/logos/Logo_Luban_IPS_2.png)
+![](../../source/manuais/logos/Logo_Luban_IPS_3.png)
 
- <div><h3>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h3>
+ <div><h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
 
 # Manual Encoder
 
