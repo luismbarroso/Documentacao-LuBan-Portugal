@@ -79,7 +79,7 @@ html_logo = './manuais/logos/Logo_Luban.png'
 
 # material theme options (see theme.conf for more information)
 html_theme_options = {
-    "repo_url": "https://github.com/luismbarroso/Documentation_Luban",
+    "repo_url": "https://github.com/luismbarroso/Documentacao-LuBan-Portugal",
     "repo_name": "Documentação Luban",
     "google_analytics_account": "UA-XXXXX",
     "html_minify": False,
