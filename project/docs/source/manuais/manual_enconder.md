@@ -1,4 +1,4 @@
-![](./logos/Logo_Luban_IPS_2.PNG)
+![](../../source/manuais/logos/Logo_Luban_IPS_2.PNG)
 
 <div><h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
 
