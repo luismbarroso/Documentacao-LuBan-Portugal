@@ -8,4 +8,4 @@
 
 Consiste num projecto para criação de documentação de forma simples e rápida usado o Markdown, HTML, Python e CSS.
 
-Website: https://documentacao-lu-ban-portugal.readthedocs.io/en/latest/index.html
+Website: https://documentacao-luban-portugal.readthedocs.io/en/latest/
