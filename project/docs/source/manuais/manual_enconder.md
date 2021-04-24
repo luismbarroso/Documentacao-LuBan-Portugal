@@ -36,11 +36,21 @@ utilizado (PTO).
 2.Na aba **“High speed counters (HSC)”**, abra **“HSC1”** e clique em **“General”** e de seguida marque a opção **“Enable this high speed counter”**.
 
 T1
-![2](../../source/manuais/manual_enconder_imagens/img_conf_basica/2_1.PNG)
-*Imagem 2*
+![1](../../source/manuais/manual_enconder_imagens/img_conf_basica/2_1.PNG)
+*Imagem 1*
 
 T2
-![](./manual_enconder_imagens/img_conf_basica/2_1.PNG)
+![2](../../source/manuais/manual_enconder_imagens/img_conf_basica/2_1.png)
+*Imagem 2*
+
+T3
+![3](./manual_enconder_imagens/img_conf_basica/2_1.png)
+*Imagem 3*
+
+T4
+![3](./manual_enconder_imagens/img_conf_basica/2_1.PNG)
+*Imagem 3*
+
 
 
 3.Ainda na aba **“HSC1”** vá a **“Function”** e em **“Operating phase”** escolha a opção **“A/B Counter”**.
