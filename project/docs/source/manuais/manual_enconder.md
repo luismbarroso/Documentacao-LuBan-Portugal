@@ -49,7 +49,7 @@ T3
 
 T4
 ![3](./manual_enconder_imagens/img_conf_basica/2_1.PNG)
-*Imagem 3*
+*Imagem 4*
 
 
 
