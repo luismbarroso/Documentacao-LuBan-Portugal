@@ -1,5 +1,5 @@
-<img alt="Teste" src="../_images/Logo_IPS.png" width="80">
-<img alt="Teste" src="../_images/Logo_Luban.png" width="100">>
+<img alt="IPS" src="../_images/Logo_IPS.png" width="100">
+<img alt="Luban" src="../_images/Logo_Luban.png" width="80">
 
 <div><h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
 
@@ -29,7 +29,7 @@ utilizado (PTO).
 
 
 <div align="center">
-  <img src="./_images/1.png" width="650" />
+  <img src="../_images/1.png" width="650">
   
   <i>Imagem 1</i>
 </div>
@@ -37,7 +37,7 @@ utilizado (PTO).
 2.Na aba **“High speed counters (HSC)”**, abra **“HSC1”** e clique em **“General”** e de seguida marque a opção **“Enable this high speed counter”**.
 
 <div align="center">
-  <img src="./_images/2.png" width="650" />
+  <img src="../_images/2.png" width="650">
   
   <i>Imagem 2</i>
 </div>
@@ -45,7 +45,7 @@ utilizado (PTO).
 3.Ainda na aba **“HSC1”** vá a **“Function”** e em **“Operating phase”** escolha a opção **“A/B Counter”**.
 
 <div align="center">
-  <img src="./_images/3.png" width="650" />
+  <img src="../_images/3.png" width="650">
   
   <i>Imagem 3</i>
 </div>
@@ -53,7 +53,7 @@ utilizado (PTO).
 4.Em **“Hardware inputs”** certifique-se de que tem as entradas devidamente ligadas com o encoder, e de que as mesmas são entradas de alta velocidade.
 
 <div align="center">
-  <img src="./_images/4.png" width="650" />
+  <img src="../_images/4.png" width="650">
   
   <i>Imagem 4</i>
 </div>
@@ -61,7 +61,7 @@ utilizado (PTO).
 5.De seguida na aba **“DI 14/DQ 10”** vá em **“Digital inputs”** e clique nos **“Channels”** (exemplo Channel0 e Channel1 para as entradas %I0.0 e %I0.1) correspondentes às entradas de alta velocidade configuradas no passo anterior, e escolha o filtro de sinal adequado para a sua utilização.
 
 <div align="center">
-  <img src="./_images/5.png" width="650" />
+  <img src="../_images/5.png" width="650">
   
   <i>Imagem 5</i>
 </div>
