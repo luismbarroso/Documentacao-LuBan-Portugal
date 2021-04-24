@@ -382,7 +382,7 @@ nosso processo.
 <div align="center">
   <img src="../../source/manuais/manual_servo_imagens/img_programacao/3.PNG" width="650" />
   
-  <i>Imagem 29</i>
+  <i>Imagem 30</i>
 </div>
 
 **Principais parâmetros:**
@@ -396,7 +396,7 @@ nosso processo.
 <div align="center">
   <img src="../../source/manuais/manual_servo_imagens/img_programacao/4.PNG" width="650" />
   
-  <i>Imagem 30</i>
+  <i>Imagem 31</i>
 </div>
 
 **Principais parâmetros:**
@@ -410,7 +410,7 @@ nosso processo.
 <div align="center">
   <img src="../../source/manuais/manual_servo_imagens/img_programacao/5.PNG" width="650" />
   
-  <i>Imagem 31</i>
+  <i>Imagem 32</i>
 </div>
 
 **Principais parâmetros:**
@@ -424,7 +424,7 @@ nosso processo.
 <div align="center">
   <img src="../../source/manuais/manual_servo_imagens/img_programacao/6.PNG" width="650" />
   
-  <i>Imagem 32</i>
+  <i>Imagem 33</i>
 </div>
 
 **MC_MoveAbsolute** – é a função responsável por levar o servo até uma posição absoluta através de uma coordenada.
@@ -442,7 +442,7 @@ nosso processo.
 <div align="center">
   <img src="../../source/manuais/manual_servo_imagens/img_programacao/7.PNG" width="650" />
   
-  <i>Imagem 33</i>
+  <i>Imagem 34</i>
 </div>
 
 **Principais parâmetros:**
@@ -464,7 +464,7 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
 <div align="center">
   <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/1.PNG" width="650" />
   
-  <i>Imagem 34</i>
+  <i>Imagem 35</i>
 </div> 
 
 2.Para remover o **"Axis Error"** é necessário fazer o **"Disable"** no bloco **"MC_Power"**. Após o fazer volte ao **Diagnostics** e deve obter o resutlado apresentado na **"Figura 35"**
@@ -472,7 +472,7 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
 <div align="center">
   <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/2.PNG" width="400" /> <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/3.PNG" width="400" />
   
-  <i>Imagem 35/36</i>
+  <i>Imagem 36/37</i>
 </div> 
 
 3.Com o **"disable"** feito, no bloco **"MC_Reset"**, faça o **"Execute"**. Após o fazer volte ao **Diagnostics** e deve obter o resutlado apresentado na **"Figura 37"**
@@ -480,7 +480,7 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
 <div align="center">
   <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/4.PNG" width="400" /> <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/5.PNG" width="400" />
   
-  <i>Imagem 37/38</i>
+  <i>Imagem 38/39</i>
 </div> 
 
 4.Com o **"Disable"** do **"Axis Error"** e do **"HW limit switch has been aprroached"** no **“Status and error bits”** e necessário fazer o **"Reset"** ao **"Servo-Motor"**. Atualmente o Servo-Motor deve estar no estado apresentado na Imagem 38 *(COM - Luz Vermelha Permanente; RDY - Luz Vermelha a Piscar)*. Para fazer o **"Reset"** é necessário carregar nos botões **"M"** **"Ok"** em simultâneo, durante 5 segundos, desta forma, o *COM - Desliga; e o RDY - Luz Laranja Permanente*. Assim que o *COM - Luz Vermelho Permanente e o RDY - Luz Verde Permanente* o servo motor encontra-se sem erros.
@@ -490,9 +490,9 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
 <div align="center">
   <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/6.jpg" width="200" /> <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/7.jpg" width="200" />
   
-  <i>Imagem 39/40</i>
+  <i>Imagem 40/41</i>
 
   <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/8.PNG" width="650" /> 
   
-  <i>Imagem 41</i>
+  <i>Imagem 42</i>
 </div> 
