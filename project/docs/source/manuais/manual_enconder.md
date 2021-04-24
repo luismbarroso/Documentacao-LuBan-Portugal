@@ -1,10 +1,9 @@
-![](../../source/manuais/logos/Logo_Luban_IPS_2.png)
-<div><h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
-
 <div align="center">
-  <img alt="../_images/Logo_Luban.PNG" src="../_images/Logo_Luban.PNG">
-  <img alt="../_images/Logo_Luban_IPS_2.png" src="../_images/Logo_Luban_IPS_2.png">
+  <img src="../_images/Logo_Luban.PNG">
+  <img src="../_images/Logo_IPS.PNG">
 </div>
+
+<div><h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
 
 # Manual Encoder
 
@@ -27,6 +26,9 @@ utilizado (PTO).
 ### Configuração Básica do Encoder no TIA Portal
 
 1.Em **“Device configuration”** clique com o botão direito sobre o PLC e selecione o opção **“Properties”**.
+
+![](../../source/manuais/manual_enconder_imagens/img_conf_basica/1.png)
+
 
 <div align="center">
   <img src="../../source/manuais/manual_enconder_imagens/img_conf_basica/1.png" width="650" />
