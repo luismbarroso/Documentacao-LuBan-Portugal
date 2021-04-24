@@ -5,6 +5,8 @@
 <div align="center">
   <h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
 </div>
+ ⠀ 
+  ⠀ 
 
 # Manual Encoder
 
@@ -33,8 +35,13 @@ utilizado (PTO).
 
 2.Na aba **“High speed counters (HSC)”**, abra **“HSC1”** e clique em **“General”** e de seguida marque a opção **“Enable this high speed counter”**.
 
-![2](../../source/manuais/manual_enconder_imagens/img_conf_basica/2.PNG)
+T1
+![2](../../source/manuais/manual_enconder_imagens/img_conf_basica/2_1.PNG)
 *Imagem 2*
+
+T2
+![](./manual_enconder_imagens/img_conf_basica/2_1.PNG)
+
 
 3.Ainda na aba **“HSC1”** vá a **“Function”** e em **“Operating phase”** escolha a opção **“A/B Counter”**.
 
