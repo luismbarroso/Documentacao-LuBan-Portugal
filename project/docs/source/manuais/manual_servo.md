@@ -12,9 +12,8 @@
 
 **Autor:** ...
 
-<div align="center">
 ![](./manuais/logos/Logo_IPS.jpg)
-</div>
+
 
 ### Indice
 - [Básico I](#basico-i)
