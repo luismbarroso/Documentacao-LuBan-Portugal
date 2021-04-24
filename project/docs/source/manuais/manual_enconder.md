@@ -24,27 +24,27 @@ utilizado (PTO).
 
 1.Em **“Device configuration”** clique com o botão direito sobre o PLC e selecione o opção **“Properties”**.
 
-![](./manual_enconder_imagens/img_conf_basica/1.PNG)
+![](../../source/manuais/manual_enconder_imagens/img_conf_basica/1.PNG)
 *Imagem 1*
 
 2.Na aba **“High speed counters (HSC)”**, abra **“HSC1”** e clique em **“General”** e de seguida marque a opção **“Enable this high speed counter”**.
 
-![](./manual_enconder_imagens/img_conf_basica/2.PNG)
+![](../../source/manuais/manual_enconder_imagens/img_conf_basica/2.PNG)
 *Imagem 2*
 
 3.Ainda na aba **“HSC1”** vá a **“Function”** e em **“Operating phase”** escolha a opção **“A/B Counter”**.
 
-![](./manual_enconder_imagens/img_conf_basica/3.PNG)
+![](../../source/manuais/manual_enconder_imagens/img_conf_basica/3.PNG)
 *Imagem 3*
 
 4.Em **“Hardware inputs”** certifique-se de que tem as entradas devidamente ligadas com o encoder, e de que as mesmas são entradas de alta velocidade.
 
-![](./manual_enconder_imagens/img_conf_basica/4.PNG)
+![](../../source/manuais/manual_enconder_imagens/img_conf_basica/4.PNG)
 *Imagem 4*
 
 5.De seguida na aba **“DI 14/DQ 10”** vá em **“Digital inputs”** e clique nos **“Channels”** (exemplo Channel0 e Channel1 para as entradas %I0.0 e %I0.1) correspondentes às entradas de alta velocidade configuradas no passo anterior, e escolha o filtro de sinal adequado para a sua utilização.
 
-![](./manual_enconder_imagens/img_conf_basica/5.PNG)
+![](../../source/manuais/manual_enconder_imagens/img_conf_basica/5.PNG)
 *Imagem 5*
 
 6.E a configuração do Encoder está concluída.
