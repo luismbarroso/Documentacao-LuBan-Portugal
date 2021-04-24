@@ -6,7 +6,7 @@
 
 # Manual Encoder
 
-**Autor:** ...
+**Autor:** 
 
 ### Indice
 - [Básico I](#basico-i)
