@@ -61,7 +61,7 @@ informação fornecida durante a configuração do servo no TIA Portal.
 1.Na aba **“Technology objects”** clique em  **“Add new object”.**
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/1.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/1.png" width="650" />
   
   <i>Imagem 1</i>
 </div>
@@ -69,7 +69,7 @@ informação fornecida durante a configuração do servo no TIA Portal.
 2.No menu **“Motion Control”** na pasta **“Motion Control”** selecione **“TO_PositioningAxis”**.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/2.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/2.png" width="650" />
   
   <i>Imagem 2</i>
 </div>
@@ -87,7 +87,7 @@ drive no PLC e nas unidades de medida em **“Position Unit”** escolha **“mm
 ligadas ao drive.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/4.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/4.png" width="650" />
   
   <i>Imagem 4</i>
 </div>
@@ -96,7 +96,7 @@ ligadas ao drive.
 laboratório podem ser usados os valores na (Imagem 5).
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/5.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/5.png" width="650" />
   
   <i>Imagem 5</i>
 </div>
@@ -118,7 +118,7 @@ que se pretende para o processo.
 e calibre as velocidades.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/8.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/8.png" width="650" />
   
   <i>Imagem 7</i>
 </div>
@@ -156,7 +156,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
 2.Clique em online, selecione o equipamento a configurar e clique em **“Ok”**.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/2.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/2.png" width="650" />
   
   <i>Imagem 8</i>
 </div>
@@ -164,7 +164,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
 3.Na aba **“Select drive”** clique no botão **“Select motor”**.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/3.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/3.png" width="650" />
   
   <i>Imagem 9</i>
 </div>
@@ -174,7 +174,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
     NOTA: O ID do motor pode ser encontrado na placa de identificação no motor.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/4.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/4.png" width="650" />
   
   <i>Imagem 10</i>
 </div>
@@ -184,7 +184,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
     NOTA: Para melhor entender desta fase leia as “Noções sobre o servo para PROFINET”.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/5.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/5.png" width="650" />
   
   <i>Imagem 11</i>
 </div>
@@ -193,7 +193,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
 “Save and active”**.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/6.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/6.png" width="650" />
   
   <i>Imagem 12</i>
 </div>
@@ -214,7 +214,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
     NOTA: O mesmo terá de aparecer em “Network view” como no exemplo.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/1.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/1.png" width="650" />
   
   <i>Imagem 14</i>
 </div>
@@ -223,7 +223,7 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
 o telegram escolhido durante a configuração do V90 com o V-ASSISTANT.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/2.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/2.png" width="650" />
   
   <i>Imagem 15</i>
 </div>
@@ -231,7 +231,7 @@ o telegram escolhido durante a configuração do V90 com o V-ASSISTANT.
 3.Ainda na janela do dispositivo clique com o botão direito no mesmo e clique em **"Properties"**.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/3.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/3.png" width="650" />
   
   <i>Imagem 16</i>
 </div>
@@ -239,7 +239,7 @@ o telegram escolhido durante a configuração do V90 com o V-ASSISTANT.
 4.Em **"General"**, nomeie o dispositivo com o mesmo nome dado durante a configuração no V-ASSISTANT.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/4.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/4.png" width="650" />
   
   <i>Imagem 17</i>
 </div>
@@ -249,7 +249,7 @@ automatically"**  e novamente coloque o nome dado ao dispositivo durante a confi
 V-ASSISTANT.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/5.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/5.png" width="650" />
   
   <i>Imagem 18</i>
 </div>
@@ -257,7 +257,7 @@ V-ASSISTANT.
 6.Clique novamente sobre o dispositivo V90 e clique na opção **"Assign device name"**.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/6.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/6.png" width="650" />
   
   <i>Imagem 19</i>
 </div>
@@ -265,7 +265,7 @@ V-ASSISTANT.
 7.Clique em **"Update list"** e de seguida clique sobre o dispositivo a configurar e clique no botão **"Assign name"**.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/7.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/7.png" width="650" />
   
   <i>Imagem 20</i>
 </div>
@@ -273,7 +273,7 @@ V-ASSISTANT.
 8.Na **"Network view"** ligue o V90 ao PLC.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/8.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/8.png" width="650" />
   
   <i>Imagem 21</i>
 </div>
@@ -284,7 +284,7 @@ devidamente adicionado.
     NOTA: Este passo é muito importante, sem ele o dispositivo poderá não funcionar corretamente. Tome também atenção à portas nas ligações entre o PLC e o V90.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/9.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/9.png" width="650" />
   
   <i>Imagem 22</i>
 </div>
