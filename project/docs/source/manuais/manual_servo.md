@@ -106,7 +106,7 @@ medida máximos) e de baixa (para valores de medida mínimos) e selecione em amb
 de curso seja acionado.
 
 <div align="center">
-  <img src="../../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/6.png" width="650" />
+  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/6.png" width="650" />
   
   <i>Imagem 6</i>
 </div>
