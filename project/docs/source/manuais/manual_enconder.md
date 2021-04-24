@@ -87,7 +87,7 @@ O CTRL_HSC contém um endereço, este é um endereço de um intervalo configurad
 ![](../../source/manuais/manual_enconder_imagens/img_programacao/1.PNG)
 
 <div align="center">
-  <img src="../../source/manuais/manual_enconder_imagens/img_programacao/1.PNG" width="650" />
+  <img src="../_images/1.PNG" width="650">
   
   <i>Imagem 6</i>
 </div>
