@@ -1,7 +1,8 @@
-![](../../source/manuais/logos/Logo_Luban_IPS_2.png)
-![1](../../source/manuais/logos/Logo_Luban_IPS_2.png)
-![](../../source/manuais/logos/Logo_Luban_IPS_2.PNG)
 ![](./logos/Logo_Luban_IPS_2.PNG)
+
+# teste 1
+
+<img alt="Logo Luban" src="../_images/Logo_Luban_IPS_2.png">
 
 <div><h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
 
