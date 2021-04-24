@@ -28,31 +28,21 @@ utilizado (PTO).
 
 ![1](../../source/manuais/manual_enconder_imagens/img_conf_basica/2_1.png)
 
-*Imagem 1*
-
 2.Na aba **“High speed counters (HSC)”**, abra **“HSC1”** e clique em **“General”** e de seguida marque a opção **“Enable this high speed counter”**.
 
 ![2](../../source/manuais/manual_enconder_imagens/img_conf_basica/2_2.png)
-
-*Imagem 2*
 
 3.Ainda na aba **“HSC1”** vá a **“Function”** e em **“Operating phase”** escolha a opção **“A/B Counter”**.
 
 ![3](../../source/manuais/manual_enconder_imagens/img_conf_basica/2_3.png)
 
-*Imagem 3*
-
 4.Em **“Hardware inputs”** certifique-se de que tem as entradas devidamente ligadas com o encoder, e de que as mesmas são entradas de alta velocidade.
 
 ![4](../../source/manuais/manual_enconder_imagens/img_conf_basica/2_4.png)
 
-*Imagem 4*
-
 5.De seguida na aba **“DI 14/DQ 10”** vá em **“Digital inputs”** e clique nos **“Channels”** (exemplo Channel0 e Channel1 para as entradas %I0.0 e %I0.1) correspondentes às entradas de alta velocidade configuradas no passo anterior, e escolha o filtro de sinal adequado para a sua utilização.
 
 ![5](../../source/manuais/manual_enconder_imagens/img_conf_basica/2_5.png)
-
-*Imagem 5*
 
 6.E a configuração do Encoder está concluída.
 
@@ -72,8 +62,6 @@ O CTRL_HSC contém um endereço, este é um endereço de um intervalo configurad
 
 ![6](../../source/manuais/manual_enconder_imagens/img_programacao/3_1.png)
 
-*Imagem 6*
-
 #### Move
 O Move é função que permite, como o próprio nome indica, mover valores de entrada de forma a serem aplicados numa saida. No exemplo que iremos demostrar, usaremos a função **"Move"** para colocar o tapete em funcionamento. 
 
@@ -81,11 +69,7 @@ O Move é função que permite, como o próprio nome indica, mover valores de en
 
 ![7](../../source/manuais/manual_enconder_imagens/img_programacao/3_2.png)
 
-*Imagem 7*
-
 #### Valor do %ID...
 Para consultar o valor do %ID..., pode usar uma **"Whatch Table"**
 
 ![8](../../source/manuais/manual_enconder_imagens/img_programacao/3_4.png)
-
-*Imagem 8*
