@@ -138,7 +138,7 @@
      </div>
      <div class="md-flex__cell md-flex__cell--shrink">
       <div class="md-header-nav__source">
-       <a class="md-source" data-md-source="github" href="https://github.com/luismbarroso/Documentation_Luban" title="Go to repository">
+       <a class="md-source" data-md-source="github" href="https://github.com/luismbarroso/Documentacao-LuBan-Portugal" title="Go to repository">
         <div class="md-source__icon">
          <svg height="28" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <use height="24" width="24" xlink:href="#__github">
@@ -178,7 +178,7 @@
           </a>
          </label>
          <div class="md-nav__source">
-          <a class="md-source" data-md-source="github" href="https://github.com/luismbarroso/Documentation_Luban" title="Go to repository">
+          <a class="md-source" data-md-source="github" href="https://github.com/luismbarroso/Documentacao-LuBan-Portugal" title="Go to repository">
            <div class="md-source__icon">
             <svg height="28" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
              <use height="24" width="24" xlink:href="#__github">
@@ -273,6 +273,11 @@
                   Valor do %ID…
                  </a>
                 </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="#paragem-do-tapete">
+                  Paragem do Tapete
+                 </a>
+                </li>
                </ul>
               </nav>
              </li>
@@ -293,318 +298,296 @@
      </div>
      <div class="md-content">
       <article class="md-content__inner md-typeset" role="main">
-       <div align="center">
-        <img src="../../../source/manuais/logos/Logo_Luban.png" width="80"/>
-        <img src="../../../source/manuais/logos/Logo_IPS.jpg" width="110"/>
-       </div>
-       <div align="center">
+       <p>
+        <img alt="Logos" src="../_images/Logo_Luban_IPS_2.png"/>
+       </p>
+       <div>
         <h2>
          IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal
-        </h2>
-       </div>
-       ⠀ 
-  ⠀
-       <h1 id="manuais-manual-enconder--page-root">
-        Manual Encoder
-        <a class="headerlink" href="#manuais-manual-enconder--page-root" title="Permalink to this headline">
-         ¶
-        </a>
-       </h1>
-       <p>
-        <strong>
-         Autor:
-        </strong>
-        …
-       </p>
-       <h2 id="indice">
-        Indice
-        <a class="headerlink" href="#indice" title="Permalink to this headline">
-         ¶
-        </a>
-       </h2>
-       <ul class="simple">
-        <li>
-         <p>
-          <a class="reference external" href="#basico-i">
-           Básico I
-          </a>
-         </p>
-        </li>
-        <li>
-         <p>
-          <a class="reference external" href="#configuracao-basica-do-encoder-no-tia-portal">
-           Configuração Básica do Encoder no TIA Portal
-          </a>
-         </p>
-        </li>
-        <li>
-         <p>
-          <a class="reference external" href="#introducao-a-programacao-de-encoders">
-           Introdução à programação de encoders
-          </a>
-         </p>
-         <ul>
-          <li>
-           <p>
-            <a class="reference external" href="#ctrl-hsc">
-             CTRL_HSC
-            </a>
-           </p>
-          </li>
-          <li>
-           <p>
-            <a class="reference external" href="#move">
-             Move
-            </a>
-           </p>
-          </li>
-          <li>
-           <p>
-            <a class="reference external" href="#valor-do-id">
-             Valor do %ID…
-            </a>
-           </p>
-          </li>
-         </ul>
-        </li>
-       </ul>
-       <h2 id="basico-i">
-        Básico I
-        <a class="headerlink" href="#basico-i" title="Permalink to this headline">
-         ¶
-        </a>
-       </h2>
-       <p>
-        Durante esta primeira parte será ensinado o básico sobre o servo. Desde as bases de configuração até às bases de programação, abordando apenas a informação essencial para
-conseguir por em prática uma ideia implementando um servo no processo. Serão ainda abordados alguns conceitos básicos em relação ao servo e ao método de comunicação
-utilizado (PTO).
-       </p>
-       <h2 id="configuracao-basica-do-encoder-no-tia-portal">
-        Configuração Básica do Encoder no TIA Portal
-        <a class="headerlink" href="#configuracao-basica-do-encoder-no-tia-portal" title="Permalink to this headline">
-         ¶
-        </a>
-       </h2>
-       <p>
-        1.Em
-        <strong>
-         “Device configuration”
-        </strong>
-        clique com o botão direito sobre o PLC e selecione o opção
-        <strong>
-         “Properties”
-        </strong>
-        .
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/1.png" width="650"/>
-        <p>
-         <i>
-          Imagem 1
-         </i>
-        </p>
-       </div>
-       <p>
-        2.Na aba
-        <strong>
-         “High speed counters (HSC)”
-        </strong>
-        , abra
-        <strong>
-         “HSC1”
-        </strong>
-        e clique em
-        <strong>
-         “General”
-        </strong>
-        e de seguida marque a opção
-        <strong>
-         “Enable this high speed counter”
-        </strong>
-        .
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/2.png" width="650"/>
-        <p>
-         <i>
-          Imagem 2
-         </i>
-        </p>
-       </div>
-       <p>
-        3.Ainda na aba
-        <strong>
-         “HSC1”
-        </strong>
-        vá a
-        <strong>
-         “Function”
-        </strong>
-        e em
-        <strong>
-         “Operating phase”
-        </strong>
-        escolha a opção
-        <strong>
-         “A/B Counter”
-        </strong>
-        .
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/3.png" width="650"/>
-        <p>
-         <i>
-          Imagem 3
-         </i>
-        </p>
-       </div>
-       <p>
-        4.Em
-        <strong>
-         “Hardware inputs”
-        </strong>
-        certifique-se de que tem as entradas devidamente ligadas com o encoder, e de que as mesmas são entradas de alta velocidade.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/4.png" width="650"/>
-        <p>
-         <i>
-          Imagem 4
-         </i>
-        </p>
-       </div>
-       <p>
-        5.De seguida na aba
-        <strong>
-         “DI 14/DQ 10”
-        </strong>
-        vá em
-        <strong>
-         “Digital inputs”
-        </strong>
-        e clique nos
-        <strong>
-         “Channels”
-        </strong>
-        (exemplo Channel0 e Channel1 para as entradas %I0.0 e %I0.1) correspondentes às entradas de alta velocidade configuradas no passo anterior, e escolha o filtro de sinal adequado para a sua utilização.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_enconder_imagens/img_conf_basica/5.png" width="650"/>
-        <p>
-         <i>
-          Imagem 5
-         </i>
-        </p>
-       </div>
-       <p>
-        6.E a configuração do Encoder está concluída.
-       </p>
-       <h2 id="introducao-a-programacao-de-encoders">
-        Introdução à programação de encoders
-        <a class="headerlink" href="#introducao-a-programacao-de-encoders" title="Permalink to this headline">
-         ¶
-        </a>
-       </h2>
-       <p>
-        A programação de encoders é bastante simples uma vez que na base a sua programação passa por apenas fazer leituras dos valores do encoder e aplicar alguns ajustes às configurações do encoder ao longo do processo.
-       </p>
-       <h3 id="ctrl-hsc">
-        CTRL_HSC
-        <a class="headerlink" href="#ctrl-hsc" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        O CTRL_HSC contém um endereço, este é um endereço de um intervalo configurado para o encoder nas propriedades do contador de alta velocidade. Á medida que o tapete se move, esse valor irá também aumentar, desta forma, é possivel defenir o caminho que cada peça toma. No exemplo que iremos demostrar, usamos o HSC1, por padrão o endereço a utilizar é %ID1000.
-       </p>
-       <div class="highlight-default notranslate">
-        <div class="highlight">
-         <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">Para</span> <span class="n">saber</span> <span class="n">o</span> <span class="n">endereço</span> <span class="n">do</span> <span class="n">HSC</span> <span class="n">que</span> <span class="n">está</span> <span class="n">usar</span><span class="p">,</span> <span class="n">dois</span> <span class="n">cliques</span> <span class="n">em</span> <span class="s2">"Device configuration &gt; System constants Device configuration &gt; General &gt; (Seleciona o HSC que está a usar) &gt; I/O adreesses"</span>
-</pre>
-        </div>
-       </div>
-       <p>
-        <strong>
-         Principais parâmetros:
-        </strong>
-       </p>
-       <ul>
-        <li>
-         <p>
-          <strong>
-           HSC:
-          </strong>
-          Endereço do HSC
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           CV:
-          </strong>
-          Quando ativado, permite uma nova contagem
-         </p>
-         <div class="highlight-default notranslate">
-          <div class="highlight">
-           <pre><span></span>  <span class="n">NOTA</span><span class="p">:</span> <span class="n">O</span> <span class="n">Endereço</span> <span class="n">do</span> <span class="n">HSC</span> <span class="n">pode</span> <span class="n">ser</span> <span class="n">encontrado</span> <span class="n">em</span> <span class="s2">"Device configuration &gt; System constants"</span>
-</pre>
-          </div>
+         <div>
          </div>
-        </li>
-       </ul>
-       <div align="center">
-        <img src="../../../source/manuais/manual_enconder_imagens/img_programacao/1.png" width="650"/>
+        </h2>
+        ⠀ 
+  ⠀
+        <h1 id="manuais-manual-enconder--page-root">
+         Manual Encoder
+         <a class="headerlink" href="#manuais-manual-enconder--page-root" title="Permalink to this headline">
+          ¶
+         </a>
+        </h1>
         <p>
-         <i>
-          Imagem 6
-         </i>
+         <strong>
+          Autor:
+         </strong>
         </p>
-       </div>
-       <h3 id="move">
-        Move
-        <a class="headerlink" href="#move" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        O Move é função que permite, como o próprio nome indica, mover valores de entrada de forma a serem aplicados numa saida. No exemplo que iremos demostrar, usaremos a função
-        <strong>
-         “Move”
-        </strong>
-        para colocar o tapete em funcionamento.
-       </p>
-       <div class="highlight-default notranslate">
-        <div class="highlight">
-         <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">A</span> <span class="n">Variável</span> <span class="n">colocada</span> <span class="n">na</span> <span class="n">saida</span> <span class="n">do</span> <span class="n">Move</span> <span class="s2">"%QW80"</span> <span class="n">é</span> <span class="n">o</span> <span class="n">Output</span> <span class="n">padrão</span> <span class="n">da</span> <span class="n">Carta</span> <span class="n">analógico</span> <span class="n">do</span> <span class="n">PLC</span><span class="o">.</span>  <span class="n">O</span> <span class="n">Endereço</span> <span class="n">do</span> <span class="n">HSC</span> <span class="n">pode</span> <span class="n">ser</span> <span class="n">encontrado</span> <span class="n">em</span> <span class="s2">"Device configuration &gt; System constants"</span>
+        <h2 id="indice">
+         Indice
+         <a class="headerlink" href="#indice" title="Permalink to this headline">
+          ¶
+         </a>
+        </h2>
+        <ul class="simple">
+         <li>
+          <p>
+           <a class="reference external" href="#basico-i">
+            Básico I
+           </a>
+          </p>
+         </li>
+         <li>
+          <p>
+           <a class="reference external" href="#configuracao-basica-do-encoder-no-tia-portal">
+            Configuração Básica do Encoder no TIA Portal
+           </a>
+          </p>
+         </li>
+         <li>
+          <p>
+           <a class="reference external" href="#introducao-a-programacao-de-encoders">
+            Introdução à programação de encoders
+           </a>
+          </p>
+          <ul>
+           <li>
+            <p>
+             <a class="reference external" href="#ctrl-hsc">
+              CTRL_HSC
+             </a>
+            </p>
+           </li>
+           <li>
+            <p>
+             <a class="reference external" href="#move">
+              Move
+             </a>
+            </p>
+           </li>
+           <li>
+            <p>
+             <a class="reference external" href="#valor-do-id">
+              Valor do %ID…
+             </a>
+            </p>
+           </li>
+           <li>
+            <p>
+             <a class="reference external" href="#paragem-do-tapete">
+              Paragem do Tapete
+             </a>
+            </p>
+           </li>
+          </ul>
+         </li>
+        </ul>
+        <h2 id="basico-i">
+         Básico I
+         <a class="headerlink" href="#basico-i" title="Permalink to this headline">
+          ¶
+         </a>
+        </h2>
+        <p>
+         Durante esta primeira parte será ensinado o básico sobre o servo. Desde as bases de configuração até às bases de programação, abordando apenas a informação essencial para conseguir por em prática uma ideia implementando um servo no processo. Serão ainda abordados alguns conceitos básicos em relação ao servo e ao método de comunicação utilizado (PTO).
+        </p>
+        <h2 id="configuracao-basica-do-encoder-no-tia-portal">
+         Configuração Básica do Encoder no TIA Portal
+         <a class="headerlink" href="#configuracao-basica-do-encoder-no-tia-portal" title="Permalink to this headline">
+          ¶
+         </a>
+        </h2>
+        <p>
+         1.Em
+         <strong>
+          “Device configuration”
+         </strong>
+         clique com o botão direito sobre o PLC e selecione o opção
+         <strong>
+          “Properties”
+         </strong>
+         .
+        </p>
+        <p>
+         <img alt="1" src="../_images/1.png"/>
+        </p>
+        <p>
+         2.Na aba
+         <strong>
+          “High speed counters (HSC)”
+         </strong>
+         , abra
+         <strong>
+          “HSC1”
+         </strong>
+         e clique em
+         <strong>
+          “General”
+         </strong>
+         e de seguida marque a opção
+         <strong>
+          “Enable this high speed counter”
+         </strong>
+         .
+        </p>
+        <p>
+         <img alt="2" src="../_images/2.png"/>
+        </p>
+        <p>
+         3.Ainda na aba
+         <strong>
+          “HSC1”
+         </strong>
+         vá a
+         <strong>
+          “Function”
+         </strong>
+         e em
+         <strong>
+          “Operating phase”
+         </strong>
+         escolha a opção
+         <strong>
+          “A/B Counter”
+         </strong>
+         .
+        </p>
+        <p>
+         <img alt="3" src="../_images/3.png"/>
+        </p>
+        <p>
+         4.Em
+         <strong>
+          “Hardware inputs”
+         </strong>
+         certifique-se de que tem as entradas devidamente ligadas com o encoder, e de que as mesmas são entradas de alta velocidade.
+        </p>
+        <p>
+         <img alt="4" src="../_images/4.png"/>
+        </p>
+        <p>
+         5.De seguida na aba
+         <strong>
+          “DI 14/DQ 10”
+         </strong>
+         vá em
+         <strong>
+          “Digital inputs”
+         </strong>
+         e clique nos
+         <strong>
+          “Channels”
+         </strong>
+         (exemplo Channel0 e Channel1 para as entradas %I0.0 e %I0.1) correspondentes às entradas de alta velocidade configuradas no passo anterior, e escolha o filtro de sinal adequado para a sua utilização.
+        </p>
+        <p>
+         <img alt="5" src="../_images/5.png"/>
+        </p>
+        <p>
+         6.E a configuração do Encoder está concluída.
+        </p>
+        <h2 id="introducao-a-programacao-de-encoders">
+         Introdução à programação de encoders
+         <a class="headerlink" href="#introducao-a-programacao-de-encoders" title="Permalink to this headline">
+          ¶
+         </a>
+        </h2>
+        <p>
+         A programação de encoders é bastante simples uma vez que na base a sua programação passa por apenas fazer leituras dos valores do encoder e aplicar alguns ajustes às configurações do encoder ao longo do processo.
+        </p>
+        <h3 id="ctrl-hsc">
+         CTRL_HSC
+         <a class="headerlink" href="#ctrl-hsc" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
+        <p>
+         O CTRL_HSC contém um endereço, este é um endereço de um intervalo configurado para o encoder nas propriedades do contador de alta velocidade. Á medida que o tapete se move, esse valor irá também aumentar, desta forma, é possivel defenir o caminho que cada peça toma. No exemplo que iremos demostrar, usamos o HSC1, por padrão o endereço a utilizar é %ID1000.
+        </p>
+        <div class="highlight-default notranslate">
+         <div class="highlight">
+          <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">Para</span> <span class="n">saber</span> <span class="n">o</span> <span class="n">endereço</span> <span class="n">do</span> <span class="n">HSC</span> <span class="n">que</span> <span class="n">está</span> <span class="n">usar</span><span class="p">,</span> <span class="n">dois</span> <span class="n">cliques</span> <span class="n">em</span> <span class="s2">"Device configuration &gt; System constants Device configuration &gt; General &gt; (Seleciona o HSC que está a usar) &gt; I/O adreesses"</span>
 </pre>
+         </div>
         </div>
-       </div>
-       <div align="center">
-        <img src="../../../source/manuais/manual_enconder_imagens/img_programacao/2.png" width="650"/>
         <p>
-         <i>
-          Imagem 7
-         </i>
+         <strong>
+          Principais parâmetros:
+         </strong>
         </p>
-       </div>
-       <h3 id="valor-do-id">
-        Valor do %ID…
-        <a class="headerlink" href="#valor-do-id" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        Para consultar o valor do %ID…, pode usar uma
-        <strong>
-         “Whatch Table”
-        </strong>
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_enconder_imagens/img_programacao/4.png" width="650"/>
+        <ul>
+         <li>
+          <p>
+           <strong>
+            HSC:
+           </strong>
+           Endereço do HSC
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            CV:
+           </strong>
+           Quando ativado, permite uma nova contagem
+          </p>
+          <div class="highlight-default notranslate">
+           <div class="highlight">
+            <pre><span></span>  <span class="n">NOTA</span><span class="p">:</span> <span class="n">O</span> <span class="n">Endereço</span> <span class="n">do</span> <span class="n">HSC</span> <span class="n">pode</span> <span class="n">ser</span> <span class="n">encontrado</span> <span class="n">em</span> <span class="s2">"Device configuration &gt; System constants"</span>
+</pre>
+           </div>
+          </div>
+         </li>
+        </ul>
         <p>
-         <i>
-          Imagem 8
-         </i>
+         <img alt="6" src="../_images/1.PNG"/>
+        </p>
+        <h3 id="move">
+         Move
+         <a class="headerlink" href="#move" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
+        <p>
+         O Move é função que permite, como o próprio nome indica, mover valores de entrada de forma a serem aplicados numa saida. No exemplo que iremos demostrar, usaremos a função
+         <strong>
+          “Move”
+         </strong>
+         para colocar o tapete em funcionamento.
+        </p>
+        <div class="highlight-default notranslate">
+         <div class="highlight">
+          <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">A</span> <span class="n">Variável</span> <span class="n">colocada</span> <span class="n">na</span> <span class="n">saida</span> <span class="n">do</span> <span class="n">Move</span> <span class="s2">"%QW80"</span> <span class="n">é</span> <span class="n">o</span> <span class="n">Output</span> <span class="n">padrão</span> <span class="n">da</span> <span class="n">Carta</span> <span class="n">analógico</span> <span class="n">do</span> <span class="n">PLC</span><span class="o">.</span>  <span class="n">O</span> <span class="n">Endereço</span> <span class="n">do</span> <span class="n">HSC</span> <span class="n">pode</span> <span class="n">ser</span> <span class="n">encontrado</span> <span class="n">em</span> <span class="s2">"Device configuration &gt; System constants"</span>
+</pre>
+         </div>
+        </div>
+        <p>
+         <img alt="7" src="../_images/2.PNG"/>
+        </p>
+        <h3 id="valor-do-id">
+         Valor do %ID…
+         <a class="headerlink" href="#valor-do-id" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
+        <p>
+         Para consultar o valor do %ID…, pode usar uma
+         <strong>
+          “Watch Table”
+         </strong>
+         .
+        </p>
+        <p>
+         <img alt="8" src="../_images/3.PNG"/>
+        </p>
+        <h3 id="paragem-do-tapete">
+         Paragem do Tapete
+         <a class="headerlink" href="#paragem-do-tapete" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
+        <p>
+         Para uma melhor resolução nos valores retirados, pode processeder a paragem do Tapete.
+        </p>
+        <p>
+         <img alt="9" src="../_images/41.png"/>
         </p>
        </div>
       </article>
@@ -624,7 +607,7 @@ utilizado (PTO).
        © Copyright 2021, Luis Barroso.
       </div>
       Last updated on
-              Apr 23, 2021.
+              Apr 25, 2021.
       <br/>
       Created using
       <a href="http://www.sphinx-doc.org/">

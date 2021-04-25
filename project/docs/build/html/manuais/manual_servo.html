@@ -138,7 +138,7 @@
      </div>
      <div class="md-flex__cell md-flex__cell--shrink">
       <div class="md-header-nav__source">
-       <a class="md-source" data-md-source="github" href="https://github.com/luismbarroso/Documentation_Luban" title="Go to repository">
+       <a class="md-source" data-md-source="github" href="https://github.com/luismbarroso/Documentacao-LuBan-Portugal" title="Go to repository">
         <div class="md-source__icon">
          <svg height="28" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <use height="24" width="24" xlink:href="#__github">
@@ -178,7 +178,7 @@
           </a>
          </label>
          <div class="md-nav__source">
-          <a class="md-source" data-md-source="github" href="https://github.com/luismbarroso/Documentation_Luban" title="Go to repository">
+          <a class="md-source" data-md-source="github" href="https://github.com/luismbarroso/Documentacao-LuBan-Portugal" title="Go to repository">
            <div class="md-source__icon">
             <svg height="28" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
              <use height="24" width="24" xlink:href="#__github">
@@ -375,1535 +375,1319 @@
      </div>
      <div class="md-content">
       <article class="md-content__inner md-typeset" role="main">
-       <div align="center">
-        <img src="../../../source/manuais/logos/Logo_Luban.png" width="80"/>
-        <img src="../../../source/manuais/logos/Logo_IPS.jpg" width="110"/>
-       </div>
-       <div align="center">
+       <p>
+        <img alt="Logos" src="../_images/Logo_Luban_IPS_2.png"/>
+       </p>
+       <div>
         <h2>
          IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal
+         <div>
+         </div>
         </h2>
-       </div>
-       ⠀ 
+        ⠀ 
   ⠀
-       <h1 id="manuais-manual-servo--page-root">
-        Manual Servo Motor
-        <a class="headerlink" href="#manuais-manual-servo--page-root" title="Permalink to this headline">
-         ¶
-        </a>
-       </h1>
-       <p>
-        <strong>
-         Autor:
-        </strong>
-        …
-       </p>
-       <h2 id="indice">
-        Indice
-        <a class="headerlink" href="#indice" title="Permalink to this headline">
-         ¶
-        </a>
-       </h2>
-       <ul class="simple">
-        <li>
-         <p>
-          <a class="reference external" href="#basico-i">
-           Básico I
-          </a>
-         </p>
-        </li>
-        <li>
-         <p>
-          <a class="reference external" href="#servos-na-oficina-luban">
-           Servos na Oficina Luban
-          </a>
-         </p>
-        </li>
-        <li>
-         <p>
-          <a class="reference external" href="#configuracao-basica-do-servo-com-pto">
-           Configuração Básica do Servo com PTO
-          </a>
-         </p>
-         <ul>
-          <li>
-           <p>
-            <a class="reference external" href="#nocoes-sobre-pulse-train-output-pto">
-             Noções sobre Pulse Train Output (PTO)
-            </a>
-           </p>
-          </li>
-          <li>
-           <p>
-            <a class="reference external" href="#configurar-servo-no-tia-portal-v15">
-             Configurar servo no TIA Portal V15
-            </a>
-           </p>
-          </li>
-          <li>
-           <p>
-            <a class="reference external" href="#configuracao-basica-do-servo-em-profinet">
-             Configuração Básica do Servo em PROFINET
-            </a>
-           </p>
-          </li>
-         </ul>
-        </li>
-        <li>
-         <p>
-          <a class="reference external" href="#nocoes-sobre-o-servo-para-profinet">
-           Noções sobre sobre o servo para PROFINET
-          </a>
-         </p>
-         <ul>
-          <li>
-           <p>
-            <a class="reference external" href="#configurar-definicoes-profinet-no-sinamics-v-assistant">
-             Configurar definições PROFINET no SINAMICS V-ASSISTANT
-            </a>
-           </p>
-          </li>
-          <li>
-           <p>
-            <a class="reference external" href="#configurar-definicoes-profinet-no-tia-portal-v15">
-             Configurar definições PROFINET no TIA Portal V15
-            </a>
-           </p>
-          </li>
-          <li>
-           <p>
-            <a class="reference external" href="#configurar-o-servo-com-profidrive-no-tia-portal-v15">
-             Configurar o servo com PROFIdrive no TIA Portal V15
-            </a>
-           </p>
-          </li>
-         </ul>
-        </li>
-        <li>
-         <p>
-          <a class="reference external" href="#introducao-aos-comandos-de-controlo-de-movimento">
-           Introdução aos comandos de controlo de movimento
-          </a>
-         </p>
-         <ul>
-          <li>
-           <p>
-            <a class="reference external" href="#mc-power">
-             MC_Power
-            </a>
-           </p>
-          </li>
-          <li>
-           <p>
-            <a class="reference external" href="#mc-home">
-             MC_Home
-            </a>
-           </p>
-          </li>
-          <li>
-           <p>
-            <a class="reference external" href="#mc-reset">
-             MC_Reset
-            </a>
-           </p>
-          </li>
-          <li>
-           <p>
-            <a class="reference external" href="#mc-halt">
-             MC_Halt
-            </a>
-           </p>
-          </li>
-          <li>
-           <p>
-            <a class="reference external" href="#%5Bmc-movejog">
-             MC_MoveJog
-            </a>
-           </p>
-          </li>
-          <li>
-           <p>
-            <a class="reference external" href="#mc-moveabsolute">
-             MC_MoveAbsolute
-            </a>
-           </p>
-          </li>
-          <li>
-           <p>
-            <a class="reference external" href="#mc-moverelative">
-             MC_MoveRelative
-            </a>
-           </p>
-          </li>
-         </ul>
-        </li>
-        <li>
-         <p>
-          <a class="reference external" href="#axis-error">
-           Axis Error
-          </a>
-         </p>
-         <ul>
-          <li>
-           <p>
-            <a class="reference external" href="#resolucao">
-             Resolução
-            </a>
-           </p>
-          </li>
-         </ul>
-        </li>
-       </ul>
-       <h2 id="basico-i">
-        Básico I
-        <a class="headerlink" href="#basico-i" title="Permalink to this headline">
-         ¶
-        </a>
-       </h2>
-       <p>
-        Durante esta primeira parte será ensinado o básico sobre o servo. Desde as bases de configuração até às bases de programação, abordando apenas a informação essencial para
+        <h1 id="manuais-manual-servo--page-root">
+         Manual Servo Motor
+         <a class="headerlink" href="#manuais-manual-servo--page-root" title="Permalink to this headline">
+          ¶
+         </a>
+        </h1>
+        <p>
+         <strong>
+          Autor:
+         </strong>
+        </p>
+        <h2 id="indice">
+         Indice
+         <a class="headerlink" href="#indice" title="Permalink to this headline">
+          ¶
+         </a>
+        </h2>
+        <ul class="simple">
+         <li>
+          <p>
+           <a class="reference external" href="#basico-i">
+            Básico I
+           </a>
+          </p>
+         </li>
+         <li>
+          <p>
+           <a class="reference external" href="#servos-na-oficina-luban">
+            Servos na Oficina Luban
+           </a>
+          </p>
+         </li>
+         <li>
+          <p>
+           <a class="reference external" href="#configuracao-basica-do-servo-com-pto">
+            Configuração Básica do Servo com PTO
+           </a>
+          </p>
+          <ul>
+           <li>
+            <p>
+             <a class="reference external" href="#nocoes-sobre-pulse-train-output-pto">
+              Noções sobre Pulse Train Output (PTO)
+             </a>
+            </p>
+           </li>
+           <li>
+            <p>
+             <a class="reference external" href="#configurar-servo-no-tia-portal-v15">
+              Configurar servo no TIA Portal V15
+             </a>
+            </p>
+           </li>
+           <li>
+            <p>
+             <a class="reference external" href="#configuracao-basica-do-servo-em-profinet">
+              Configuração Básica do Servo em PROFINET
+             </a>
+            </p>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <p>
+           <a class="reference external" href="#nocoes-sobre-o-servo-para-profinet">
+            Noções sobre sobre o servo para PROFINET
+           </a>
+          </p>
+          <ul>
+           <li>
+            <p>
+             <a class="reference external" href="#configurar-definicoes-profinet-no-sinamics-v-assistant">
+              Configurar definições PROFINET no SINAMICS V-ASSISTANT
+             </a>
+            </p>
+           </li>
+           <li>
+            <p>
+             <a class="reference external" href="#configurar-definicoes-profinet-no-tia-portal-v15">
+              Configurar definições PROFINET no TIA Portal V15
+             </a>
+            </p>
+           </li>
+           <li>
+            <p>
+             <a class="reference external" href="#configurar-o-servo-com-profidrive-no-tia-portal-v15">
+              Configurar o servo com PROFIdrive no TIA Portal V15
+             </a>
+            </p>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <p>
+           <a class="reference external" href="#introducao-aos-comandos-de-controlo-de-movimento">
+            Introdução aos comandos de controlo de movimento
+           </a>
+          </p>
+          <ul>
+           <li>
+            <p>
+             <a class="reference external" href="#mc-power">
+              MC_Power
+             </a>
+            </p>
+           </li>
+           <li>
+            <p>
+             <a class="reference external" href="#mc-home">
+              MC_Home
+             </a>
+            </p>
+           </li>
+           <li>
+            <p>
+             <a class="reference external" href="#mc-reset">
+              MC_Reset
+             </a>
+            </p>
+           </li>
+           <li>
+            <p>
+             <a class="reference external" href="#mc-halt">
+              MC_Halt
+             </a>
+            </p>
+           </li>
+           <li>
+            <p>
+             <a class="reference external" href="#%5Bmc-movejog">
+              MC_MoveJog
+             </a>
+            </p>
+           </li>
+           <li>
+            <p>
+             <a class="reference external" href="#mc-moveabsolute">
+              MC_MoveAbsolute
+             </a>
+            </p>
+           </li>
+           <li>
+            <p>
+             <a class="reference external" href="#mc-moverelative">
+              MC_MoveRelative
+             </a>
+            </p>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <p>
+           <a class="reference external" href="#axis-error">
+            Axis Error
+           </a>
+          </p>
+          <ul>
+           <li>
+            <p>
+             <a class="reference external" href="#resolucao">
+              Resolução
+             </a>
+            </p>
+           </li>
+          </ul>
+         </li>
+        </ul>
+        <h2 id="basico-i">
+         Básico I
+         <a class="headerlink" href="#basico-i" title="Permalink to this headline">
+          ¶
+         </a>
+        </h2>
+        <p>
+         Durante esta primeira parte será ensinado o básico sobre o servo. Desde as bases de configuração até às bases de programação, abordando apenas a informação essencial para
 conseguir por em prática uma ideia implementando um servo no processo. Serão ainda abordados alguns conceitos básicos em relação ao servo e ao método de comunicação
 utilizado (PTO).
-       </p>
-       <h2 id="servos-na-oficina-luban">
-        Servos na Oficina Luban
-        <a class="headerlink" href="#servos-na-oficina-luban" title="Permalink to this headline">
-         ¶
-        </a>
-       </h2>
-       <p>
-        Um servo é utilizado como um atuador em sistemas de controlo automático, ele converte sinais elétricos num movimento angular no veio do motor.
-       </p>
-       <p>
-        Os servos utilizados nas estações YL-335B (Linha de Produção Automática) na oficina Luban são da Siemens, mais especificamente um motor AC SIMOTICS S-1FL6 e um drive
+        </p>
+        <h2 id="servos-na-oficina-luban">
+         Servos na Oficina Luban
+         <a class="headerlink" href="#servos-na-oficina-luban" title="Permalink to this headline">
+          ¶
+         </a>
+        </h2>
+        <p>
+         Um servo é utilizado como um atuador em sistemas de controlo automático, ele converte sinais elétricos num movimento angular no veio do motor.
+        </p>
+        <p>
+         Os servos utilizados nas estações YL-335B (Linha de Produção Automática) na oficina Luban são da Siemens, mais especificamente um motor AC SIMOTICS S-1FL6 e um drive
 SINAMISC V90 utilizados para a locomoção do “robô” manipulador de transporte.
-       </p>
-       <h2 id="configuracao-basica-do-servo-com-pto">
-        Configuração Básica do Servo com PTO
-        <a class="headerlink" href="#configuracao-basica-do-servo-com-pto" title="Permalink to this headline">
-         ¶
-        </a>
-       </h2>
-       <h3 id="nocoes-sobre-pulse-train-output-pto">
-        Noções sobre Pulse Train Output (PTO)
-        <a class="headerlink" href="#nocoes-sobre-pulse-train-output-pto" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        O CPU dos autómatos disponibilizam quatro saídas geradoras de pulsos, cada saída dessas disponibiliza uma saída para os pulsos e outra saída para direção que permite
+        </p>
+        <h2 id="configuracao-basica-do-servo-com-pto">
+         Configuração Básica do Servo com PTO
+         <a class="headerlink" href="#configuracao-basica-do-servo-com-pto" title="Permalink to this headline">
+          ¶
+         </a>
+        </h2>
+        <h3 id="nocoes-sobre-pulse-train-output-pto">
+         Noções sobre Pulse Train Output (PTO)
+         <a class="headerlink" href="#nocoes-sobre-pulse-train-output-pto" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
+        <p>
+         O CPU dos autómatos disponibilizam quatro saídas geradoras de pulsos, cada saída dessas disponibiliza uma saída para os pulsos e outra saída para direção que permite
 controlar o servo através da interface de pulsos. As saídas de pulso proporcionam ao drive do servo o pulso necessário para o movimento do motor.
-       </p>
-       <p>
-        As saídas PTO geram ondas quadradas de frequência variável que permitem especificar a velocidade a que o motor se irá mover, sendo estes pulsos gerados com base na
+        </p>
+        <p>
+         As saídas PTO geram ondas quadradas de frequência variável que permitem especificar a velocidade a que o motor se irá mover, sendo estes pulsos gerados com base na
 informação fornecida durante a configuração do servo no TIA Portal.
-       </p>
-       <h3 id="configurar-servo-no-tia-portal-v15">
-        Configurar servo no TIA Portal V15
-        <a class="headerlink" href="#configurar-servo-no-tia-portal-v15" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        1.Na aba
-        <strong>
-         “Technology objects”
-        </strong>
-        clique em
-        <strong>
-         “Add new object”.
-        </strong>
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/1.png" width="650"/>
-        <p>
-         <i>
-          Imagem 1
-         </i>
         </p>
-       </div>
-       <p>
-        2.No menu
-        <strong>
-         “Motion Control”
-        </strong>
-        na pasta
-        <strong>
-         “Motion Control”
-        </strong>
-        selecione
-        <strong>
-         “TO_PositioningAxis”
-        </strong>
-        .
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/2.png" width="650"/>
+        <h3 id="configurar-servo-no-tia-portal-v15">
+         Configurar servo no TIA Portal V15
+         <a class="headerlink" href="#configurar-servo-no-tia-portal-v15" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
         <p>
-         <i>
-          Imagem 2
-         </i>
+         1.Na aba
+         <strong>
+          “Technology objects”
+         </strong>
+         clique em
+         <strong>
+          “Add new object”.
+         </strong>
         </p>
-       </div>
-       <p>
-        3.Na janela de configuração do Eixo, em
-        <strong>
-         “General”
-        </strong>
-        altere o nome do servo em
-        <strong>
-         “Axis name”
-        </strong>
-        , selecione o método de controle PTO favorecido pelo método de instalação do
+        <p>
+         <img alt="1" src="../_images/11.PNG"/>
+        </p>
+        <p>
+         2.No menu
+         <strong>
+          “Motion Control”
+         </strong>
+         na pasta
+         <strong>
+          “Motion Control”
+         </strong>
+         selecione
+         <strong>
+          “TO_PositioningAxis”
+         </strong>
+         .
+        </p>
+        <p>
+         <img alt="2" src="../_images/21.PNG"/>
+        </p>
+        <p>
+         3.Na janela de configuração do Eixo, em
+         <strong>
+          “General”
+         </strong>
+         altere o nome do servo em
+         <strong>
+          “Axis name”
+         </strong>
+         , selecione o método de controle PTO favorecido pelo método de instalação do
 drive no PLC e nas unidades de medida em
-        <strong>
-         “Position Unit”
-        </strong>
-        escolha
-        <strong>
-         “mm”
-        </strong>
-        (milímetros).
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/3.png" width="650"/>
-        <p>
-         <i>
-          Imagem 3
-         </i>
+         <strong>
+          “Position Unit”
+         </strong>
+         escolha
+         <strong>
+          “mm”
+         </strong>
+         (milímetros).
         </p>
-       </div>
-       <p>
-        4.No menu lateral
-        <strong>
-         “Drive”
-        </strong>
-        , escolha um dos geradores de pulsos disponíveis em
-        <strong>
-         “Pulse generator”
-        </strong>
-        e de seguida certifique-se que as saídas de pulso e de direção estão
+        <p>
+         <img alt="3" src="../_images/31.PNG"/>
+        </p>
+        <p>
+         4.No menu lateral
+         <strong>
+          “Drive”
+         </strong>
+         , escolha um dos geradores de pulsos disponíveis em
+         <strong>
+          “Pulse generator”
+         </strong>
+         e de seguida certifique-se que as saídas de pulso e de direção estão
 ligadas ao drive.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/4.png" width="650"/>
-        <p>
-         <i>
-          Imagem 4
-         </i>
         </p>
-       </div>
-       <p>
-        5.Em
-        <strong>
-         “Mechanics”
-        </strong>
-        no menu lateral serão colocados alguns valores parametrizados pelos equipamentos ou valores obtidos através de uma calibração. Para os servos do
+        <p>
+         <img alt="4" src="../_images/4.PNG"/>
+        </p>
+        <p>
+         5.Em
+         <strong>
+          “Mechanics”
+         </strong>
+         no menu lateral serão colocados alguns valores parametrizados pelos equipamentos ou valores obtidos através de uma calibração. Para os servos do
 laboratório podem ser usados os valores na (Imagem 5).
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/5.png" width="650"/>
-        <p>
-         <i>
-          Imagem 5
-         </i>
         </p>
-       </div>
-       <p>
-        6.Em relação aos limites de posição ative a opção
-        <strong>
-         “Enable HW limit switches”
-        </strong>
-        e opcionalmente
-        <strong>
-         “Enable SW limit switches”
-        </strong>
-        . Insira as entradas de alta (para valores de
+        <p>
+         <img alt="5" src="../_images/5.PNG"/>
+        </p>
+        <p>
+         6.Em relação aos limites de posição ative a opção
+         <strong>
+          “Enable HW limit switches”
+         </strong>
+         e opcionalmente
+         <strong>
+          “Enable SW limit switches”
+         </strong>
+         . Insira as entradas de alta (para valores de
 medida máximos) e de baixa (para valores de medida mínimos) e selecione em ambos a opção
-        <strong>
-         “High level”
-        </strong>
-        para que o servo dispare a paragem de emergência quando um dos fins
+         <strong>
+          “High level”
+         </strong>
+         para que o servo dispare a paragem de emergência quando um dos fins
 de curso seja acionado.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/6.png" width="650"/>
-        <p>
-         <i>
-          Imagem 6
-         </i>
         </p>
-       </div>
-       <p>
-        7.
-        <strong>
-         (Opcional)
-        </strong>
-        Em
-        <strong>
-         “Dynamics”
-        </strong>
-        todos os valores poderão ser escolhidos pessoalmente tendo em conta a segurança das pessoas ao seu redor, a integridade do equipamento e o
+        <p>
+         <img alt="6" src="../_images/6.PNG"/>
+        </p>
+        <p>
+         7.
+         <strong>
+          (Opcional)
+         </strong>
+         Em
+         <strong>
+          “Dynamics”
+         </strong>
+         todos os valores poderão ser escolhidos pessoalmente tendo em conta a segurança das pessoas ao seu redor, a integridade do equipamento e o
 que se pretende para o processo.
-       </p>
-       <p>
-        8.Em
-        <strong>
-         “Homing - Active”
-        </strong>
-        selecionaremos a entrada do sensor referente à posição home, escolha
-        <strong>
-         “Negative direction”
-        </strong>
-        , ative
-        <strong>
-         “Permit auto reverse at HW limit switch”
-        </strong>
-        e calibre as velocidades.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/8.png" width="650"/>
-        <p>
-         <i>
-          Imagem 7
-         </i>
         </p>
-       </div>
-       <p>
-        9.E a configuração do Servo está concluída.
-       </p>
-       <h2 id="configuracao-basica-do-servo-em-profinet">
-        Configuração Básica do Servo em PROFINET
-        <a class="headerlink" href="#configuracao-basica-do-servo-em-profinet" title="Permalink to this headline">
-         ¶
-        </a>
-       </h2>
-       <h3 id="nocoes-sobre-sobre-o-servo-para-profinet">
-        Noções sobre sobre o servo para PROFINET
-        <a class="headerlink" href="#nocoes-sobre-sobre-o-servo-para-profinet" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        Para o funcionamento do SINAMICS V90 PN no modo “Speed Control (S)”, a seguinte lista de telegrams são suportados:
-       </p>
-       <ul class="simple">
-        <li>
-         <p>
-          Standard telegram 1
-         </p>
-        </li>
-        <li>
-         <p>
-          Standard telegram 2
-         </p>
-        </li>
-        <li>
-         <p>
-          Standard telegram 3
-         </p>
-        </li>
-        <li>
-         <p>
-          Standard telegram 5
-         </p>
-        </li>
-        <li>
-         <p>
-          Standard telegram 102
-         </p>
-        </li>
-        <li>
-         <p>
-          Standard telegram 105
-         </p>
-        </li>
-       </ul>
-       <p>
-        O standard telegram 1 só pode ser usado em modo
-        <strong>
-         “Real-time”
-        </strong>
-        (RT mode). Os standard telegram 2, 3 e 102 podem ser usados tanto em modo RT ou em modo
-        <strong>
-         “Isochronous
+        <p>
+         8.Em
+         <strong>
+          “Homing - Active”
+         </strong>
+         selecionaremos a entrada do sensor referente à posição home, escolha
+         <strong>
+          “Negative direction”
+         </strong>
+         , ative
+         <strong>
+          “Permit auto reverse at HW limit switch”
+         </strong>
+         e calibre as velocidades.
+        </p>
+        <p>
+         <img alt="7" src="../_images/8.PNG"/>
+        </p>
+        <p>
+         9.E a configuração do Servo está concluída.
+        </p>
+        <h2 id="configuracao-basica-do-servo-em-profinet">
+         Configuração Básica do Servo em PROFINET
+         <a class="headerlink" href="#configuracao-basica-do-servo-em-profinet" title="Permalink to this headline">
+          ¶
+         </a>
+        </h2>
+        <h3 id="nocoes-sobre-sobre-o-servo-para-profinet">
+         Noções sobre sobre o servo para PROFINET
+         <a class="headerlink" href="#nocoes-sobre-sobre-o-servo-para-profinet" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
+        <p>
+         Para o funcionamento do SINAMICS V90 PN no modo “Speed Control (S)”, a seguinte lista de telegrams são suportados:
+        </p>
+        <ul class="simple">
+         <li>
+          <p>
+           Standard telegram 1
+          </p>
+         </li>
+         <li>
+          <p>
+           Standard telegram 2
+          </p>
+         </li>
+         <li>
+          <p>
+           Standard telegram 3
+          </p>
+         </li>
+         <li>
+          <p>
+           Standard telegram 5
+          </p>
+         </li>
+         <li>
+          <p>
+           Standard telegram 102
+          </p>
+         </li>
+         <li>
+          <p>
+           Standard telegram 105
+          </p>
+         </li>
+        </ul>
+        <p>
+         O standard telegram 1 só pode ser usado em modo
+         <strong>
+          “Real-time”
+         </strong>
+         (RT mode). Os standard telegram 2, 3 e 102 podem ser usados tanto em modo RT ou em modo
+         <strong>
+          “Isochronous
 Real-time”
-        </strong>
-        (IRT mode), dependendo do controlador I/O. Os standard telegrams 5 e 105 apenas
+         </strong>
+         (IRT mode), dependendo do controlador I/O. Os standard telegrams 5 e 105 apenas
 suportam o modo IRT e só podem ser usados com TIA Portal V14.
-       </p>
-       <p>
-        Os telegrams 1, 2 e 102 são usados para controlo de velocidade do eixo enquanto os telegrams 3, 5 e 105 são usados para posicionamento do eixo pois estes telegrams possuem a
-        <strong>
-         “Posição atual”
-        </strong>
-        do encoder (Gn_XIST1).
-       </p>
-       <p>
-        Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Object) Positioning Axis terá de ser usado. O
-        <strong>
-         “TO Positioning Axis”
-        </strong>
-        apenas suporta os telegram
+        </p>
+        <p>
+         Os telegrams 1, 2 e 102 são usados para controlo de velocidade do eixo enquanto os telegrams 3, 5 e 105 são usados para posicionamento do eixo pois estes telegrams possuem a
+         <strong>
+          “Posição atual”
+         </strong>
+         do encoder (Gn_XIST1).
+        </p>
+        <p>
+         Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Object) Positioning Axis terá de ser usado. O
+         <strong>
+          “TO Positioning Axis”
+         </strong>
+         apenas suporta os telegram
 1, 2 e 3.
-       </p>
-       <div class="highlight-default notranslate">
-        <div class="highlight">
-         <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">SIMATIC</span> <span class="n">S7</span><span class="o">-</span><span class="mi">1200</span> <span class="n">apenas</span> <span class="n">suporta</span> <span class="n">comunicação</span> <span class="n">em</span> <span class="n">modo</span> <span class="n">RT</span><span class="o">.</span>
+        </p>
+        <div class="highlight-default notranslate">
+         <div class="highlight">
+          <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">SIMATIC</span> <span class="n">S7</span><span class="o">-</span><span class="mi">1200</span> <span class="n">apenas</span> <span class="n">suporta</span> <span class="n">comunicação</span> <span class="n">em</span> <span class="n">modo</span> <span class="n">RT</span><span class="o">.</span>
 </pre>
+         </div>
         </div>
-       </div>
-       <h3 id="configurar-definicoes-profinet-no-sinamics-v-assistant">
-        Configurar definições PROFINET no SINAMICS V-ASSISTANT
-        <a class="headerlink" href="#configurar-definicoes-profinet-no-sinamics-v-assistant" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        1.Abra o
-        <strong>
-         SINAMICS V-ASSISTANT
-        </strong>
-        e certifique-se de que tem o drive a configurar ligado ao PC via USB.
-       </p>
-       <p>
-        2.Clique em online, selecione o equipamento a configurar e clique em
-        <strong>
-         “Ok”
-        </strong>
-        .
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/2.png" width="650"/>
+        <h3 id="configurar-definicoes-profinet-no-sinamics-v-assistant">
+         Configurar definições PROFINET no SINAMICS V-ASSISTANT
+         <a class="headerlink" href="#configurar-definicoes-profinet-no-sinamics-v-assistant" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
         <p>
-         <i>
-          Imagem 8
-         </i>
+         1.Abra o
+         <strong>
+          SINAMICS V-ASSISTANT
+         </strong>
+         e certifique-se de que tem o drive a configurar ligado ao PC via USB.
         </p>
-       </div>
-       <p>
-        3.Na aba
-        <strong>
-         “Select drive”
-        </strong>
-        clique no botão
-        <strong>
-         “Select motor”
-        </strong>
-        .
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/3.png" width="650"/>
         <p>
-         <i>
-          Imagem 9
-         </i>
+         2.Clique em online, selecione o equipamento a configurar e clique em
+         <strong>
+          “Ok”
+         </strong>
+         .
         </p>
-       </div>
-       <p>
-        4.No menu de seleção do motor, escolha a opção cujo
-        <strong>
-         “Motor ID”
-        </strong>
-        corresponda ao seu motor.
-       </p>
-       <div class="highlight-default notranslate">
-        <div class="highlight">
-         <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">O</span> <span class="n">ID</span> <span class="n">do</span> <span class="n">motor</span> <span class="n">pode</span> <span class="n">ser</span> <span class="n">encontrado</span> <span class="n">na</span> <span class="n">placa</span> <span class="n">de</span> <span class="n">identificação</span> <span class="n">no</span> <span class="n">motor</span><span class="o">.</span>
+        <p>
+         <img alt="8" src="../_images/22.PNG"/>
+        </p>
+        <p>
+         3.Na aba
+         <strong>
+          “Select drive”
+         </strong>
+         clique no botão
+         <strong>
+          “Select motor”
+         </strong>
+         .
+        </p>
+        <p>
+         <img alt="9" src="../_images/32.PNG"/>
+        </p>
+        <p>
+         4.No menu de seleção do motor, escolha a opção cujo
+         <strong>
+          “Motor ID”
+         </strong>
+         corresponda ao seu motor.
+        </p>
+        <div class="highlight-default notranslate">
+         <div class="highlight">
+          <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">O</span> <span class="n">ID</span> <span class="n">do</span> <span class="n">motor</span> <span class="n">pode</span> <span class="n">ser</span> <span class="n">encontrado</span> <span class="n">na</span> <span class="n">placa</span> <span class="n">de</span> <span class="n">identificação</span> <span class="n">no</span> <span class="n">motor</span><span class="o">.</span>
 </pre>
+         </div>
         </div>
-       </div>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/4.png" width="650"/>
         <p>
-         <i>
-          Imagem 10
-         </i>
+         <img alt="10" src="../_images/41.PNG"/>
         </p>
-       </div>
-       <p>
-        5.De seguida na aba
-        <strong>
-         “Set PROFINET”
-        </strong>
-        em
-        <strong>
-         “Select telegram”
-        </strong>
-        escolha em
-        <strong>
-         “The current telegram”
-        </strong>
-        o telegram adequado às suas necessidades.
-       </p>
-       <div class="highlight-default notranslate">
-        <div class="highlight">
-         <pre><span></span>NOTA: Para melhor entender desta fase leia as “Noções sobre o servo para PROFINET”.
+        <p>
+         5.De seguida na aba
+         <strong>
+          “Set PROFINET”
+         </strong>
+         em
+         <strong>
+          “Select telegram”
+         </strong>
+         escolha em
+         <strong>
+          “The current telegram”
+         </strong>
+         o telegram adequado às suas necessidades.
+        </p>
+        <div class="highlight-default notranslate">
+         <div class="highlight">
+          <pre><span></span>NOTA: Para melhor entender desta fase leia as “Noções sobre o servo para PROFINET”.
 </pre>
+         </div>
         </div>
-       </div>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/5.png" width="650"/>
         <p>
-         <i>
-          Imagem 11
-         </i>
+         <img alt="11" src="../_images/51.PNG"/>
         </p>
-       </div>
-       <p>
-        6.Ainda em
-        <strong>
-         “Set PROFINET”
-        </strong>
-        vá a
-        <strong>
-         “Configure network”
-        </strong>
-        e modifique o nome de identificação do equipamento e o seu respetivo IP para a rede. Clique por fim no botão *
-“Save and active”**.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/6.png" width="650"/>
         <p>
-         <i>
-          Imagem 12
-         </i>
+         6.Ainda em
+         <strong>
+          “Set PROFINET”
+         </strong>
+         vá a
+         <strong>
+          “Configure network”
+         </strong>
+         e modifique o nome de identificação do equipamento e o seu respetivo IP para a rede. Clique por fim no botão
+         <strong>
+          “Save and active”
+         </strong>
+         .
         </p>
-       </div>
-       <p>
-        7.Concluídos os passos anteriores, va na barra superior do V-ASSISTANT, em “Tools” clique
-        <strong>
-         “Restart Drive”
-        </strong>
-        . E fica concluída a primeira fase da configuração.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/7.png" width="650"/>
         <p>
-         <i>
-          Imagem 13
-         </i>
+         <img alt="12" src="../_images/61.PNG"/>
         </p>
-       </div>
-       <h3 id="configurar-definicoes-profinet-no-tia-portal-v15">
-        Configurar definições PROFINET no TIA Portal V15
-        <a class="headerlink" href="#configurar-definicoes-profinet-no-tia-portal-v15" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        1.Em
-        <strong>
-         “Network view”
-        </strong>
-        clique na barra lateral
-        <strong>
-         “Hardware catalog”
-        </strong>
-        , clique em **“Other field devices &gt; Other field devices &gt; PROFINET IO &gt; Drives &gt; SIEMENS AG &gt; SINAMICS
+        <p>
+         7.Concluídos os passos anteriores, va na barra superior do V-ASSISTANT, em “Tools” clique
+         <strong>
+          “Restart Drive”
+         </strong>
+         . E fica concluída a primeira fase da configuração.
+        </p>
+        <p>
+         <img alt="13" src="../_images/7.PNG"/>
+        </p>
+        <h3 id="configurar-definicoes-profinet-no-tia-portal-v15">
+         Configurar definições PROFINET no TIA Portal V15
+         <a class="headerlink" href="#configurar-definicoes-profinet-no-tia-portal-v15" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
+        <p>
+         1.Em
+         <strong>
+          “Network view”
+         </strong>
+         clique na barra lateral
+         <strong>
+          “Hardware catalog”
+         </strong>
+         , clique em **“Other field devices &gt; Other field devices &gt; PROFINET IO &gt; Drives &gt; SIEMENS AG &gt; SINAMICS
 ** e dê duplo-clique sobre
-        <strong>
-         “SINAMICS V90 PN V1.0”
-        </strong>
-       </p>
-       <div class="highlight-default notranslate">
-        <div class="highlight">
-         <pre><span></span>NOTA: O mesmo terá de aparecer em “Network view” como no exemplo.
-</pre>
-        </div>
-       </div>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/1.png" width="650"/>
-        <p>
-         <i>
-          Imagem 14
-         </i>
+         <strong>
+          “SINAMICS V90 PN V1.0”
+         </strong>
         </p>
-       </div>
-       <p>
-        2.Dê duplo-clique sobre o V90 na
-        <strong>
-         “Network view”
-        </strong>
-        e na janela do dispositivo clique no menu lateral
-        <strong>
-         “Hardware catalog”
-        </strong>
-        e em
-        <strong>
-         “Submodules”
-        </strong>
-        e dê um duplo-clique sobre
+        <div class="highlight-default notranslate">
+         <div class="highlight">
+          <pre><span></span>NOTA: O mesmo terá de aparecer em “Network view” como no exemplo.
+</pre>
+         </div>
+        </div>
+        <p>
+         <img alt="14" src="../_images/12.PNG"/>
+        </p>
+        <p>
+         2.Dê duplo-clique sobre o V90 na
+         <strong>
+          “Network view”
+         </strong>
+         e na janela do dispositivo clique no menu lateral
+         <strong>
+          “Hardware catalog”
+         </strong>
+         e em
+         <strong>
+          “Submodules”
+         </strong>
+         e dê um duplo-clique sobre
 o telegram escolhido durante a configuração do V90 com o V-ASSISTANT.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/2.png" width="650"/>
-        <p>
-         <i>
-          Imagem 15
-         </i>
         </p>
-       </div>
-       <p>
-        3.Ainda na janela do dispositivo clique com o botão direito no mesmo e clique em
-        <strong>
-         “Properties”
-        </strong>
-        .
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/3.png" width="650"/>
         <p>
-         <i>
-          Imagem 16
-         </i>
+         <img alt="15" src="../_images/23.PNG"/>
         </p>
-       </div>
-       <p>
-        4.Em
-        <strong>
-         “General”
-        </strong>
-        , nomeie o dispositivo com o mesmo nome dado durante a configuração no V-ASSISTANT.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/4.png" width="650"/>
         <p>
-         <i>
-          Imagem 17
-         </i>
+         3.Ainda na janela do dispositivo clique com o botão direito no mesmo e clique em
+         <strong>
+          “Properties”
+         </strong>
+         .
         </p>
-       </div>
-       <p>
-        5.Em
-        <strong>
-         “PROFINET Interface
-        </strong>
-        &gt;
-        <strong>
-         Ethernet addresses”
-        </strong>
-        coloque o endereço de IP  máscara configurados com o V-ASSISTANT. Desmarque a opção
-        <strong>
-         “Generate PROFINET device name
+        <p>
+         <img alt="16" src="../_images/33.PNG"/>
+        </p>
+        <p>
+         4.Em
+         <strong>
+          “General”
+         </strong>
+         , nomeie o dispositivo com o mesmo nome dado durante a configuração no V-ASSISTANT.
+        </p>
+        <p>
+         <img alt="17" src="../_images/42.PNG"/>
+        </p>
+        <p>
+         5.Em
+         <strong>
+          “PROFINET Interface
+         </strong>
+         &gt;
+         <strong>
+          Ethernet addresses”
+         </strong>
+         coloque o endereço de IP  máscara configurados com o V-ASSISTANT. Desmarque a opção
+         <strong>
+          “Generate PROFINET device name
 automatically”
-        </strong>
-        e novamente coloque o nome dado ao dispositivo durante a configuração no
+         </strong>
+         e novamente coloque o nome dado ao dispositivo durante a configuração no
 V-ASSISTANT.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/5.png" width="650"/>
-        <p>
-         <i>
-          Imagem 18
-         </i>
         </p>
-       </div>
-       <p>
-        6.Clique novamente sobre o dispositivo V90 e clique na opção
-        <strong>
-         “Assign device name”
-        </strong>
-        .
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/6.png" width="650"/>
         <p>
-         <i>
-          Imagem 19
-         </i>
+         <img alt="18" src="../_images/52.PNG"/>
         </p>
-       </div>
-       <p>
-        7.Clique em
-        <strong>
-         “Update list”
-        </strong>
-        e de seguida clique sobre o dispositivo a configurar e clique no botão
-        <strong>
-         “Assign name”
-        </strong>
-        .
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/7.png" width="650"/>
         <p>
-         <i>
-          Imagem 20
-         </i>
+         6.Clique novamente sobre o dispositivo V90 e clique na opção
+         <strong>
+          “Assign device name”
+         </strong>
+         .
         </p>
-       </div>
-       <p>
-        8.Na
-        <strong>
-         “Network view”
-        </strong>
-        ligue o V90 ao PLC.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/8.png" width="650"/>
         <p>
-         <i>
-          Imagem 21
-         </i>
+         <img alt="19" src="../_images/62.PNG"/>
         </p>
-       </div>
-       <p>
-        9.Em
-        <strong>
-         “Topology view”
-        </strong>
-        ” refaça o desenho das ligações físicas entre o PLC e o V90. No exemplo a ligação entre os dois foi feita com um switch pelo que o mesmo teve de ser
+        <p>
+         7.Clique em
+         <strong>
+          “Update list”
+         </strong>
+         e de seguida clique sobre o dispositivo a configurar e clique no botão
+         <strong>
+          “Assign name”
+         </strong>
+         .
+        </p>
+        <p>
+         <img alt="20" src="../_images/71.PNG"/>
+        </p>
+        <p>
+         8.Na
+         <strong>
+          “Network view”
+         </strong>
+         ligue o V90 ao PLC.
+        </p>
+        <p>
+         <img alt="21" src="../_images/81.PNG"/>
+        </p>
+        <p>
+         9.Em
+         <strong>
+          “Topology view”
+         </strong>
+         ” refaça o desenho das ligações físicas entre o PLC e o V90. No exemplo a ligação entre os dois foi feita com um switch pelo que o mesmo teve de ser
 devidamente adicionado.
-       </p>
-       <div class="highlight-default notranslate">
-        <div class="highlight">
-         <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">Este</span> <span class="n">passo</span> <span class="n">é</span> <span class="n">muito</span> <span class="n">importante</span><span class="p">,</span> <span class="n">sem</span> <span class="n">ele</span> <span class="n">o</span> <span class="n">dispositivo</span> <span class="n">poderá</span> <span class="n">não</span> <span class="n">funcionar</span> <span class="n">corretamente</span><span class="o">.</span> <span class="n">Tome</span> <span class="n">também</span> <span class="n">atenção</span> <span class="n">à</span> <span class="n">portas</span> <span class="n">nas</span> <span class="n">ligações</span> <span class="n">entre</span> <span class="n">o</span> <span class="n">PLC</span> <span class="n">e</span> <span class="n">o</span> <span class="n">V90</span><span class="o">.</span>
+        </p>
+        <div class="highlight-default notranslate">
+         <div class="highlight">
+          <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">Este</span> <span class="n">passo</span> <span class="n">é</span> <span class="n">muito</span> <span class="n">importante</span><span class="p">,</span> <span class="n">sem</span> <span class="n">ele</span> <span class="n">o</span> <span class="n">dispositivo</span> <span class="n">poderá</span> <span class="n">não</span> <span class="n">funcionar</span> <span class="n">corretamente</span><span class="o">.</span> <span class="n">Tome</span> <span class="n">também</span> <span class="n">atenção</span> <span class="n">à</span> <span class="n">portas</span> <span class="n">nas</span> <span class="n">ligações</span> <span class="n">entre</span> <span class="n">o</span> <span class="n">PLC</span> <span class="n">e</span> <span class="n">o</span> <span class="n">V90</span><span class="o">.</span>
 </pre>
+         </div>
         </div>
-       </div>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/9.png" width="650"/>
         <p>
-         <i>
-          Imagem 22
-         </i>
+         <img alt="22" src="../_images/9.PNG"/>
         </p>
-       </div>
-       <p>
-        10.E a configuração do servo em PROFINET está concluída.
-       </p>
-       <h3 id="configurar-o-servo-com-profidrive-no-tia-portal-v15">
-        Configurar o servo com PROFIdrive no TIA Portal V15
-        <a class="headerlink" href="#configurar-o-servo-com-profidrive-no-tia-portal-v15" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <ol class="simple">
-        <li>
-         <p>
-          No menu lateral de dispositivos em
-          <strong>
-           “Technology Objects”
-          </strong>
-          clique em
-          <strong>
-           “Add new
-          </strong>
-          <strong>
-           object”
-          </strong>
-          .
-         </p>
-        </li>
-       </ol>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/10.png" width="650"/>
         <p>
-         <i>
-          Imagem 23
-         </i>
+         10.E a configuração do servo em PROFINET está concluída.
         </p>
-       </div>
-       <ol class="simple">
-        <li>
-         <p>
-          Em
-          <strong>
-           “Motion control”
-          </strong>
-          clique sobre
-          <strong>
-           “TO_PositioningAxis”
-          </strong>
-          , em name coloque o nome para esse eixo (para facilitar dê-lhe o mesmo nome dado ao servo) e clique
-          <strong>
-           “OK”
-          </strong>
-          .
-         </p>
-        </li>
-       </ol>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/11.png" width="650"/>
+        <h3 id="configurar-o-servo-com-profidrive-no-tia-portal-v15">
+         Configurar o servo com PROFIdrive no TIA Portal V15
+         <a class="headerlink" href="#configurar-o-servo-com-profidrive-no-tia-portal-v15" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
         <p>
-         <i>
-          Imagem 24
-         </i>
+         1.No menu lateral de dispositivos em
+         <strong>
+          “Technology Objects”
+         </strong>
+         clique em
+         <strong>
+          “Add new
+         </strong>
+         <strong>
+          object”
+         </strong>
+         .
         </p>
-       </div>
-       <ol class="simple">
-        <li>
-         <p>
-          Em
-          <strong>
-           “General”
-          </strong>
-          escolha a opção
-          <strong>
-           “PROFIdrive”
-          </strong>
-          .
-         </p>
-        </li>
-       </ol>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/12.png" width="650"/>
         <p>
-         <i>
-          Imagem 25
-         </i>
+         <img alt="23" src="../_images/10.PNG"/>
         </p>
-       </div>
-       <ol class="simple">
-        <li>
-         <p>
-          Em
-          <strong>
-           “Drive”
-          </strong>
-          clique nos
-          <strong>
-           “…”
-          </strong>
-          e escolha o drive configurado.
-         </p>
-        </li>
-       </ol>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/13.png" width="650"/>
         <p>
-         <i>
-          Imagem 26
-         </i>
+         2.Em
+         <strong>
+          “Motion control”
+         </strong>
+         clique sobre
+         <strong>
+          “TO_PositioningAxis”
+         </strong>
+         , em name coloque o nome para esse eixo (para facilitar dê-lhe o mesmo nome dado ao servo) e clique
+         <strong>
+          “OK”
+         </strong>
+         .
         </p>
-       </div>
-       <ol class="simple">
-        <li>
-         <p>
-          Em
-          <strong>
-           “Encoder”
-          </strong>
-          marque a opção
-          <strong>
-           “Encoder on PROFINET/PROFIBUS”
-          </strong>
-          . E de seguido no campo a vermelho clique nos
-          <strong>
-           “…”
-          </strong>
-          e selecione o
-          <strong>
-           “Encoder1”
-          </strong>
-          .
-         </p>
-        </li>
-       </ol>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/14.png" width="650"/>
         <p>
-         <i>
-          Imagem 27
-         </i>
+         <img alt="24" src="../_images/111.PNG"/>
         </p>
-       </div>
-       <ol class="simple">
-        <li>
-         <p>
-          <strong>
-           (Opcional)
-          </strong>
-          Em
-          <strong>
-           “Position limits”
-          </strong>
-          ative os
-          <strong>
-           “Limit switcher”
-          </strong>
-          que pretende usar e configure os seus valores/entradas.
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           (Opcional)
-          </strong>
-          Em
-          <strong>
-           “Homing”
-          </strong>
-          configure o tipo de homing a usar e o respetivo switch de homing.
-         </p>
-        </li>
-        <li>
-         <p>
-          E fica concluída a configuração do servo.
-         </p>
-        </li>
-       </ol>
-       <h2 id="introducao-aos-comandos-de-controlo-de-movimento">
-        Introdução aos comandos de controlo de movimento
-        <a class="headerlink" href="#introducao-aos-comandos-de-controlo-de-movimento" title="Permalink to this headline">
-         ¶
-        </a>
-       </h2>
-       <p>
-        Para programação do Servo o TIA Portal disponibiliza um conjunto de blocos (sub-rotinas) de controlo de movimento que permitem integrar de forma fácil e prática o servo ao
+        <p>
+         3.Em
+         <strong>
+          “General”
+         </strong>
+         escolha a opção
+         <strong>
+          “PROFIdrive”
+         </strong>
+         .
+        </p>
+        <p>
+         <img alt="25" src="../_images/121.PNG"/>
+        </p>
+        <p>
+         4.Em
+         <strong>
+          “Drive”
+         </strong>
+         clique nos
+         <strong>
+          “…”
+         </strong>
+         e escolha o drive configurado.
+        </p>
+        <p>
+         <img alt="26" src="../_images/13.PNG"/>
+        </p>
+        <p>
+         5.Em
+         <strong>
+          “Encoder”
+         </strong>
+         marque a opção
+         <strong>
+          “Encoder on PROFINET/PROFIBUS”
+         </strong>
+         . E de seguido no campo a vermelho clique nos
+         <strong>
+          “…”
+         </strong>
+         e selecione o
+         <strong>
+          “Encoder1”
+         </strong>
+         .
+        </p>
+        <p>
+         <img alt="23" src="../_images/14.PNG"/>
+        </p>
+        <p>
+         6.
+         <strong>
+          (Opcional)
+         </strong>
+         Em
+         <strong>
+          “Position limits”
+         </strong>
+         ative os
+         <strong>
+          “Limit switcher”
+         </strong>
+         que pretende usar e configure os seus valores/entradas.
+        </p>
+        <p>
+         7.
+         <strong>
+          (Opcional)
+         </strong>
+         Em
+         <strong>
+          “Homing”
+         </strong>
+         configure o tipo de homing a usar e o respetivo switch de homing.
+        </p>
+        <p>
+         8.E fica concluída a configuração do servo.
+        </p>
+        <h2 id="introducao-aos-comandos-de-controlo-de-movimento">
+         Introdução aos comandos de controlo de movimento
+         <a class="headerlink" href="#introducao-aos-comandos-de-controlo-de-movimento" title="Permalink to this headline">
+          ¶
+         </a>
+        </h2>
+        <p>
+         Para programação do Servo o TIA Portal disponibiliza um conjunto de blocos (sub-rotinas) de controlo de movimento que permitem integrar de forma fácil e prática o servo ao
 nosso processo.
-       </p>
-       <h3 id="mc-power">
-        MC_Power
-        <a class="headerlink" href="#mc-power" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        <strong>
+        </p>
+        <h3 id="mc-power">
          MC_Power
-        </strong>
-        – é uma função que deve ser chamada e ligada antes de qualquer instrução de movimento, sem ela não será possível comando o servo.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_programacao/1.png" width="650"/>
+         <a class="headerlink" href="#mc-power" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
         <p>
-         <i>
-          Imagem 28
-         </i>
+         <strong>
+          MC_Power
+         </strong>
+         – é uma função que deve ser chamada e ligada antes de qualquer instrução de movimento, sem ela não será possível comando o servo.
         </p>
-       </div>
-       <p>
-        <strong>
-         Principais parâmetros:
-        </strong>
-       </p>
-       <ul class="simple">
-        <li>
-         <p>
-          <strong>
-           Axis:
-          </strong>
-          Nome do servo/eixo configurado
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           Enable:
-          </strong>
-          Entrada do sinal que irá ligar o servo
-         </p>
-        </li>
-       </ul>
-       <h3 id="mc-home">
-        MC_Home
-        <a class="headerlink" href="#mc-home" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        <strong>
+        <p>
+         <img alt="28" src="../_images/15.PNG"/>
+        </p>
+        <p>
+         <strong>
+          Principais parâmetros:
+         </strong>
+        </p>
+        <ul class="simple">
+         <li>
+          <p>
+           <strong>
+            Axis:
+           </strong>
+           Nome do servo/eixo configurado
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Enable:
+           </strong>
+           Entrada do sinal que irá ligar o servo
+          </p>
+         </li>
+        </ul>
+        <h3 id="mc-home">
          MC_Home
-        </strong>
-        – é a função responsável de levar o servo até ao local onde está situado o sensor configurado para “homing”, a sua posição inicial.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_programacao/2.png" width="650"/>
+         <a class="headerlink" href="#mc-home" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
         <p>
-         <i>
-          Imagem 29
-         </i>
+         <strong>
+          MC_Home
+         </strong>
+         – é a função responsável de levar o servo até ao local onde está situado o sensor configurado para “homing”, a sua posição inicial.
         </p>
-       </div>
-       <p>
-        <strong>
-         Principais parâmetros:
-        </strong>
-       </p>
-       <ul class="simple">
-        <li>
-         <p>
-          <strong>
-           Axis:
-          </strong>
-          Nome do servo/eixo configurado
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           Execute:
-          </strong>
-          Entrada do sinal que irá ditar a ordem de movimento do servo
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           Position:
-          </strong>
-          Valor absoluto da localização do servo, após ter chegado à posição home (coordenada absoluta de home)
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           Mode:
-          </strong>
-          Permite escolher entre os diferentes tipos de
-          <strong>
-           “homing”
-          </strong>
-         </p>
-        </li>
-       </ul>
-       <h3 id="mc-reset">
-        MC_Reset
-        <a class="headerlink" href="#mc-reset" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        <strong>
+        <p>
+         <img alt="29" src="../_images/24.PNG"/>
+        </p>
+        <p>
+         <strong>
+          Principais parâmetros:
+         </strong>
+        </p>
+        <ul class="simple">
+         <li>
+          <p>
+           <strong>
+            Axis:
+           </strong>
+           Nome do servo/eixo configurado
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Execute:
+           </strong>
+           Entrada do sinal que irá ditar a ordem de movimento do servo
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Position:
+           </strong>
+           Valor absoluto da localização do servo, após ter chegado à posição home (coordenada absoluta de home)
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Mode:
+           </strong>
+           Permite escolher entre os diferentes tipos de
+           <strong>
+            “homing”
+           </strong>
+          </p>
+         </li>
+        </ul>
+        <h3 id="mc-reset">
          MC_Reset
-        </strong>
-        – é a função que permite ignorar erros causados pela paragem do servo ao entrar em contacto com um fim de curso ou erros de configuração.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_programacao/3.png" width="650"/>
+         <a class="headerlink" href="#mc-reset" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
         <p>
-         <i>
-          Imagem 29
-         </i>
+         <strong>
+          MC_Reset
+         </strong>
+         – é a função que permite ignorar erros causados pela paragem do servo ao entrar em contacto com um fim de curso ou erros de configuração.
         </p>
-       </div>
-       <p>
-        <strong>
-         Principais parâmetros:
-        </strong>
-       </p>
-       <ul class="simple">
-        <li>
-         <p>
-          <strong>
-           Axis:
-          </strong>
-          Nome do servo/eixo configurado
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           Enable:
-          </strong>
-          Entrada do sinal que irá ditar a ordem de reset
-         </p>
-        </li>
-       </ul>
-       <h3 id="mc-halt">
-        MC_Halt
-        <a class="headerlink" href="#mc-halt" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        <strong>
+        <p>
+         <img alt="30" src="../_images/34.PNG"/>
+        </p>
+        <p>
+         <strong>
+          Principais parâmetros:
+         </strong>
+        </p>
+        <ul class="simple">
+         <li>
+          <p>
+           <strong>
+            Axis:
+           </strong>
+           Nome do servo/eixo configurado
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Enable:
+           </strong>
+           Entrada do sinal que irá ditar a ordem de reset
+          </p>
+         </li>
+        </ul>
+        <h3 id="mc-halt">
          MC_Halt
-        </strong>
-        – é a função que para os movimentos do servo.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_programacao/4.png" width="650"/>
+         <a class="headerlink" href="#mc-halt" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
         <p>
-         <i>
-          Imagem 29
-         </i>
+         <strong>
+          MC_Halt
+         </strong>
+         – é a função que para os movimentos do servo.
         </p>
-       </div>
-       <p>
-        <strong>
-         Principais parâmetros:
-        </strong>
-       </p>
-       <ul class="simple">
-        <li>
-         <p>
-          <strong>
-           Axis:
-          </strong>
-          Nome do servo/eixo configurado
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           Enable:
-          </strong>
-          Entrada do sinal que irá parar o servo
-         </p>
-        </li>
-       </ul>
-       <h3 id="mc-movejog">
-        MC_MoveJog
-        <a class="headerlink" href="#mc-movejog" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        <strong>
+        <p>
+         <img alt="31" src="../_images/43.PNG"/>
+        </p>
+        <p>
+         <strong>
+          Principais parâmetros:
+         </strong>
+        </p>
+        <ul class="simple">
+         <li>
+          <p>
+           <strong>
+            Axis:
+           </strong>
+           Nome do servo/eixo configurado
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Enable:
+           </strong>
+           Entrada do sinal que irá parar o servo
+          </p>
+         </li>
+        </ul>
+        <h3 id="mc-movejog">
          MC_MoveJog
-        </strong>
-        – é uma das funções de movimento do servo, esta em especifico permite que o servo se mova enquanto uma das entras permaneça ativa.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_programacao/5.png" width="650"/>
+         <a class="headerlink" href="#mc-movejog" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
         <p>
-         <i>
-          Imagem 30
-         </i>
+         <strong>
+          MC_MoveJog
+         </strong>
+         – é uma das funções de movimento do servo, esta em especifico permite que o servo se mova enquanto uma das entras permaneça ativa.
         </p>
-       </div>
-       <p>
-        <strong>
-         Principais parâmetros:
-        </strong>
-       </p>
-       <ul class="simple">
-        <li>
-         <p>
-          <strong>
-           Axis:
-          </strong>
-          Nome do servo/eixo configurado
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           JogForward:
-          </strong>
-          Move o servo para coordenadas superiores
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           JogForward:
-          </strong>
-          Move o servo para coordenadas inferiores
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           Velocity:
-          </strong>
-          Velocidade com a qual o servo executará os movimentos
-         </p>
-        </li>
-       </ul>
-       <h3 id="mc-moveabsolute">
-        MC_MoveAbsolute
-        <a class="headerlink" href="#mc-moveabsolute" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_programacao/6.png" width="650"/>
         <p>
-         <i>
-          Imagem 31
-         </i>
+         <img alt="32" src="../_images/53.PNG"/>
         </p>
-       </div>
-       <p>
-        <strong>
+        <p>
+         <strong>
+          Principais parâmetros:
+         </strong>
+        </p>
+        <ul class="simple">
+         <li>
+          <p>
+           <strong>
+            Axis:
+           </strong>
+           Nome do servo/eixo configurado
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            JogForward:
+           </strong>
+           Move o servo para coordenadas superiores
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            JogForward:
+           </strong>
+           Move o servo para coordenadas inferiores
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Velocity:
+           </strong>
+           Velocidade com a qual o servo executará os movimentos
+          </p>
+         </li>
+        </ul>
+        <h3 id="mc-moveabsolute">
          MC_MoveAbsolute
-        </strong>
-        – é a função responsável por levar o servo até uma posição absoluta através de uma coordenada.
-       </p>
-       <p>
-        <strong>
-         Principais parâmetros:
-        </strong>
-       </p>
-       <ul class="simple">
-        <li>
-         <p>
-          <strong>
-           Axis:
-          </strong>
-          Nome do servo/eixo configurado
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           Execute:
-          </strong>
-          Entrada do sinal que irá ditar a ordem de movimento do servo
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           Position:
-          </strong>
-          Coordenada absoluta para a qual o servo se irá mover
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           Velocity:
-          </strong>
-          Velocidade com a qual o servo executará o movimento
-         </p>
-        </li>
-       </ul>
-       <h3 id="mc-moverelative">
-        MC_MoveRelative
-        <a class="headerlink" href="#mc-moverelative" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        <strong>
+         <a class="headerlink" href="#mc-moveabsolute" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
+        <p>
+         <strong>
+          MC_MoveAbsolute
+         </strong>
+         – é a função responsável por levar o servo até uma posição absoluta através de uma coordenada.
+        </p>
+        <p>
+         <img alt="33" src="../_images/63.PNG"/>
+        </p>
+        <p>
+         <strong>
+          Principais parâmetros:
+         </strong>
+        </p>
+        <ul class="simple">
+         <li>
+          <p>
+           <strong>
+            Axis:
+           </strong>
+           Nome do servo/eixo configurado
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Execute:
+           </strong>
+           Entrada do sinal que irá ditar a ordem de movimento do servo
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Position:
+           </strong>
+           Coordenada absoluta para a qual o servo se irá mover
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Velocity:
+           </strong>
+           Velocidade com a qual o servo executará o movimento
+          </p>
+         </li>
+        </ul>
+        <h3 id="mc-moverelative">
          MC_MoveRelative
-        </strong>
-        – é a função responsável por mover o servo uma determinada distancia relativamente à sua atual coordenada.
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_programacao/7.png" width="650"/>
+         <a class="headerlink" href="#mc-moverelative" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
         <p>
-         <i>
-          Imagem 32
-         </i>
+         <strong>
+          MC_MoveRelative
+         </strong>
+         – é a função responsável por mover o servo uma determinada distancia relativamente à sua atual coordenada.
         </p>
-       </div>
-       <p>
-        <strong>
-         Principais parâmetros:
-        </strong>
-       </p>
-       <ul class="simple">
-        <li>
-         <p>
-          <strong>
-           Axis:
-          </strong>
-          Nome do servo/eixo configurado
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           Execute:
-          </strong>
-          Entrada do sinal que irá ditar a ordem de movimento do servo
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           Distance:
-          </strong>
-          Distancia do ponto de referencia a qual o servo de moverá
-         </p>
-        </li>
-        <li>
-         <p>
-          <strong>
-           Velocity:
-          </strong>
-          Velocidade com a qual o servo executará o movimento
-         </p>
-        </li>
-       </ul>
-       <h2 id="axis-error">
-        Axis Error
-        <a class="headerlink" href="#axis-error" title="Permalink to this headline">
-         ¶
-        </a>
-       </h2>
-       <p>
-        Assim que o servo dispara a paragem de emergência quando um dos fins de curso é acionado, é necessario remover a emergência usado os blocos
-        <strong>
-         “MC_Power”
-        </strong>
-        e
-        <strong>
-         “MC_Reset”
-        </strong>
-        anteriomente explicados.
-       </p>
-       <h3 id="resolucao">
-        Resolução
-        <a class="headerlink" href="#resolucao" title="Permalink to this headline">
-         ¶
-        </a>
-       </h3>
-       <p>
-        1.Assim que um dos fins de curso é acionado, consulte o
-        <strong>
-         “Status”
-        </strong>
-        do Axis, clique em “
-        <strong>
-         Technology objects &gt; Axis &gt; Diagnostics
-        </strong>
-        e dê duplo-clique sobre
-        <strong>
-         “Status and error bits”
-        </strong>
-       </p>
-       <div class="highlight-default notranslate">
-        <div class="highlight">
-         <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">Para</span> <span class="n">sabermos</span> <span class="n">o</span> <span class="n">estado</span> <span class="n">do</span> <span class="n">Axis</span> <span class="n">é</span> <span class="n">necessário</span> <span class="n">clicar</span> <span class="n">em</span> <span class="s2">"Monitor All"</span>
+        <p>
+         <img alt="34" src="../_images/72.PNG"/>
+        </p>
+        <p>
+         <strong>
+          Principais parâmetros:
+         </strong>
+        </p>
+        <ul class="simple">
+         <li>
+          <p>
+           <strong>
+            Axis:
+           </strong>
+           Nome do servo/eixo configurado
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Execute:
+           </strong>
+           Entrada do sinal que irá ditar a ordem de movimento do servo
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Distance:
+           </strong>
+           Distancia do ponto de referencia a qual o servo de moverá
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Velocity:
+           </strong>
+           Velocidade com a qual o servo executará o movimento
+          </p>
+         </li>
+        </ul>
+        <p>
+         <em>
+          EM FALTA
+         </em>
+        </p>
+        <h2 id="axis-error">
+         Axis Error
+         <a class="headerlink" href="#axis-error" title="Permalink to this headline">
+          ¶
+         </a>
+        </h2>
+        <p>
+         Assim que o servo dispara a paragem de emergência quando um dos fins de curso é acionado, é necessario remover a emergência usado os blocos
+         <strong>
+          “MC_Power”
+         </strong>
+         e
+         <strong>
+          “MC_Reset”
+         </strong>
+         anteriomente explicados.
+        </p>
+        <h3 id="resolucao">
+         Resolução
+         <a class="headerlink" href="#resolucao" title="Permalink to this headline">
+          ¶
+         </a>
+        </h3>
+        <p>
+         1.Assim que um dos fins de curso é acionado, consulte o
+         <strong>
+          “Status”
+         </strong>
+         do Axis, clique em “
+         <strong>
+          Technology objects &gt; Axis &gt; Diagnostics
+         </strong>
+         e dê duplo-clique sobre
+         <strong>
+          “Status and error bits”
+         </strong>
+        </p>
+        <div class="highlight-default notranslate">
+         <div class="highlight">
+          <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">Para</span> <span class="n">sabermos</span> <span class="n">o</span> <span class="n">estado</span> <span class="n">do</span> <span class="n">Axis</span> <span class="n">é</span> <span class="n">necessário</span> <span class="n">clicar</span> <span class="n">em</span> <span class="s2">"Monitor All"</span>
 </pre>
+         </div>
         </div>
-       </div>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_erros_axis/1.png" width="650"/>
         <p>
-         <i>
-          Imagem 33
-         </i>
+         <img alt="35" src="../_images/16.PNG"/>
         </p>
-       </div>
-       <p>
-        2.Para remover o
-        <strong>
-         “Axis Error”
-        </strong>
-        é necessário fazer o
-        <strong>
-         “Disable”
-        </strong>
-        no bloco
-        <strong>
-         “MC_Power”
-        </strong>
-        . Após o fazer volte ao
-        <strong>
-         Diagnostics
-        </strong>
-        e deve obter o resutlado apresentado na
-        <strong>
-         “Figura 35”
-        </strong>
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_erros_axis/2.png" width="400"/>
-        <img src="../../../source/manuais/manual_servo_imagens/img_erros_axis/3.png" width="400"/>
         <p>
-         <i>
-          Imagem 34/35
-         </i>
+         2.Para remover o
+         <strong>
+          “Axis Error”
+         </strong>
+         é necessário fazer o
+         <strong>
+          “Disable”
+         </strong>
+         no bloco
+         <strong>
+          “MC_Power”
+         </strong>
+         . Após o fazer volte ao
+         <strong>
+          Diagnostics
+         </strong>
+         e deve obter o resutlado apresentado na
+         <strong>
+          “Figura 35”
+         </strong>
         </p>
-       </div>
-       <p>
-        3.Com o
-        <strong>
-         “disable”
-        </strong>
-        feito, no bloco
-        <strong>
-         “MC_Reset”
-        </strong>
-        , faça o
-        <strong>
-         “Execute”
-        </strong>
-        . Após o fazer volte ao
-        <strong>
-         Diagnostics
-        </strong>
-        e deve obter o resutlado apresentado na
-        <strong>
-         “Figura 37”
-        </strong>
-       </p>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_erros_axis/4.png" width="400"/>
-        <img src="../../../source/manuais/manual_servo_imagens/img_erros_axis/5.png" width="400"/>
         <p>
-         <i>
-          Imagem 36/37
-         </i>
+         <img alt="36" src="../_images/25.PNG"/>
         </p>
-       </div>
-       <p>
-        4.Com o
-        <strong>
-         “Disable”
-        </strong>
-        do
-        <strong>
-         “Axis Error”
-        </strong>
-        e do
-        <strong>
-         “HW limit switch has been aprroached”
-        </strong>
-        no
-        <strong>
-         “Status and error bits”
-        </strong>
-        e necessário fazer o
-        <strong>
-         “Reset”
-        </strong>
-        ao
-        <strong>
-         “Servo-Motor”
-        </strong>
-        . Atualmente o Servo-Motor deve estar no estado apresentado na Imagem 38
-        <em>
-         (COM - Luz Vermelha Permanente; RDY - Luz Vermelha a Piscar)
-        </em>
-        . Para fazer o
-        <strong>
-         “Reset”
-        </strong>
-        é necessário carregar nos botões
-        <strong>
-         “M”
-        </strong>
-        <strong>
-         “Ok”
-        </strong>
-        em simultâneo, durante 5 segundos, desta forma, o
-        <em>
-         COM - Desliga; e o RDY - Luz Laranja Permanente
-        </em>
-        . Assim que o
-        <em>
-         COM - Luz Vermelho Permanente e o RDY - Luz Verde Permanente
-        </em>
-        o servo motor encontra-se sem erros.
-       </p>
-       <div class="highlight-default notranslate">
-        <div class="highlight">
-         <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">Ativar</span> <span class="n">o</span> <span class="s2">"Enable"</span> <span class="n">no</span> <span class="n">bloco</span> <span class="s2">"MC_Power"</span>
+        <p>
+         3.Com o
+         <strong>
+          “disable”
+         </strong>
+         feito, no bloco
+         <strong>
+          “MC_Reset”
+         </strong>
+         , faça o
+         <strong>
+          “Execute”
+         </strong>
+         . Após o fazer volte ao
+         <strong>
+          Diagnostics
+         </strong>
+         e deve obter o resutlado apresentado na
+         <strong>
+          “Figura 37”
+         </strong>
+        </p>
+        <p>
+         <img alt="37" src="../_images/35.PNG"/>
+        </p>
+        <p>
+         4.Com o
+         <strong>
+          “Disable”
+         </strong>
+         do
+         <strong>
+          “Axis Error”
+         </strong>
+         e do
+         <strong>
+          “HW limit switch has been aprroached”
+         </strong>
+         no
+         <strong>
+          “Status and error bits”
+         </strong>
+         e necessário fazer o
+         <strong>
+          “Reset”
+         </strong>
+         ao
+         <strong>
+          “Servo-Motor”
+         </strong>
+         . Atualmente o Servo-Motor deve estar no estado apresentado na Imagem 38
+         <em>
+          (COM - Luz Vermelha Permanente; RDY - Luz Vermelha a Piscar)
+         </em>
+         . Para fazer o
+         <strong>
+          “Reset”
+         </strong>
+         é necessário carregar nos botões
+         <strong>
+          “M”
+         </strong>
+         <strong>
+          “Ok”
+         </strong>
+         em simultâneo, durante 5 segundos, desta forma, o
+         <em>
+          COM - Desliga; e o RDY - Luz Laranja Permanente
+         </em>
+         . Assim que o
+         <em>
+          COM - Luz Vermelho Permanente e o RDY - Luz Verde Permanente
+         </em>
+         o servo motor encontra-se sem erros.
+        </p>
+        <div class="highlight-default notranslate">
+         <div class="highlight">
+          <pre><span></span><span class="n">NOTA</span><span class="p">:</span> <span class="n">Ativar</span> <span class="n">o</span> <span class="s2">"Enable"</span> <span class="n">no</span> <span class="n">bloco</span> <span class="s2">"MC_Power"</span>
 </pre>
+         </div>
         </div>
-       </div>
-       <div align="center">
-        <img src="../../../source/manuais/manual_servo_imagens/img_erros_axis/6.jpg" width="200"/>
-        <img src="../../../source/manuais/manual_servo_imagens/img_erros_axis/7.jpg" width="200"/>
         <p>
-         <i>
-          Imagem 38/39
-         </i>
-        </p>
-        <img src="../../../source/manuais/manual_servo_imagens/img_erros_axis/8.png" width="650"/>
-        <p>
-         <i>
-          Imagem 40
-         </i>
+         <img alt="38" src="../_images/44.PNG"/>
+         <img alt="39" src="../_images/54.PNG"/>
         </p>
        </div>
       </article>
@@ -1923,7 +1707,7 @@ nosso processo.
        © Copyright 2021, Luis Barroso.
       </div>
       Last updated on
-              Apr 23, 2021.
+              Apr 25, 2021.
       <br/>
       Created using
       <a href="http://www.sphinx-doc.org/">

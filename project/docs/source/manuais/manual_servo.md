@@ -236,11 +236,7 @@ nosso processo.
 
 **MC_Power** – é uma função que deve ser chamada e ligada antes de qualquer instrução de movimento, sem ela não será possível comando o servo.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_programacao/1.PNG" width="650" />
-  
-  <i>Imagem 28</i>
-</div>
+![28](../../source/manuais/manual_servo_imagens/img_programacao/1.PNG)
 
 **Principais parâmetros:**
 - **Axis:** Nome do servo/eixo configurado
@@ -250,11 +246,7 @@ nosso processo.
 
 **MC_Home** – é a função responsável de levar o servo até ao local onde está situado o sensor configurado para “homing”, a sua posição inicial.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_programacao/2.PNG " width="650" />
-  
-  <i>Imagem 29</i>
-</div>
+![29](../../source/manuais/manual_servo_imagens/img_programacao/2.PNG)
 
 **Principais parâmetros:**
 - **Axis:** Nome do servo/eixo configurado
@@ -266,11 +258,7 @@ nosso processo.
 
 **MC_Reset** – é a função que permite ignorar erros causados pela paragem do servo ao entrar em contacto com um fim de curso ou erros de configuração.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_programacao/3.PNG" width="650" />
-  
-  <i>Imagem 30</i>
-</div>
+![30](../../source/manuais/manual_servo_imagens/img_programacao/3.PNG)
 
 **Principais parâmetros:**
 - **Axis:** Nome do servo/eixo configurado
@@ -280,11 +268,7 @@ nosso processo.
 
 **MC_Halt** – é a função que para os movimentos do servo.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_programacao/4.PNG" width="650" />
-  
-  <i>Imagem 31</i>
-</div>
+![31](../../source/manuais/manual_servo_imagens/img_programacao/4.PNG)
 
 **Principais parâmetros:**
 - **Axis:** Nome do servo/eixo configurado
@@ -294,11 +278,7 @@ nosso processo.
 
 **MC_MoveJog** – é uma das funções de movimento do servo, esta em especifico permite que o servo se mova enquanto uma das entras permaneça ativa.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_programacao/5.PNG" width="650" />
-  
-  <i>Imagem 32</i>
-</div>
+![32](../../source/manuais/manual_servo_imagens/img_programacao/5.PNG)
 
 **Principais parâmetros:**
 - **Axis:** Nome do servo/eixo configurado
@@ -308,13 +288,9 @@ nosso processo.
 
 #### MC_MoveAbsolute
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_programacao/6.PNG" width="650" />
-  
-  <i>Imagem 33</i>
-</div>
-
 **MC_MoveAbsolute** – é a função responsável por levar o servo até uma posição absoluta através de uma coordenada.
+
+![33](../../source/manuais/manual_servo_imagens/img_programacao/6.PNG)
 
 **Principais parâmetros:**
 - **Axis:** Nome do servo/eixo configurado
@@ -326,11 +302,7 @@ nosso processo.
 
 **MC_MoveRelative** – é a função responsável por mover o servo uma determinada distancia relativamente à sua atual coordenada.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_programacao/7.PNG" width="650" />
-  
-  <i>Imagem 34</i>
-</div>
+![34](../../source/manuais/manual_servo_imagens/img_programacao/7.PNG)
 
 **Principais parâmetros:**
 - **Axis:** Nome do servo/eixo configurado
@@ -349,38 +321,19 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
 
     NOTA: Para sabermos o estado do Axis é necessário clicar em "Monitor All"
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/1.PNG" width="650" />
-  
-  <i>Imagem 35</i>
-</div> 
+![35](../../source/manuais/manual_servo_imagens/img_erros_axis/1.PNG)
 
 2.Para remover o **"Axis Error"** é necessário fazer o **"Disable"** no bloco **"MC_Power"**. Após o fazer volte ao **Diagnostics** e deve obter o resutlado apresentado na **"Figura 35"**
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/2.PNG" width="400" /> <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/3.PNG" width="400" />
-  
-  <i>Imagem 36/37</i>
-</div> 
+![36](../../source/manuais/manual_servo_imagens/img_erros_axis/2.PNG) 
 
 3.Com o **"disable"** feito, no bloco **"MC_Reset"**, faça o **"Execute"**. Após o fazer volte ao **Diagnostics** e deve obter o resutlado apresentado na **"Figura 37"**
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/4.PNG" width="400" /> <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/5.PNG" width="400" />
-  
-  <i>Imagem 38/39</i>
-</div> 
+![37](../../source/manuais/manual_servo_imagens/img_erros_axis/3.PNG)
 
 4.Com o **"Disable"** do **"Axis Error"** e do **"HW limit switch has been aprroached"** no **“Status and error bits”** e necessário fazer o **"Reset"** ao **"Servo-Motor"**. Atualmente o Servo-Motor deve estar no estado apresentado na Imagem 38 *(COM - Luz Vermelha Permanente; RDY - Luz Vermelha a Piscar)*. Para fazer o **"Reset"** é necessário carregar nos botões **"M"** **"Ok"** em simultâneo, durante 5 segundos, desta forma, o *COM - Desliga; e o RDY - Luz Laranja Permanente*. Assim que o *COM - Luz Vermelho Permanente e o RDY - Luz Verde Permanente* o servo motor encontra-se sem erros.
 
     NOTA: Ativar o "Enable" no bloco "MC_Power"
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/6.jpg" width="200" /> <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/7.jpg" width="200" />
-  
-  <i>Imagem 40/41</i>
-
-  <img src="../../source/manuais/manual_servo_imagens/img_erros_axis/8.PNG" width="650" /> 
-  
-  <i>Imagem 42</i>
-</div> 
+![38](../../source/manuais/manual_servo_imagens/img_erros_axis/4.PNG)
+![39](../../source/manuais/manual_servo_imagens/img_erros_axis/5.PNG)
