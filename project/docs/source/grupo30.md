@@ -28,7 +28,7 @@
 - [Software](#software)
   - [TIA Portal](#tia-portal)
   - [Tesla Scada](#tesla-scada)
-  - [Draw.io](draw-io)
+  - [Draw io](#draw-io)
   - [GEMMA](#gemma) 
 
 ## Classificação
@@ -100,7 +100,7 @@
 3241*B44|%I0.3|Sensor do Prato (Direito)
 3242*B11|%I8.1|Sensor de Garra á Frente
 3242*B12|%I8.0|Sensor de Garra Atrás
-3242*B21|%I1.|Sensor de Garra em Cima
+3242*B21|%I1.5|Sensor de Garra em Cima
 3242*B22|%I1.4|Sensor de Garra em Baixo
 3242*B31|%I1.3|Sensor de Garra (Abrir/Fechar)
 3242*B41|%I0.4|Sensor de Peça à Frente
@@ -152,7 +152,7 @@ Enconder_Z|%I0.2|Enconder Z
 325010Y30|%Q0.5|Cilindro 2
 325010Y40|%Q0.6|Cilindro 3
 325920HL11|%Q0.7|Luz do Painel (Laranja)
-325920HL12|%Q1.0|uz do Painel (Verde)
+325920HL12|%Q1.0|Luz do Painel (Verde)
 325920HL13|%Q1.1|Luz do Painel (Vermelha)
 
 ## Componentes
@@ -182,7 +182,7 @@ Enconder_Z|%I0.2|Enconder Z
 ### Tesla Scada
 [Tesla Scada](https://teslascada.com/) foi o software escolhido para implementação de interfaces homem-máquina na Oficina Luban. O Tesla Scada permite o controlo e supervisão em tempo real de sistemas e processos industriais baseados em PLC. 
 
-### Draw.io
+### Draw io
 [Draw.io](Draw.io), é um software gratuito que premite a criação de Grafcets, Fluxogramasm, entre outras.
 
 ### Gemma
