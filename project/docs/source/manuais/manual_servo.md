@@ -1,19 +1,15 @@
-<div align="center">
-  <img src="../../source/manuais/logos/Logo_Luban.png" width="80" />   
-  <img src="../../source/manuais/logos/Logo_IPS.jpg" width="110" /> 
-</div>
-<div align="center">
-  <h2> IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal </h2>
-</div>
+![Logos](../../source/manuais/logos/Logo_Luban_IPS_2.png)
+
+<div><h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
  ⠀ 
   ⠀ 
 
 # Manual Servo Motor
 
-**Autor:** ...
-
+**Autor:** 
 
 ### Indice
+
 - [Básico I](#basico-i)
 - [Servos na Oficina Luban](#servos-na-oficina-luban)	
 - [Configuração Básica do Servo com PTO](#configuracao-basica-do-servo-com-pto)	
@@ -156,56 +152,31 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
 
 2.Clique em online, selecione o equipamento a configurar e clique em **“Ok”**.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/2.PNG" width="650" />
-  
-  <i>Imagem 8</i>
-</div>
+![8](../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/2.PNG)
 
 3.Na aba **“Select drive”** clique no botão **“Select motor”**.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/3.PNG" width="650" />
-  
-  <i>Imagem 9</i>
-</div>
+![9](../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/3.PNG)
 
 4.No menu de seleção do motor, escolha a opção cujo **“Motor ID”** corresponda ao seu motor. 
 
     NOTA: O ID do motor pode ser encontrado na placa de identificação no motor.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/4.PNG" width="650" />
-  
-  <i>Imagem 10</i>
-</div>
+![10](../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/4.PNG)
 
 5.De seguida na aba **“Set PROFINET”** em **“Select telegram”** escolha em **“The current telegram”** o telegram adequado às suas necessidades. 
 
     NOTA: Para melhor entender desta fase leia as “Noções sobre o servo para PROFINET”.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/5.PNG" width="650" />
-  
-  <i>Imagem 11</i>
-</div>
+![11](../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/5.PNG)
 
-6.Ainda em **“Set PROFINET”** vá a **“Configure network”** e modifique o nome de identificação do equipamento e o seu respetivo IP para a rede. Clique por fim no botão *
-“Save and active”**.
+6.Ainda em **“Set PROFINET”** vá a **“Configure network”** e modifique o nome de identificação do equipamento e o seu respetivo IP para a rede. Clique por fim no botão **“Save and active”**.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/6.PNG" width="650" />
-  
-  <i>Imagem 12</i>
-</div>
+![12](../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/6.PNG)
 
 7.Concluídos os passos anteriores, va na barra superior do V-ASSISTANT, em “Tools” clique **"Restart Drive”**. E fica concluída a primeira fase da configuração.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/7.PNG" width="650" />
-  
-  <i>Imagem 13</i>
-</div>
+![13](../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/7.PNG)
 
 #### Configurar definições PROFINET no TIA Portal V15
 
@@ -214,81 +185,45 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
 
     NOTA: O mesmo terá de aparecer em “Network view” como no exemplo.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/1.PNG" width="650" />
-  
-  <i>Imagem 14</i>
-</div>
+![14](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/1.PNG)
 
 2.Dê duplo-clique sobre o V90 na **“Network view”** e na janela do dispositivo clique no menu lateral **“Hardware catalog”** e em **“Submodules”** e dê um duplo-clique sobre
 o telegram escolhido durante a configuração do V90 com o V-ASSISTANT.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/2.PNG" width="650" />
-  
-  <i>Imagem 15</i>
-</div>
+![15](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/2.PNG)
 
 3.Ainda na janela do dispositivo clique com o botão direito no mesmo e clique em **"Properties"**.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/3.PNG" width="650" />
-  
-  <i>Imagem 16</i>
-</div>
+![16](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/3.PNG)
 
 4.Em **"General"**, nomeie o dispositivo com o mesmo nome dado durante a configuração no V-ASSISTANT.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/4.PNG" width="650" />
-  
-  <i>Imagem 17</i>
-</div>
+![17](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/4.PNG)
 
 5.Em **"PROFINET Interface** > **Ethernet addresses"** coloque o endereço de IP  máscara configurados com o V-ASSISTANT. Desmarque a opção **"Generate PROFINET device name
 automatically"**  e novamente coloque o nome dado ao dispositivo durante a configuração no
 V-ASSISTANT.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/5.PNG" width="650" />
-  
-  <i>Imagem 18</i>
-</div>
+![18](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/5.PNG)
 
 6.Clique novamente sobre o dispositivo V90 e clique na opção **"Assign device name"**.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/6.PNG" width="650" />
-  
-  <i>Imagem 19</i>
-</div>
+![19](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/6.PNG)
 
 7.Clique em **"Update list"** e de seguida clique sobre o dispositivo a configurar e clique no botão **"Assign name"**.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/7.PNG" width="650" />
-  
-  <i>Imagem 20</i>
-</div>
+![20](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/7.PNG)
 
 8.Na **"Network view"** ligue o V90 ao PLC.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/8.PNG" width="650" />
-  
-  <i>Imagem 21</i>
-</div>
+![21](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/8.PNG)
 
 9.Em **"Topology view"** ” refaça o desenho das ligações físicas entre o PLC e o V90. No exemplo a ligação entre os dois foi feita com um switch pelo que o mesmo teve de ser
 devidamente adicionado. 
 
     NOTA: Este passo é muito importante, sem ele o dispositivo poderá não funcionar corretamente. Tome também atenção à portas nas ligações entre o PLC e o V90.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/9.PNG" width="650" />
-  
-  <i>Imagem 22</i>
-</div>
+![22](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/9.PNG)
 
 10.E a configuração do servo em PROFINET está concluída.
 
@@ -296,43 +231,23 @@ devidamente adicionado.
 
 1. No menu lateral de dispositivos em **"Technology Objects"** clique em **"Add new** **object"**.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/10.PNG" width="650" />
-  
-  <i>Imagem 23</i>
-</div>
+![23](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/10.PNG)
 
 2. Em **"Motion control"** clique sobre **"TO_PositioningAxis"**, em name coloque o nome para esse eixo (para facilitar dê-lhe o mesmo nome dado ao servo) e clique **"OK”**.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/11.PNG" width="650" />
-  
-  <i>Imagem 24</i>
-</div>
+![24](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/11.PNG)
 
 3. Em **“General”** escolha a opção **"PROFIdrive"**.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/12.PNG" width="650" />
-  
-  <i>Imagem 25</i>
-</div>
+![25](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/12.PNG)
 
 4. Em **"Drive"** clique nos **"..."** e escolha o drive configurado.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/13.PNG" width="650" />
-  
-  <i>Imagem 26</i>
-</div>
+![26](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/13.PNG)
 
 5. Em **"Encoder"** marque a opção **"Encoder on PROFINET/PROFIBUS"**. E de seguido no campo a vermelho clique nos **"..."** e selecione o **"Encoder1"**.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/14.PNG" width="650" />
-  
-  <i>Imagem 27</i>
-</div>
+![23](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/14.PNG)
 
 6. **(Opcional)** Em **"Position limits"** ative os **"Limit switcher"** que pretende usar e configure os seus valores/entradas.
 
@@ -451,6 +366,7 @@ nosso processo.
 - **Distance:** Distancia do ponto de referencia a qual o servo de moverá
 - **Velocity:** Velocidade com a qual o servo executará o movimento
 
+*EM FALTA*
 ### Axis Error
 
 Assim que o servo dispara a paragem de emergência quando um dos fins de curso é acionado, é necessario remover a emergência usado os blocos **"MC_Power"** e **"MC_Reset"** anteriomente explicados.
