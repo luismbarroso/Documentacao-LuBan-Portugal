@@ -14,7 +14,7 @@ Este documento consiste num pequeno guia com alguns comandos basicos para a cria
     - [Notas](#notas)
     - [Tabelas](#tabelas)
     - [Tipos de Lista](#tipos-de-lista)
-    - [Imagens (Markdown)](#imagens-Markdown)
+    - [Imagens](#imagens)
     - [Links](#links)
     - [Linha Horizontal](#linha-horizontal)
 
