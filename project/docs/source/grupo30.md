@@ -14,8 +14,8 @@
   - [Cilindro Pneumático](#cilindro-pneumatico)
 - [Equipamentos](#equipamentos)
   - [Siemens S7 1200](#siemens-s7-1200) 
-  - [Enconder](#enconder)[
-  - [Servo Motor](#servo-motor)]
+  - [Enconder](#enconder)
+  - [Servo Motor](#servo-motor)
   - [Inversor de Frequência](#inversor-de-frequencia)
   - [HMI-T](#hmi-t)
   - [Manuais](#manuais)
