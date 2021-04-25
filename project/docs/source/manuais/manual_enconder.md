@@ -19,9 +19,7 @@
 
 ### Básico I
 
-Durante esta primeira parte será ensinado o básico sobre o servo. Desde as bases de configuração até às bases de programação, abordando apenas a informação essencial para
-conseguir por em prática uma ideia implementando um servo no processo. Serão ainda abordados alguns conceitos básicos em relação ao servo e ao método de comunicação
-utilizado (PTO). 
+Durante esta primeira parte será ensinado o básico sobre o servo. Desde as bases de configuração até às bases de programação, abordando apenas a informação essencial para conseguir por em prática uma ideia implementando um servo no processo. Serão ainda abordados alguns conceitos básicos em relação ao servo e ao método de comunicação utilizado (PTO). 
 
 ### Configuração Básica do Encoder no TIA Portal
 
@@ -71,11 +69,11 @@ O Move é função que permite, como o próprio nome indica, mover valores de en
 ![7](../../source/manuais/manual_enconder_imagens/img_programacao/3_2.PNG)
 
 #### Valor do %ID...
-Para consultar o valor do %ID..., pode usar uma **"Whatch Table"**
+Para consultar o valor do %ID..., pode usar uma **"Whatch Table"**.
 
 ![8](../../source/manuais/manual_enconder_imagens/img_programacao/3_3.PNG)
 
 #### Paragem do Tapete
-Para uma melhor resolução nos valores retirados, pode processeder a paragem do 
+Para uma melhor resolução nos valores retirados, pode processeder a paragem do Tapete.
 
 ![9](../../source/manuais/manual_enconder_imagens/img_programacao/3_4.png)
