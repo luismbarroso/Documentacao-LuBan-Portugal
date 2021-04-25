@@ -8,13 +8,6 @@
 
 **Autor:** 
 
-<div align="center">
-  <img src="./logos/Logo_Luban.png" width="80" />   
-</div>
-<div align="center">
-  <h2> IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal </h2>
-</div>
-
 ### Indice
 - [Básico I](#basico-i)
 - [Configuração Básica do Encoder no TIA Portal](#configuracao-basica-do-encoder-no-tia-portal)
