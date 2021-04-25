@@ -14,8 +14,8 @@
   - [Cilindro Pneumático](#cilindro-pneumatico)
 - [Equipamentos](#equipamentos)
   - [Siemens S7 1200](#siemens-s7-1200) 
-  - [Enconder](#enconder)
-  - [Servo Motor](#servo-motor)
+  - [Enconder](#enconder)[
+  - [Servo Motor](#servo-motor)]
   - [Inversor de Frequência](#inversor-de-frequencia)
   - [HMI-T](#hmi-t)
   - [Manuais](#manuais)
@@ -27,13 +27,13 @@
   - [Line 33](#line-33) 
 - [Software](#software)
   - [TIA Portal](#tia-portal)
+  - [Tesla Scada](#tesla-scada)
+  - [Draw.io](draw-io)
   - [GEMMA](#gemma) 
-- [Manuais Gerais](#manuais-gerais)
 
 ## Classificação
 ### Estação 10
 *Entradas dos 29PLC*
-
 |Label |Endereço  | Comentário|
 --- | --- | ---
 3220*B11|%I0.4|Sensor de Peça à Frente
@@ -50,7 +50,6 @@
 322920SA23|%I1.5|Seletor
 
 *Saidas dos 29PLC*
-
 |Label |Endereço  | Comentário|
 --- | --- | ---
 3221*Y10|%Q0.0|Cilindro 1
@@ -76,7 +75,6 @@
 323920SA23|%I1.5|Seletor
 
 *Saidas dos 39PLC*
-
 |Label |Endereço  | Comentário|
 --- | --- | ---
 3231*Y20|%Q0.0|Cilindro de Fechar a Pinça
@@ -88,7 +86,6 @@
 
 ### Estação 40
 *Entradas dos 49PLC*
-
 |Label |Endereço  | Comentário|
 --- | --- | ---
 3241*B11|%I0.5|Sensor Cilindro1 Avançado
@@ -113,7 +110,6 @@
 324920SA23|%I8.7|Seletor
 
 *Saidas dos 49PLC*
-
 |Label |Endereço  | Comentário|
 --- | --- | ---
 3240*H13|%Q0.6|Semáforo Vermelho
@@ -131,7 +127,6 @@
 
 ### Estação 50
 *Entradas dos 59PLC*
-
 |Label |Endereço  | Comentário|
 --- | --- | ---
 Enconder_A|%I0.0|Enconder A
@@ -149,7 +144,6 @@ Enconder_Z|%I0.2|Enconder Z
 325920SA23|%I1.5|Seletor
 
 *Saidas dos 59PLC*
-
 |Label |Endereço  | Comentário|
 --- | --- | ---
 3250M51A|%Q0.0|Inversores de Freq. (Frente)
@@ -183,8 +177,15 @@ Enconder_Z|%I0.2|Enconder Z
 
 ## Software
 ### TIA Portal
-### Gemma
+[TIA Portal](https://new.siemens.com/global/en/products/automation/industry-software/automation-software/tia-portal.html), Totally Integrated Automation Portal, desenvolvido pela Siemens é um software que oferece uma vasta gama ferramentas, desta forma é possivel realizar o trabalho de forma rapida e eficaz. Intregado ao TIA Portal temos o WinCC, a ferramenta utilizada para a programação das HMI's na Ofina Luban.
 
+### Tesla Scada
+[Tesla Scada](https://teslascada.com/) foi o software escolhido para implementação de interfaces homem-máquina na Oficina Luban. O Tesla Scada permite o controlo e supervisão em tempo real de sistemas e processos industriais baseados em PLC. 
+
+### Draw.io
+[Draw.io](Draw.io), é um software gratuito que premite a criação de Grafcets, Fluxogramasm, entre outras.
+
+### Gemma
 ![](./software/imagens/GEMMA.svg)
 
 
