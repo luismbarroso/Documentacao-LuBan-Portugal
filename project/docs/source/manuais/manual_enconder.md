@@ -61,19 +61,19 @@ O CTRL_HSC contém um endereço, este é um endereço de um intervalo configurad
 
         NOTA: O Endereço do HSC pode ser encontrado em "Device configuration > System constants"
 
-![6](../../source/manuais/manual_enconder_imagens/img_programacao/3_1.png)
+![6](../../source/manuais/manual_enconder_imagens/img_programacao/3_1.PNG)
 
 #### Move
 O Move é função que permite, como o próprio nome indica, mover valores de entrada de forma a serem aplicados numa saida. No exemplo que iremos demostrar, usaremos a função **"Move"** para colocar o tapete em funcionamento. 
 
     NOTA: A Variável colocada na saida do Move "%QW80" é o Output padrão da Carta analógico do PLC.  O Endereço do HSC pode ser encontrado em "Device configuration > System constants"
 
-![7](../../source/manuais/manual_enconder_imagens/img_programacao/3_2.png)
+![7](../../source/manuais/manual_enconder_imagens/img_programacao/3_2.PNG)
 
 #### Valor do %ID...
 Para consultar o valor do %ID..., pode usar uma **"Whatch Table"**
 
-![8](../../source/manuais/manual_enconder_imagens/img_programacao/3_3.png)
+![8](../../source/manuais/manual_enconder_imagens/img_programacao/3_3.PNG)
 
 ### Paragem do Tapete
 Para uma melhor resolução nos valores retirados, pode processeder a paragem do 
