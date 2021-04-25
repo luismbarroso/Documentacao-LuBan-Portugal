@@ -185,7 +185,7 @@ Enconder_Z|%I0.2|Enconder Z
 ### TIA Portal
 ### Gemma
 
-![](./manuais/logos/GEMMA.svg)
+![](./software/imagens/GEMMA.svg)
 
 
 ## Manuais Gerais
