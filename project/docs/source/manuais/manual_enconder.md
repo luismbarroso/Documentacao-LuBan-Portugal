@@ -75,7 +75,7 @@ Para consultar o valor do %ID..., pode usar uma **"Whatch Table"**
 
 ![8](../../source/manuais/manual_enconder_imagens/img_programacao/3_3.PNG)
 
-### Paragem do Tapete
+#### Paragem do Tapete
 Para uma melhor resolução nos valores retirados, pode processeder a paragem do 
 
 ![9](../../source/manuais/manual_enconder_imagens/img_programacao/3_4.png)
