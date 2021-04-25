@@ -71,7 +71,7 @@ O Move é função que permite, como o próprio nome indica, mover valores de en
 #### Valor do %ID...
 Para consultar o valor do %ID..., pode usar uma **"Watch Table"**.
 
-![8](../../source/manuais/manual_enconder_imagens/img_programacao/3.PNG)
+![8](../../source/manuais/manual_enconder_imagens/img_programacao/3.png)
 
 #### Paragem do Tapete
 Para uma melhor resolução nos valores retirados, pode processeder a paragem do Tapete.
