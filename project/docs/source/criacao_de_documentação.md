@@ -17,10 +17,6 @@ Este documento consiste num pequeno guia com alguns comandos basicos para a cria
     - [Imagens (Markdown)](#imagens-Markdown)
     - [Links](#links)
     - [Linha Horizontal](#linha-horizontal)
-  - [HTML](#html)
-    - [Comandos Básicos (HTML)](#comandos-basicos-html)
-    - [Imagens (HTML)](#imagens-html)
-    - [Tabelas (HTML)](#tabelas-html)
 
 ## Objetivo
     Loading...
@@ -81,11 +77,11 @@ As Listas podem ser feitas com **"-"**, uma Lista sem ordem, ou através de **"n
     - Lu ban Workshop Portugal
     - Instituto Politécnico de Setúbal
 
-#### Imagens (Markdown)
+#### Imagens
 
 Para inserir imagens usamos o seguinte comando:
 
-    ![alt text](Logo_Luban.jpg)
+    ![alt text](./logos/Logo_Luban.jpg)
 
 #### Links
 
@@ -98,47 +94,3 @@ Para inserir links usamos o seguinte comando:
 Para inserir uma linha horizontal usamos o seguinte comando:
 
     ---
-
-### HTML
-
-É uma linguagem utilizada na construção de páginas Web.
-
-#### Comandos Básicos (HTML)
-
-**Alinhar Texto aos Centro**
-
-    <div align="center">
-    Lu ban Workshop Portugal
-    </div>
-
-#### Imagens (HTML)
-
-Para inserir imagens, usando HTML, temos as seguintes opções:
-
-    <img src="diretoria da imagem" /> - Quando a imagem está nas pasta
-    <img src="link da imagem" /> - Quando a imagem está na Web
-    <img src="diretoria da imagem/link da imagem" height="100" width="100" /> - Alterar as dimenções da Imagem.
-
-#### Tabelas (HTML)
-
-As tabelas, usando HTML, são feitas da seguinte maneira:
-
-    <table>
-        <tr>
-            <td>Nome</td>
-            <td>Idade</td>
-            <td>Profissão</td>
-        </tr>
-        <tr>
-            <td>Luis</td>
-            <td>21</td>
-            <td>Estudante</td>
-        </tr>
-        <tr>
-            <td>Miguel</td>
-            <td>22</td>
-            <td>Estudante</td>
-        </tr>
-    </table>
-
-    NOTA: O primeiro "tr" corresponde ás colunas da Tabela.

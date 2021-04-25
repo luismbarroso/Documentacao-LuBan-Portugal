@@ -15,6 +15,7 @@
   - [CTRL_HSC](#ctrl-hsc)
   - [Move](#move)
   - [Valor do %ID…](#valor-do-id)
+  - [Paragem do Tapete](#paragem-do-tapete)
 
 ### Básico I
 
@@ -72,4 +73,9 @@ O Move é função que permite, como o próprio nome indica, mover valores de en
 #### Valor do %ID...
 Para consultar o valor do %ID..., pode usar uma **"Whatch Table"**
 
-![8](../../source/manuais/manual_enconder_imagens/img_programacao/3_4.png)
+![8](../../source/manuais/manual_enconder_imagens/img_programacao/3_3.png)
+
+### Paragem do Tapete
+Para uma melhor resolução nos valores retirados, pode processeder a paragem do 
+
+![9](../../source/manuais/manual_enconder_imagens/img_programacao/3_4.png)
