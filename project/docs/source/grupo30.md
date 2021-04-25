@@ -34,6 +34,7 @@
 ## Classificação
 ### Estação 10
 *Entradas dos 29PLC*
+
 |Label |Endereço  | Comentário|
 --- | --- | ---
 3220*B11|%I0.4|Sensor de Peça à Frente
@@ -50,6 +51,7 @@
 322920SA23|%I1.5|Seletor
 
 *Saidas dos 29PLC*
+
 |Label |Endereço  | Comentário|
 --- | --- | ---
 3221*Y10|%Q0.0|Cilindro 1
@@ -75,6 +77,7 @@
 323920SA23|%I1.5|Seletor
 
 *Saidas dos 39PLC*
+
 |Label |Endereço  | Comentário|
 --- | --- | ---
 3231*Y20|%Q0.0|Cilindro de Fechar a Pinça
@@ -86,6 +89,7 @@
 
 ### Estação 40
 *Entradas dos 49PLC*
+
 |Label |Endereço  | Comentário|
 --- | --- | ---
 3241*B11|%I0.5|Sensor Cilindro1 Avançado
@@ -110,6 +114,7 @@
 324920SA23|%I8.7|Seletor
 
 *Saidas dos 49PLC*
+
 |Label |Endereço  | Comentário|
 --- | --- | ---
 3240*H13|%Q0.6|Semáforo Vermelho
@@ -127,6 +132,7 @@
 
 ### Estação 50
 *Entradas dos 59PLC*
+
 |Label |Endereço  | Comentário|
 --- | --- | ---
 Enconder_A|%I0.0|Enconder A
@@ -144,6 +150,7 @@ Enconder_Z|%I0.2|Enconder Z
 325920SA23|%I1.5|Seletor
 
 *Saidas dos 59PLC*
+
 |Label |Endereço  | Comentário|
 --- | --- | ---
 3250M51A|%Q0.0|Inversores de Freq. (Frente)
@@ -190,8 +197,9 @@ O Gemma consiste num Guia de estudo dos modos de Marcha e Paragem. Num processo 
 
 Como podemos observar na figura a baixo, o Gemma, devide-se em 3 grande blocos: **"Procedimentos de paragem"**, **"Procedimentos de execução"**, **"Procedimentos de falha"** e a cada um dele correspondem um conjunto de funções/tarefas.
 
-- **Procedimentos de Paragem**
+![](./software/imagens/GEMMA.svg)
 
+- **Procedimentos de Paragem**
   - **A1 - Parado no estado inicial** -> Diz-nos que o processo já foi inciado e está pronto a começar.
   - **A2 - Fim de ciclo solicitado** -> Diz-nos que o processo encontra-se em produção, assim que chegar ao final do ciclo volta ao estado inicial. (A1)
   - **A3 - Paragem solicitada** -> Neste estado, o processo para num certo estado que não coincide com o fim do ciclo. Esta paragem ocorre devido alguma falha/erro na produção continua.
@@ -200,14 +208,20 @@ Como podemos observar na figura a baixo, o Gemma, devide-se em 3 grande blocos: 
   - **A6 - Colocação no estado inicial** -> Neste estado, procedesse a inicialização do sistema.
   - **A7 - Colocação em estado específico** -> Neste estado, o processo é retornado para uma posição específica, quando não é necessário voltar ao estado inicial.
 
+- **Procedimentos de execução**
+  - **F1 - Marcha de produção COM ordem** -> Neste estado, o processo produz normalmente. Aqui as tarefas para as quais o processo foi desenvolvido devem ser realizadas.
+  - **F2 - Marcha de preparação** -> Corresponde as ações necessárias para a máquina entrar produção.
+  - **F3 - Marcha de finalização** -> Corresponde ao conjunto de ações necessárias que o processo deve realizar antes de parar.
+  - **F4 - Marchas de verificação SEM ordem** -> Neste estado, o processo, opera por ordem do operador, pode realizar qualquer movimento. Corresponde ao Modo Manual, normalmente usado para funções de controle manutenção e verificação.
+  - **F5 - Marchas de verificação COM ordem** -> Neste estado, o processo, realiza o ciclo completo de operação em ordem. Corresponde ao Modo Semi - Automático, normalmente usado para manutenção e verificação de possiveis erros não encontrados na Marchas de
+  TESTE.
+  - **F6 - Marchas de TESTE** -> Nesse estado, realizam-se operações de ajuste e manutenção preventiva.
 
-
-
-
-<div align=center>
-
-![](./software/imagens/GEMMA.svg)
-
-</div>
+- **Procedimentos de falha**
+  - **D1 - Paragem de emergência** ->  Neste estado, por imposição do Homem ou do Processo, o processo entra em emergência, desta forma, evita-se e reduz-se o perigo.
+  - **D2 - Diagnóstico/tratamento de falha** -> Neste estado, o processo, é examinado após uma falha. Esta falha pode ser tratada com ou sem a intervrção do operador. Quando concluida o processo está pronto para reiniciar.
+  - **D3 - Produção em estado de emergência** -> Neste estado, o processo, mesmo encontrando-se em emergência, pode continuar a operar. Um exemplo, falta uma peça, essa falta origina um alarme mas não uma paragem total do processo, isto porque, pode ser rapidamente substituida ou não revela ser fundamental para o produto final.
+    
+  [WebGrafia Gemma]: <> (http://isa.uniovi.es/~vsuarez/Download/GemmaTelemecanique.PDF.)
 
 ## Manuais Gerais
