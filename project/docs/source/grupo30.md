@@ -186,7 +186,28 @@ Enconder_Z|%I0.2|Enconder Z
 [Draw.io](Draw.io), é um software gratuito que premite a criação de Grafcets, Fluxogramasm, entre outras.
 
 ### Gemma
+O Gemma consiste num Guia de estudo dos modos de Marcha e Paragem. Num processo automaziado, por necessidade, é necessário prever todos os estados possíveis, assim, é possivel executar arranques ou paragens de forma segura sem prejudicar ou Homem ou a Máquina.
+
+Como podemos observar na figura a baixo, o Gemma, devide-se em 3 grande blocos: **"Procedimentos de paragem"**, **"Procedimentos de execução"**, **"Procedimentos de falha"** e a cada um dele correspondem um conjunto de funções/tarefas.
+
+- **Procedimentos de Paragem**
+
+  - **A1 - Parado no estado inicial** -> Diz-nos que o processo já foi inciado e está pronto a começar.
+  - **A2 - Fim de ciclo solicitado** -> Diz-nos que o processo encontra-se em produção, assim que chegar ao final do ciclo volta ao estado inicial. (A1)
+  - **A3 - Paragem solicitada** -> Neste estado, o processo para num certo estado que não coincide com o fim do ciclo. Esta paragem ocorre devido alguma falha/erro na produção continua.
+  - **A4 - Paragem finalizada** -> Diz-nos que a paragem solicitada foi concluida, desta forma, o processo está pronto a começar.
+  - **A5 - Preparação para retomar** -> Neste estado, procedem todas as operações, que deram origem à Paragem de Emergencia ou Diagnóstico/tratamentode falha desde: limpeza, substituição/reparação de uma peça/produto, entre outros.
+  - **A6 - Colocação no estado inicial** -> Neste estado, procedesse a inicialização do sistema.
+  - **A7 - Colocação em estado específico** -> Neste estado, o processo é retornado para uma posição específica, quando não é necessário voltar ao estado inicial.
+
+
+
+
+
+<div align=center>
+
 ![](./software/imagens/GEMMA.svg)
 
+</div>
 
 ## Manuais Gerais
