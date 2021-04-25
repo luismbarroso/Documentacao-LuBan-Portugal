@@ -178,11 +178,8 @@ Enconder_Z|%I0.2|Enconder Z
 #### - [Manual Enconder](./manuais/manual_enconder.md)
 #### - [Manual Servo Motor](./manuais/manual_servo.md)
 ## Lines
-### Line 31
 #### - [Line 31](./lines/line31/line31.md)
-### Line 32
 #### - [Line 32](./lines/line32/line32.md)
-### Line 33
 #### - [Line 33](./lines/line33/line33.md)
 
 ## Software
