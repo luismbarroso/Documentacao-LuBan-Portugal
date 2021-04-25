@@ -10,6 +10,8 @@
 
 ### Indice
 
+
+
 - [Básico I](#basico-i)
 - [Servos na Oficina Luban](#servos-na-oficina-luban)	
 - [Configuração Básica do Servo com PTO](#configuracao-basica-do-servo-com-pto)	
@@ -57,56 +59,32 @@ informação fornecida durante a configuração do servo no TIA Portal.
 
 1.Na aba **“Technology objects”** clique em  **“Add new object”.**
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/1.PNG" width="650" />
-  
-  <i>Imagem 1</i>
-</div>
+![1](../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/1.PNG)
 
 2.No menu **“Motion Control”** na pasta **“Motion Control”** selecione **“TO_PositioningAxis”**.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/2.PNG" width="650" />
-  
-  <i>Imagem 2</i>
-</div>
+![2](../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/2.PNG)
 
 3.Na janela de configuração do Eixo, em **“General”** altere o nome do servo em **“Axis name”**, selecione o método de controle PTO favorecido pelo método de instalação do
 drive no PLC e nas unidades de medida em **“Position Unit”** escolha **“mm”** (milímetros).
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/3.PNG" width="650" />
-  
-  <i>Imagem 3</i>
-</div>
+![3](../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/3.PNG)
 
 4.No menu lateral **“Drive”**, escolha um dos geradores de pulsos disponíveis em **“Pulse generator”** e de seguida certifique-se que as saídas de pulso e de direção estão
 ligadas ao drive.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/4.PNG" width="650" />
-  
-  <i>Imagem 4</i>
-</div>
+![4](../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/4.PNG)
 
 5.Em **“Mechanics”** no menu lateral serão colocados alguns valores parametrizados pelos equipamentos ou valores obtidos através de uma calibração. Para os servos do
 laboratório podem ser usados os valores na (Imagem 5).
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/5.PNG" width="650" />
-  
-  <i>Imagem 5</i>
-</div>
+![5](../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/5.PNG)
 
 6.Em relação aos limites de posição ative a opção **“Enable HW limit switches”** e opcionalmente **“Enable SW limit switches”**. Insira as entradas de alta (para valores de
 medida máximos) e de baixa (para valores de medida mínimos) e selecione em ambos a opção **“High level”** para que o servo dispare a paragem de emergência quando um dos fins
 de curso seja acionado.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/6.PNG" width="650" />
-  
-  <i>Imagem 6</i>
-</div>
+![6](../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/6.PNG)
 
 7.**(Opcional)** Em **“Dynamics”** todos os valores poderão ser escolhidos pessoalmente tendo em conta a segurança das pessoas ao seu redor, a integridade do equipamento e o
 que se pretende para o processo.
@@ -114,11 +92,7 @@ que se pretende para o processo.
 8.Em **“Homing - Active”** selecionaremos a entrada do sensor referente à posição home, escolha **“Negative direction”**, ative **“Permit auto reverse at HW limit switch”**
 e calibre as velocidades.
 
-<div align="center">
-  <img src="../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/8.PNG" width="650" />
-  
-  <i>Imagem 7</i>
-</div>
+![7](../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/8.PNG)
 
 9.E a configuração do Servo está concluída.
 
@@ -229,31 +203,31 @@ devidamente adicionado.
 
 #### Configurar o servo com PROFIdrive no TIA Portal V15
 
-1. No menu lateral de dispositivos em **"Technology Objects"** clique em **"Add new** **object"**.
+1.No menu lateral de dispositivos em **"Technology Objects"** clique em **"Add new** **object"**.
 
 ![23](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/10.PNG)
 
-2. Em **"Motion control"** clique sobre **"TO_PositioningAxis"**, em name coloque o nome para esse eixo (para facilitar dê-lhe o mesmo nome dado ao servo) e clique **"OK”**.
+2.Em **"Motion control"** clique sobre **"TO_PositioningAxis"**, em name coloque o nome para esse eixo (para facilitar dê-lhe o mesmo nome dado ao servo) e clique **"OK”**.
 
 ![24](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/11.PNG)
 
-3. Em **“General”** escolha a opção **"PROFIdrive"**.
+3.Em **“General”** escolha a opção **"PROFIdrive"**.
 
 ![25](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/12.PNG)
 
-4. Em **"Drive"** clique nos **"..."** e escolha o drive configurado.
+4.Em **"Drive"** clique nos **"..."** e escolha o drive configurado.
 
 ![26](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/13.PNG)
 
-5. Em **"Encoder"** marque a opção **"Encoder on PROFINET/PROFIBUS"**. E de seguido no campo a vermelho clique nos **"..."** e selecione o **"Encoder1"**.
+5.Em **"Encoder"** marque a opção **"Encoder on PROFINET/PROFIBUS"**. E de seguido no campo a vermelho clique nos **"..."** e selecione o **"Encoder1"**.
 
 ![23](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/14.PNG)
 
-6. **(Opcional)** Em **"Position limits"** ative os **"Limit switcher"** que pretende usar e configure os seus valores/entradas.
+6.**(Opcional)** Em **"Position limits"** ative os **"Limit switcher"** que pretende usar e configure os seus valores/entradas.
 
-7. **(Opcional)** Em **"Homing"** configure o tipo de homing a usar e o respetivo switch de homing.
+7.**(Opcional)** Em **"Homing"** configure o tipo de homing a usar e o respetivo switch de homing.
 
-8. E fica concluída a configuração do servo.
+8.E fica concluída a configuração do servo.
 
 ### Introdução aos comandos de controlo de movimento
 
