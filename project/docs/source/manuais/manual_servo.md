@@ -10,8 +10,6 @@
 
 ### Indice
 
-
-
 - [Básico I](#basico-i)
 - [Servos na Oficina Luban](#servos-na-oficina-luban)	
 - [Configuração Básica do Servo com PTO](#configuracao-basica-do-servo-com-pto)	
