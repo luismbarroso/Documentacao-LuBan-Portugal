@@ -178,6 +178,8 @@ rotativos ou deslocamentos lineares em impulsos elétricos
 de onda quadrada, que geram uma quantidade exata de impulsos
 por volta em uma distribuição perfeita dos pulsos ao longo dos 360 graus do giro do eixo. Ao longo deste documento serão abordados os passos de configuração do encoder e como integrar o mesmo num programa.
 
+Os enconders podem ser classificados como **"Encoder Incremental"** ou **"Encoder Absoluto"**. **"Encoder Incremental"**, dizem-nos a posição relativa ao ponto onde o encoder foi ativado, normalmente possuem 3 saídas A, B e Z. **"Encoder Absolutos"**, dizem-nos a posição absoluta através de saídas digitais codificadas em um valor binário.
+
 ### Servo Motor
 
 Um servo é utilizado como um atuador em sistemas de controlo automático, ele converte sinais elétricos num movimento angular no veio do motor.
