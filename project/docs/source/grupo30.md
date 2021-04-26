@@ -190,10 +190,10 @@ Enconder_Z|%I0.2|Enconder Z
 [Tesla Scada](https://teslascada.com/) foi o software escolhido para implementação de interfaces homem-máquina na Oficina Luban. O Tesla Scada permite o controlo e supervisão em tempo real de sistemas e processos industriais baseados em PLC. 
 
 ### Draw io
-[Draw.io](Draw.io), é um software gratuito que premite a criação de Grafcets, Fluxogramasm, entre outras.
+[Draw.io](Draw.io), é um software gratuito que premite a criação de Grafcets, Fluxogramas, entre outras.
 
 ### Gemma
-O Gemma consiste num Guia de estudo dos modos de Marcha e Paragem. Num processo automaziado, por necessidade, é necessário prever todos os estados possíveis, assim, é possivel executar arranques ou paragens de forma segura sem prejudicar ou Homem ou a Máquina.
+O Gemma consiste num Guia de estudo dos modos de Marcha e Paragem. Num processo automaziado, por necessidade, é necessário prever todos os estados possíveis, desta forma, com o Gemma, é possivel executar arranques ou paragens de forma segura sem prejudicar ou Homem ou a Máquina.
 
 Como podemos observar na figura a baixo, o Gemma, devide-se em 3 grande blocos: **"Procedimentos de paragem"**, **"Procedimentos de execução"**, **"Procedimentos de falha"** e a cada um dele correspondem um conjunto de funções/tarefas.
 
