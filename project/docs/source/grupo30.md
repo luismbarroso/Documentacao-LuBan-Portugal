@@ -204,7 +204,7 @@ Como podemos observar na figura a baixo, o Gemma, devide-se em 3 grande blocos: 
   - **A2 - Fim de ciclo solicitado** -> Diz-nos que o processo encontra-se em produção, assim que chegar ao final do ciclo volta ao estado inicial. (A1)
   - **A3 - Paragem solicitada** -> Neste estado, o processo para num certo estado que não coincide com o fim do ciclo. Esta paragem ocorre devido alguma falha/erro na produção continua.
   - **A4 - Paragem finalizada** -> Diz-nos que a paragem solicitada foi concluida, desta forma, o processo está pronto a começar.
-  - **A5 - Preparação para retomar** -> Neste estado, procedem todas as operações, que deram origem à Paragem de Emergencia ou Diagnóstico/tratamentode falha desde: limpeza, substituição/reparação de uma peça/produto, entre outros.
+  - **A5 - Preparação para retomar** -> Neste estado, procedem todas as operações, que deram origem à Paragem de Emergencia ou Diagnóstico/tratamento de falha desde: limpeza, substituição/reparação de uma peça/produto, entre outros.
   - **A6 - Colocação no estado inicial** -> Neste estado, procedesse a inicialização do sistema.
   - **A7 - Colocação em estado específico** -> Neste estado, o processo é retornado para uma posição específica, quando não é necessário voltar ao estado inicial.
 
