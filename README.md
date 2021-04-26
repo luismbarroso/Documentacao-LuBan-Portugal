@@ -1,4 +1,4 @@
-<img src="https://github.com/luismbarroso/Documentation_Luban/blob/main/Imagens_Gerais/Logo_Luban.png" width="80" />    
+<img src="./project/docs/source/manuais/logos/Logo_Luban_IPS_2.png" width="80" />    
 
 ## Lu ban Workshop Portugal
 
