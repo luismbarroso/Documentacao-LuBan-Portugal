@@ -17,7 +17,7 @@
         - [Estação 50 (Automático)](#estacao-50-automatico)
 ### Introdução
 
-A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resultam: **"Transporte"**, **"Pressurização"** **"Alimentação (Corpo e Miolo)"**, **"Seleção"**
+A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resultam: **"Transporte"**, **"Pressurização"**, **"Alimentação (Corpo e Miolo)"** e **"Seleção"**
 
 ### Trabalho Realizado
 #### Grafcets Modo: Manual
