@@ -171,7 +171,16 @@ Enconder_Z|%I0.2|Enconder Z
 
 ## Equipamentos
 ### Enconder
+
+Encoders ou geradores de Impulsos são equipamentos eletromecânicos, utilizados para conversão de movimentos
+rotativos ou deslocamentos lineares em impulsos elétricos
+de onda quadrada, que geram uma quantidade exata de impulsos
+por volta em uma distribuição perfeita dos pulsos ao longo dos 360 graus do giro do eixo. Ao longo deste documento serão abordados os passos de configuração do encoder e como integrar o mesmo num programa.
+
 ### Servo Motor
+
+Um servo é utilizado como um atuador em sistemas de controlo automático, ele converte sinais elétricos num movimento angular no veio do motor.
+
 ### Inversor de Frequência
 ### Siemens S7 1200
 ### Manuais
