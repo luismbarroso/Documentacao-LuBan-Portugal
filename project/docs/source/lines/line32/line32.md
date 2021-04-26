@@ -24,6 +24,8 @@ A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resulta
 #### Grafcets Modo: Manual
 ##### Estação 10 (Manual)
 
+![](./grafcets/bancada32_manual/19PLC.svg)
+
 ##### Estação 20 (Manual)
 
 ![](./grafcets/bancada32_manual/29PLC.svg)
