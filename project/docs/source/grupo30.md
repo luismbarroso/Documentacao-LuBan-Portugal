@@ -170,6 +170,7 @@ Enconder_Z|%I0.2|Enconder Z
 ### Cilindro Pneumático
 
 ## Equipamentos
+
 ### Enconder
 
 Encoders ou geradores de Impulsos são equipamentos eletromecânicos, utilizados para conversão de movimentos
