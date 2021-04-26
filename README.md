@@ -1,4 +1,4 @@
-<img src="https://github.com/luismbarroso/Documentation_Luban/blob/main/Imagens_Gerais/Logo_Luban.png" width="80" />    
+<img src="./project/docs/source/manuais/logos/Logo_Luban_IPS_2.png" width="200" />    
 
 ## Lu ban Workshop Portugal
 
@@ -8,4 +8,4 @@
 
 Consiste num projecto para criação de documentação de forma simples e rápida usado o Markdown, HTML, Python e CSS.
 
-Website: https://documentacao-luban-portugal.readthedocs.io/en/latest/
+Website: https://documentacao-lu-ban-portugal.readthedocs.io/en/latest/
