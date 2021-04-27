@@ -12,9 +12,4 @@
 
 ## JPG
 
-[gantt](gantt.jpg)
-
-[gantt](./gantt.jpg)
-
-[gantt](./line31/gantt.jpg)
-
+![gantt](gantt.jpg)
