@@ -9,3 +9,5 @@
 Consiste num projecto para criação de documentação de forma simples e rápida usado o Markdown, HTML, Python e CSS.
 
 Website: https://documentacao-lu-ban-portugal.readthedocs.io/en/latest/
+
+Canal de Youtube: https://www.youtube.com/channel/UC1P4ACs0hsr7AWcl-mWKQbQ
