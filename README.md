@@ -12,4 +12,4 @@ Website: https://documentacao-lu-ban-portugal.readthedocs.io/en/latest/
 
 Canal de Youtube: https://www.youtube.com/channel/UC1P4ACs0hsr7AWcl-mWKQbQ
 
-Conteudos sobre Grafcet: https://www.mhj-wiki.de/en/grafcet-studio/printing/
+Conteudos sobre Grafcet: https://www.mhj-wiki.de/en/grafcet-studio/installation/
