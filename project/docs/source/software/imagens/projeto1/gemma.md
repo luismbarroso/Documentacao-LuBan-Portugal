@@ -15,6 +15,23 @@ Considerações:
 
 ![](Line32_Gemma_GI.PNG)
 
+Fixo|-|-|Parado no estado inicial|				A1
+Piscar (2s)|-|-|Fim do ciclo socilitado|				A2
+Piscar (1s)|-|-|Paragem solicitada|				A3
+Fixo|Piscar (1s)|-|Paragem finalizada|				A4
+Fixo|-|Piscar (500ms)|Preparação para retomar|				A5
+Piscar (500ms)|-|-|Colocação no estado inicial|				A6
+Fixo|Piscar (2s)|-|Colocação em estado específico|				A7
+-|-|Fixo|Paragem de emergência|				D1
+-|-|Fixo|Paragem de emergência|				D1
+-|-|Piscar (500ms)|Diagnóstico/tratamento de falha|				D2
+-|Piscar (500ms)|Piscar (500ms)|Produção em estado de emergência|				D3
+-|Fixo|-|Marcha de produção com ordem|				F1
+Fixo|Piscar (500ms)|-|Marcha de preparação|				F2
+Piscar (500ms)|Piscar (500ms)|-|Marchas de finalização				F3
+-|Piscar (1s)|-|Marchas de verificação sem ordem|				F4
+-|Piscar (2s)|-|Marchas de verificação com ordem|				F5
+
 ### Grafcet Geral (Estações)
 
 ![](Line32_Gemma_1.svg)
