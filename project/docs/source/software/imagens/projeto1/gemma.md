@@ -17,7 +17,8 @@ Considerações:
 
 ### Grafcet Geral (Estações)
 
-![](Line32_Gemma.svg)
+![](Line32_Gemma_1.svg)
+![](Line32_Gemma_2.svg)
 
 #### Explicação
 
