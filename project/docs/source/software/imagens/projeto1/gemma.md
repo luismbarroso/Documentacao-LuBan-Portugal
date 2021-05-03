@@ -10,12 +10,14 @@ Considerações:
 ### Grafcet Geral (Estações)
 
 ![](Line32_Gemma.svg)
+![](Gemma.svg)
+![](Line32_Gemma_GI.png)
 
 #### Explicação**
 
-- **Etapa A6** - Parado no estado inicial, assim que o PLC entrar em **Modo Run**, a FC **Init** é *corrida* e essa informação é guardada e envidada para a próxima etapa. Nesta estapa a Iluminação Amarela encontra-se a piscar.
+- **Etapa A6** - Parado no estado inicial, assim que o PLC entrar em **Modo Run**, a FC **Init** é *corrida* e essa informação é guardada e envidada para a próxima etapa.
 
-- **Etapa A1** - Parado no estado inicial, nesta estapa,confirmamos que o **Init** foi *corrido*. Também é verificado se as **Estações 20 e 40** contém peças para começar o processo. Caso as **duas** estações contenham peças passamos a próxima etapa, caso isso não aconteça ficamos na etapa.
+- **Etapa A1** - Parado no estado inicial, nesta estapa,confirmamos que o **Init** foi *corrido*. Também é verificado se as **Estações 20 e 40** contém peças para começar o processo. Caso as **duas** estações contenham peças passamos a próxima etapa, caso isso não aconteça ficamos na etapa. 
 
 - **Etapa F2** - Marcha de preparação, nesta estapa, confirmamos **Estações 20 e 40** contém peças para começar o processo. Quando for dado o **Start Inicial (SB1)** passamos a próxima etapa.
 
