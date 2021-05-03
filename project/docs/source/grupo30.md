@@ -50,7 +50,7 @@
 321920QS24|%I8.6|Botão Emergência
 321920SA23|%I8.7|Seletor
 
-*Saidas dos 29PLC*
+*Saidas dos 19PLC*
 
 |Label |Endereço  | Comentário|
 --- | --- | ---
