@@ -246,9 +246,6 @@ Como podemos observar na figura a baixo, o Gemma, devide-se em 3 grande blocos: 
 
 ![](./software/imagens/GEMMA.svg)
 
-#### Projeto 1
-[Projeto1](./software/imagens/projeto1/gemma.md)
-
 - **Procedimentos de Paragem**
   - **A1 - Parado no estado inicial** -> Diz-nos que o processo já foi inciado e está pronto a começar.
   - **A2 - Fim de ciclo solicitado** -> Diz-nos que o processo encontra-se em produção, assim que chegar ao final do ciclo volta ao estado inicial. (A1)
@@ -273,5 +270,8 @@ Como podemos observar na figura a baixo, o Gemma, devide-se em 3 grande blocos: 
   - **D3 - Produção em estado de emergência** -> Neste estado, o processo, mesmo encontrando-se em emergência, pode continuar a operar. Um exemplo, falta uma peça, essa falta origina um alarme mas não uma paragem total do processo, isto porque, pode ser rapidamente substituida ou não revela ser fundamental para o produto final.
     
   [WebGrafia Gemma]: <> (http://isa.uniovi.es/~vsuarez/Download/GemmaTelemecanique.PDF.)
+
+#### Projeto 1
+[Projeto1](./software/imagens/projeto1/gemma.md)
 
 ## Manuais Gerais
