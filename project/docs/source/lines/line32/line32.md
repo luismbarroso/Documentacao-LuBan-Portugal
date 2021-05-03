@@ -1,3 +1,5 @@
+[Projeto1](../../../software/imagens/projeto1/gemma.md)
+
 # Line 32
 
 ### Indice
@@ -15,6 +17,8 @@
         - [Estação 30 (Automático)](#estacao-30-automatico) 
         - [Estação 40 (Automático)](#estacao-40-automatico)
         - [Estação 50 (Automático)](#estacao-50-automatico)
+    - [Gemma](#gemma)
+        - [Projeto 1](#projeto-1)   
 
 ### Introdução
 
@@ -62,3 +66,7 @@ A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resulta
 ##### Estação 50 (Automático)
 
 ![](./grafcets/bancada32_automatico/59PLC.svg)
+
+#### Gemma
+##### Projeto 1
+[Projeto1](./software/imagens/projeto1/gemma.md)
