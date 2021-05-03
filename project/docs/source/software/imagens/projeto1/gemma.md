@@ -15,6 +15,9 @@ Considerações:
 
 ![](Line32_Gemma_GI.PNG)
 
+|Amarelo |Verde  |Vermelho  |Código Gemma  |
+--- | --- | --- | ---		
+
 Fixo|-|-|Parado no estado inicial|				A1
 Piscar (2s)|-|-|Fim do ciclo socilitado|				A2
 Piscar (1s)|-|-|Paragem solicitada|				A3
