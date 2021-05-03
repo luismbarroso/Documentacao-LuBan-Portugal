@@ -27,7 +27,7 @@ Considerações:
 
 - **Etapa F2** - Marcha de preparação, nesta estapa, confirmamos **Estações 20 e 40** contém peças para começar o processo. Quando for dado o **Start Inicial (SB1)** passamos a próxima etapa.
 
-Através do **Seletor (SA)** é possivel escolher o modo de funcionamento de cada estação. (Posição 0 - Modo de Marcha: Automático / Posição 1 - Modo de Marcha: Ciclo).
+      Através do **Seletor (SA)** é possivel escolher o modo de funcionamento de cada estação. (Posição 0 - Modo de Marcha: Automático / Posição 1 - Modo de Marcha: Ciclo).
 
 - **Etapa F1** - Modo de Marcha: Automático (Corre a estação de forma automático, não sendo necessário qualquer ativação).
 
