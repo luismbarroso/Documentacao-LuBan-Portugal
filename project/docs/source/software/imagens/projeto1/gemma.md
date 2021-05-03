@@ -7,13 +7,19 @@ Considerações:
 - Diagnóstico/tratamento de falha
 - Implementação de Sinalização
 
+### Gemma
+
+![](Gemma.svg)
+
+### Guia de Iluminação 
+
+![](Line32_Gemma_GI.PNG)
+
 ### Grafcet Geral (Estações)
 
 ![](Line32_Gemma.svg)
-![](Gemma.svg)
-![](Line32_Gemma_GI.png)
 
-#### Explicação**
+#### Explicação
 
 - **Etapa A6** - Parado no estado inicial, assim que o PLC entrar em **Modo Run**, a FC **Init** é *corrida* e essa informação é guardada e envidada para a próxima etapa.
 
