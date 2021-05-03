@@ -17,6 +17,7 @@ Considerações:
 
 |Cor |Teste
 --- | --- 
+
 |Amarelo |Verde  |Vermelho  |Função  |Código Gemma
 --- | --- | --- | --- | ---			
 Fixo|-|-|Parado no estado inicial|A1
