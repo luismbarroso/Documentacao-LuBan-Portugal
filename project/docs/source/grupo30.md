@@ -29,7 +29,8 @@
   - [TIA Portal](#tia-portal)
   - [Tesla Scada](#tesla-scada)
   - [Draw io](#draw-io)
-  - [GEMMA](#gemma) 
+  - [GEMMA](#gemma)
+    - [Projeto 1](#projeto-1) 
 
 ## Classificação
 ### Estação 10
@@ -244,6 +245,9 @@ O Gemma consiste num Guia de estudo dos modos de Marcha e Paragem. Num processo 
 Como podemos observar na figura a baixo, o Gemma, devide-se em 3 grande blocos: **"Procedimentos de paragem"**, **"Procedimentos de execução"**, **"Procedimentos de falha"** e a cada um dele correspondem um conjunto de funções/tarefas.
 
 ![](./software/imagens/GEMMA.svg)
+
+#### Projeto 1
+[Projeto1](./software/imagens/projeto1/)
 
 - **Procedimentos de Paragem**
   - **A1 - Parado no estado inicial** -> Diz-nos que o processo já foi inciado e está pronto a começar.
