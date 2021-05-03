@@ -247,7 +247,7 @@ Como podemos observar na figura a baixo, o Gemma, devide-se em 3 grande blocos: 
 ![](./software/imagens/GEMMA.svg)
 
 #### Projeto 1
-[Projeto1](./software/imagens/projeto1/)
+[Projeto1](./software/imagens/projeto1/gemma.md)
 
 - **Procedimentos de Paragem**
   - **A1 - Parado no estado inicial** -> Diz-nos que o processo já foi inciado e está pronto a começar.
