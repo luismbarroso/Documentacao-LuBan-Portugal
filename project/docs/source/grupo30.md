@@ -39,7 +39,7 @@
 |Label |Endereço  | Comentário|
 --- | --- | ---
 3211*B42|%I0.3|Sensor de Garra em Baixo
-3211*B41|%I0.4|Sensor de Garra em Cima
+3211*B41|Sensor de Garra em Cima
 3211*B32|%I0.5|Sensor Garra (Rotação)
 3211*B31|%I0.6|Sensor Garra (Posição Inicial)
 3211*B21|%I0.7|Sensor de Garra á Frente
