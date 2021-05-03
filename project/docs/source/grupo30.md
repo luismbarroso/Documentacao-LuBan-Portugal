@@ -33,6 +33,37 @@
 
 ## Classificação
 ### Estação 10
+*Entradas dos 19PLC*
+
+|Label |Endereço  | Comentário|
+--- | --- | ---
+3211*B42|%I0.3|Sensor de Garra em Baixo
+3211*B41|%I0.4|Sensor de Garra em Cima
+3211*B32|%I0.5|Sensor Garra (Rotação)
+3211*B31|%I0.6|Sensor Garra (Posição Inicial)
+3211*B21|%I0.7|Sensor de Garra á Frente
+3211*B22|%I1.0|Sensor de Garra Atrás
+3211*B11|%I1.1|Sensor de Garra Fechada
+321920SB22|%I8.4|Botão Vermelho
+321920SB21|%I8.5|Botão Verde
+321920QS24|%I8.6|Botão Emergência
+321920SA23|%I8.7|Seletor
+
+*Saidas dos 29PLC*
+
+|Label |Endereço  | Comentário|
+--- | --- | ---
+3211*Y40|%Q0.3|Cilindro da Garra (Sobe e Baixa)
+3211*Y30B|%Q0.4|Cilindro da Garra (Rotação)
+3211*Y30A|%Q0.5|Cilindro da Garra (Posição Inicial)
+3211*Y20|%Q0.6|Cilindro da Garra (Frente e Atrás)
+3211*Y10B|%Q0.7|Cilindro de Fecho Garra
+3211*Y10A|%Q1.0|Cilindro de Abertura da Garra
+321920HL11|%Q8.5|Painel Luz Laranja
+321920HL12|%Q8.6|Painel Luz Verde
+321920HL13|%Q8.7|Painel Luz Vermelha
+
+### Estação 20
 *Entradas dos 29PLC*
 
 |Label |Endereço  | Comentário|
