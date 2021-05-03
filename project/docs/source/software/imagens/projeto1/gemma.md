@@ -41,7 +41,7 @@ Considerações:
 - **Etapa D1** - Paragem de emergência, através da **Botoneira (QS)** é possivel proceder a paragem de emergencia da estação.
 
 - **Etapa A5** - Preparação para retomar, a emergência é retirada. Desta forma o processo pode retomar o processo, com a necessidade de fazer a inicilização da estação.
-- 
+
 - **Etapa D3** - Produção em estado de emergência, nesta etapa, mesmo a estação estando em emergência, pode continua em funcionamento até concluir o ciclo. 
 
 - **Etapa D2** - Diagnóstico/tratamento de falha, nesta etapa, é diagnósticado/tratado o que originou a falha.
