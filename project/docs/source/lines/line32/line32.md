@@ -1,5 +1,3 @@
-[Projeto1](../../software/imagens/projeto1/gemma.md)
-
 # Line 32
 
 ### Indice
@@ -69,4 +67,4 @@ A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resulta
 
 #### Gemma
 ##### Projeto 1
-[Projeto1](./software/imagens/projeto1/gemma.md)
+[Projeto1](../../software/imagens/projeto1/gemma.md)
