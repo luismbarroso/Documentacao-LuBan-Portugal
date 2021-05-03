@@ -1,4 +1,4 @@
-[Projeto1](../../../software/imagens/projeto1/gemma.md)
+[Projeto1](../../software/imagens/projeto1/gemma.md)
 
 # Line 32
 
