@@ -13,7 +13,7 @@ Considerações:
 
 ### Guia de Iluminação 
 
-![](Line32_Gemma_GI.PNG)
+[comment]: <> (![](Line32_Gemma_GI.PNG))
 
 |Amarelo |Verde  |Vermelho  |Função  |Código Gemma
 --- | --- | --- | --- | ---			
