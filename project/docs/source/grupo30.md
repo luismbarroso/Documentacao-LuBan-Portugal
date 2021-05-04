@@ -220,13 +220,26 @@ Um Servo Motor, é um equipamento eletrônico utilizado como um atuador em siste
 Um Inversor de Frequência é um equipamento eletrônico, utilizado para variar a velocidade de um motor. Este equipamento transforma o Sinal Analogico, vindo do PLC, em corrente alternada. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), o Inversor de Frequência esta ligado a um Motor Trisáfico e a este está acopulado um Enconder que permite as seleção das peças de forma correta e precisa. 
 
 ### Siemens S7 1200
+
 ### Manuais
 #### - [Manual Enconder](./manuais/manual_enconder.md)
 #### - [Manual Servo Motor](./manuais/manual_servo.md)
+
 ## Lines
-#### - [Line 31](./lines/line31/line31.md)
-#### - [Line 32](./lines/line32/line32.md)
-#### - [Line 33](./lines/line33/line33.md)
+#### Line 31
+- [2020_2021](./lines/line31/2020_2021/line31.md)
+- [2021_2022](./lines/line31/2021_2022/line31.md)
+- [2022_2023](./lines/line31/2022_2023/line31.md)
+
+#### Line 32
+- [2020_2021](./lines/line31/2020_2021/line32.md)
+- [2021_2022](./lines/line31/2021_2022/line32.md)
+- [2022_2023](./lines/line31/2022_2023/line32.md)
+
+#### Line 33
+- [2020_2021](./lines/line31/2020_2021/line33.md)
+- [2021_2022](./lines/line31/2021_2022/line33.md)
+- [2022_2023](./lines/line31/2022_2023/line33.md)
 
 ## Software
 ### TIA Portal

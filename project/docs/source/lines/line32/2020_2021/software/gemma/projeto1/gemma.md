@@ -9,7 +9,7 @@ Considerações:
 
 ### Gemma
 
-![](Gemma.svg)
+![](./imagens/Gemma.svg)
 
 ### Guia de Iluminação 
 
@@ -33,11 +33,11 @@ Piscar (500ms)|Piscar (500ms)|-|Marchas de finalização|F3
 
 ### Grafcet Geral (Estações)
 
-![](Line32_Gemma_1.svg)
+![](./imagens/Line32_Gemma_1.svg)
 
 ### Grafcets Iluminação (Etapas, Grafcet Geral)
 
-![](Line32_Gemma_2.svg)
+![](./imagens/Line32_Gemma_2.svg)
 
 #### Explicação
 
