@@ -234,14 +234,14 @@ Um Inversor de Frequência é um equipamento eletrônico, utilizado para variar 
 - [2022_2023](./lines/line31/2022_2023/line31.md)
 
 #### Line 32
-- [2020_2021](./lines/line31/2020_2021/line32.md)
-- [2021_2022](./lines/line31/2021_2022/line32.md)
-- [2022_2023](./lines/line31/2022_2023/line32.md)
+- [2020_2021](./lines/line32/2020_2021/line32.md)
+- [2021_2022](./lines/line32/2021_2022/line32.md)
+- [2022_2023](./lines/line32/2022_2023/line32.md)
 
 #### Line 33
-- [2020_2021](./lines/line31/2020_2021/line33.md)
-- [2021_2022](./lines/line31/2021_2022/line33.md)
-- [2022_2023](./lines/line31/2022_2023/line33.md)
+- [2020_2021](./lines/line33/2020_2021/line33.md)
+- [2021_2022](./lines/line33/2021_2022/line33.md)
+- [2022_2023](./lines/line33/2022_2023/line33.md)
 
 ## Software
 ### TIA Portal
