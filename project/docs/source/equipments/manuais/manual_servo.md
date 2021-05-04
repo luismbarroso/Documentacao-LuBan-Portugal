@@ -57,7 +57,11 @@ informação fornecida durante a configuração do servo no TIA Portal.
 
 1.Na aba **“Technology objects”** clique em  **“Add new object”.**
 
-![1](../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/1.PNG)
+# Teste 2
+![1](../../source/equipments/manuais/manual_servo_imagens/img_pto_tia_portal_v15/1.PNG)
+
+# Teste 1
+![1](./manual_servo_imagens/img_pto_tia_portal_v15/1.PNG)
 
 2.No menu **“Motion Control”** na pasta **“Motion Control”** selecione **“TO_PositioningAxis”**.
 
