@@ -44,7 +44,7 @@ How to do
 *Aqui encontrará guias, com liguagem simples e clara. Com ele chegará ao objetivo pretendido.* ola3
 
 .. toctree::
-   :hidden: :caption: How to do
+   :caption: How to do
    :maxdepth: 2
    
    criacao_de_documentacao
