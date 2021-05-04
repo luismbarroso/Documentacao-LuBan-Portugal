@@ -6,7 +6,7 @@
 
 # Manual Encoder
 
-**Autor:** 
+**Autores: Alexandre Geraldo e Luís Barroso** 
 
 ### Indice
 - [Básico I](#basico-i)
