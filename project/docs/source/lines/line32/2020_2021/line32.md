@@ -197,6 +197,12 @@ Enconder_Z|%I0.2|Enconder Z
 325920HL12|%Q1.0|Luz do Painel (Verde)
 325920HL13|%Q1.1|Luz do Painel (Vermelha)
 
+![](./station/images/st_10.jpg)
+![](./station/images/st_20.jpg)
+![](./station/images/st_30.jpg)
+![](./station/images/st_40.jpg)
+![](./station/images/st_50.jpg)
+
 #### Software
 ##### Grafcets Modo: Manual
 ###### Estação 10 (Manual)
