@@ -35,12 +35,7 @@
 ### Estação 10
 
 <details>
-<summary>Informações</summary>
-
-
-</details>
-
-*Entradas dos 19PLC*
+<summary>Entradas dos 19PLC</summary>
 
 |Label |Endereço  | Comentário|
 --- | --- | ---
@@ -55,11 +50,6 @@
 321920SB21|%I8.5|Botão Verde
 321920QS24|%I8.6|Botão Emergência
 321920SA23|%I8.7|Seletor
-
-
-<details>
-<summary>Informações</summary>
-
 
 </details>
 
