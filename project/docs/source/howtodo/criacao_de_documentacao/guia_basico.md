@@ -1,3 +1,9 @@
+![Logos](../../equipments/manuais/logos/Logo_Luban_IPS_2.png)
+
+<div><h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
+ ⠀ 
+  ⠀ 
+
 # Guia Básico - Markdown
 
 **Autor:** Luis Barroso
@@ -17,7 +23,7 @@
 
 ## Objetivo
 
-Este documento consiste num guia com alguns conceitos basicos para a criação de documentação para a Lu ban Workshop Portugal, usando o Markdown.
+Este documento consiste num Guia com alguns conceitos basicos para a criação de documentação para a Lu ban Workshop Portugal, usando o Markdown.
 
 Markdown é uma linguagem simples usada para criação de documentos e que possui um conjunto de vantagens, das quais resultam, um **histórico**, onde é possivel ver a última vez que o ficheiro foi alterado e que alterações foram feitas; fazer **compare** entre dois ficheiros e escolher a parte(s) mais acertada(s) para a produção do documento final; **simplicidade**, através de comandos básicos é possivel produzir a documentação pretendida, assim que concluida, por facilmente ser convertida em .PDF.
 

@@ -329,11 +329,19 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
 
 3.Com o **"disable"** feito, no bloco **"MC_Reset"**, faça o **"Execute"**. Após o fazer volte ao **Diagnostics** e deve obter o resutlado apresentado na **"Figura 37"**
 
-![37](../../source/manuais/manual_servo_imagens/img_erros_axis/3.PNG)
+![37](../../equipments/manuais/manual_servo_imagens/img_erros_axis/3.PNG)
 
-4.Com o **"Disable"** do **"Axis Error"** e do **"HW limit switch has been aprroached"** no **“Status and error bits”** e necessário fazer o **"Reset"** ao **"Servo-Motor"**. Atualmente o Servo-Motor deve estar no estado apresentado na Imagem 38 *(COM - Luz Vermelha Permanente; RDY - Luz Vermelha a Piscar)*. Para fazer o **"Reset"** é necessário carregar nos botões **"M"** **"Ok"** em simultâneo, durante 5 segundos, desta forma, o *COM - Desliga; e o RDY - Luz Laranja Permanente*. Assim que o *COM - Luz Vermelho Permanente e o RDY - Luz Verde Permanente* o servo motor encontra-se sem erros.
+4.Para fazer o **"Disable"** do **"HW limit switch has been aprroached"** é necessário mover o carrinho, de forma, a não fazer  contacto com os fins de curso.
+
+5.Com o **"Disable"** do **"Axis Error"** e do **"HW limit switch has been aprroached"** no **“Status and error bits”** e necessário fazer o **"Reset"** ao **"Servo-Motor"**. Atualmente o Servo-Motor deve estar no estado apresentado na Imagem 38 *(COM - Luz Vermelha Permanente; RDY - Luz Vermelha a Piscar)*. Para fazer o **"Reset"** é necessário carregar nos botões **"M"** **"Ok"** em simultâneo, durante 5 segundos, desta forma, o *COM - Desliga; e o RDY - Luz Laranja Permanente*. Assim que o *COM - Luz Vermelho Permanente e o RDY - Luz Verde Permanente* o servo motor encontra-se sem erros.
 
     NOTA: Ativar o "Enable" no bloco "MC_Power"
 
-![38](../../equipments/manuais/manual_servo_imagens/img_erros_axis/4.PNG)
-![39](../../equipments/manuais/manual_servo_imagens/img_erros_axis/5.PNG)
+<div>
+  <img src="../../equipments/manuais/manual_servo_imagens/img_erros_axis/4.jpg" width="426" /> 
+  <img src="../../equipments/manuais/manual_servo_imagens/img_erros_axis/5.jpg" width="426" />
+</div>
+
+6.E fica concluída a resoluação do erro no Axis.
+
+![40](../../equipments/manuais/manual_servo_imagens/img_erros_axis/6.PNG)
