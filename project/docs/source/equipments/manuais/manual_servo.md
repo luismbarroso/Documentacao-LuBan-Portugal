@@ -1,4 +1,4 @@
-![Logos](../../source/manuais/logos/Logo_Luban_IPS_2.png)
+![Logos](../../equipments/manuais/logos/Logo_Luban_IPS_2.png)
 
 <div><h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
  ⠀ 
@@ -6,7 +6,7 @@
 
 # Manual Servo Motor
 
-**Autor:** 
+**Autores: Alexandre Geraldo e Luís Barroso** 
 
 ### Indice
 
@@ -57,25 +57,21 @@ informação fornecida durante a configuração do servo no TIA Portal.
 
 1.Na aba **“Technology objects”** clique em  **“Add new object”.**
 
-# Teste 2
-![1](../../source/equipments/manuais/manual_servo_imagens/img_pto_tia_portal_v15/1.PNG)
-
-# Teste 1
-![1](./manual_servo_imagens/img_pto_tia_portal_v15/1.PNG)
+![1](../../equipments/manuais/manual_servo_imagens/img_pto_tia_portal_v15/1.PNG)
 
 2.No menu **“Motion Control”** na pasta **“Motion Control”** selecione **“TO_PositioningAxis”**.
 
-![2](../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/2.PNG)
+![2](../../equipments/manuais/manual_servo_imagens/img_pto_tia_portal_v15/2.PNG)
 
 3.Na janela de configuração do Eixo, em **“General”** altere o nome do servo em **“Axis name”**, selecione o método de controle PTO favorecido pelo método de instalação do
 drive no PLC e nas unidades de medida em **“Position Unit”** escolha **“mm”** (milímetros).
 
-![3](../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/3.PNG)
+![3](../../equipments/manuais/manual_servo_imagens/img_pto_tia_portal_v15/3.PNG)
 
 4.No menu lateral **“Drive”**, escolha um dos geradores de pulsos disponíveis em **“Pulse generator”** e de seguida certifique-se que as saídas de pulso e de direção estão
 ligadas ao drive.
 
-![4](../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/4.PNG)
+![4](../../equipments/manuais/manual_servo_imagens/img_pto_tia_portal_v15/4.PNG)
 
 5.Em **“Mechanics”** no menu lateral serão colocados alguns valores parametrizados pelos equipamentos ou valores obtidos através de uma calibração. Para os servos do
 laboratório podem ser usados os valores na (Imagem 5).
@@ -86,7 +82,7 @@ laboratório podem ser usados os valores na (Imagem 5).
 medida máximos) e de baixa (para valores de medida mínimos) e selecione em ambos a opção **“High level”** para que o servo dispare a paragem de emergência quando um dos fins
 de curso seja acionado.
 
-![6](../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/6.PNG)
+![6](../../equipments/manuais/manual_servo_imagens/img_pto_tia_portal_v15/6.PNG)
 
 7.**(Opcional)** Em **“Dynamics”** todos os valores poderão ser escolhidos pessoalmente tendo em conta a segurança das pessoas ao seu redor, a integridade do equipamento e o
 que se pretende para o processo.
@@ -94,7 +90,7 @@ que se pretende para o processo.
 8.Em **“Homing - Active”** selecionaremos a entrada do sensor referente à posição home, escolha **“Negative direction”**, ative **“Permit auto reverse at HW limit switch”**
 e calibre as velocidades.
 
-![7](../../source/manuais/manual_servo_imagens/img_pto_tia_portal_v15/8.PNG)
+![7](../../equipments/manuais/manual_servo_imagens/img_pto_tia_portal_v15/8.PNG)
 
 9.E a configuração do Servo está concluída.
 
@@ -128,31 +124,31 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
 
 2.Clique em online, selecione o equipamento a configurar e clique em **“Ok”**.
 
-![8](../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/2.PNG)
+![8](../../equipments/manuais/manual_servo_imagens/img_profinet_v-assistant/2.PNG)
 
 3.Na aba **“Select drive”** clique no botão **“Select motor”**.
 
-![9](../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/3.PNG)
+![9](../../equipments/manuais/manual_servo_imagens/img_profinet_v-assistant/3.PNG)
 
 4.No menu de seleção do motor, escolha a opção cujo **“Motor ID”** corresponda ao seu motor. 
 
     NOTA: O ID do motor pode ser encontrado na placa de identificação no motor.
 
-![10](../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/4.PNG)
+![10](../../equipments/manuais/manual_servo_imagens/img_profinet_v-assistant/4.PNG)
 
 5.De seguida na aba **“Set PROFINET”** em **“Select telegram”** escolha em **“The current telegram”** o telegram adequado às suas necessidades. 
 
     NOTA: Para melhor entender desta fase leia as “Noções sobre o servo para PROFINET”.
 
-![11](../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/5.PNG)
+![11](../../equipments/manuais/manual_servo_imagens/img_profinet_v-assistant/5.PNG)
 
 6.Ainda em **“Set PROFINET”** vá a **“Configure network”** e modifique o nome de identificação do equipamento e o seu respetivo IP para a rede. Clique por fim no botão **“Save and active”**.
 
-![12](../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/6.PNG)
+![12](../../equipments/manuais/manual_servo_imagens/img_profinet_v-assistant/6.PNG)
 
 7.Concluídos os passos anteriores, va na barra superior do V-ASSISTANT, em “Tools” clique **"Restart Drive”**. E fica concluída a primeira fase da configuração.
 
-![13](../../source/manuais/manual_servo_imagens/img_profinet_v-assistant/7.PNG)
+![13](../../equipments/manuais/manual_servo_imagens/img_profinet_v-assistant/7.PNG)
 
 #### Configurar definições PROFINET no TIA Portal V15
 
@@ -161,45 +157,45 @@ Se usado um SIMATIC S7-1200 para controlo de posição então TO (Technology Obj
 
     NOTA: O mesmo terá de aparecer em “Network view” como no exemplo.
 
-![14](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/1.PNG)
+![14](../../equipments/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/1.PNG)
 
 2.Dê duplo-clique sobre o V90 na **“Network view”** e na janela do dispositivo clique no menu lateral **“Hardware catalog”** e em **“Submodules”** e dê um duplo-clique sobre
 o telegram escolhido durante a configuração do V90 com o V-ASSISTANT.
 
-![15](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/2.PNG)
+![15](../../equipments/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/2.PNG)
 
 3.Ainda na janela do dispositivo clique com o botão direito no mesmo e clique em **"Properties"**.
 
-![16](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/3.PNG)
+![16](../../equipments/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/3.PNG)
 
 4.Em **"General"**, nomeie o dispositivo com o mesmo nome dado durante a configuração no V-ASSISTANT.
 
-![17](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/4.PNG)
+![17](../../equipments/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/4.PNG)
 
 5.Em **"PROFINET Interface** > **Ethernet addresses"** coloque o endereço de IP  máscara configurados com o V-ASSISTANT. Desmarque a opção **"Generate PROFINET device name
 automatically"**  e novamente coloque o nome dado ao dispositivo durante a configuração no
 V-ASSISTANT.
 
-![18](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/5.PNG)
+![18](../../equipments/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/5.PNG)
 
 6.Clique novamente sobre o dispositivo V90 e clique na opção **"Assign device name"**.
 
-![19](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/6.PNG)
+![19](../../equipments/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/6.PNG)
 
 7.Clique em **"Update list"** e de seguida clique sobre o dispositivo a configurar e clique no botão **"Assign name"**.
 
-![20](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/7.PNG)
+![20](../../equipments/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/7.PNG)
 
 8.Na **"Network view"** ligue o V90 ao PLC.
 
-![21](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/8.PNG)
+![21](../../equipments/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/8.PNG)
 
 9.Em **"Topology view"** ” refaça o desenho das ligações físicas entre o PLC e o V90. No exemplo a ligação entre os dois foi feita com um switch pelo que o mesmo teve de ser
 devidamente adicionado. 
 
     NOTA: Este passo é muito importante, sem ele o dispositivo poderá não funcionar corretamente. Tome também atenção à portas nas ligações entre o PLC e o V90.
 
-![22](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/9.PNG)
+![22](../../equipments/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/9.PNG)
 
 10.E a configuração do servo em PROFINET está concluída.
 
@@ -207,23 +203,23 @@ devidamente adicionado.
 
 1.No menu lateral de dispositivos em **"Technology Objects"** clique em **"Add new** **object"**.
 
-![23](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/10.PNG)
+![23](../../equipments/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/10.PNG)
 
 2.Em **"Motion control"** clique sobre **"TO_PositioningAxis"**, em name coloque o nome para esse eixo (para facilitar dê-lhe o mesmo nome dado ao servo) e clique **"OK”**.
 
-![24](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/11.PNG)
+![24](../../equipments/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/11.PNG)
 
 3.Em **“General”** escolha a opção **"PROFIdrive"**.
 
-![25](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/12.PNG)
+![25](../../equipments/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/12.PNG)
 
 4.Em **"Drive"** clique nos **"..."** e escolha o drive configurado.
 
-![26](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/13.PNG)
+![26](../../equipments/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/13.PNG)
 
 5.Em **"Encoder"** marque a opção **"Encoder on PROFINET/PROFIBUS"**. E de seguido no campo a vermelho clique nos **"..."** e selecione o **"Encoder1"**.
 
-![23](../../source/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/14.PNG)
+![23](../../equipments/manuais/manual_servo_imagens/img_profinet_tia_portal_v15/14.PNG)
 
 6.**(Opcional)** Em **"Position limits"** ative os **"Limit switcher"** que pretende usar e configure os seus valores/entradas.
 
@@ -240,7 +236,7 @@ nosso processo.
 
 **MC_Power** – é uma função que deve ser chamada e ligada antes de qualquer instrução de movimento, sem ela não será possível comando o servo.
 
-![28](../../source/manuais/manual_servo_imagens/img_programacao/1.PNG)
+![28](../../equipments/manuais/manual_servo_imagens/img_programacao/1.PNG)
 
 **Principais parâmetros:**
 - **Axis:** Nome do servo/eixo configurado
@@ -250,7 +246,7 @@ nosso processo.
 
 **MC_Home** – é a função responsável de levar o servo até ao local onde está situado o sensor configurado para “homing”, a sua posição inicial.
 
-![29](../../source/manuais/manual_servo_imagens/img_programacao/2.PNG)
+![29](../../equipments/manuais/manual_servo_imagens/img_programacao/2.PNG)
 
 **Principais parâmetros:**
 - **Axis:** Nome do servo/eixo configurado
@@ -262,7 +258,7 @@ nosso processo.
 
 **MC_Reset** – é a função que permite ignorar erros causados pela paragem do servo ao entrar em contacto com um fim de curso ou erros de configuração.
 
-![30](../../source/manuais/manual_servo_imagens/img_programacao/3.PNG)
+![30](../../equipments/manuais/manual_servo_imagens/img_programacao/3.PNG)
 
 **Principais parâmetros:**
 - **Axis:** Nome do servo/eixo configurado
@@ -272,7 +268,7 @@ nosso processo.
 
 **MC_Halt** – é a função que para os movimentos do servo.
 
-![31](../../source/manuais/manual_servo_imagens/img_programacao/4.PNG)
+![31](../../equipments/manuais/manual_servo_imagens/img_programacao/4.PNG)
 
 **Principais parâmetros:**
 - **Axis:** Nome do servo/eixo configurado
@@ -282,7 +278,7 @@ nosso processo.
 
 **MC_MoveJog** – é uma das funções de movimento do servo, esta em especifico permite que o servo se mova enquanto uma das entras permaneça ativa.
 
-![32](../../source/manuais/manual_servo_imagens/img_programacao/5.PNG)
+![32](../../equipments/manuais/manual_servo_imagens/img_programacao/5.PNG)
 
 **Principais parâmetros:**
 - **Axis:** Nome do servo/eixo configurado
@@ -294,7 +290,7 @@ nosso processo.
 
 **MC_MoveAbsolute** – é a função responsável por levar o servo até uma posição absoluta através de uma coordenada.
 
-![33](../../source/manuais/manual_servo_imagens/img_programacao/6.PNG)
+![33](../../equipments/manuais/manual_servo_imagens/img_programacao/6.PNG)
 
 **Principais parâmetros:**
 - **Axis:** Nome do servo/eixo configurado
@@ -306,7 +302,7 @@ nosso processo.
 
 **MC_MoveRelative** – é a função responsável por mover o servo uma determinada distancia relativamente à sua atual coordenada.
 
-![34](../../source/manuais/manual_servo_imagens/img_programacao/7.PNG)
+![34](../../equipments/manuais/manual_servo_imagens/img_programacao/7.PNG)
 
 **Principais parâmetros:**
 - **Axis:** Nome do servo/eixo configurado
@@ -325,11 +321,11 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
 
     NOTA: Para sabermos o estado do Axis é necessário clicar em "Monitor All"
 
-![35](../../source/manuais/manual_servo_imagens/img_erros_axis/1.PNG)
+![35](../../equipments/manuais/manual_servo_imagens/img_erros_axis/1.PNG)
 
 2.Para remover o **"Axis Error"** é necessário fazer o **"Disable"** no bloco **"MC_Power"**. Após o fazer volte ao **Diagnostics** e deve obter o resutlado apresentado na **"Figura 35"**
 
-![36](../../source/manuais/manual_servo_imagens/img_erros_axis/2.PNG) 
+![36](../../equipments/manuais/manual_servo_imagens/img_erros_axis/2.PNG) 
 
 3.Com o **"disable"** feito, no bloco **"MC_Reset"**, faça o **"Execute"**. Após o fazer volte ao **Diagnostics** e deve obter o resutlado apresentado na **"Figura 37"**
 
@@ -339,5 +335,5 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
 
     NOTA: Ativar o "Enable" no bloco "MC_Power"
 
-![38](../../source/manuais/manual_servo_imagens/img_erros_axis/4.PNG)
-![39](../../source/manuais/manual_servo_imagens/img_erros_axis/5.PNG)
+![38](../../equipments/manuais/manual_servo_imagens/img_erros_axis/4.PNG)
+![39](../../equipments/manuais/manual_servo_imagens/img_erros_axis/5.PNG)
