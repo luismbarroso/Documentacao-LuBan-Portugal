@@ -216,11 +216,11 @@ Os enconders podem ser classificados como **"Encoder Relativos"** ou **"Encoder 
 
 Um Servo Motor, é um equipamento eletrônico utilizado como um atuador em sistemas de controlo automático, ele converte sinais elétricos num movimento angular no veio do motor. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), o Servo Motor esta ligado a um Motor AC SIMOTICS S-1FL6 que permite a deslocação do carro.
 
+#### - [Manual Servo Motor](./equipments/manuais/manual_servo.md)
+
 ### Inversor de Frequência
 
 Um Inversor de Frequência é um equipamento eletrônico, utilizado para variar a velocidade de um motor. Este equipamento transforma o Sinal Analogico, vindo do PLC, em corrente alternada. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), o Inversor de Frequência esta ligado a um Motor Trisáfico e a este está acopulado um Enconder que permite as seleção das peças de forma correta e precisa. 
-
-#### - [Manual Servo Motor](./equipments/manuais/manual_servo.md)
 
 ### Siemens S7 1200
 
