@@ -91,9 +91,9 @@ html_theme_options = {
     "color_accent": "orange", #"cyan",
     "theme_color": "4b231b", #"#2196f3",
     "master_doc": False,
-    "heroes": {
-        "index": "Instituto Politécnico de Setúbal",
-    }
+    #"heroes": {
+    #    "index": "Instituto Politécnico de Setúbal",
+    #}
     }
 
 language = "en"

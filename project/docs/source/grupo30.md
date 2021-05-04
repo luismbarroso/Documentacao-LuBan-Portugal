@@ -35,7 +35,12 @@
 ### Estação 10
 
 <details>
-<summary>Entradas dos 19PLC</summary>
+<summary>Informações</summary>
+
+
+</details>
+
+*Entradas dos 19PLC*
 
 |Label |Endereço  | Comentário|
 --- | --- | ---
@@ -51,22 +56,10 @@
 321920QS24|%I8.6|Botão Emergência
 321920SA23|%I8.7|Seletor
 
-</details>
 
 <details>
-<summary>Saidas dos 19PLC</summary>
+<summary>Informações</summary>
 
-|Label |Endereço  | Comentário|
---- | --- | ---
-3211*Y40|%Q0.3|Cilindro da Garra (Sobe e Baixa)
-3211*Y30B|%Q0.4|Cilindro da Garra (Rotação)
-3211*Y30A|%Q0.5|Cilindro da Garra (Posição Inicial)
-3211*Y20|%Q0.6|Cilindro da Garra (Frente e Atrás)
-3211*Y10B|%Q0.7|Cilindro de Fecho Garra
-3211*Y10A|%Q1.0|Cilindro de Abertura da Garra
-321920HL11|%Q8.5|Painel Luz Laranja
-321920HL12|%Q8.6|Painel Luz Verde
-321920HL13|%Q8.7|Painel Luz Vermelha
 
 </details>
 
@@ -85,13 +78,6 @@
 321920HL13|%Q8.7|Painel Luz Vermelha
 
 ### Estação 20
-
-
-<details>
-<summary>Informações</summary>
-
-
-</details>
 *Entradas dos 29PLC*
 
 |Label |Endereço  | Comentário|
@@ -109,12 +95,6 @@
 322920QS24|%I1.4|Botão Emergência
 322920SA23|%I1.5|Seletor
 
-
-<details>
-<summary>Informações</summary>
-
-
-</details>
 *Saidas dos 29PLC*
 
 |Label |Endereço  | Comentário|
@@ -126,12 +106,6 @@
 322920HL13|%Q1.1|Painel Luz Vermelha
 
 ### Estação 30
-
-<details>
-<summary>Informações</summary>
-
-
-</details>
 *Entradas dos 39PLC*
 
 |Label |Endereço  | Comentário|
@@ -147,12 +121,6 @@
 323920QS24|%I1.4|Botão Emergência
 323920SA23|%I1.5|Seletor
 
-
-<details>
-<summary>Informações</summary>
-
-
-</details>
 *Saidas dos 39PLC*
 
 |Label |Endereço  | Comentário|
@@ -165,12 +133,6 @@
 323920HL13|%Q1.1|Painel Luz Vermelha
 
 ### Estação 40
-
-<details>
-<summary>Informações</summary>
-
-
-</details>
 *Entradas dos 49PLC*
 
 |Label |Endereço  | Comentário|
@@ -196,11 +158,6 @@
 324920QS24|%I8.6|Botão Emergência
 324920SA23|%I8.7|Seletor
 
-<details>
-<summary>Informações</summary>
-
-
-</details>
 *Saidas dos 49PLC*
 
 |Label |Endereço  | Comentário|
@@ -219,12 +176,6 @@
 324920HL13|%Q8.7|Luz do Painel (Vermelha)
 
 ### Estação 50
-
-<details>
-<summary>Informações</summary>
-
-
-</details>
 *Entradas dos 59PLC*
 
 |Label |Endereço  | Comentário|
@@ -243,11 +194,6 @@ Enconder_Z|%I0.2|Enconder Z
 325920QS24|%I1.4|Botão Emergência
 325920SA23|%I1.5|Seletor
 
-<details>
-<summary>Informações</summary>
-
-
-</details>
 *Saidas dos 59PLC*
 
 |Label |Endereço  | Comentário|
