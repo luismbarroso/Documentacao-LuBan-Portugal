@@ -1,7 +1,5 @@
 # Indice (Grupo 10 - SX-185Q)
 
-# M1
-
 <div align="center">
 <div class="loader"></div>
 <style>
