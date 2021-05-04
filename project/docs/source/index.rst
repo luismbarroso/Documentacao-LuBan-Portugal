@@ -44,6 +44,7 @@ How to do
 *Aqui encontrará guias, com liguagem simples e clara. Com ele chegará ao objetivo pretendido.*
 
 .. toctree::
+    :caption: How to doo
     :maxdepth: 2
 
     criacao_de_documentacao
