@@ -15,12 +15,11 @@
 - [Equipamentos](#equipamentos)
   - [Siemens S7 1200](#siemens-s7-1200) 
   - [Enconder](#enconder)
+    - [Manual Enconder](#manual-enconder) 
   - [Servo Motor](#servo-motor)
+    - [Manual Servo Motor](#manual-servo-motor) 
   - [Inversor de Frequência](#inversor-de-frequencia)
   - [HMI-T](#hmi-t)
-  - [Manuais](#manuais)
-    - [Manual Enconder](#manual-enconder) 
-    - [Manual Servo Motor](#manual-servo-motor) 
 - [Lines](#lines)
   - [Line 31](#line-31) 
   - [Line 32](#line-32) 
@@ -211,35 +210,35 @@ por volta em uma distribuição perfeita dos pulsos ao longo dos 360 graus do gi
 
 Os enconders podem ser classificados como **"Encoder Relativos"** ou **"Encoder Absoluto"**. **"Encoder Relativos"**, dizem-nos a posição relativa ao ponto onde o encoder foi ativado, normalmente possuem 3 saídas A, B e Z. **"Encoder Absolutos"**, dizem-nos a posição absoluta através de saídas digitais codificadas em um valor binário.
 
-### Servo Motor (Siemens V90)
+#### - [Manual Enconder](./manuais/manual_enconder.md)
+
+### Servo Motor
 
 Um Servo Motor, é um equipamento eletrônico utilizado como um atuador em sistemas de controlo automático, ele converte sinais elétricos num movimento angular no veio do motor. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), o Servo Motor esta ligado a um Motor AC SIMOTICS S-1FL6 que permite a deslocação do carro.
 
-### Inversor de Frequência (Siemens G120C)
+### Inversor de Frequência
 
 Um Inversor de Frequência é um equipamento eletrônico, utilizado para variar a velocidade de um motor. Este equipamento transforma o Sinal Analogico, vindo do PLC, em corrente alternada. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), o Inversor de Frequência esta ligado a um Motor Trisáfico e a este está acopulado um Enconder que permite as seleção das peças de forma correta e precisa. 
 
-### Siemens S7 1200
-
-### Manuais
-#### - [Manual Enconder](./manuais/manual_enconder.md)
 #### - [Manual Servo Motor](./manuais/manual_servo.md)
+
+### Siemens S7 1200
 
 ## Lines
 #### Line 31
-- [2020_2021](./lines/line31/2020_2021/line31.md)
-- [2021_2022](./lines/line31/2021_2022/line31.md)
-- [2022_2023](./lines/line31/2022_2023/line31.md)
+#### - [2020_2021](./lines/line31/2020_2021/line31.md)
+#### - [2021_2022](./lines/line31/2021_2022/line31.md)
+#### - [2022_2023](./lines/line31/2022_2023/line31.md)
 
 #### Line 32
-- [2020_2021](./lines/line32/2020_2021/line32.md)
-- [2021_2022](./lines/line32/2021_2022/line32.md)
-- [2022_2023](./lines/line32/2022_2023/line32.md)
+#### - [2020_2021](./lines/line32/2020_2021/line32.md)
+#### - [2021_2022](./lines/line32/2021_2022/line32.md)
+#### - [2022_2023](./lines/line32/2022_2023/line32.md)
 
 #### Line 33
-- [2020_2021](./lines/line33/2020_2021/line33.md)
-- [2021_2022](./lines/line33/2021_2022/line33.md)
-- [2022_2023](./lines/line33/2022_2023/line33.md)
+#### - [2020_2021](./lines/line33/2020_2021/line33.md)
+#### - [2021_2022](./lines/line33/2021_2022/line33.md)
+#### - [2022_2023](./lines/line33/2022_2023/line33.md)
 
 ## Software
 ### TIA Portal
