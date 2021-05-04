@@ -35,7 +35,7 @@
 ### Estação 10
 
 <details>
-<summary>Entradas dos 19PLC</summary>
+  <summary>Entradas dos 19PLC</summary>
 
 |Label |Endereço  | Comentário|
 --- | --- | ---
