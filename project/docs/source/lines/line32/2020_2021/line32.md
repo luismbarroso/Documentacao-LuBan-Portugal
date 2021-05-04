@@ -1,4 +1,4 @@
-# Line 32
+    # Line 32
 
 ### Indice
 - [Introdução](#introducao)
@@ -20,50 +20,50 @@
 
 ### Introdução
 
-A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resultam: **"Transporte"**,**"Pressurização"**, **"Alimentação (Corpo e Miolo)"** e **"Seleção"**.
+A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resultam: **"Transporte"**, **"Pressurização"**, **"Alimentação (Corpo e Miolo)"** e **"Seleção"**.
 
 ### Trabalho Realizado
 #### Grafcets Modo: Manual
 ##### Estação 10 (Manual)
 
-![](./grafcets/bancada32_manual/19PLC.svg)
+![](./software/grafcets/bancada32_manual/19PLC.svg)
 
 ##### Estação 20 (Manual)
 
-![](./grafcets/bancada32_manual/29PLC.svg)
+![](./software/grafcets/bancada32_manual/29PLC.svg)
 
 ##### Estação 30 (Manual)
 
-![](./grafcets/bancada32_manual/39PLC.svg)
+![](./software/grafcets/bancada32_manual/39PLC.svg)
 
 ##### Estação 40 (Manual)
 
-![](./grafcets/bancada32_manual/49PLC.svg)
+![](./software/grafcets/bancada32_manual/49PLC.svg)
 
 ##### Estação 50 (Manual)
 
-![](./grafcets/bancada32_manual/59PLC.svg)
+![](./software/grafcets/bancada32_manual/59PLC.svg)
 
 #### Grafcets Modo: Automático
 ##### Estação 10 (Automático)
 
-![](./grafcets/bancada32_automatico/19PLC.svg)
+![](./software/grafcets/bancada32_automatico/19PLC.svg)
 
 ##### Estação 20 (Automático)
 
-![](./grafcets/bancada32_automatico/29PLC.svg)
+![](./software/grafcets/bancada32_automatico/29PLC.svg)
 
 ##### Estação 30 (Automático)
 
-![](./grafcets/bancada32_automatico/39PLC.svg)
+![](./software/grafcets/bancada32_automatico/39PLC.svg)
 
 ##### Estação 40 (Automático)
 
-![](./grafcets/bancada32_automatico/49PLC.svg)
+![](./software/grafcets/bancada32_automatico/49PLC.svg)
 
 ##### Estação 50 (Automático)
 
-![](./grafcets/bancada32_automatico/59PLC.svg)
+![](./software/grafcets/bancada32_automatico/59PLC.svg)
 
 #### Gemma
 ##### Projeto 1
