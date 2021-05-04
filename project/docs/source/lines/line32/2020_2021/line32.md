@@ -68,3 +68,8 @@ A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resulta
 #### Gemma
 ##### Projeto 1
 [Projeto1](./software/gemma/projeto1/gemma.md)
+
+<details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
