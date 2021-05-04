@@ -7,4 +7,3 @@
 # Primeiros Passos
 
 **Autor:** Luis Barroso
-

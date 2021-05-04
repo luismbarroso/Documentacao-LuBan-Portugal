@@ -41,7 +41,7 @@ Para os Titulos são usados **"#"**, quantos mais **"#"** mais pequenos o seu te
 
 ### Formatação de Texto
 
-A formatação de texto pode ser feita a **"Negrito"**, **"Italico"**, **"Negrito/Italico"** e **"Riscado"**
+A formatação de texto pode ser feita a **"Negrito"**, **"Italico"**, **"Negrito/Italico"** e **"Riscado"**.
 
     Negrito: ***Lu ban Workshop Portugal**
     Italico: *Lu ban Workshop Portugal*
@@ -50,7 +50,7 @@ A formatação de texto pode ser feita a **"Negrito"**, **"Italico"**, **"Negrit
     
 ### Citações
 
-As Citações são feitas usando o caráter **">"**
+As Citações são feitas usando o caráter **">"**.
 
     > Lu ban Workshop Portugal
 

@@ -33,9 +33,8 @@
 
 ### Básico I
 
-Durante esta primeira parte será ensinado o básico sobre o servo. Desde as bases de configuração até às bases de programação, abordando apenas a informação essencial para
-conseguir por em prática uma ideia implementando um servo no processo. Serão ainda abordados alguns conceitos básicos em relação ao servo e ao método de comunicação
-utilizado (PTO). 
+Durante esta primeira parte será ensinado o básico sobre o servo. Desde as bases de configuração até às bases de programação, abordando apenas a informação essencial para conseguir por em prática uma ideia implementando
+um servo no processo. Serão ainda abordados alguns conceitos básicos em relação ao servo e ao método de comunicação utilizado (PTO). 
 
 ### Servos na Oficina Luban
 
@@ -47,8 +46,8 @@ SINAMISC V90 utilizados para a locomoção do “robô” manipulador de transpo
 ### Configuração Básica do Servo com PTO
 #### Noções sobre Pulse Train Output (PTO)	
 
-O CPU dos autómatos disponibilizam quatro saídas geradoras de pulsos, cada saída dessas disponibiliza uma saída para os pulsos e outra saída para direção que permite
-controlar o servo através da interface de pulsos. As saídas de pulso proporcionam ao drive do servo o pulso necessário para o movimento do motor. 
+O CPU dos autómatos disponibilizam quatro saídas geradoras de pulsos, cada saída dessas disponibiliza uma saída para os pulsos e outra saída para direção que permite controlar o servo através da interface de pulsos. As  
+saídas de pulso proporcionam ao drive do servo o pulso necessário para o movimento do motor. 
 
 As saídas PTO geram ondas quadradas de frequência variável que permitem especificar a velocidade a que o motor se irá mover, sendo estes pulsos gerados com base na
 informação fornecida durante a configuração do servo no TIA Portal. 
@@ -344,4 +343,4 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
 
 6.E fica concluída a resoluação do erro no Axis.
 
-![40](../../equipments/manuais/manual_servo_imagens/img_erros_axis/6.PNG)
+![40](../../equipments/manuais/manual_servo_imagens/img_erros_axis/6.png)
