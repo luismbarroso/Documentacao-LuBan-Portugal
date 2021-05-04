@@ -210,7 +210,7 @@ por volta em uma distribuição perfeita dos pulsos ao longo dos 360 graus do gi
 
 Os enconders podem ser classificados como **"Encoder Relativos"** ou **"Encoder Absoluto"**. **"Encoder Relativos"**, dizem-nos a posição relativa ao ponto onde o encoder foi ativado, normalmente possuem 3 saídas A, B e Z. **"Encoder Absolutos"**, dizem-nos a posição absoluta através de saídas digitais codificadas em um valor binário.
 
-#### - [Manual Enconder](./manuais/manual_enconder.md)
+#### - [Manual Enconder](./equipments/manuais/manual_enconder.md)
 
 ### Servo Motor
 
@@ -220,7 +220,7 @@ Um Servo Motor, é um equipamento eletrônico utilizado como um atuador em siste
 
 Um Inversor de Frequência é um equipamento eletrônico, utilizado para variar a velocidade de um motor. Este equipamento transforma o Sinal Analogico, vindo do PLC, em corrente alternada. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), o Inversor de Frequência esta ligado a um Motor Trisáfico e a este está acopulado um Enconder que permite as seleção das peças de forma correta e precisa. 
 
-#### - [Manual Servo Motor](./manuais/manual_servo.md)
+#### - [Manual Servo Motor](./equipments/manuais/manual_servo.md)
 
 ### Siemens S7 1200
 
