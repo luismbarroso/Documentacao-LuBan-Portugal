@@ -240,6 +240,6 @@ Enconder_Z|%I0.2|Enconder Z
 
 ![](./software/grafcets/bancada32_automatico/59PLC.svg)
 
-##### Gemma
+##### Gemmaa
 - [Projeto1](./software/gemma/projeto1/gemma.md)
 
