@@ -1,6 +1,6 @@
 # Criação de Documentação
 
-Criação de Documentação
+Criação de Documentação.
 
 #### - [Primeiros Passos](./howtodo/criacao_de_documentacao/primeiros_passos.md)
 
