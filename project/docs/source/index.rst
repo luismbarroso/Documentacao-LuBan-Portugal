@@ -41,7 +41,7 @@ Grupo 30 - YL-335B
 How to do 
 *********
 
-*Aqui encontrará guias, com liguagem simples e clara. Com ele chegará ao objetivo pretendido.* ola3
+*Aqui encontrará guias, com liguagem simples e clara. Com ele chegará ao objetivo pretendido.*
 
 .. toctree::
    :caption: How to do
