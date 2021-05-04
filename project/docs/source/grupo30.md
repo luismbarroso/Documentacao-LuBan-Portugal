@@ -1,4 +1,4 @@
-# Indice (Grupo 30 - YL335B)
+# Índice (Grupo 30 - YL335B)
 
 - [Classificação](#classificacao)
   - [Estação 10](#estacao-10)
@@ -62,8 +62,6 @@
 321920HL11|%Q8.5|Painel Luz Laranja
 321920HL12|%Q8.6|Painel Luz Verde
 321920HL13|%Q8.7|Painel Luz Vermelha
-
-</details>
 
 ### Estação 20
 *Entradas dos 29PLC*
