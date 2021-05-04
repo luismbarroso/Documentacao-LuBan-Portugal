@@ -75,7 +75,7 @@ extensions.append("sphinx_material")
 html_theme_path = sphinx_material.html_theme_path()
 html_context = sphinx_material.get_html_context()
 html_theme = "sphinx_material"
-html_logo = './manuais/logos/Logo_Luban.png'
+html_logo = './equipments/manuais/logos/Logo_Luban.png'
 
 # material theme options (see theme.conf for more information)
 html_theme_options = {
@@ -100,7 +100,7 @@ language = "en"
 html_last_updated_fmt = ""
 
 todo_include_todos = True
-html_favicon = "./manuais/logos/Logo_Luban.png"
+html_favicon = "./equipments/manuais/logos/Logo_Luban.png"
 
 html_use_index = True
 html_domain_indices = True

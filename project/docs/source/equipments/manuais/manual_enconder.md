@@ -1,4 +1,4 @@
-![Logos](../../source/manuais/logos/Logo_Luban_IPS_2.png)
+![Logos](../../equipments/manuais/logos/Logo_Luban_IPS_2.png)
 
 <div><h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
  ⠀ 
@@ -25,23 +25,23 @@ Durante esta primeira parte será ensinado o básico sobre o servo. Desde as bas
 
 1.Em **“Device configuration”** clique com o botão direito sobre o PLC e selecione o opção **“Properties”**.
 
-![1](../../source/manuais/manual_enconder_imagens/img_conf_basica/1.png)
+![1](../../equipments/manuais/manual_enconder_imagens/img_conf_basica/1.png)
 
 2.Na aba **“High speed counters (HSC)”**, abra **“HSC1”** e clique em **“General”** e de seguida marque a opção **“Enable this high speed counter”**.
 
-![2](../../source/manuais/manual_enconder_imagens/img_conf_basica/2.png)
+![2](../../equipments/manuais/manual_enconder_imagens/img_conf_basica/2.png)
 
 3.Ainda na aba **“HSC1”** vá a **“Function”** e em **“Operating phase”** escolha a opção **“A/B Counter”**.
 
-![3](../../source/manuais/manual_enconder_imagens/img_conf_basica/3.png)
+![3](../../equipments/manuais/manual_enconder_imagens/img_conf_basica/3.png)
 
 4.Em **“Hardware inputs”** certifique-se de que tem as entradas devidamente ligadas com o encoder, e de que as mesmas são entradas de alta velocidade.
 
-![4](../../source/manuais/manual_enconder_imagens/img_conf_basica/4.png)
+![4](../../equipments/manuais/manual_enconder_imagens/img_conf_basica/4.png)
 
 5.De seguida na aba **“DI 14/DQ 10”** vá em **“Digital inputs”** e clique nos **“Channels”** (exemplo Channel0 e Channel1 para as entradas %I0.0 e %I0.1) correspondentes às entradas de alta velocidade configuradas no passo anterior, e escolha o filtro de sinal adequado para a sua utilização.
 
-![5](../../source/manuais/manual_enconder_imagens/img_conf_basica/5.png)
+![5](../../equipments/manuais/manual_enconder_imagens/img_conf_basica/5.png)
 
 6.E a configuração do Encoder está concluída.
 
@@ -59,21 +59,21 @@ O CTRL_HSC contém um endereço, este é um endereço de um intervalo configurad
 
         NOTA: O Endereço do HSC pode ser encontrado em "Device configuration > System constants"
 
-![6](../../source/manuais/manual_enconder_imagens/img_programacao/1.PNG)
+![6](../../equipments/manuais/manual_enconder_imagens/img_programacao/1.PNG)
 
 #### Move
 O Move é função que permite, como o próprio nome indica, mover valores de entrada de forma a serem aplicados numa saida. No exemplo que iremos demostrar, usaremos a função **"Move"** para colocar o tapete em funcionamento. 
 
     NOTA: A Variável colocada na saida do Move "%QW80" é o Output padrão da Carta analógico do PLC.  O Endereço do HSC pode ser encontrado em "Device configuration > System constants"
 
-![7](../../source/manuais/manual_enconder_imagens/img_programacao/2.PNG)
+![7](../../equipments/manuais/manual_enconder_imagens/img_programacao/2.PNG)
 
 #### Valor do %ID...
 Para consultar o valor do %ID..., pode usar uma **"Watch Table"**.
 
-![8](../../source/manuais/manual_enconder_imagens/img_programacao/3.png)
+![8](../../equipments/manuais/manual_enconder_imagens/img_programacao/3.png)
 
 #### Paragem do Tapete
 Para uma melhor resolução nos valores retirados, pode processeder a paragem do Tapete.
 
-![9](../../source/manuais/manual_enconder_imagens/img_programacao/4.png)
+![9](../../equipments/manuais/manual_enconder_imagens/img_programacao/4.png)
