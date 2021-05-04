@@ -33,9 +33,7 @@
 
 ## Classificação
 ### Estação 10
-
-<details>
-  <summary>Entradas dos 19PLC</summary>
+*Entradas dos 19PLC*
 
 |Label |Endereço  | Comentário|
 --- | --- | ---
@@ -51,10 +49,7 @@
 321920QS24|%I8.6|Botão Emergência
 321920SA23|%I8.7|Seletor
 
-</details>
-
-<details>
-  <summary>Saidas dos 19PLC</summary>
+*Saidas dos 19PLC*
 
 |Label |Endereço  | Comentário|
 --- | --- | ---
