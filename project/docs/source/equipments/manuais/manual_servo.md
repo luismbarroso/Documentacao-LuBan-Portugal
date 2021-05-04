@@ -336,10 +336,8 @@ Assim que o servo dispara a paragem de emergência quando um dos fins de curso �
 
     NOTA: Ativar o "Enable" no bloco "MC_Power"
 
-<div>
-  <img src="../../equipments/manuais/manual_servo_imagens/img_erros_axis/4.jpg" width="426" /> 
-  <img src="../../equipments/manuais/manual_servo_imagens/img_erros_axis/5.jpg" width="426" />
-</div>
+![38](../../equipments/manuais/manual_servo_imagens/img_erros_axis/4.jpg)
+![39](../../equipments/manuais/manual_servo_imagens/img_erros_axis/5.jpg)
 
 6.E fica concluída a resoluação do erro no Axis.
 
