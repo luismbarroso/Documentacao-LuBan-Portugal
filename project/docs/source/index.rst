@@ -13,7 +13,7 @@ Grupo 10 - SX-185Q
 *Toda a Informação sobre o Grupo 10 - SX-185Q*
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
    grupo10
    
@@ -23,17 +23,17 @@ Grupo 20 - THMSRB-3DS
 *Toda a Informação sobre o Grupo 20 - THMSRB-3DS*
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
    grupo20
 
 
 Grupo 30 - YL-335B
 ==================
-*Toda a Informação sobre o Grupo 30 - YL 335B* olaaa
+*Toda a Informação sobre o Grupo 30 - YL 335B*
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
       
    grupo30
 
