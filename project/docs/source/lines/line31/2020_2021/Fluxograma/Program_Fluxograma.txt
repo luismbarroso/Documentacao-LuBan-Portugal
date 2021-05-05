@@ -1,0 +1,79 @@
+(* Testa corpo PosB13*)
+IF #Posicao = #PosB13a THEN
+    IF #B13 THEN
+        #CorpoB13 := #Corpo_B;
+    ELSE
+        #CorpoB13 := #Corpo_P;
+    END_IF;
+END_IF;
+
+(* Testa miolo PosB13*)
+IF #Posicao = #PosB13b THEN
+    IF #B13 THEN
+        #MioloB13 := #Miolo_B;
+    ELSE
+        #MioloB13 := #Miolo_P;
+    END_IF;
+END_IF;
+        
+(* Testa corpo PosB12*)
+IF #Posicao = #PosB12a THEN
+    IF #B12 THEN
+        #CorpoB12 := #Corpo_M;
+    ELSE
+        #CorpoB12 := #Corpo_PL;
+    END_IF;
+END_IF;
+
+(* Testa miolo PosB12*)
+IF #Posicao = #PosB12b THEN
+    IF #B12 THEN
+        #MioloB12 := #Miolo_M;
+    ELSE
+        #MioloB12 := #Miolo_PL;
+    END_IF;
+END_IF;
+
+(*Funcao Principal*)
+(*Corpo Metalico*)
+IF #CorpoB13 = #Corpo_B THEN
+    IF #CorpoB12 = #Corpo_M THEN
+        IF #MioloB13 = #Miolo_P THEN
+            #Classificacao := 4;
+        ELSE
+            IF #MioloB13 = #Miolo_B THEN
+                IF #MioloB12 = #Miolo_M THEN
+                    #Classificacao := 16;
+                ELSE
+                    IF #MioloB12 = #Miolo_PL THEN
+                        #Classificacao := 12;
+                    END_IF;
+                END_IF;
+            END_IF;
+        END_IF;
+(*Corpo Branco*)
+    ELSE
+        IF #MioloB13 = #Miolo_P THEN
+            #Classificacao := 3;
+        ELSIF #MioloB13 = #Miolo_B THEN
+            IF #MioloB12 = #Miolo_M THEN
+                #Classificacao := 15;
+            ELSIF #MioloB12 = #Miolo_PL THEN
+                #Classificacao := 11;
+            END_IF;
+        END_IF;
+    END_IF;
+(*Corpo Preto*)
+ELSE
+    IF #CorpoB13 = #Corpo_P THEN
+        IF #MioloB13 = #Miolo_P THEN
+            #Classificacao := 1;
+        ELSIF #MioloB13 = #Miolo_B THEN
+            IF #MioloB12 = #Miolo_M THEN
+                #Classificacao := 13;
+            ELSIF #MioloB12 = #Miolo_PL THEN
+                #Classificacao := 9;
+            END_IF;
+        END_IF;
+    END_IF;
+END_IF;
