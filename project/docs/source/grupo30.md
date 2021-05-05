@@ -1,5 +1,6 @@
-# Índice (Grupo 30 - YL335B)
+# Grupo 30 - YL335B
 
+## Índice
 - [Classificação](#classificacao)
   - [Estação 10](#estacao-10)
   - [Estação 20](#estacao-20)
@@ -30,8 +31,8 @@
   - [Draw io](#draw-io)
   - [GEMMA](#gemma)
 
-## Classificação
-### Estação 10
+### Classificação
+#### Estação 10
 *Entradas dos 19PLC*
 
 |Label |Endereço  | Comentário|
@@ -62,7 +63,7 @@
 321920HL12|%Q8.6|Painel Luz Verde
 321920HL13|%Q8.7|Painel Luz Vermelha
 
-### Estação 20
+#### Estação 20
 *Entradas dos 29PLC*
 
 |Label |Endereço  | Comentário|
@@ -90,7 +91,7 @@
 322920HL12|%Q1.0|Painel Luz Verde
 322920HL13|%Q1.1|Painel Luz Vermelha
 
-### Estação 30
+#### Estação 30
 *Entradas dos 39PLC*
 
 |Label |Endereço  | Comentário|
@@ -117,7 +118,7 @@
 323920HL12|%Q1.0|Painel Luz Verde
 323920HL13|%Q1.1|Painel Luz Vermelha
 
-### Estação 40
+#### Estação 40
 *Entradas dos 49PLC*
 
 |Label |Endereço  | Comentário|
@@ -160,7 +161,7 @@
 324920HL12|%Q8.6|Luz do Painel (Verde)
 324920HL13|%Q8.7|Luz do Painel (Vermelha)
 
-### Estação 50
+#### Estação 50
 *Entradas dos 59PLC*
 
 |Label |Endereço  | Comentário|
@@ -192,16 +193,16 @@ Enconder_Z|%I0.2|Enconder Z
 325920HL12|%Q1.0|Luz do Painel (Verde)
 325920HL13|%Q1.1|Luz do Painel (Vermelha)
 
-## Componentes
-### Sensor Fotoelétrico
-### Sensor Magnético
-### Sensor Indutivo
-### Sensor Ótico
-### Cilindro Pneumático
+### Componentes
+#### Sensor Fotoelétrico
+#### Sensor Magnético
+#### Sensor Indutivo
+#### Sensor Ótico
+#### Cilindro Pneumático
 
-## Equipamentos
+### Equipamentos
 
-### Enconder
+#### Enconder
 
 Encoders ou geradores de Impulsos são equipamentos eletromecânicos, utilizados para conversão de movimentos
 rotativos ou deslocamentos lineares em impulsos elétricos
@@ -210,47 +211,47 @@ por volta em uma distribuição perfeita dos pulsos ao longo dos 360 graus do gi
 
 Os enconders podem ser classificados como **"Encoder Relativos"** ou **"Encoder Absoluto"**. **"Encoder Relativos"**, dizem-nos a posição relativa ao ponto onde o encoder foi ativado, normalmente possuem 3 saídas A, B e Z. **"Encoder Absolutos"**, dizem-nos a posição absoluta através de saídas digitais codificadas em um valor binário.
 
-#### - [Manual Enconder](./equipments/manuais/manual_enconder.md)
+##### - [Manual Enconder](./equipments/manuais/manual_enconder.md)
 
-### Servo Motor
+#### Servo Motor
 
 Um Servo Motor, é um equipamento eletrônico utilizado como um atuador em sistemas de controlo automático, ele converte sinais elétricos num movimento angular no veio do motor. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), o Servo Motor esta ligado a um Motor AC SIMOTICS S-1FL6 que permite a deslocação do carro.
 
-#### - [Manual Servo Motor](./equipments/manuais/manual_servo.md)
+##### - [Manual Servo Motor](./equipments/manuais/manual_servo.md)
 
-### Inversor de Frequência
+#### Inversor de Frequência
 
 Um Inversor de Frequência é um equipamento eletrônico, utilizado para variar a velocidade de um motor. Este equipamento transforma o Sinal Analogico, vindo do PLC, em corrente alternada. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), o Inversor de Frequência esta ligado a um Motor Trisáfico e a este está acopulado um Enconder que permite as seleção das peças de forma correta e precisa. 
 
-### Siemens S7 1200
+#### Siemens S7 1200
 
-## Lines
+### Lines
 #### Line 31
-#### - [2020_2021](./lines/line31/2020_2021/line31.md)
-#### - [2021_2022](./lines/line31/2021_2022/line31.md)
-#### - [2022_2023](./lines/line31/2022_2023/line31.md)
+##### - [2020_2021](./lines/line31/2020_2021/line31.md)
+##### - [2021_2022](./lines/line31/2021_2022/line31.md)
+##### - [2022_2023](./lines/line31/2022_2023/line31.md)
 
 #### Line 32
-#### - [2020_2021](./lines/line32/2020_2021/line32.md)
-#### - [2021_2022](./lines/line32/2021_2022/line32.md)
-#### - [2022_2023](./lines/line32/2022_2023/line32.md)
+##### - [2020_2021](./lines/line32/2020_2021/line32.md)
+##### - [2021_2022](./lines/line32/2021_2022/line32.md)
+##### - [2022_2023](./lines/line32/2022_2023/line32.md)
 
 #### Line 33
-#### - [2020_2021](./lines/line33/2020_2021/line33.md)
-#### - [2021_2022](./lines/line33/2021_2022/line33.md)
-#### - [2022_2023](./lines/line33/2022_2023/line33.md)
+##### - [2020_2021](./lines/line33/2020_2021/line33.md)
+##### - [2021_2022](./lines/line33/2021_2022/line33.md)
+##### - [2022_2023](./lines/line33/2022_2023/line33.md)
 
-## Software
-### TIA Portal
+### Software
+#### TIA Portal
 [TIA Portal](https://new.siemens.com/global/en/products/automation/industry-software/automation-software/tia-portal.html), Totally Integrated Automation Portal, desenvolvido pela Siemens é um software que oferece uma vasta gama ferramentas, desta forma é possivel realizar o trabalho de forma rapida e eficaz. Intregado ao TIA Portal temos o WinCC, a ferramenta utilizada para a programação das HMI's na Ofina Luban.
 
-### Tesla Scada
+#### Tesla Scada
 [Tesla Scada](https://teslascada.com/) foi o software escolhido para implementação de interfaces homem-máquina na Oficina Luban. O Tesla Scada permite o controlo e supervisão em tempo real de sistemas e processos industriais baseados em PLC. 
 
-### Draw io
+#### Draw io
 [Draw.io](Draw.io), é um software gratuito que premite a criação de Grafcets, Fluxogramas, entre outras.
 
-### Gemma
+#### Gemma
 O Gemma consiste num Guia de estudo dos modos de Marcha e Paragem. Num processo automaziado, por necessidade, é necessário prever todos os estados possíveis, desta forma, com o Gemma, é possivel executar arranques ou paragens de forma segura sem prejudicar ou Homem ou a Máquina.
 
 Como podemos observar na figura a baixo, o Gemma, devide-se em 3 grande blocos: **"Procedimentos de paragem"**, **"Procedimentos de execução"**, **"Procedimentos de falha"** e a cada um dele correspondem um conjunto de funções/tarefas.
@@ -282,4 +283,4 @@ Como podemos observar na figura a baixo, o Gemma, devide-se em 3 grande blocos: 
     
   [WebGrafia Gemma]: <> (http://isa.uniovi.es/~vsuarez/Download/GemmaTelemecanique.PDF.)
 
-## Manuais Gerais
+### Manuais Gerais
