@@ -33,53 +33,44 @@ A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resulta
 
 ## Processo
 
-oiopipoi
+    Notas: 
+    # Falar um pouco da Line
+    # Processo de funcionamento da estacao
 
 **Estação 10**
 
-A Estação 10, **estação de transporte da peça**, desde a sua fase inicial até à sua finalização. Para a realização deste transporte pelas diversas estações é utilizado um **robô**, que acoplado, contém uma **garra**, sendo assim possivel realizar as tarefas pretendidas. Para se deslocar pelas diversas estações, o **robô**, está conectado a um Servo Motor (Simotics S-1FL6) e um inversor de Frequência (Siemens V90).
+A Estação 10, **estação de transporte da peça**, desde a sua fase inicial até à sua finalização. Para a realização deste transporte pelas diversas estações é utilizado um **robô**, que acoplado, contém uma **garra**, sendo assim possivel realizar as tarefas pretendidas. Para se deslocar pelas diversas estações, o **robô**, está conectado a um Servo Motor (Simotics S-1FL6) e um inversor de Frequência (Siemens V90). Agregada à estação 10, temos a subestação 11, constituida por 4 cilindros: Cilindro 1 responsável por fazer o avanço e recuo da garra; Cilindro 2 responsável por fazer a subida e descida da garra; Cilindro 3 responsável por fazer a rotação da garra para a esquerda ou direita; Cilindro 4 responsável por fazer a abertura e fecho da garra; 
 
-A Garra é constituida por 6 cilindros: Abertura, Fecho, Rotação (Esquerda), Rotação (Direita), Avanço e Recuo, Subida e Descida.
+    Nota: Diferentes as restantes estações e respetivos cilindros, o Cilindro 1 e 3 eletrovalvulas monoestaveis.
 
 ![ST10](./station/images/st_10.jpg)
 
 **Estação 20**
 
-A Estação 20, **estação de alimentação do corpo da peça**, o corpo da peça, é colocado na funil para ser processado. Agregada à estação 20, temos a subsestação 21, constituida por 2 cilindros: Cilindro 1 responsável por fazer o avanço da primeira peça; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar.
+A Estação 20, **estação de alimentação do corpo da peça**, o corpo da peça, é colocado na funil para ser processado. Agregada à estação 20, temos a subestação 21, constituida por 2 cilindros: Cilindro 1 responsável por fazer o avanço da primeira peça; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar.
 
 ![ST20](./station/images/st_20.jpg)
 
 **Estação 30**
 
-A Estação 30, **estação de aplicação**, é aplicada uma *cola* para fixar o miolo ao corpo da peça. Agregada à estação 30, temos a subsestação 31, constituida por 3 cilindros: Cilindro 1 responsável por fazer o fecho da pinça; Cilindro 2 por fazer avanço e recuo da pinça; Cilindro 3 responsável por fazer a subida e a descida da prensa.
+A Estação 30, **estação de aplicação**, é aplicada uma *cola* para fixar o miolo ao corpo da peça. Agregada à estação 30, temos a subestação 31, constituida por 3 cilindros: Cilindro 1 responsável por fazer o fecho da pinça; Cilindro 2 responsável por fazer avanço e recuo da pinça; Cilindro 3 responsável por fazer a subida e a descida da prensa.
 
 ![ST30](./station/images/st_30.jpg)
 
 **Estação 40**
 
-A Estação 40, **estação de alimentação do miolo da peça**, o miolo da peça, é colocado na funil para ser processado. 
-
-Agregada à estação 40, temos a subsestação 41, constituida por 3 cilindros: Cilindro 1 responsável por fazer o avanço da primeira peça; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar.
-
-3241*Y10|%Q0.1|Cilindro 1 Tubo
-3241*Y20|%Q0.0|Cilindro 2 Tubo
-3241*Y30|%Q0.2|Prato
-
-3242*Y10|%Q0.5|Cilindro da Garra (Frente e Tras)
-3242*Y20|%Q0.4|Cilindro da Garra (Cima e Baixo)
-3242*Y30|%Q0.3|Cilindro da Garra (Abrir e Fechar)
+A Estação 40, **estação de alimentação do miolo da peça**, o miolo da peça, é colocado na funil para ser processado. Agregada à estação 40, temos a subestação 41, constituida por 3 cilindros: Cilindro 1 responsável pelo suporte do miolo, quando ativado deixa o miolo cair; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar; Cilindro 3 responsavel pelo movimento do prato. Ainda na estação 40, temos a subestação 42, constituida por 3 cilindros: Cilindro 1 responsável por fazer avanço e recuo da garra; Cilindro 2 responsável por fazer a subida e a descida da garra. Cilindro 3 responsavel pelo fecho e abertura da garra. 
 
 ![ST40](./station/images/st_40.jpg)
 
 **Estação 50**
 
+A Estação 50, **estação de seleção**, responsável por ordenar as peças no respsetivo armazém. Agregada à estação 50, temos o tapete, onde se encontram os 3 cilindros que constituem o processo: Cilindro 1 responsável por encaminhar a peça, Corpo/Miolo Metálico; Cilindro 2 responsável por encaminhar a peça, Corpo/Miolo Branco; Cilindro 3 responsável por encaminhar a peça, Corpo/Miolo Preto.
+
+![ST50](./station/images/st_50.jpg)
 
 ## Trabalho Realizado
-
-        Loading...
-
 ### Classificação
-
 #### Estação 10
 *Entradas dos 19PLC*
 
@@ -291,17 +282,3 @@ blocos importanttes
 
 #### Gemma
 - [Projeto1](./software/gemma/projeto1/gemma.md)
-
-| Tags      | Outputs| comments                    | Tags     | Inputs | Comments                     |
-| -----     |--------| ----------------------------|----------|--------|------------------------------|
-| 311010B10 | %I0.3  | Sensor de Movimento(Baixo)  | 3110Y10  | %Q0.3  | Cilindro Vertical            |
-| 311010B11 | %I0.4  | Sensor de Movimento(Cima)   | 3110Y20A | %Q0.4  | Cilindro Rotacional(Esquerda)|
-| 311020B20 | %I0.5  | Sensor de Rotacao(Esquerda) | 3110Y20B | %Q0.5  | Cilindro Rotacional(Direita) |
-| 311020B21 | %I0.6  | Sensor de Posicao(Direita)  | 3110Y30  | %Q0.6  | Cilindro Horizontal          |
-| 311030B10 | %I0.7  | Sensor de Pos.Av            | 3110GA   | %Q0.7  | Fechar Garra                 |
-| 311030B11 | %I1.0  | Sensor de Pos.Rec           | 3110GB   | %Q1.0  | Abrir Garra                  |
-| 3110G10   | %I1.1  | Sensor de Garra             | 31192011 | %Q8.5  | Luz Laranja                  |
-| 311920SB2 | %I8.4  | STOP                        | 31192012 | %Q8.6  | Luz Verde                    |
-| 311920SB1 | %I8.5  | START                       | 31192013 | %Q8.7  | Luz Encarnada                |
-| 311920QS  | %I8.6  | Botao de emergencia         |          |        |                              |
-| 311920SA  | %I8.7  | Seletor                     |          |        |                              |
