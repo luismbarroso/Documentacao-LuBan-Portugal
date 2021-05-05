@@ -292,3 +292,16 @@ blocos importanttes
 #### Gemma
 - [Projeto1](./software/gemma/projeto1/gemma.md)
 
+| Tags      | Outputs| comments                    | Tags     | Inputs | Comments                     |
+| -----     |--------| ----------------------------|----------|--------|------------------------------|
+| 311010B10 | %I0.3  | Sensor de Movimento(Baixo)  | 3110Y10  | %Q0.3  | Cilindro Vertical            |
+| 311010B11 | %I0.4  | Sensor de Movimento(Cima)   | 3110Y20A | %Q0.4  | Cilindro Rotacional(Esquerda)|
+| 311020B20 | %I0.5  | Sensor de Rotacao(Esquerda) | 3110Y20B | %Q0.5  | Cilindro Rotacional(Direita) |
+| 311020B21 | %I0.6  | Sensor de Posicao(Direita)  | 3110Y30  | %Q0.6  | Cilindro Horizontal          |
+| 311030B10 | %I0.7  | Sensor de Pos.Av            | 3110GA   | %Q0.7  | Fechar Garra                 |
+| 311030B11 | %I1.0  | Sensor de Pos.Rec           | 3110GB   | %Q1.0  | Abrir Garra                  |
+| 3110G10   | %I1.1  | Sensor de Garra             | 31192011 | %Q8.5  | Luz Laranja                  |
+| 311920SB2 | %I8.4  | STOP                        | 31192012 | %Q8.6  | Luz Verde                    |
+| 311920SB1 | %I8.5  | START                       | 31192013 | %Q8.7  | Luz Encarnada                |
+| 311920QS  | %I8.6  | Botao de emergencia         |          |        |                              |
+| 311920SA  | %I8.7  | Seletor                     |          |        |                              |
