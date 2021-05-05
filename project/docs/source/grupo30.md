@@ -16,7 +16,7 @@
 - [Equipamentos](#equipamentos)
   - [Siemens S7 1200](#siemens-s7-1200) 
   - [Enconder](#enconder)
-    - [Manual Enconder](#manual-enconder) 
+    - [Manual Enconder](./equipments/manuais/manual_enconder.md)
   - [Servo Motor](#servo-motor)
     - [Manual Servo Motor](#manual-servo-motor) 
   - [Inversor de Frequência](#inversor-de-frequencia)
