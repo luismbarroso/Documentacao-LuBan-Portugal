@@ -1,11 +1,14 @@
 # Grupo 30 - YL335B
 
 - [Classificação](#classificacao)
-  - [Estação 10](#estacao-10)
-  - [Estação 20](#estacao-20)
-  - [Estação 30](#estacao-30) 
-  - [Estação 40](#estacao-40)
-  - [Estação 50](#estacao-50)
+  - [Estações](#estacoes)
+    - [Estação 10](#estacao-10)
+    - [Estação 20](#estacao-20)
+    - [Estação 30](#estacao-30) 
+    - [Estação 40](#estacao-40)
+    - [Estação 50](#estacao-50)
+  - [PROFINET](#PROFINET)
+  - [Modbus](#modbus)
 - [Componentes](#componentes)
   - [Sensor Fotoelétrico](#sensor-fotoeletrico)
   - [Sensor Magnético](#sensor-magnetico) 
@@ -21,10 +24,18 @@
   - [Inversor de Frequência](#inversor-de-frequencia)
   - [HMI-T](#hmi-t)
 - [Lines](#lines)
-  - [Line 31](#line-31) 
-    - [2020_2021](#ln31_20_21)
-  - [Line 32](#line-32) 
-  - [Line 33](#line-33) 
+  - [Line 31](#line-31)
+    - [2020_2021](./lines/line31/2020_2021/line31.md)
+    - [2021_2022](./lines/line31/2021_2022/line31.md)
+    - [2022_2023](./lines/line31/2022_2023/line31.md) 
+  - [Line 32](#line-32)
+    - [2020_2021](./lines/line32/2020_2021/line32.md)
+    - [2021_2022](./lines/line32/2021_2022/line32.md)
+    - [2022_2023](./lines/line32/2022_2023/line32.md)  
+  - [Line 33](#line-33)
+    - [2020_2021](./lines/line33/2020_2021/line33.md)
+    - [2021_2022](./lines/line33/2021_2022/line33.md)
+    - [2022_2023](./lines/line33/2022_2023/line33.md)  
 - [Software](#software)
   - [TIA Portal](#tia-portal)
   - [Tesla Scada](#tesla-scada)
@@ -32,7 +43,8 @@
   - [GEMMA](#gemma)
 
 ## Classificação
-### Estação 10
+### Estações
+#### Estação 10
 *Entradas dos 19PLC*
 
 |Label |Endereço  | Comentário|
@@ -63,7 +75,7 @@
 321920HL12|%Q8.6|Painel Luz Verde
 321920HL13|%Q8.7|Painel Luz Vermelha
 
-### Estação 20
+#### Estação 20
 *Entradas dos 29PLC*
 
 |Label |Endereço  | Comentário|
@@ -91,7 +103,7 @@
 322920HL12|%Q1.0|Painel Luz Verde
 322920HL13|%Q1.1|Painel Luz Vermelha
 
-### Estação 30
+#### Estação 30
 *Entradas dos 39PLC*
 
 |Label |Endereço  | Comentário|
@@ -118,7 +130,7 @@
 323920HL12|%Q1.0|Painel Luz Verde
 323920HL13|%Q1.1|Painel Luz Vermelha
 
-### Estação 40
+#### Estação 40
 *Entradas dos 49PLC*
 
 |Label |Endereço  | Comentário|
@@ -161,7 +173,7 @@
 324920HL12|%Q8.6|Luz do Painel (Verde)
 324920HL13|%Q8.7|Luz do Painel (Vermelha)
 
-### Estação 50
+#### Estação 50
 *Entradas dos 59PLC*
 
 |Label |Endereço  | Comentário|
@@ -192,6 +204,9 @@ Enconder_Z|%I0.2|Enconder Z
 325920HL11|%Q0.7|Luz do Painel (Laranja)
 325920HL12|%Q1.0|Luz do Painel (Verde)
 325920HL13|%Q1.1|Luz do Painel (Vermelha)
+
+### PROFINET
+### Modbus
 
 ## Componentes
 ### Sensor Fotoelétrico
@@ -230,7 +245,7 @@ seleção das peças de forma correta e precisa.
 
 ## Lines
 ### Line 31
-#### - [2020_2021](#ln31_20_21)(./lines/line31/2020_2021/line31.md)
+#### - [2020_2021](./lines/line31/2020_2021/line31.md)
 #### - [2021_2022](./lines/line31/2021_2022/line31.md)
 #### - [2022_2023](./lines/line31/2022_2023/line31.md)
 
