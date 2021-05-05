@@ -69,7 +69,7 @@ Upgrade 04/05/2021, 14h53
 |3120B22|I0.1|Sensor de Trás	|3120Y10|Q0.1	|Cilindro Inferior|	
 |3120B11|I0.2|Sensor de Frente	|292011	|Q0.7	|Luz Laranja|	
 |3120B12|I0.3|Sensor de Trás	|292012	|Q1.0	|Luz Verde|	
-|3120B40|I0.4|Sensor Base		|292013	|Q1.1	|Luz Encarnada|	
+|3120B40|I0.4|Sensor Base		|292013	|Q1.1	|Luz Vermelha|	
 |3120B31|I0.5|Sensor de Cima(Tubo)					
 |3120B32|I0.6|Sensor de Baixo(Tubo)					
 |3120B33|I0.7|Sensor Metálico(Tubo)					
@@ -87,7 +87,7 @@ Upgrade 04/05/2021, 14h53
 |3130B11	|I0.2	|Sensor de Trás (Base)|3130Y30	|Q0.3	|Prensa|	
 |3130B12	|I0.3	|Sensor de Frente(Base)|392011	|Q0.7	|Luz Laranja|	
 |3130B31	|I0.4	|Sensor de Pos.Rec(Prensa)		|392012	|Q1.0	|Luz Verde|	
-|3130B32	|I0.5	|Sensor de Pos.Av(Prensa)		|392013	|Q1.1	|Luz Encarnada|	
+|3130B32	|I0.5	|Sensor de Pos.Av(Prensa)		|392013	|Q1.1	|Luz Vermelha|	
 |3139SB2	|I1.2	|Stop					
 |3139SB1	|I1.3	|Start					
 |3139QS	|I1.4	|Switch de Emergência					
@@ -97,9 +97,9 @@ Upgrade 04/05/2021, 14h53
 ##### Estacao 40
 |Tags	|Inputs	|Legend		|Tags	|Outputs	|Legend	|
 --------|-------|-----------|-------|-----------|-------|
-|314020B11|	I0.0|	Sensor Tubo em cima|		314020Y10|	Q0.0	|Cilindro Baixo do Tubo	
-|314020B10|	I0.1|	Sensor Tubo em baixo|		314020Y20|	Q0.1	C|ilindro Cima do Tubo	
-|314010B31|	I0.2|	Sensor Prato lado Esq.|		314010R10|	Q0.2	|Prato	
+|314020B11|	I0.0|	Sensor Tubo em cima|314020Y10|	Q0.0	|Cilindro Baixo do Tubo	
+|314020B10|	I0.1|	Sensor Tubo em baixo|314020Y20|	Q0.1|Cilindro Cima do Tubo	
+|314010B31|	I0.2|	Sensor Prato lado Esq.|314010R10|	Q0.2	|Prato	
 |314010B30|	I0.3|	Sensor Prato lado Dir.|		314030G10|	Q0.3	|Garra	
 |314010B10|	I0.4|	Sensor Tubo	|	314030Y20|	Q0.4|	Cilindro Vertical	
 |314020B21|	I0.5|	Sensor á Frente|		314030Y10|	Q0.5|	Cilindro Horizontal	
@@ -108,7 +108,7 @@ Upgrade 04/05/2021, 14h53
 |314020B31|	I1.0|	Sendor a trás|		314040HL30|	Q1.0|	Semáforo Verde	
 |314010B20|	I1.1|	Sensor posição inicial|		4920HL1|	Q8.5|	Luz Laranja	
 |314030B21|	I1.2|	Sensor Mov.(Prato)|		4920HL2|	Q8.6|	Luz Verde	
-|314030B10|	I1.3|	Sensor Garra|		4920HL3|	Q8.7|	Luz Encarnada	
+|314030B10|	I1.3|	Sensor Garra|		4920HL3|	Q8.7|	Luz Vermelha	
 |314930B41|	I1.4|	Sensor de Garra em baixo|					
 |314030B40|	I1.5|	Sensor de garra em cima|					
 |314030B51|	I8.0|	Sensor de Trás|					
