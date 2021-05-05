@@ -17,11 +17,12 @@
   - [Enconder](#enconder)
     - [Manual Enconder](./equipments/manuais/manual_enconder.md)
   - [Servo Motor](#servo-motor)
-    - [Manual Servo Motor](#manual-servo-motor) 
+    - [Manual Servo Motor](./equipments/manuais/manual_servo.md)
   - [Inversor de Frequência](#inversor-de-frequencia)
   - [HMI-T](#hmi-t)
 - [Lines](#lines)
   - [Line 31](#line-31) 
+    - [2020_2021](#ln31_20_21)
   - [Line 32](#line-32) 
   - [Line 33](#line-33) 
 - [Software](#software)
@@ -229,7 +230,7 @@ seleção das peças de forma correta e precisa.
 
 ## Lines
 ### Line 31
-#### - [2020_2021](./lines/line31/2020_2021/line31.md)
+#### - [2020_2021](#ln31_20_21)(./lines/line31/2020_2021/line31.md)
 #### - [2021_2022](./lines/line31/2021_2022/line31.md)
 #### - [2022_2023](./lines/line31/2022_2023/line31.md)
 
