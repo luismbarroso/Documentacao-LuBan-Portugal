@@ -34,8 +34,7 @@ Grupo 30 - YL-335B
 
 .. toctree::
    :maxdepth: 2
-   :hiddentitle:
-
+   
    grupo30
 
 *********
