@@ -1,7 +1,5 @@
 # Grupo 20 - THMSRB-3DS
 
-## Índice
-
 <div align="center">
 <div class="loader"></div>
 <style>
