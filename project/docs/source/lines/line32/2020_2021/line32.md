@@ -59,10 +59,7 @@ A Estação 30, **estação de aplicação**, é aplicada uma *cola* para fixar 
 
 A Estação 40, **estação de alimentação do miolo da peça**, o miolo da peça, é colocado na funil para ser processado. 
 
-
-
 Agregada à estação 40, temos a subsestação 41, constituida por 3 cilindros: Cilindro 1 responsável por fazer o avanço da primeira peça; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar.
-
 
 3241*Y10|%Q0.1|Cilindro 1 Tubo
 3241*Y20|%Q0.0|Cilindro 2 Tubo
@@ -72,10 +69,7 @@ Agregada à estação 40, temos a subsestação 41, constituida por 3 cilindros:
 3242*Y20|%Q0.4|Cilindro da Garra (Cima e Baixo)
 3242*Y30|%Q0.3|Cilindro da Garra (Abrir e Fechar)
 
-
 ![ST40](./station/images/st_40.jpg)
-
-
 
 **Estação 50**
 
