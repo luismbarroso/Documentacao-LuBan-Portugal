@@ -1,6 +1,7 @@
 # Line 32
 
 - [Introdução](#introducao)
+- [Processo](#processo)
 - [Trabalho Realizado](#trabalho-realizado)
     - [Classificação](#classificacao)
         - [Estação 10](#estacao-10)
@@ -27,7 +28,45 @@
 
 ### Introdução
 
-A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resultam: **"Transporte"**, **"Pressurização"**, **"Alimentação (Corpo e Miolo)"** e **"Seleção"**.
+A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resultam: **"Transporte (Estação 10)"**, **"Aplicação (Estação 30)"**, **"Alimentação (Corpo (Estação 20) e Miolo (Estação 40))"** e **"Seleção (Estação 50)"**.
+
+### Processo
+
+oiopipoi
+
+**Estação 10**
+
+A Estação 10 é a **estação de transporte da peça**, desde a sua fase inicial até à sua finalização. Para a realização deste transporte pelas diversas estações é utilizado um **robô**, que acoplado, contém uma **garra**, sendo assim possivel realizar as tarefas pretendidas. Para se deslocar pelas diversas estações, o **robô**, está conectado a um Servo Motor (Simotics S-1FL6) e um inversor de Frequência (Siemens V90).
+
+A Garra é constituida por 6 cilindros: Abertura, Fecho, Rotação (Esquerda), Rotação (Direita), Avanço e Recuo, Subida e Descida.
+
+![ST10](./station/images/st_10.jpg)
+
+**Estação 20**
+
+A Estação 20 é a **estação de alimentação do corpo da peça**, nesta estação, o corpo da peça, é colocado na funil para ser processado. Agregada à estação 20, temos a subsestação 21, constituida por 2 cilindros: Cilindro 1 responsável por fazer o avanço da primeira peça; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar.
+
+![ST20](./station/images/st_20.jpg)
+
+- **Estação 30**
+
+A Estação 30 é a **estação de aplicação**, nesta estação, é aplicada uma *cola* para fixar o miolo ao corpo da peça. Agregada à estação 30, temos a subsestação 31, constituida por 3 cilindros: Cilindro 1 responsável por fazer o avanço da primeira peça; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar.
+
+
+
+3231*Y20|%Q0.0|Cilindro de Fechar a Pinça
+3231*Y20|%Q0.2|Cilindro da Pinça (Avanço e Recuo)
+3232*Y10|%Q0.3|Cilindro da Prensa (Sobe e Desce)
+
+
+
+
+
+![](./station/images/st_30.jpg)
+
+- **Estação 40**
+- **Estação 50**
+
 
 ### Trabalho Realizado
 
@@ -196,12 +235,6 @@ Enconder_Z|%I0.2|Enconder Z
 325920HL12|%Q1.0|Luz do Painel (Verde)
 325920HL13|%Q1.1|Luz do Painel (Vermelha)
 
-![](./station/images/st_10.jpg)
-![](./station/images/st_20.jpg)
-![](./station/images/st_30.jpg)
-![](./station/images/st_40.jpg)
-![](./station/images/st_50.jpg)
-
 #### Software
 ##### Grafcets Modo: Manual
 ###### Estação 10 (Manual)
@@ -245,6 +278,11 @@ Enconder_Z|%I0.2|Enconder Z
 
 ![](./software/grafcets/bancada32_automatico/59PLC.svg)
 
-##### Gemmaa
+# programacao
+
+introducao
+blocos importanttes
+
+##### Gemma
 - [Projeto1](./software/gemma/projeto1/gemma.md)
 
