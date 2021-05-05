@@ -67,7 +67,27 @@ A Estação 40, **estação de alimentação do miolo da peça**, o miolo da pe�
 
 A Estação 50, **estação de seleção**, responsável por ordenar as peças no respsetivo armazém. Agregada à estação 50, temos o tapete, onde se encontram os 3 cilindros que constituem o processo: Cilindro 1 responsável por encaminhar a peça, Corpo/Miolo Metálico; Cilindro 2 responsável por encaminhar a peça, Corpo/Miolo Branco; Cilindro 3 responsável por encaminhar a peça, Corpo/Miolo Preto.
 
-![ST50](./station/images/st_50.jpg)
+Metálico/Metálico
+Metálico/Branco
+Metálico/Preto
+
+Branco/Branco
+Branco/Metálico
+Branco/Preto
+
+Preto/Preto
+Preto/Metálico
+Preto/Branco
+
+|        |Metálico |Branco  | Preto |
+-------- | ------- | ------ | ----- |
+Metálico |  **x**  |        |       |
+Branco   |         | **x**  |       |
+Preto    |         |        |       |
+
+
+
+        ![ST50](./station/images/st_50.jpg)
 
 ## Trabalho Realizado
 ### Classificação
