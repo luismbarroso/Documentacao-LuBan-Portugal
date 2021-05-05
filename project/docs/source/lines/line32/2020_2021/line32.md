@@ -1,6 +1,5 @@
 # Line 32
 
-### Indice
 - [Introdução](#introducao)
 - [Trabalho Realizado](#trabalho-realizado)
     - [Classificação](#classificacao)
