@@ -2,6 +2,7 @@
 
 - [Introdução](#introducao)
 - [Processo](#processo)
+- [Modos de Funcionamento](#modo-de-funcionamento)
 - [Trabalho Realizado](#trabalho-realizado)
     - [Classificação](#classificacao)
         - [Estação 10](#estacao-10)
@@ -26,17 +27,17 @@
             - [Projeto 1](#projeto-1)
  
 
-### Introdução
+## Introdução
 
 A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resultam: **"Transporte (Estação 10)"**, **"Aplicação (Estação 30)"**, **"Alimentação (Corpo (Estação 20) e Miolo (Estação 40))"** e **"Seleção (Estação 50)"**.
 
-### Processo
+## Processo
 
 oiopipoi
 
 **Estação 10**
 
-A Estação 10 é a **estação de transporte da peça**, desde a sua fase inicial até à sua finalização. Para a realização deste transporte pelas diversas estações é utilizado um **robô**, que acoplado, contém uma **garra**, sendo assim possivel realizar as tarefas pretendidas. Para se deslocar pelas diversas estações, o **robô**, está conectado a um Servo Motor (Simotics S-1FL6) e um inversor de Frequência (Siemens V90).
+A Estação 10, **estação de transporte da peça**, desde a sua fase inicial até à sua finalização. Para a realização deste transporte pelas diversas estações é utilizado um **robô**, que acoplado, contém uma **garra**, sendo assim possivel realizar as tarefas pretendidas. Para se deslocar pelas diversas estações, o **robô**, está conectado a um Servo Motor (Simotics S-1FL6) e um inversor de Frequência (Siemens V90).
 
 A Garra é constituida por 6 cilindros: Abertura, Fecho, Rotação (Esquerda), Rotação (Direita), Avanço e Recuo, Subida e Descida.
 
@@ -44,37 +45,48 @@ A Garra é constituida por 6 cilindros: Abertura, Fecho, Rotação (Esquerda), R
 
 **Estação 20**
 
-A Estação 20 é a **estação de alimentação do corpo da peça**, nesta estação, o corpo da peça, é colocado na funil para ser processado. Agregada à estação 20, temos a subsestação 21, constituida por 2 cilindros: Cilindro 1 responsável por fazer o avanço da primeira peça; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar.
+A Estação 20, **estação de alimentação do corpo da peça**, o corpo da peça, é colocado na funil para ser processado. Agregada à estação 20, temos a subsestação 21, constituida por 2 cilindros: Cilindro 1 responsável por fazer o avanço da primeira peça; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar.
 
 ![ST20](./station/images/st_20.jpg)
 
-- **Estação 30**
+**Estação 30**
 
-A Estação 30 é a **estação de aplicação**, nesta estação, é aplicada uma *cola* para fixar o miolo ao corpo da peça. Agregada à estação 30, temos a subsestação 31, constituida por 3 cilindros: Cilindro 1 responsável por fazer o avanço da primeira peça; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar.
+A Estação 30, **estação de aplicação**, é aplicada uma *cola* para fixar o miolo ao corpo da peça. Agregada à estação 30, temos a subsestação 31, constituida por 3 cilindros: Cilindro 1 responsável por fazer o fecho da pinça; Cilindro 2 por fazer avanço e recuo da pinça; Cilindro 3 responsável por fazer a subida e a descida da prensa.
 
+![ST30](./station/images/st_30.jpg)
 
+**Estação 40**
 
-3231*Y20|%Q0.0|Cilindro de Fechar a Pinça
-3231*Y20|%Q0.2|Cilindro da Pinça (Avanço e Recuo)
-3232*Y10|%Q0.3|Cilindro da Prensa (Sobe e Desce)
-
-
+A Estação 40, **estação de alimentação do miolo da peça**, o miolo da peça, é colocado na funil para ser processado. 
 
 
 
-![](./station/images/st_30.jpg)
-
-- **Estação 40**
-- **Estação 50**
+Agregada à estação 40, temos a subsestação 41, constituida por 3 cilindros: Cilindro 1 responsável por fazer o avanço da primeira peça; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar.
 
 
-### Trabalho Realizado
+3241*Y10|%Q0.1|Cilindro 1 Tubo
+3241*Y20|%Q0.0|Cilindro 2 Tubo
+3241*Y30|%Q0.2|Prato
+
+3242*Y10|%Q0.5|Cilindro da Garra (Frente e Tras)
+3242*Y20|%Q0.4|Cilindro da Garra (Cima e Baixo)
+3242*Y30|%Q0.3|Cilindro da Garra (Abrir e Fechar)
+
+
+![ST40](./station/images/st_40.jpg)
+
+
+
+**Estação 50**
+
+
+## Trabalho Realizado
 
         Loading...
 
-#### Classificação
+### Classificação
 
-##### Estação 10
+#### Estação 10
 *Entradas dos 19PLC*
 
 |Label |Endereço  | Comentário|
@@ -105,7 +117,7 @@ A Estação 30 é a **estação de aplicação**, nesta estação, é aplicada u
 321920HL12|%Q8.6|Painel Luz Verde
 321920HL13|%Q8.7|Painel Luz Vermelha
 
-##### Estação 20
+#### Estação 20
 *Entradas dos 29PLC*
 
 |Label |Endereço  | Comentário|
@@ -133,7 +145,7 @@ A Estação 30 é a **estação de aplicação**, nesta estação, é aplicada u
 322920HL12|%Q1.0|Painel Luz Verde
 322920HL13|%Q1.1|Painel Luz Vermelha
 
-##### Estação 30
+#### Estação 30
 *Entradas dos 39PLC*
 
 |Label |Endereço  | Comentário|
@@ -160,7 +172,7 @@ A Estação 30 é a **estação de aplicação**, nesta estação, é aplicada u
 323920HL12|%Q1.0|Painel Luz Verde
 323920HL13|%Q1.1|Painel Luz Vermelha
 
-##### Estação 40
+#### Estação 40
 *Entradas dos 49PLC*
 
 |Label |Endereço  | Comentário|
@@ -203,7 +215,7 @@ A Estação 30 é a **estação de aplicação**, nesta estação, é aplicada u
 324920HL12|%Q8.6|Luz do Painel (Verde)
 324920HL13|%Q8.7|Luz do Painel (Vermelha)
 
-##### Estação 50
+#### Estação 50
 *Entradas dos 59PLC*
 
 |Label |Endereço  | Comentário|
@@ -235,46 +247,46 @@ Enconder_Z|%I0.2|Enconder Z
 325920HL12|%Q1.0|Luz do Painel (Verde)
 325920HL13|%Q1.1|Luz do Painel (Vermelha)
 
-#### Software
-##### Grafcets Modo: Manual
-###### Estação 10 (Manual)
+### Software
+#### Grafcets Modo: Manual
+##### Estação 10 (Manual)
 
 ![](./software/grafcets/bancada32_manual/19PLC.svg)
 
-###### Estação 20 (Manual)
+##### Estação 20 (Manual)
 
 ![](./software/grafcets/bancada32_manual/29PLC.svg)
 
-###### Estação 30 (Manual)
+##### Estação 30 (Manual)
 
 ![](./software/grafcets/bancada32_manual/39PLC.svg)
 
-###### Estação 40 (Manual)
+##### Estação 40 (Manual)
 
 ![](./software/grafcets/bancada32_manual/49PLC.svg)
 
-###### Estação 50 (Manual)
+##### Estação 50 (Manual)
 
 ![](./software/grafcets/bancada32_manual/59PLC.svg)
 
-##### Grafcets Modo: Automático
-###### Estação 10 (Automático)
+#### Grafcets Modo: Automático
+##### Estação 10 (Automático)
 
 ![](./software/grafcets/bancada32_automatico/19PLC.svg)
 
-###### Estação 20 (Automático)
+##### Estação 20 (Automático)
 
 ![](./software/grafcets/bancada32_automatico/29PLC.svg)
 
-###### Estação 30 (Automático)
+##### Estação 30 (Automático)
 
 ![](./software/grafcets/bancada32_automatico/39PLC.svg)
 
-###### Estação 40 (Automático)
+##### Estação 40 (Automático)
 
 ![](./software/grafcets/bancada32_automatico/49PLC.svg)
 
-###### Estação 50 (Automático)
+##### Estação 50 (Automático)
 
 ![](./software/grafcets/bancada32_automatico/59PLC.svg)
 
@@ -283,6 +295,6 @@ Enconder_Z|%I0.2|Enconder Z
 introducao
 blocos importanttes
 
-##### Gemma
+#### Gemma
 - [Projeto1](./software/gemma/projeto1/gemma.md)
 
