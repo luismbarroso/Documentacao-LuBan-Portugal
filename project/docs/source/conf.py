@@ -20,8 +20,8 @@ from recommonmark.transform import AutoStructify
 project = "Documentação Luban"
 html_title = "Documentação Luban"
 
-copyright = '2021, Luis Barroso'
-author = 'Luis Barroso'
+copyright = '2021, Lu ban Workshop Portugal'
+author = 'Lu ban Workshop Portugal'
 
 # The full version, including alpha/beta/rc tags
 release = LooseVersion(sphinx_material.__version__).vstring
