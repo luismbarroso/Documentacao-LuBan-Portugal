@@ -1,5 +1,7 @@
 # Line 32
 
+**Autor:** *Luís Barroso*
+
 - [Introdução](#introdução)
 - [Processo](#processo)
     - [Peças](#peças)
