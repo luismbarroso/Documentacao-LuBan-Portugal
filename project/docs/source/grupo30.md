@@ -245,19 +245,21 @@ seleção das peças de forma correta e precisa.
 ## Lines
 ### Line 31
 #### 2020_2021
-##### - [Joáo Evartisto](https://joao-documentacao.readthedocs.io/en/latest/lines/line31/2020_2021/line31.html)
-#### - [2021_2022](./lines/line31/2021_2022/line31.md)
-#### - [2022_2023](./lines/line31/2022_2023/line31.md)
+##### - [João Evartisto](https://joao-documentacao.readthedocs.io/en/latest/lines/line31/2020_2021/line31.html)
+##### - [Fábio Santo]
+#### 2021_2022
+#### 2022_2023
 
 ### Line 32
-#### - [2020_2021](./lines/line32/2020_2021/line3222.md)
-#### - [2021_2022](./lines/line32/2021_2022/line32.md)
-#### - [2022_2023](./lines/line32/2022_2023/line32.md)
+#### 2020_2021
+##### - [Luís Barroso]
+#### 2021_2022
+#### 2022_2023
 
 ### Line 33
-#### - [2020_2021](./lines/line33/2020_2021/line33.md)
-#### - [2021_2022](./lines/line33/2021_2022/line33.md)
-#### - [2022_2023](./lines/line33/2022_2023/line33.md)
+#### 2020_2021
+#### 2021_2022
+#### 2022_2023
 
 ## Software
 ### TIA Portal
