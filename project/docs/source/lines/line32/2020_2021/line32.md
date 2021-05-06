@@ -2,7 +2,9 @@
 
 - [Introdução](#introdução)
 - [Processo](#processo)
-- [Modos de Funcionamento](#modo-de-funcionamento)
+    - [Peças](#peças)
+    - [Estações](#estacoes)
+    - [Modo de Funcionamento](#modo-de-funcionamento)
 - [Trabalho Realizado](#trabalho-realizado)
     - [Classificação](#classificacao)
         - [Estação 10](#estação-10)
@@ -27,71 +29,71 @@
             - [Projeto 1](#projeto-1)
  
 
-## Introduçãos
+## Introdução
 
 A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resultam: **"Transporte (Estação 10)"**, **"Aplicação (Estação 30)"**, **"Alimentação (Corpo (Estação 20) e Miolo (Estação 40))"** e **"Seleção (Estação 50)"**.
 
+![LIN32_1](./images/line/line32_1.jpg)
+
 ## Processo
 
-A Line 32, do Grupo 30, consiste num conjunto de estações, **cada uma com Equipamentos/Componenetes independentes**. A Line 32, assim com cada uma da estações, funcionam usando **sistemas pneumáticos** sendo assim possivel realizar os movimentos pretendidos.. 
+A Line 32, do Grupo 30, consiste num conjunto de estações, **cada uma com Equipamentos/Componenetes independentes**. A Line 32, assim com cada uma da estações, funcionam usando **sistemas pneumáticos** sendo assim possivel realizar os movimentos pretendidos. 
 
-Para o controlo das peças são usados Sensores, como: **Sensores Fotoelétricos**, usados para a detecção de peça; **Sensores Magnéticos** usado para distiguir as peças metálicas das peças de plástico; **Sensores Óticos** usado para distiguir a peças brancas das peças pretas
+Para o controlo das peças são usados Sensores, como: **Sensores Fotoelétricos**, usados para a detecção das peças em deterniadas posições; **Sensores Magnéticos** usados para distiguir as peças metálicas das peças de plástico; **Sensores Óticos** usados para distiguir a peças brancas das peças pretas
 
-Para além dos **sistemas pneumáticos** também existem **sistemas eletromecânico**, na Estação 10 e 50. 
+Para além dos **sistemas pneumáticos** também existem **sistemas eletromecânico**, na Estação 10 e 50. Na estação 10, este sistemas, são responsaveis pelo movimento do **robô**. Este robô é utilizado para o transporte das peças pelas diversas estações. Acoplado ao robô, temos uma **garra**, sendo assim possivel realizar as tarefas pretendidas. Para se deslocar pelas diversas estações, o robô, está conectado a um Servo Motor (Simotics S-1FL6) e um Inversor de Frequência (Siemens V90). Na estação 50, este sistemas, são responsáveis pelo movimento do tapete. Para o movimento deste tapete é usado um motor trifasico que acupolado tem um enconder, que, através da sua posição é possivel fazer o encaminhamento das peças, para a posição pretendida. Para a movimento do Motor é uitlizado um Inversor de Frequência (Siemens G120C), que converte o sinal elétrico em sinal analógico sendo assim possivel fazer o movimento do tapete e controlo da velocidade.
 
-Na estação 10, este sistemas, são responsaveis pelo movimento do **robô**. Este robô é utilizado para o transporte das peças pelas diversas estações. Acoplado ao robô, temos uma **garra**, sendo assim possivel realizar as tarefas pretendidas. Para se deslocar pelas diversas estações, o robô, está conectado a um Servo Motor (Simotics S-1FL6) e um inversor de Frequência (Siemens V90). Na estação 50, este sistemas, são responsáveis pelo movimento do tapete. Para o movimento deste tapete é usado um motor trifasico que acupolado tem um enconder, que, através da sua posição é possivel fazer o encaminhamento das peças, para a posição pretendida. Para a movimento do Motor é uitlizado um Inversor de Frequência (Siemens G120C), que converte o sinal elétrico em sinal analógico sendo assim possivel fazer o controlo da Velocidade do Motor.
+### Peças
 
+![P_1](./images/station/p_1.jpg)
+
+Peças, constituidas por Corpo (Parte Exterior) e por um Miolo (Parte Interior). Representa o objetvo processado na Line32, quando os elementos são unificados representam o produto final. Podem ser classificadas de 9 maneiras, como nos mostra a tabela abaixo.
+
+|        |Metálico |Branco  | Preto |
+-------- | ------- | ------ | ----- |
+Metálico |   ⠀  ⠀ **x**|   ⠀⠀x|   ⠀x|
+Branco   |   ⠀⠀⠀x|  ⠀⠀**x**|   ⠀x|
+Preto    |   ⠀⠀⠀x|   ⠀⠀x|  ⠀**x**|
+
+Os **x** a negrito indicanos a combinações pretendidas, quando esseas combinações são processadas são encaminhadas para o respetivo armazém.
+
+### Estações
 **Estação 10**
 
 A Estação 10, **estação de transporte da peça**, desde a sua fase inicial até à sua finalização. Agregada à estação 10, temos a subestação 11, constituida por 4 cilindros: Cilindro 1 responsável por fazer o avanço e recuo da garra; Cilindro 2 responsável por fazer a subida e descida da garra; Cilindro 3 responsável por fazer a rotação da garra para a esquerda ou direita; Cilindro 4 responsável por fazer a abertura e fecho da garra; 
 
     Nota: Diferentes as restantes estações e respetivos cilindros, o Cilindro 1 e 3 eletrovalvulas monoestaveis.
 
-![ST10](./station/images/st_10.jpg)
+![ST10](./images/station/st_10.jpg)
 
 **Estação 20**
 
 A Estação 20, **estação de alimentação do corpo da peça**, o corpo da peça, é colocado na funil para ser processado. Agregada à estação 20, temos a subestação 21, constituida por 2 cilindros: Cilindro 1 responsável por fazer o avanço da primeira peça; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar.
 
-![ST20](./station/images/st_20.jpg)
+![ST20](./images/station/st_20.jpg)
 
 **Estação 30**
 
 A Estação 30, **estação de aplicação**, é aplicada uma *cola* para fixar o miolo ao corpo da peça. Agregada à estação 30, temos a subestação 31, constituida por 3 cilindros: Cilindro 1 responsável por fazer o fecho da pinça; Cilindro 2 responsável por fazer avanço e recuo da pinça; Cilindro 3 responsável por fazer a subida e a descida da prensa.
 
-![ST30](./station/images/st_30.jpg)
+![ST30](./images/station/st_30.jpg)
 
 **Estação 40**
 
 A Estação 40, **estação de alimentação do miolo da peça**, o miolo da peça, é colocado na funil para ser processado. Agregada à estação 40, temos a subestação 41, constituida por 3 cilindros: Cilindro 1 responsável pelo suporte do miolo, quando ativado deixa o miolo cair; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar; Cilindro 3 responsavel pelo movimento do prato. Ainda na estação 40, temos a subestação 42, constituida por 3 cilindros: Cilindro 1 responsável por fazer avanço e recuo da garra; Cilindro 2 responsável por fazer a subida e a descida da garra. Cilindro 3 responsavel pelo fecho e abertura da garra. 
 
-![ST40](./station/images/st_40.jpg)
+![ST40](./images/station/st_40.jpg)
 
 **Estação 50**
 
 A Estação 50, **estação de seleção**, responsável por ordenar as peças no respsetivo armazém. Agregada à estação 50, temos o tapete, onde se encontram os 3 cilindros que constituem o processo: Cilindro 1 responsável por encaminhar a peça, Corpo/Miolo Metálico; Cilindro 2 responsável por encaminhar a peça, Corpo/Miolo Branco; Cilindro 3 responsável por encaminhar a peça, Corpo/Miolo Preto.
 
-Metálico/Metálico
-Metálico/Branco
-Metálico/Preto
+![ST50](./images/station/st_50.jpg)
 
-Branco/Branco
-Branco/Metálico
-Branco/Preto
+### Modo de Funcionamento
 
-Preto/Preto
-Preto/Metálico
-Preto/Branco
+Assim que a 
 
-|        |Metálico |Branco  | Preto |
--------- | ------- | ------ | ----- |
-Metálico |  **x**  |        |       |
-Branco   |         | **x**  |       |
-Preto    |         |        |       |
-
-
-
-        ![ST50](./station/images/st_50.jpg)
 
 ## Trabalho Realizado
 ### Classificação
