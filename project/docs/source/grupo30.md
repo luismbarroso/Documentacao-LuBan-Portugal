@@ -211,6 +211,7 @@ Enconder_Z|%I0.2|Enconder Z
 ## Componentes
 ### Sensor Fotoelétrico
 ### Sensor Magnético
+### Sensor Indutivo
 ### Sensor Ótico
 ### Cilindro Pneumático
 
