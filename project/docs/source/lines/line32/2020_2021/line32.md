@@ -49,11 +49,11 @@ Para além dos **sistemas pneumáticos** também existem **sistemas eletromecân
 
 Peças, constituidas por Corpo (Parte Exterior) e por um Miolo (Parte Interior). Representa o objetvo processado na Line32, quando os elementos são unificados representam o produto final. Podem ser classificadas de 9 maneiras, como nos mostra a tabela abaixo.
 
-|        |Metálico |Branco  | Preto |
--------- | ------- | ------ | ----- |
-Metálico |   ⠀  ⠀ **x**|   ⠀⠀x|   ⠀x|
-Branco   |   ⠀⠀⠀x|  ⠀⠀**x**|   ⠀x|
-Preto    |   ⠀⠀⠀x|   ⠀⠀x|  ⠀**x**|
+||Metálico|Branco|Preto|
+-| ------ | ---- | --- |
+Metálico|**x**|x|x|
+Branco|x|**x**|x|
+Preto|x|x|**x**|
 
 Os **x** a negrito indicanos a combinações pretendidas, quando esseas combinações são processadas são encaminhadas para o respetivo armazém.
 
