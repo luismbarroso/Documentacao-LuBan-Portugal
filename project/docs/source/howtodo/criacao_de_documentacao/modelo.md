@@ -1,8 +1,8 @@
 ![Logos](../../equipments/manuais/logos/Logo_Luban_IPS_2.png)
 
 <div><h2>IPS - Escola Superior de Tecnologia de Setúbal - Lu Ban Workshop Portugal<div></h2>
- ⠀ 
-  ⠀ 
+<br></br>
+<br></br>
 
 # Modelo
 
@@ -16,11 +16,11 @@
 
 ### Introdução
 
-Para facilmente criar documentação para a Lu Ban Workshop Portugal, foi criado um modelo de documentação. Desta forma não será necessário criar toda a estrutura envolvente. Este manual têm como objetivo explicar, como obter este modelo, alteração dos parâmetros, onde guardar toda a sua documentação.
+Para facilmente criar documentação para a Lu Ban Workshop Portugal, foi criado um modelo de documentação. Desta forma não será necessário criar toda a estrutura envolvente. Este manual têm como objetivo explicar: como obter o modelo; alterações dos parâmetros; onde guardar toda a sua documentação.
 
 ### Localização
 
-Este [modelo](https://github.com/luismbarroso/Documentacao-LuBan-Portugal/tree/main/modelo) pode ser obtido no repositório principal. 
+Este modelo pode ser obtido no repositório principal: https://github.com/luismbarroso/Documentacao-LuBan-Portugal/tree/main/modelo
 
 ### Alteração dos Parâmetros
 
@@ -28,7 +28,7 @@ Para que o documento criado, seja facilmente identificado e distinguido dos rest
 
 1.No ficheiro **“README.md”** altere o **“Nome do Aluno”** e o **“Número do Aluno”** para os seus dados.
 
-![](./imagens/modelo_documentacao/1.png)
+![](./imagens/modelo_documentacao/1.PNG)
 
 2.No ficheiro **“config.py”**, localizado em **“./project/docs/source/conf.py”** altere os seguintes parâmetros:
 
@@ -42,8 +42,8 @@ Para que o documento criado, seja facilmente identificado e distinguido dos rest
 - **Repo_url** - Correponde ao URL do repositório onde estão alocados os ficheiros do Github.
 - **Repo_name** - Correponde ao que aparecerá na Navbar, relativo ao R repositório alocados no Github.
 
-![](./imagens/modelo_documentacao/2.png)
-![](./imagens/modelo_documentacao/3.png)
+![](./imagens/modelo_documentacao/2.PNG)
+![](./imagens/modelo_documentacao/3.PNG)
 
 ### Ficheiros
 
