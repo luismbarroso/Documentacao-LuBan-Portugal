@@ -64,10 +64,10 @@ As Notas são feitas usando a tecla **"TAB"**, indentado o texto pretendido.
 
 As tabelas são feitas da seguinte maneira:
 
-    | Coluna 1 | Coluna 2 |
-    | ----------- | ----------- |
-    | Item1 | Item2 |
-    | Item4 | Item4 |
+|Coluna 1|Coluna 2|
+| ------ | ------ |
+| Item1 | Item2 |
+| Item4 | Item4 |
 
 ### Tipos de Lista
 
@@ -84,6 +84,8 @@ As Listas podem ser feitas com **"-"**, uma Lista sem ordem, ou através de **"n
 Para inserir imagens usamos o seguinte comando:
 
     ![alt text](./logos/Logo_Luban.jpg)
+
+    *Dentro dos parênteses deve conter o diretório onde está guarda da imagem.*
 
 ### Links
 
