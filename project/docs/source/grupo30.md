@@ -299,7 +299,7 @@ um dele correspondem um conjunto de funções/tarefas.
   - **F4 - Marchas de verificação SEM ordem** -> Neste estado, o processo, opera por ordem do operador, pode realizar qualquer movimento. Corresponde ao Modo Manual, normalmente
   usado para funções de controle manutenção e verificação.
   - **F5 - Marchas de verificação COM ordem** -> Neste estado, o processo, realiza o ciclo completo de operação em ordem. Corresponde ao Modo Semi - Automático, normalmente usado
-  para manutenção e verificação de possiveis erros não encontrados na Marchas de TESTE.
+  para manutenção e verificação de possiveis erros não encontrados na Marchas de Teste.
   - **F6 - Marchas de TESTE** -> Nesse estado, realizam-se operações de ajuste e manutenção preventiva.
 
 - **Procedimentos de falha**
