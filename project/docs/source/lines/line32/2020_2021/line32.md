@@ -14,17 +14,17 @@
         - [Estação 50](#estação-50)   
     - [Software](#software)
         - [Grafcets Modo: Manual](#grafcets-modo:-manual)
-            - [Estação 10 (Manual)](#estação-10-manual)
-            - [Estação 20 (Manual)](#estação-20-manual)
-            - [Estação 30 (Manual)](#estação-30-manual) 
-            - [Estação 40 (Manual)](#estação-40-manual)
-            - [Estação 50 (Manual)](#estação-50-manual)
+            - [Estação 10](#estação-10-manual)
+            - [Estação 20](#estação-20-manual)
+            - [Estação 30](#estação-30-manual) 
+            - [Estação 40](#estação-40-manual)
+            - [Estação 50)](#estação-50-manual)
         - [Grafcets Modo: Automático](#grafcets-modo:-automático)	
-            - [Estação 10 (Automático)](#estação-10-automático)
-            - [Estação 20 (Automático)](#estação-20-automático)
-            - [Estação 30 (Automático)](#estação-30-automático) 
-            - [Estação 40 (Automático)](#estação-40-automático)
-            - [Estação 50 (Automático)](#estação-50-automático)
+            - [Estação 10](#estação-10-automático)
+            - [Estação 20](#estação-20-automático)
+            - [Estação 30](#estação-30-automático) 
+            - [Estação 40](#estação-40-automático)
+            - [Estação 50](#estação-50-automático)
         - [Gemma](#gemma)
             - [Projeto 1](#projeto-1)
  
@@ -33,7 +33,7 @@
 
 A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resultam: **"Transporte (Estação 10)"**, **"Aplicação (Estação 30)"**, **"Alimentação (Corpo (Estação 20) e Miolo (Estação 40))"** e **"Seleção (Estação 50)"**.
 
-![LIN32_1](./images/line/line32_1.jpg)
+        ![LIN32_1](./images/line/line32_1.jpg)
 
 ## Processo
 
@@ -45,7 +45,7 @@ Para além dos **sistemas pneumáticos** também existem **sistemas eletromecân
 
 ### Peças
 
-![P_1](./images/station/p_1.jpg)
+        ![P_1](./images/station/p_1.jpg)
 
 Peças, constituidas por Corpo (Parte Exterior) e por um Miolo (Parte Interior). Representa o objetvo processado na Line32, quando os elementos são unificados representam o produto final. Podem ser classificadas de 9 maneiras, como nos mostra a tabela abaixo.
 
@@ -64,31 +64,31 @@ A Estação 10, **estação de transporte da peça**, desde a sua fase inicial a
 
     Nota: Diferentes as restantes estações e respetivos cilindros, o Cilindro 1 e 3 eletrovalvulas monoestaveis.
 
-![ST10](./images/station/st_10.jpg)
+        ![ST10](./images/station/st_10.jpg)
 
 **Estação 20**
 
 A Estação 20, **estação de alimentação do corpo da peça**, o corpo da peça, é colocado na funil para ser processado. Agregada à estação 20, temos a subestação 21, constituida por 2 cilindros: Cilindro 1 responsável por fazer o avanço da primeira peça; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar.
 
-![ST20](./images/station/st_20.jpg)
+        ![ST20](./images/station/st_20.jpg)
 
 **Estação 30**
 
 A Estação 30, **estação de aplicação**, é aplicada uma *cola* para fixar o miolo ao corpo da peça. Agregada à estação 30, temos a subestação 31, constituida por 3 cilindros: Cilindro 1 responsável por fazer o fecho da pinça; Cilindro 2 responsável por fazer avanço e recuo da pinça; Cilindro 3 responsável por fazer a subida e a descida da prensa.
 
-![ST30](./images/station/st_30.jpg)
+        ![ST30](./images/station/st_30.jpg)
 
 **Estação 40**
 
 A Estação 40, **estação de alimentação do miolo da peça**, o miolo da peça, é colocado na funil para ser processado. Agregada à estação 40, temos a subestação 41, constituida por 3 cilindros: Cilindro 1 responsável pelo suporte do miolo, quando ativado deixa o miolo cair; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar; Cilindro 3 responsavel pelo movimento do prato. Ainda na estação 40, temos a subestação 42, constituida por 3 cilindros: Cilindro 1 responsável por fazer avanço e recuo da garra; Cilindro 2 responsável por fazer a subida e a descida da garra. Cilindro 3 responsavel pelo fecho e abertura da garra. 
 
-![ST40](./images/station/st_40.jpg)
+        ![ST40](./images/station/st_40.jpg)
 
 **Estação 50**
 
 A Estação 50, **estação de seleção**, responsável por ordenar as peças no respsetivo armazém. Agregada à estação 50, temos o tapete, onde se encontram os 3 cilindros que constituem o processo: Cilindro 1 responsável por encaminhar a peça, Corpo/Miolo Metálico; Cilindro 2 responsável por encaminhar a peça, Corpo/Miolo Branco; Cilindro 3 responsável por encaminhar a peça, Corpo/Miolo Preto.
 
-![ST50](./images/station/st_50.jpg)
+        ![ST50](./images/station/st_50.jpg)
 
 ### Modo de Funcionamento
 
@@ -97,7 +97,7 @@ Assim que a
 
 ## Trabalho Realizado
 ### Classificação
-#### Estação 10
+#### Estação 10(#estação-10-manual)
 *Entradas dos 19PLC*
 
 |Label |Endereço  | Comentário|
