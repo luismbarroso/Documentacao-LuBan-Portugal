@@ -4,3 +4,4 @@ Aqui encontrará toda a informação necessária para a para a criação de docu
 
 #### [Primeiros Passos](./howtodo/criacao_de_documentacao/primeiros_passos.md)
 #### [Guia Básico - Markdown](./howtodo/criacao_de_documentacao/guia_basico.md)
+#### [Modelo](./howtodo/criacao_de_documentacao/modelo.md)
