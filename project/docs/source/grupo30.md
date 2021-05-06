@@ -310,3 +310,5 @@ um dele correspondem um conjunto de funções/tarefas.
   [WebGrafia Gemma]: <> (http://isa.uniovi.es/~vsuarez/Download/GemmaTelemecanique.PDF.)
 
 ## Manuais Gerais
+
+- [Manual](./lines/line32/2020_2021/line32.md)
