@@ -62,6 +62,11 @@ Preto|x|x|**x**|
 Os **x** a negrito indicanos a combinações pretendidas, quando esseas combinações são processadas são encaminhadas para o respetivo armazém.
 
 ### Estações
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
 **Estação 10**
 
 A Estação 10, **estação de transporte da peça**, desde a sua fase inicial até à sua finalização. Agregada à estação 10, temos a subestação 11, constituida por 4 cilindros: Cilindro 1 responsável por fazer o avanço e recuo da garra; Cilindro 2 responsável por fazer a subida e descida da garra; Cilindro 3 responsável por fazer a rotação da garra para a esquerda ou direita; Cilindro 4 responsável por fazer a abertura e fecho da garra; 
