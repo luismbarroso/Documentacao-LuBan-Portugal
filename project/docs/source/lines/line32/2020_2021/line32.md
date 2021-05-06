@@ -33,7 +33,7 @@ A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resulta
 
 ## Processo
 
-A Line 32, do Grupo 30, consiste num conjunto de estações, **cada uma com Equipamentos/Componenetes independentes**. A Line 32, assim com cada uma da estações, funcionam usando **sistemas pneumáticos** sendo assim possivel realizar os movimentos pretendidos. 
+A Line 32, do Grupo 30, consiste num conjunto de estações, **cada uma com Equipamentos/Componenetes independentes**. A Line 32, assim com cada uma da estações, funcionam usando **sistemas pneumáticos** sendo assim possivel realizar os movimentos pretendidos.. 
 
 Para o controlo das peças são usados Sensores, como: **Sensores Fotoelétricos**, usados para a detecção de peça; **Sensores Magnéticos** usado para distiguir as peças metálicas das peças de plástico; **Sensores Óticos** usado para distiguir a peças brancas das peças pretas
 
