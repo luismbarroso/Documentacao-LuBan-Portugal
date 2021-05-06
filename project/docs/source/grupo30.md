@@ -244,7 +244,8 @@ seleção das peças de forma correta e precisa.
 
 ## Lines
 ### Line 31
-#### - [2020_2021](./lines/line31/2020_2021/line31.md)
+#### 2020_2021
+##### - [Joáo Evartisto](https://joao-documentacao.readthedocs.io/en/latest/lines/line31/2020_2021/line31.html)
 #### - [2021_2022](./lines/line31/2021_2022/line31.md)
 #### - [2022_2023](./lines/line31/2022_2023/line31.md)
 
