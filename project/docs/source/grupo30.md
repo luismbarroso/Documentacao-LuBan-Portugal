@@ -29,7 +29,7 @@
     - [2021_2022](./lines/line31/2021_2022/line31.md)
     - [2022_2023](./lines/line31/2022_2023/line31.md) 
   - [Line 32](#line-32)
-    - [2020_2021](./lines/line32/2020_2021/line322.md)
+    - [2020_2021](./lines/line32/2020_2021/line32.md)
     - [2021_2022](./lines/line32/2021_2022/line32.md)
     - [2022_2023](./lines/line32/2022_2023/line32.md)  
   - [Line 33](#line-33)
@@ -249,7 +249,7 @@ seleção das peças de forma correta e precisa.
 #### - [2022_2023](./lines/line31/2022_2023/line31.md)
 
 ### Line 32
-#### - [2020_2021](./lines/line32/2020_2021/line322.md)
+#### - [2020_2021](./lines/line32/2020_2021/line32.md)
 #### - [2021_2022](./lines/line32/2021_2022/line32.md)
 #### - [2022_2023](./lines/line32/2022_2023/line32.md)
 
