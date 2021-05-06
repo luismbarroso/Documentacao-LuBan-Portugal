@@ -9,12 +9,12 @@
 **Autor:** Luis Barroso
 
 ## Índice
-- [Introdução](#Introdução)
+- [Objetivo](#objetivo)
 - [Localização](#Localização)
 - [Alteração dos Parâmetros](#Alteração-dos-Parâmetros)	
 - [Ficheiros](#Ficheiros)
 
-### Introdução
+### Objetivo
 
 Para facilmente criar documentação para a Lu Ban Workshop Portugal, foi criado um modelo de documentação. Desta forma não será necessário criar toda a estrutura envolvente. Este manual têm como objetivo explicar: como obter o modelo; alterações dos parâmetros; onde guardar toda a sua documentação.
 

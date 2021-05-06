@@ -9,11 +9,11 @@
 **Autor:** Luis Barroso
 
 ## Indice
-- [Objetivo](#basico-i)
-- [Comandos Básicos](#comandos-basicos)
+- [Objetivo](#objetivo)
+- [Comandos Básicos](#comandos-básicos)
     - [Titulos](#titulos)
     - [Formatação de Texto](#formatacao-de-texto])
-    - [Citações](#citacoes)
+    - [Citações](#Citações)
     - [Notas](#notas)
     - [Tabelas](#tabelas)
     - [Tipos de Lista](#tipos-de-lista)
