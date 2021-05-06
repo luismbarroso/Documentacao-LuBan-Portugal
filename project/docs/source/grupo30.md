@@ -2,7 +2,7 @@
 
 - [Classificação](#classificação)
   - [Estações](./classification/estacoes.md)
-  - [Profinet](./classification/estacoes.md)
+  - [Profinet](./classification/profinet.md)
   - [Modbus](./classification/modbus.md)
 - [Componentes](#componentes)
   - [Sensor Fotoelétrico](#sensor-fotoelétrico)
@@ -21,10 +21,13 @@
 - [Lines](#lines)
   - [Line 31](#line-31)
     - [2020_2021](./lines/line31/2020_2021/line31.md)
+      - [João Evartisto](https://joao-documentacao.readthedocs.io/en/latest/lines/line31/2020_2021/line31.html)
+      - [Fábio Santo](https://fabio-documentacao.readthedocs.io/en/latest/lines/line31/2020_2021/line31.html)
     - [2021_2022](./lines/line31/2021_2022/line31.md)
     - [2022_2023](./lines/line31/2022_2023/line31.md) 
   - [Line 32](#line-32)
     - [2020_2021](./lines/line32/2020_2021/line3222.md)
+      - [Luís Barroso](https://luis-documentacao.readthedocs.io/en/latest/lines/line32/2020_2021/line32.html)
     - [2021_2022](./lines/line32/2021_2022/line32.md)
     - [2022_2023](./lines/line32/2022_2023/line32.md)  
   - [Line 33](#line-33)
@@ -38,9 +41,9 @@
   - [GEMMA](#gemma)
 
 ## Classificação
-### Estações(./classification/estacoes.md)
-### Profinet(./classification/estacoes.md)
-### Modbus(./classification/modbus.md)
+### [Estações](./classification/estacoes.md)
+### [Profinet](./classification/profinet.md)
+### [Modbus](./classification/modbus.md)
 
 ## Componentes
 ### Sensor Fotoelétrico
@@ -102,7 +105,7 @@ Siemens é um software que oferece uma vasta gama ferramentas, desta forma é po
 utilizada para a programação das HMI's na Ofina Luban.
 
 ### Tesla Scada
-[Tesla Scada](https://teslascada.com/) foi o software escolhido para implementação de interfaces homem-máquina na Oficina Luban. O Tesla Scada permite o controlo e supervisão em
+[Tesla Scada](https://teslascada.com/), foi o software escolhido para implementação de interfaces homem-máquina na Oficina Luban. O Tesla Scada permite o controlo e supervisão em
 tempo real de sistemas e processos industriais baseados em PLC. 
 
 ### Draw io
