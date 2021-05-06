@@ -37,18 +37,6 @@ Grupo 30 - YL-335B
    
    grupo30
 
-***********
-Explanation 
-***********
-
-*Aqui encontrará explicações, com liguagem simples e clara. Com ele chegará ao objetivo pretendido.*
-
-.. toctree::
-   :caption: Explanation
-   :maxdepth: 2
-   
-   classificacao_estacoes
-
 
 *********
 How to do 
