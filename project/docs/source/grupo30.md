@@ -211,7 +211,6 @@ Enconder_Z|%I0.2|Enconder Z
 ## Componentes
 ### Sensor Fotoelétrico
 ### Sensor Magnético
-### Sensor Indutivo
 ### Sensor Ótico
 ### Cilindro Pneumático
 
@@ -311,10 +310,3 @@ um dele correspondem um conjunto de funções/tarefas.
   [WebGrafia Gemma]: <> (http://isa.uniovi.es/~vsuarez/Download/GemmaTelemecanique.PDF.)
 
 ## Manuais Gerais
-
-# Teste
-
-<video width="320" height="240" autoplay muted>
-  <source src="./movie/1.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>

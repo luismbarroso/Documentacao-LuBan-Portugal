@@ -27,19 +27,23 @@
             - [Projeto 1](#projeto-1)
  
 
-## Introdução
+## Introduçãos
 
 A Line 32 é uma das Lines do Grupo 30. Divida em 5 estações das quais resultam: **"Transporte (Estação 10)"**, **"Aplicação (Estação 30)"**, **"Alimentação (Corpo (Estação 20) e Miolo (Estação 40))"** e **"Seleção (Estação 50)"**.
 
 ## Processo
 
-    Notas: 
-    # Falar um pouco da Line
-    # Processo de funcionamento da estacao
+A Line 32, do Grupo 30, consiste num conjunto de estações, **cada uma com Equipamentos/Componenetes independentes**. A Line 32, assim com cada uma da estações, funcionam usando **sistemas pneumáticos** sendo assim possivel realizar os movimentos pretendidos. 
+
+Para o controlo das peças são usados Sensores, como: **Sensores Fotoelétricos**, usados para a detecção de peça; **Sensores Magnéticos** usado para distiguir as peças metálicas das peças de plástico; **Sensores Óticos** usado para distiguir a peças brancas das peças pretas
+
+Para além dos **sistemas pneumáticos** também existem **sistemas eletromecânico**, na Estação 10 e 50. Na estação 10, este sistemas, são responsaveis pelo movimento do **robô**. Este **robô** é utilizado para o transporte das peças pelas diversas estações. Acoplado ao robô, temos uma **garra**, sendo assim possivel realizar as tarefas pretendidas. Para se deslocar pelas diversas estações, o **robô**, está conectado a um Servo Motor (Simotics S-1FL6) e um inversor de Frequência (Siemens V90). 
+
+Na estação 50, este sistemas, são responsaveis pelo movimento do tapete. Para o movimento deste tapete é usado um Motor que acupolado tem um enconder, que, através da sua posicção é possivel fazer o encaminhamento das peças, para a posição pretendida. Para a colocalão do Motor em movimento é uitlizado um Inversor de Frequência (Siemens G120C). 
 
 **Estação 10**
 
-A Estação 10, **estação de transporte da peça**, desde a sua fase inicial até à sua finalização. Para a realização deste transporte pelas diversas estações é utilizado um **robô**, que acoplado, contém uma **garra**, sendo assim possivel realizar as tarefas pretendidas. Para se deslocar pelas diversas estações, o **robô**, está conectado a um Servo Motor (Simotics S-1FL6) e um inversor de Frequência (Siemens V90). Agregada à estação 10, temos a subestação 11, constituida por 4 cilindros: Cilindro 1 responsável por fazer o avanço e recuo da garra; Cilindro 2 responsável por fazer a subida e descida da garra; Cilindro 3 responsável por fazer a rotação da garra para a esquerda ou direita; Cilindro 4 responsável por fazer a abertura e fecho da garra; 
+A Estação 10, **estação de transporte da peça**, desde a sua fase inicial até à sua finalização. Agregada à estação 10, temos a subestação 11, constituida por 4 cilindros: Cilindro 1 responsável por fazer o avanço e recuo da garra; Cilindro 2 responsável por fazer a subida e descida da garra; Cilindro 3 responsável por fazer a rotação da garra para a esquerda ou direita; Cilindro 4 responsável por fazer a abertura e fecho da garra; 
 
     Nota: Diferentes as restantes estações e respetivos cilindros, o Cilindro 1 e 3 eletrovalvulas monoestaveis.
 
