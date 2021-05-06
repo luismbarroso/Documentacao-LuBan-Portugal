@@ -20,9 +20,9 @@
 
 ## Objetivo
 ## Conceitos
-### Programas
-#### Visual Studio Code
-#### Git
+## Programas
+### Visual Studio Code
+### Git
 ## Instalação
-#### Visual Studio Code
-#### Git
+### Visual Studio Code
+### Git
