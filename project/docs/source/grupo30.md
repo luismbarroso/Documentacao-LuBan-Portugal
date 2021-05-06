@@ -246,13 +246,13 @@ seleção das peças de forma correta e precisa.
 ### Line 31
 #### 2020_2021
 ##### - [João Evartisto](https://joao-documentacao.readthedocs.io/en/latest/lines/line31/2020_2021/line31.html)
-##### - [Fábio Santo]
+##### - [Fábio Santo](https://fabio-documentacao.readthedocs.io/en/latest/lines/line31/2020_2021/line31.html)
 #### 2021_2022
 #### 2022_2023
 
 ### Line 32
 #### 2020_2021
-##### - [Luís Barroso]
+##### - [Luís Barroso](https://luis-documentacao.readthedocs.io/en/latest/lines/line32/2020_2021/line32.html)
 #### 2021_2022
 #### 2022_2023
 
