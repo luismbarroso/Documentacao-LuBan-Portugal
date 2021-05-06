@@ -6,7 +6,6 @@
 - [Processo](#processo)
     - [Peças](#peças)
     - [Estações](#estacoes)
-    - [Modo de Funcionamento](#modo-de-funcionamento)
 - [Trabalho Realizado](#trabalho-realizado)
     - [Classificação](#classificacao)
         - [Estação 10](#estação-10)
@@ -49,7 +48,7 @@ Para a comunicação entre as diversas estações é usado o protocolo de comuni
 
 ### Peças
 
-        ![P_1](./images/station/p_1.jpg)
+![P_1](./images/station/p_1.jpg)
 
 Peças, constituidas por Corpo (Parte Exterior) e por um Miolo (Parte Interior). Representa o objetvo processado na Line32, quando os elementos são unificados representam o produto final. Podem ser classificadas de 9 maneiras, como nos mostra a tabela abaixo.
 
@@ -65,39 +64,45 @@ Os **x** a negrito indicanos a combinações pretendidas, quando esseas combina�
 
 **Estação 10**
 
-A Estação 10, **estação de transporte da peça**, desde a sua fase inicial até à sua finalização. Agregada à estação 10, temos a subestação 11, constituida por 4 cilindros: Cilindro 1 responsável por fazer o avanço e recuo da garra; Cilindro 2 responsável por fazer a subida e descida da garra; Cilindro 3 responsável por fazer a rotação da garra para a esquerda ou direita; Cilindro 4 responsável por fazer a abertura e fecho da garra; 
+A Estação 10, **estação de transporte da peça**, desde a sua fase inicial até à sua finalização. 
 
-    Nota: Diferentes as restantes estações e respetivos cilindros, o Cilindro 1 e 3 eletrovalvulas monoestaveis.
-
-    ![ST10](./images/station/st_10.jpg)
+![ST10](./images/station/st_10.jpg)
 
 **Estação 20**
 
-A Estação 20, **estação de alimentação do corpo da peça**, o corpo da peça, é colocado na funil para ser processado. Agregada à estação 20, temos a subestação 21, constituida por 2 cilindros: Cilindro 1 responsável por fazer o avanço da primeira peça; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar.
+A Estação 20, **estação de alimentação do corpo da peça**, o corpo da peça, é colocado no funil para ser processado. 
 
-        ![ST20](./images/station/st_20.jpg)
+![ST20](./images/station/st_20.jpg)
 
 **Estação 30**
 
-A Estação 30, **estação de aplicação**, é aplicada uma *cola* para fixar o miolo ao corpo da peça. Agregada à estação 30, temos a subestação 31, constituida por 3 cilindros: Cilindro 1 responsável por fazer o fecho da pinça; Cilindro 2 responsável por fazer avanço e recuo da pinça; Cilindro 3 responsável por fazer a subida e a descida da prensa.
+A Estação 30, **estação de aplicação**, é aplicada uma *cola* para fixar o miolo ao corpo da peça. 
 
-        ![ST30](./images/station/st_30.jpg)
+![ST30](./images/station/st_30.jpg)
 
 **Estação 40**
 
-A Estação 40, **estação de alimentação do miolo da peça**, o miolo da peça, é colocado na funil para ser processado. Agregada à estação 40, temos a subestação 41, constituida por 3 cilindros: Cilindro 1 responsável pelo suporte do miolo, quando ativado deixa o miolo cair; Cilindro 2 responsável prender a segunda peça, evitando assim, que a segunda peça caia antes do Cilindro 1 recuar; Cilindro 3 responsavel pelo movimento do prato. Ainda na estação 40, temos a subestação 42, constituida por 3 cilindros: Cilindro 1 responsável por fazer avanço e recuo da garra; Cilindro 2 responsável por fazer a subida e a descida da garra. Cilindro 3 responsavel pelo fecho e abertura da garra. 
+A Estação 40, **estação de alimentação do miolo da peça**, o miolo da peça, é colocado na funil para ser processado.  
 
-        ![ST40](./images/station/st_40.jpg)
+![ST40](./images/station/st_40.jpg)
 
 **Estação 50**
 
-A Estação 50, **estação de seleção**, responsável por ordenar as peças no respsetivo armazém. Agregada à estação 50, temos o tapete, onde se encontram os 3 cilindros que constituem o processo: Cilindro 1 responsável por encaminhar a peça, Corpo/Miolo Metálico; Cilindro 2 responsável por encaminhar a peça, Corpo/Miolo Branco; Cilindro 3 responsável por encaminhar a peça, Corpo/Miolo Preto.
+A Estação 50, **estação de seleção**, responsável por ordenar as peças no respsetivo armazém. 
 
-        ![ST50](./images/station/st_50.jpg)
+![ST50](./images/station/st_50.jpg)
 
 ### Modo de Funcionamento
 
-Assim que a estação 20 é alimentada com o corpo da peça, essa informação é enviada para o PLC Master (Estação 10), assim que recebida, a peça é processada, ou seja, o cilindro avança e a peça esta pronta para o carro a processar e avançar para a proxima estação. Quando o carro estiver na posição realtiva à estação 30, a garra avança e pousa a peça na pinça e a peça é processada, quando concluido este processo o carro avança para a proxima estação. Quando o carro estiver na posição realtiva à estação 40, a garra avança e pousa a peça *suporte*. Assim que o corpo da peça for recebido pela estacão 40, a estacção entrar em processamento, ou seja, o miolo e colocado no corpo da peça. Quando concluido este processo o carro avança para a proxima estação. Quando o carro estiver na posição realtiva à estação 50, a garra avança e pousa no tapete. O tapete entra em andamento e a peça 
+Assim que a estação 20 for alimentada com o corpo da peça, essa informação é enviada para o PLC Master (Estação 10), assim que recebida, a peça é processada, ou seja, o cilindro avança e a peça esta pronta para o robô a processar e avançar para a proxima estação. 
+
+Quando o robô estiver na posição realtiva à estação 30, a garra avança e pousa a peça na pinça e a peça é processada, quando concluido este processo o carro avança para a proxima estação. 
+
+Quando o robô estiver na posição realtiva à estação 40, a garra avança e pousa a peça *suporte*. Assim que o corpo da peça for recebido pela estacão 40, a estacão entra em processamento, ou seja, o miolo é colocado no corpo da peça. Quando concluido este processo o carro avança para a proxima estação. 
+
+Quando o robô estiver na posição realtiva à estação 50, a garra avança e pousa a peça no tapete. O tapete entra em funciomaneto, a peça é identificada, pelos sensores e encaminhada. Caso for uma peça pretendida (Metálico/Metálico; Branco/Branco; Preto/Preto) é encaminhada para o respetivo armazém, senão, a peça é rejeitda.
+
+Depois do robô, pousar a pesa no tapete da estação 50, retorna para a sua posição de *home* e desta forma o ciclo foi concluido e pronto a realizar um novo ciclo. 
 
 ## Trabalho Realizado
 ### Classificação
@@ -305,10 +310,10 @@ Enconder_Z|%I0.2|Enconder Z
 
 ![](./software/grafcets/bancada32_automatico/59PLC.svg)
 
-# programacao
+# Programacao
 
-introducao
-blocos importanttes
+A programaçáo das Line 32 foi feita usando o programa TIA Portal.
+
 
 #### Gemma
 - [Projeto1](./software/gemma/projeto1/gemma.md)
