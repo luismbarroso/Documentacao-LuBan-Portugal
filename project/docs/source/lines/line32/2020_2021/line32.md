@@ -45,6 +45,8 @@ Para o controlo das peças são usados Sensores, como: **Sensores Fotoelétricos
 
 Para além dos **sistemas pneumáticos** também existem **sistemas eletromecânico**, na Estação 10 e 50. Na estação 10, este sistemas, são responsaveis pelo movimento do **robô**. Este robô é utilizado para o transporte das peças pelas diversas estações. Acoplado ao robô, temos uma **garra**, sendo assim possivel realizar as tarefas pretendidas. Para se deslocar pelas diversas estações, o robô, está conectado a um Servo Motor (Simotics S-1FL6) e um Inversor de Frequência (Siemens V90). Na estação 50, este sistemas, são responsáveis pelo movimento do tapete. Para o movimento deste tapete é usado um motor trifasico que acupolado tem um enconder, que, através da sua posição é possivel fazer o encaminhamento das peças, para a posição pretendida. Para a movimento do Motor é uitlizado um Inversor de Frequência (Siemens G120C), que converte o sinal elétrico em sinal analógico sendo assim possivel fazer o movimento do tapete e controlo da velocidade.
 
+Para a comunicação entre as diversas estações é usado o protocolo de comunicação **PROFINET**, este protocolo é baseado em **Ethernet**.
+
 ### Peças
 
         ![P_1](./images/station/p_1.jpg)
@@ -95,7 +97,6 @@ A Estação 50, **estação de seleção**, responsável por ordenar as peças n
 ### Modo de Funcionamento
 
 Assim que a 
-
 
 ## Trabalho Realizado
 ### Classificação
