@@ -62,10 +62,6 @@ Preto|x|x|**x**|
 Os **x** a negrito indicanos a combinações pretendidas, quando esseas combinações são processadas são encaminhadas para o respetivo armazém.
 
 ### Estações
-<br></br>
-<br></br>
-<br></br>
-<br></br>
 
 **Estação 10**
 
@@ -73,7 +69,7 @@ A Estação 10, **estação de transporte da peça**, desde a sua fase inicial a
 
     Nota: Diferentes as restantes estações e respetivos cilindros, o Cilindro 1 e 3 eletrovalvulas monoestaveis.
 
-        ![ST10](./images/station/st_10.jpg)
+    ![ST10](./images/station/st_10.jpg)
 
 **Estação 20**
 
@@ -101,7 +97,7 @@ A Estação 50, **estação de seleção**, responsável por ordenar as peças n
 
 ### Modo de Funcionamento
 
-Assim que a Estação 10 é alimentada com o Corpo da Peça, essa informação é enviada para o PLC Master (Estação 10),  
+Assim que a estação 20 é alimentada com o corpo da peça, essa informação é enviada para o PLC Master (Estação 10), assim que recebida, a peça é processada, ou seja, o cilindro avança e a peça esta pronta para o carro a processar e avançar para a proxima estação. Quando o carro estiver na posição realtiva à estação 30, a garra avança e pousa a peça na pinça e a peça é processada, quando concluido este processo o carro avança para a proxima estação. Quando o carro estiver na posição realtiva à estação 40, a garra avança e pousa a peça *suporte*. Assim que o corpo da peça for recebido pela estacão 40, a estacção entrar em processamento, ou seja, o miolo e colocado no corpo da peça. Quando concluido este processo o carro avança para a proxima estação. Quando o carro estiver na posição realtiva à estação 50, a garra avança e pousa no tapete
 
 ## Trabalho Realizado
 ### Classificação
