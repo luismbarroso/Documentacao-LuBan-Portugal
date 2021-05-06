@@ -311,4 +311,4 @@ um dele correspondem um conjunto de funções/tarefas.
 
 ## Manuais Gerais
 
-- [Manual](./lines/line32/2020_2021/line32.md)
+    - [Manual](./lines/line32/2020_2021/line32.md)
