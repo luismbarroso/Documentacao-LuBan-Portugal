@@ -49,9 +49,9 @@ Durante esta primeira parte será ensinado o básico sobre o servo. Desde as bas
 A programação de encoders é bastante simples uma vez que na base a sua programação passa por apenas fazer leituras dos valores do encoder e aplicar alguns ajustes às configurações do encoder ao longo do processo.
 
 #### CTRL_HSC
-O CTRL_HSC contém um endereço, este é um endereço de um intervalo configurado para o encoder nas propriedades do contador de alta velocidade. Á medida que o tapete se move, esse valor irá também aumentar, desta forma, é possivel defenir o caminho que cada peça toma. No exemplo que iremos demostrar, usamos o HSC1, por padrão o endereço a utilizar é %ID1000.
+O CTRL_HSC contém um endereço, este é um endereço de um intervalo configurado para o encoder nas propriedades do contador de alta velocidade. Á medida que o tapete se move, esse valor irá também aumentar, desta forma, é possível definir o caminho que cada peça toma. No exemplo que iremos demonstrar, usamos o HSC1, por padrão o endereço a utilizar é %ID1000.
 
-    NOTA: Para saber o endereço do HSC que está usar, dois cliques em "Device configuration > System constants Device configuration > General > (Seleciona o HSC que está a usar) > I/O adreesses"
+    NOTA: Para saber o endereço do HSC que está usar, dois cliques em "Device configuration > System constants Device configuration > General > (Seleciona o HSC que está a usar) > I/O addresses"
 
 **Principais parâmetros:**
 - **HSC:** Endereço do HSC
@@ -62,9 +62,9 @@ O CTRL_HSC contém um endereço, este é um endereço de um intervalo configurad
 ![6](../../equipments/manuais/manual_enconder_imagens/img_programacao/1.PNG)
 
 #### Move
-O Move é função que permite, como o próprio nome indica, mover valores de entrada de forma a serem aplicados numa saida. No exemplo que iremos demostrar, usaremos a função **"Move"** para colocar o tapete em funcionamento. 
+O Move é função que permite, como o próprio nome indica, mover valores de entrada de forma a serem aplicados numa saída. No exemplo que iremos demonstrar, usaremos a função **"Move"** para colocar o tapete em funcionamento. 
 
-    NOTA: A Variável colocada na saida do Move "%QW80" é o Output padrão da Carta analógico do PLC.  O Endereço do HSC pode ser encontrado em "Device configuration > System constants"
+    NOTA: A Variável colocada na saída do Move "%QW80" é o Output padrão da Carta analógico do PLC.  O Endereço do HSC pode ser encontrado em "Device configuration > System constants"
 
 ![7](../../equipments/manuais/manual_enconder_imagens/img_programacao/2.PNG)
 
@@ -74,6 +74,6 @@ Para consultar o valor do %ID..., pode usar uma **"Watch Table"**.
 ![8](../../equipments/manuais/manual_enconder_imagens/img_programacao/3.png)
 
 #### Paragem do Tapete
-Para uma melhor resolução nos valores retirados, pode processeder a paragem do Tapete.
+Para uma melhor resolução nos valores retirados, pode proceder a paragem do Tapete.
 
 ![9](../../equipments/manuais/manual_enconder_imagens/img_programacao/4.png)
