@@ -20,7 +20,7 @@ Para facilmente criar documentação para a Lu Ban Workshop Portugal, foi criado
 
 ### Localização
 
-Este modelo pode ser obtido no repositório principal: https://github.com/luismbarroso/Documentacao-LuBan-Portugal/tree/main/modelo
+Este modelo pode ser obtido no repositório principal: [Github- Repositório Principal](https://github.com/luismbarroso/Documentacao-LuBan-Portugal/tree/main/modelo)
 
 ### Alteração dos Parâmetros
 
@@ -38,7 +38,7 @@ Para que o documento criado, seja facilmente identificado e distinguido dos rest
     "repo_name": "Nome do Aluno - Documentação ",
 
 - **Copyright** - Correponde ao ano de criação do documento e o seu autor, apresentados no final da página.
-- **Author** - Como o nome diz, correponde o autor do documento.
+- **Author** - Como o nome diz, corresponde o autor do documento.
 - **Repo_url** - Correponde ao URL do repositório onde estão alocados os ficheiros do Github.
 - **Repo_name** - Correponde ao que aparecerá na Navbar, relativo ao R repositório alocados no Github.
 
