@@ -83,7 +83,7 @@ seleção das peças de forma correta e precisa.
 ### Line 31
 #### 2020_2021
 - [João Evartisto](https://joaoevaristo-documentacao.readthedocs.io/en/latest/lines/line31/2020_2021/line31.html)
-- [Fábio Santo](https://fabio-documentacao.readthedocs.io/en/latest/lines/line31/2020_2021/line31.html)
+- [Fábio Santo](https://fabiosanto-documentacao.readthedocs.io/en/latest/lines/line31/2020_2021/line31.html)
 #### 2021_2022
 #### 2022_2023
 
