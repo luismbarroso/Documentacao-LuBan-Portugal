@@ -97,7 +97,8 @@ Para isso estão reservados 99 Bytes: MB200 até à MB299.
 
 ### 39PLC
 
-29PLC, corresponde ao um dos 4 PLC's Slave da Line 32. Responsável por receber/enviar informações sobre ele para o PLC Master. 
+39PLC, corresponde ao um dos 4 PLC's Slaves da Line 32. 
+Responsável por receber/enviar informações sobre ele para o PLC Master. 
 
 - Memórias - I/O Locais: 
     - MB0, MB1, MB2, MB3
@@ -116,7 +117,8 @@ Para isso estão reservados 99 Bytes: MB200 até à MB299.
 
 ### 49PLC
 
-29PLC, corresponde ao um dos 4 PLC's Slave da Line 32. Responsável por receber/enviar informações sobre ele para o PLC Master. 
+49PLC, corresponde ao um dos 4 PLC's Slaves da Line 32. 
+Responsável por receber/enviar informações sobre ele para o PLC Master. 
 
 - Memórias - I/O Locais: 
     - MB0, MB1, MB2, MB3
@@ -136,7 +138,8 @@ Para isso estão reservados 99 Bytes: MB200 até à MB299.
 
 ### 59PLC
 
-29PLC, corresponde ao um dos 4 PLC's Slave da Line 32. Responsável por receber/enviar informações sobre ele para o PLC Master. 
+59PLC, corresponde ao um dos 4 PLC's Slaves da Line 32. 
+Responsável por receber/enviar informações sobre ele para o PLC Master. 
 
 - Memórias - I/O Locais: 
     - MB0, MB1, MB2, MB3
