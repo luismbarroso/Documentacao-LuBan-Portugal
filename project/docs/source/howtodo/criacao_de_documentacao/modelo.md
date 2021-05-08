@@ -20,7 +20,7 @@ Para facilmente criar documentação para a Lu Ban Workshop Portugal, foi criado
 
 ### Localização
 
-Este modelo pode ser obtido no repositório principal: [Github- Repositório Principal](https://github.com/luismbarroso/Documentacao-LuBan-Portugal/tree/main/modelo)
+Este modelo pode ser obtido no repositório principal: [Github - Repositório Principal](https://github.com/luismbarroso/Documentacao-LuBan-Portugal/tree/main/modelo)
 
 ### Alteração dos Parâmetros
 
