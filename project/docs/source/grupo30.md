@@ -21,8 +21,8 @@
 - [Lines](#lines)
   - [Line 31](#line-31)
     - [2020_2021](./lines/line31/2020_2021/line31.md)
-      - [João Evartisto](https://joaoevaristo-documentacao.readthedocs.io/en/latest/lines/line31/2020_2021/line31.html)
-      - [Fábio Santo](https://fabiosanto-documentacao.readthedocs.io/en/latest/lines/line31/2020_2021/line31.html)
+      - [João Evartisto](https://joaoevaristo-documentacao.readthedocs.io/en/latest/line31.html)
+      - [Fábio Santo](https://fabiosanto-documentacao.readthedocs.io/en/latest/line31.html)
     - [2021_2022](./lines/line31/2021_2022/line31.md)
     - [2022_2023](./lines/line31/2022_2023/line31.md) 
   - [Line 32](#line-32)
@@ -102,8 +102,8 @@ Siemens S7 1200, é um equipamento eletrónico, produzido pela Siemens. Consiste
 ## Lines
 ### Line 31
 #### 2020_2021
-- [João Evartisto](https://joaoevaristo-documentacao.readthedocs.io/en/latest/lines/line31/2020_2021/line31.html)
-- [Fábio Santo](https://fabiosanto-documentacao.readthedocs.io/en/latest/lines/line31/2020_2021/line31.html)
+- [João Evartisto](https://joaoevaristo-documentacao.readthedocs.io/en/latest/line31.html)
+- [Fábio Santo](https://fabiosanto-documentacao.readthedocs.io/en/latest/line31.html)
 #### 2021_2022
 #### 2022_2023
 
