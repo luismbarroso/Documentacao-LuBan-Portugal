@@ -65,7 +65,12 @@ Os sensores magnético são sensores que nos permitem saber em que posição a h
 Os sensores indutivos, são sensores que nos permitem e destiação entre as peças metálicas e as peças de plastico. O sensor indutivo funciona a partir de um campo eletromagnético. Quando a peça metálica entra neste campo, devido à indução no metal ocorre uma diminuição na energia do campo, desta forma, o sensor deteta a presença de objeto metálico.
 
 ### Sensor Ótico
+
+      Loading...
+
 ### Cilindro Pneumático
+
+      Loading...
 
 ## Equipamentos
 ### Enconder
