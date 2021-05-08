@@ -29,49 +29,49 @@
 
 # 1
 
-![1](./imagens/primeiros_passos/inst_git/1.PNG)
-![2](./imagens/primeiros_passos/inst_git/2.PNG)
-![3](./imagens/primeiros_passos/inst_git/3.PNG)
-![4](./imagens/primeiros_passos/inst_git/4.PNG)
-![5](./imagens/primeiros_passos/inst_git/5.PNG)
-![6](./imagens/primeiros_passos/inst_git/6.PNG)
-![7](./imagens/primeiros_passos/inst_git/7.PNG)
+![1](./imagens/primeiros_passos/inst_git/1.png)
+![2](./imagens/primeiros_passos/inst_git/2.png)
+![3](./imagens/primeiros_passos/inst_git/3.png)
+![4](./imagens/primeiros_passos/inst_git/4.png)
+![5](./imagens/primeiros_passos/inst_git/5.png)
+![6](./imagens/primeiros_passos/inst_git/6.png)
+![7](./imagens/primeiros_passos/inst_git/7.png)
 
 # 2
 
-![1](./imagens/primeiros_passos/inst_vsc/1.PNG)
-![2](./imagens/primeiros_passos/inst_vsc/2.PNG)
-![3](./imagens/primeiros_passos/inst_vsc/3.PNG)
-![4](./imagens/primeiros_passos/inst_vsc/4.PNG)
-![5](./imagens/primeiros_passos/inst_vsc/5.PNG)
-![6](./imagens/primeiros_passos/inst_vsc/6.PNG)
-![7](./imagens/primeiros_passos/inst_vsc/7.PNG)
+![1](./imagens/primeiros_passos/inst_vsc/1.png)
+![2](./imagens/primeiros_passos/inst_vsc/2.png)
+![3](./imagens/primeiros_passos/inst_vsc/3.png)
+![4](./imagens/primeiros_passos/inst_vsc/4.png)
+![5](./imagens/primeiros_passos/inst_vsc/5.png)
+![6](./imagens/primeiros_passos/inst_vsc/6.png)
+![7](./imagens/primeiros_passos/inst_vsc/7.png)
 
 # 3
 
-![1](./imagens/primeiros_passos/rep_local/1.PNG)
-![2](./imagens/primeiros_passos/rep_local/2.PNG)
-![3](./imagens/primeiros_passos/rep_local/3.PNG)
-![4](./imagens/primeiros_passos/rep_local/4.PNG)
-![5](./imagens/primeiros_passos/rep_local/5.PNG)
-![6](./imagens/primeiros_passos/rep_local/6.PNG)
+![1](./imagens/primeiros_passos/rep_local/1.png)
+![2](./imagens/primeiros_passos/rep_local/2.png)
+![3](./imagens/primeiros_passos/rep_local/3.png)
+![4](./imagens/primeiros_passos/rep_local/4.png)
+![5](./imagens/primeiros_passos/rep_local/5.png)
+![6](./imagens/primeiros_passos/rep_local/6.png)
 
 # 4
 
-![1](./imagens/primeiros_passos/rep_vsc/1.PNG)
-![2](./imagens/primeiros_passos/rep_vsc/2.PNG)
-![3](./imagens/primeiros_passos/rep_vsc/3.PNG)
+![1](./imagens/primeiros_passos/rep_vsc/1.png)
+![2](./imagens/primeiros_passos/rep_vsc/2.png)
+![3](./imagens/primeiros_passos/rep_vsc/3.png)
 
 # 5
 
-![1](./imagens/primeiros_passos/trabalhar_vsc/1.PNG)
-![2](./imagens/primeiros_passos/trabalhar_vsc/2.PNG)
-![3](./imagens/primeiros_passos/trabalhar_vsc/3.PNG)
-![4](./imagens/primeiros_passos/trabalhar_vsc/4.PNG)
-![5](./imagens/primeiros_passos/trabalhar_vsc/5.PNG)
-![6](./imagens/primeiros_passos/trabalhar_vsc/6.PNG)
-![7](./imagens/primeiros_passos/trabalhar_vsc/7.PNG)
+![1](./imagens/primeiros_passos/trabalhar_vsc/1.png)
+![2](./imagens/primeiros_passos/trabalhar_vsc/2.png)
+![3](./imagens/primeiros_passos/trabalhar_vsc/3.png)
+![4](./imagens/primeiros_passos/trabalhar_vsc/4.png)
+![5](./imagens/primeiros_passos/trabalhar_vsc/5.png)
+![6](./imagens/primeiros_passos/trabalhar_vsc/6.png)
+![7](./imagens/primeiros_passos/trabalhar_vsc/7.png)
 
 # 6
 
-![1](./imagens/primeiros_passos/erros_vsc/1.PNG)
+![1](./imagens/primeiros_passos/erros_vsc/1.png)
