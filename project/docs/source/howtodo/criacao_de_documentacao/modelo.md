@@ -34,10 +34,10 @@ Para que o documento criado, seja facilmente identificado e distinguido dos rest
 
 2.No ficheiro **“config.py”**, localizado em **“./project/docs/source/conf.py”** altere os seguintes parâmetros:
 
-    copyright = '20xx, Nome do Aluno'
-    author = 'Nome do Aluno'
-    "repo_url": "https://github.com/../..",
-    "repo_name": "Nome do Aluno - Documentação ",
+    copyright = '20xx, Nome do Aluno';
+    author = 'Nome do Aluno';
+    "repo_url": "https://github.com/../..";
+    "repo_name": "Nome do Aluno - Documentação ";
 
 - **Copyright** - Correponde ao ano de criação do documento e o seu autor, apresentados no final da página.
 - **Author** - Como o nome diz, corresponde o autor do documento.
