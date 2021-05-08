@@ -67,7 +67,7 @@ Os sensores óticos, são sensores que nos permitem a diferenciação entre peç
 
 ### Cilindro Pneumático
 
-O cilindro pneumático é o componente responsável por fazer movimentar as peças ao longo do processo. Estes componentes trabalham a partir de ar comprimido, ou seja, nas suas extremidades possuem pequenos orificios, sendo assim possivel, mover a haste para frente e para trás, alternando a entrada que recebem o ar. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), os Cilindros Pneumáticos usados são de duplo efeito.
+O cilindro pneumático é o componente responsável por fazer movimentar as peças ao longo do processo. Estes componentes trabalham a partir de ar comprimido, ou seja, nas suas extremidades possuem pequenos orificios, sendo assim possivel, mover a haste para frente e para trás, alternando a entrada que recebem o ar. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), os cilindros pneumáticos usados são de duplo efeito.
 
 ## Equipamentos
 ### Enconder
