@@ -26,7 +26,9 @@ Este modelo pode ser obtido no repositório principal: [Github- Repositório Pri
 
 Para que o documento criado, seja facilmente identificado e distinguido dos restante são necessárias fazer algumas alterações, que passaremos a explicar.
 
-1.No ficheiro **“README.md”** altere o **“Nome do Aluno”** e o **“Número do Aluno”** para os seus dados.
+    Nota: Todos os 'xx' apresentados ao longo deste documento, devem ser subsituidos por numeração real, como por exemplo o número da Line e as datas.
+
+1.No ficheiro **“README.md”**, localizado na raiz do repositório, altere o **“Nome do Aluno”** e o **“Número do Aluno”** para os seus dados.
 
 ![](./imagens/modelo_documentacao/1.PNG)
 
@@ -44,6 +46,10 @@ Para que o documento criado, seja facilmente identificado e distinguido dos rest
 
 ![](./imagens/modelo_documentacao/2.PNG)
 ![](./imagens/modelo_documentacao/3.PNG)
+
+3.No ficheiro **index.rst”**, localizado em **“./project/docs/source/index.rst”** altere o ficheiro **“linexx”** para o nome da line que está a trabalhar. Por exemplo, se está a trabalhar na Line32, o ficheiro, deve estar nomeado como **line32.md”** e dentro do ficheiro **index.rst”**, onde está **“linexx”** deve alterar para **line32”**.
+
+![](./imagens/modelo_documentacao/4.PNG)
 
 ### Ficheiros
 
