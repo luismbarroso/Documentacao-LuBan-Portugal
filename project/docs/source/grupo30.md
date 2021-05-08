@@ -27,7 +27,7 @@
     - [2022_2023](./lines/line31/2022_2023/line31.md) 
   - [Line 32](#line-32)
     - [2020_2021](./lines/line32/2020_2021/line3222.md)
-      - [Luís Barroso](https://luisbarroso-documentacao.readthedocs.io/en/latest/lines/line32/2020_2021/line32.html)
+      - [Luís Barroso](https://luisbarroso-documentacao.readthedocs.io/en/latest/line32.html)
     - [2021_2022](./lines/line32/2021_2022/line32.md)
     - [2022_2023](./lines/line32/2022_2023/line32.md)  
   - [Line 33](#line-33)
@@ -86,7 +86,7 @@ Um Inversor de Frequência é um equipamento eletrónico, u
 
 ### Line 32
 #### 2020_2021
-- [Luís Barroso](https://luisbarroso-documentacao.readthedocs.io/en/latest/lines/line32/2020_2021/line32.html)
+- [Luís Barroso](https://luisbarroso-documentacao.readthedocs.io/en/latest/line32.html)
 #### 2021_2022
 #### 2022_2023
 
