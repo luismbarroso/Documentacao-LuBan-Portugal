@@ -46,7 +46,109 @@ Para isso estão reservados 99 Bytes: MB200 até à MB299
 
 ## Mapa de Memória
 ### 19PLC
+
+19PLC, corresponde ao PLC Master da Line 32. Responsável por receber/enviar informações entre os vários PLC e por receber ordens do Tesla Scada
+
+- Memórias - I/O Locais: 
+    - MB0, MB1, MB2, MB3
+- Memórias - Etapas de Grafcet 
+    - MB10, MB11, MB12, MB13, MB14 e MB15
+- Memórias - Profinet
+    - **Inputs:**
+    - IDW100 < QDW100 - 29PLC
+    - IDW104 < QDW100 - 39PLC
+    - IDW108 < QDW100 - 49PLC 
+    - IDW112 < QDW100 - 59PLC
+    - **Outputs:**
+    - QDW100 > IDW100 - 29PLC
+    - QDW104 > IDW100 - 39PLC
+    - QDW108 > IDW100 - 49PLC
+    - QDW112 > IDW100 - 59PLC
+- Memórias - Modbus
+    - **Inputs:**
+    - IDW200 < QDW200 - 29PLC
+    - IDW204 < QDW200 - 39PLC
+    - IDW208 < QDW200 - 49PLC 
+    - IDW212 < QDW200 - 59PLC
+    - **Outputs:**
+    - QDW200 > IDW200 - 29PLC
+    - QDW204 > IDW200 - 39PLC
+    - QDW208 > IDW200 - 49PLC
+    - QDW212 > IDW200 - 59PLC 
+
 ### 29PLC
+
+29PLC, corresponde ao um dos 4 PLC's Slave da Line 32. Responsável por receber/enviar informações sobre ele para o PLC Master. 
+
+- Memórias - I/O Locais: 
+    - MB0, MB1, MB2, MB3
+- Memórias - Etapas de Grafcet 
+    - MB10
+- Memórias - Profinet
+    - **Inputs:**
+    - IDW100 < QDW100 - 29PLC
+    - **Outputs:**
+    - QDW100 > IDW100 - 29PLC
+- Memórias - Modbus
+    - **Inputs:**
+    - IDW200 < QDW200 - 29PLC
+    - **Outputs:**
+    - QDW200 > IDW200 - 29PLC
+
 ### 39PLC
+
+29PLC, corresponde ao um dos 4 PLC's Slave da Line 32. Responsável por receber/enviar informações sobre ele para o PLC Master. 
+
+- Memórias - I/O Locais: 
+    - MB0, MB1, MB2, MB3
+- Memórias - Etapas de Grafcet 
+    - MB10
+- Memórias - Profinet
+    - **Inputs:**
+    - IDW104 < QDW100 - 39PLC
+    - **Outputs:**
+    - QDW104 > IDW100 - 39PLC
+- Memórias - Modbus
+    - **Inputs:**
+    - IDW204 < QDW200 - 39PLC
+    - **Outputs:**
+    - QDW204 > IDW200 - 39PLC
+
 ### 49PLC
+
+29PLC, corresponde ao um dos 4 PLC's Slave da Line 32. Responsável por receber/enviar informações sobre ele para o PLC Master. 
+
+- Memórias - I/O Locais: 
+    - MB0, MB1, MB2, MB3
+- Memórias - Etapas de Grafcet 
+    - MB10, MB11 e MB12 
+- Memórias - Profinet
+    - **Inputs:**
+    - IDW108 < QDW100 - 49PLC 
+    - **Outputs:**
+    - QDW108 > IDW100 - 49PLC
+- Memórias - Modbus
+    - **Inputs:**
+    - IDW208 < QDW200 - 49PLC 
+    - **Outputs:**
+    - QDW208 > IDW200 - 49PLC
+
+
 ### 59PLC
+
+29PLC, corresponde ao um dos 4 PLC's Slave da Line 32. Responsável por receber/enviar informações sobre ele para o PLC Master. 
+
+- Memórias - I/O Locais: 
+    - MB0, MB1, MB2, MB3
+- Memórias - Etapas de Grafcet 
+    - MB10, MB11, MB12 e MB13
+- Memórias - Profinet
+    - **Inputs:**
+    - IDW112 < QDW100 - 59PLC
+    - **Outputs:**
+    - QDW112 > IDW100 - 59PLC
+- Memórias - Modbus
+    - **Inputs:**
+    - IDW212 < QDW200 - 59PLC
+    - **Outputs:**
+    - QDW212 > IDW200 - 59PLC 
