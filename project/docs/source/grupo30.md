@@ -52,17 +52,17 @@ Os sensores fotoelétricos são sensores que usam um feixe de luz para detetar a
 
 Este tipo de sensor podem ser aplicado de 3 maneiras diferentes:
 
-    - Sensor Fotoelétrico de Barreira, 2 sensores distintos (emissor/recetor). Normalmente são instalados frente a frente, desta forma, sempre que este feixe for interropido, resulta numa ação. 
-    - Sensor Fotoelétrico Retrorreflexivo, 1 único sensor com emissor/recetor no mesmo **"corpo"**. A este tipo de sensor é acrescentado um espelho prismático. O seu funcionamento é identico ao funcionamento do *Sensor Fotoelétrico de Barreira*.
-    - Sensor Fotoelétrico Difuso, 2 sensores distintos (emissor/recetor), instalados lado a lado. Assim que o algum objeto interrompe esse feixe de luz, o próprio objetvo, reflete o feixe para o receptor.
+  - Sensor Fotoelétrico de Barreira, 2 sensores distintos (emissor/recetor). Normalmente são instalados frente a frente, desta forma, sempre que este feixe for interropido, resulta numa ação. 
+  - Sensor Fotoelétrico Retrorreflexivo, 1 único sensor com emissor/recetor no mesmo **"corpo"**. A este tipo de sensor é acrescentado um espelho prismático. O seu funcionamento é identico ao funcionamento do *Sensor Fotoelétrico de Barreira*.
+  - Sensor Fotoelétrico Difuso, 2 sensores distintos (emissor/recetor), instalados lado a lado. Assim que o algum objeto interrompe esse feixe de luz, o próprio objetvo, reflete o feixe para o receptor.
 
 ### Sensor Magnético
 
-Os sensores magnético são sensores que nos permitem saber em que posição a haste do cilindro se encontra, ou seja, avançado ou recuado. O sensor magnético funciona a partir mediante a presença de um campo magnético externo, próximo e dentro da área sensível. 
+Os sensores magnético são sensores que nos permitem saber em que posição a haste do cilindro se encontra, ou seja, avançado ou recuado. O sensor magnético funciona na presença de um campo magnético externo, próximo e dentro da área sensível. 
 
 ### Sensor Indutivo
 
-Os sensores indutivos, são sensores que nos permitem e destiação entre as peças metálicas e as peças de plastico. O sensor indutivo funciona a partir de um campo eletromagnético. Quando a peça metálica entra neste campo, devido à indução no metal ocorre uma diminuição na energia do campo, desta forma, o sensor deteta a presença de objeto metálico.
+Os sensores indutivos, são sensores que nos permitem e destiação entre as peças metálicas e as peças de plástico. O sensor indutivo funciona a partir de um campo eletromagnético. Quando a peça metálica entra neste campo, devido à indução no metal ocorre uma diminuição na energia do campo, desta forma, o sensor deteta a presença de objeto metálico.
 
 ### Sensor Ótico
 
