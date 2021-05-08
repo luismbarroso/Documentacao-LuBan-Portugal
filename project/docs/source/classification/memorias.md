@@ -24,30 +24,30 @@ Cada PLC da Line 32 está divido 4 Zonas de Memórias:
 
 I/O Locais, consiste nas memórias destinadas aos Input's e Output's do próprio PLC, como por exemplo, um Sensor, uma eletroválvula, entre outros.
 
-Para isso estão reservados 4 Bytes: MB0, MB1, MB2, MB3
+Para isso estão reservados 4 Bytes: MB0, MB1, MB2, MB3.
 
 ### Etapas de Grafcet
 
 Etapas de Grafcet, para o funcionamento de um Grafcet são necessárias memórias.
 
-Para isso estão reservados 96 Bytes: MB10 até à MB99
+Para isso estão reservados 96 Bytes: MB10 até à MB99.
 
 ### Profinet
 
 Profinet, para a comunicação entre os vários PLC é necessário definir uma **Área de Transferência de Bytes**, para que estas comunicações ocorram de forma segura e eficaz. 
 
-Para isso estão reservados 99 Bytes: MB100 até à MB199
+Para isso estão reservados 99 Bytes: MB100 até à MB199.
 
 ### Modbus
 
 Á semelhança do Profinet, o Modbus, também necessita de uma **Área de Transferência de Bytes**, para a comunicação entre o PLC Master e o Tesla Scada. 
 
-Para isso estão reservados 99 Bytes: MB200 até à MB299
+Para isso estão reservados 99 Bytes: MB200 até à MB299.
 
 ## Mapa de Memória
 ### 19PLC
 
-19PLC, corresponde ao PLC Master da Line 32. Responsável por receber/enviar informações entre os vários PLC e por receber ordens do Tesla Scada
+19PLC, corresponde ao PLC Master da Line 32. Responsável por receber/enviar informações entre os vários PLC e por receber ordens do Tesla Scada.
 
 - Memórias - I/O Locais: 
     - MB0, MB1, MB2, MB3
