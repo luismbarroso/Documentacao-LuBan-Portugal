@@ -3,6 +3,6 @@
 ## Lu ban Workshop Portugal
 
 <p>
-  <strong>Nome do Aluno:</strong> Luís Barroso // <strong>Número do Aluno:</strong> 190203015
+  <strong>Nome do Aluno:</strong> Nome do Aluno // <strong>Número do Aluno:</strong> Número do Aluno
 </p>
  
