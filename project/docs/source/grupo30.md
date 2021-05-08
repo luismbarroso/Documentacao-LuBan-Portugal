@@ -75,7 +75,7 @@ Um Inversor de Frequência é um equipamento eletrónico, utilizado para variar 
 
 ### Siemens S7 1200
 
-Siemens S7 1200, é um equipamento eletrónico, produzido pela Siemens. Consiste no PLC (Controladores Lógicos Programáveis) capaz de controlar uma variedade de aplicações de automação. Este equipamento é o **"cérebro"** deste Grupo 30 (YL-335B), responsável por processar e realizar as ordens recebidas pelo seu operador. É o PLC ideal quando se trata de executar tarefas de automação com flexibilidade e eficiência. Eles apresentam uma gama abrangente de funções tecnológicas e comunicação integrada, bem como um design especialmente compacto e compacto.
+Siemens S7 1200, é um equipamento eletrónico, produzido pela Siemens. Consiste no PLC (Controladores Lógicos Programáveis) capaz de controlar uma variedade de aplicações de automação. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), este equipamento, é o **"cérebro"** de todos o processo. Responsável por processar e realizar as ordens recebidas pelo seu operador. É o PLC ideal quando se trata de executar tarefas de automação com flexibilidade e eficiência. Eles apresentam uma gama abrangente de funções tecnológicas e comunicação integrada, bem como um design especialmente compacto e compacto.
 
 #### - [Manual Geral - Siemens S7 1200](https://cache.industry.siemens.com/dl/files/465/36932465/att_106119/v1/s71200_system_manual_en-US_en-US.pdf)
 
