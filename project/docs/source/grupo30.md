@@ -48,11 +48,10 @@
 
 Os sensores fotoelétricos são sensores que usam um feixe de luz para detetar a presença/ausência de objetos. Quando algum objeto  interrompe esse feixe de luz, o receptor detecta esse objeto e realiza a sua função para que foi programa, como por exemplo, o avanço de um cilindro.
 
-Este tipo de sensor podem ser aplicado de 3 maneiras diferentes:
+Este tipo de sensor podem ser aplicado de 2 maneiras diferentes:
 
   - Sensor Fotoelétrico de Barreira, 2 sensores distintos (emissor/recetor). Normalmente são instalados frente a frente, desta forma, sempre que este feixe for interropido, resulta numa ação. 
   - Sensor Fotoelétrico Retrorreflexivo, 1 único sensor com emissor/recetor no mesmo **"corpo"**. A este tipo de sensor é acrescentado um espelho prismático. O seu funcionamento é identico ao funcionamento do *Sensor Fotoelétrico de Barreira*.
-  - Sensor Fotoelétrico Difuso, 2 sensores distintos (emissor/recetor), instalados lado a lado. Assim que o algum objeto interrompe esse feixe de luz, o próprio objetvo, reflete o feixe para o receptor.
 
 ### Sensor Magnético
 
@@ -64,11 +63,11 @@ Os sensores indutivos, são sensores que nos permitem e destiação entre as pe�
 
 ### Sensor Ótico
 
-      Loading...
+Os sensores óticos, são sensores que nos permitem a diferenciação entre peça branca e preta. O seu principio de funcionamento é parecido ao do **"Sensor Fotoelétrico"**, ou seja, o sensor possui um emissor e recetor, no mesmo corpo. Assim que a peça entra no campo do sensor, um feixe de luz é refleitdo e parte da luz emitida. A quantidade de luz refletida vai definir se a peça é branca ou preta. O sensor é composto por duas partes: o sensor e um amplificador ótico.
 
 ### Cilindro Pneumático
 
-      Loading...
+O cilindro pneumático é o componente responsável por fazer movimentar as peças ao longo do processo. Estes componentes trabalham a partir de ar comprimido, ou seja, nas suas extremidades possuem pequenos orificios, sendo assim possivel, mover a haste para frente e para trás, alternando a entrada que recebem o ar. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), os Cilindros Pneumáticos usados são de duplo efeito.
 
 ## Equipamentos
 ### Enconder
