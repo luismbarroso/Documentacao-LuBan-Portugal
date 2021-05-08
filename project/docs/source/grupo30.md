@@ -1,22 +1,21 @@
 # Grupo 30 - YL335B
 
-- [Classificação](#classificação)
+- [Classificação](#classificacao)
   - [Estações](./classification/estacoes.md)
-  - [Profinet](./classification/profinet.md)
-  - [Modbus](./classification/modbus.md)
+  - [Memórias](#memorias)
 - [Componentes](#componentes)
-  - [Sensor Fotoelétrico](#sensor-fotoelétrico)
-  - [Sensor Magnético](#sensor-magnético) 
+  - [Sensor Fotoelétrico](#sensor-fotoeletrico)
+  - [Sensor Magnético](#sensor-magnetico) 
   - [Sensor Indutivo](#sensor-indutivo) 
-  - [Sensor Ótico](#sensor-ótico) 
-  - [Cilindro Pneumático](#cilindro-pneumático)
+  - [Sensor Ótico](#sensor-otico) 
+  - [Cilindro Pneumático](#cilindro-pneumatico)
 - [Equipamentos](#equipamentos)
   - [Siemens S7 1200](#siemens-s7-1200) 
   - [Enconder](#enconder)
     - [Manual Enconder](./equipments/manuais/manual_enconder.md)
   - [Servo Motor](#servo-motor)
     - [Manual Servo Motor](./equipments/manuais/manual_servo.md)
-  - [Inversor de Frequência](#inversor-de-frequência)
+  - [Inversor de Frequência](#inversor-de-frequencia)
   - [HMI-T](#hmi-t)
 - [Lines](#lines)
   - [Line 31](#line-31)
@@ -42,8 +41,7 @@
 
 ## Classificação
 ### [Estações](./classification/estacoes.md)
-### [Profinet](./classification/profinet.md)
-### [Modbus](./classification/modbus.md)
+### [Memórias](./classification/memorias.md)
 
 ## Componentes
 ### Sensor Fotoelétrico
