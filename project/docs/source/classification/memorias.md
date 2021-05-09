@@ -4,13 +4,14 @@
   - [I/O Locais](i/o-locais)
   - [Etapas de Grafcet](#etapas-de-grafcet)
   - [Profinet](#profinet)
-  - [Modbus](#memorias)
-- [Mapa de Memória](#mapas-de-memorias)
-  - [19PLC](19-plc)
-  - [29PLC](29-plc)
-  - [39PLC](39-plc)
-  - [49PLC](49-plc)
-  - [59PLC](59-plc)
+  - [Modbus](#modbus)
+- [Mapas de Memória: Geral](#mapas-de-memoria:-geral)
+- [Mapas de Memória: PLCs](#mapas-de-memoria:-plcs)
+  - [19PLC](#19plc)
+  - [29PLC](#29plc)
+  - [39PLC](#39plc)
+  - [49PLC](#49plc)
+  - [59PLC](#59plc)
 
 ## Zonas de Memória
 Cada PLC da Line 32 está divido 4 Zonas de Memórias:
@@ -44,7 +45,25 @@ Para isso estão reservados 7 Bytes: MB100, MB101, MB102, MB103, MB104, MB105, M
 
 Para isso estão reservados 7 Bytes: MB200, MB201, MB202, MB203, MB204, MB205, MB206.
 
-## Mapa de Memória
+## Mapas de Memória: Geral
+
+||||IOLocais||||
+-- | - | - | - | - | - | -
+MB0|MB1|MB2| ⠀ MB3|MB4|MB5|MB6	
+	
+||||Etapas de Grafet||||
+--- | -- | -- | -- | -- | -- | --							
+MB10|MB11|MB12| ⠀  ⠀  ⠀MB13|MB14|MB15|MB16	
+														
+||||Profinet||||
+--- | -- | -- | -- | -- | -- | --						
+MB100|MB101|MB102|MB103|MB104|MB105|MB106	
+							
+||||Modbus||||
+---- | --- | --- | --- | --- | --- | ---
+MB200|MB201|MB202|MB203|MB204|MB205|MB206		
+
+## Mapas de Memória: PLCs
 ### 19PLC
 
 19PLC, corresponde ao PLC Master da Line 32. Responsável por receber/enviar informações entre os vários PLC e por receber ordens do Tesla Scada.
@@ -155,22 +174,3 @@ Responsável por receber/enviar informações sobre ele para o PLC Master.
     - IDW212 < QDW200 - 59PLC
     - **Outputs:**
     - QDW212 > IDW200 - 59PLC 
-
-
-## Tabela
-
-||||IOLocais||||
--- | - | - | - | - | - | -
-MB0|MB1|MB2| ⠀ MB3|MB4|MB5|MB6	
-	
-||||Etapas de Grafet||||
---- | -- | -- | -- | -- | -- | --							
-MB10|MB11|MB12| ⠀  ⠀  ⠀MB13|MB14|MB15|MB16	
-														
-||||Profinet||||
---- | -- | -- | -- | -- | -- | --						
-MB100|MB101|MB102|MB103|MB104|MB105|MB106	
-							
-||||Modbus||||
----- | --- | --- | --- | --- | --- | ---
-MB200|MB201|MB202|MB203|MB204|MB205|MB206		
