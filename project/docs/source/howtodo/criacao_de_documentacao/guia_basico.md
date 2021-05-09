@@ -6,7 +6,7 @@
 
 # Guia Básico - Markdown
 
-**Autor:** Luis Barroso
+**Autor:** Luís Barroso
 
 ## Indice
 - [Objetivo](#objetivo)
@@ -23,13 +23,13 @@
 
 ## Objetivo
 
-Este documento consiste num Guia com alguns conceitos basicos para a criação de documentação para a Lu ban Workshop Portugal, usando o Markdown.
+Este documento consiste num Guia com alguns conceitos básicos para a criação de documentação para a Lu ban Workshop Portugal, usando o Markdown.
 
-Markdown é uma linguagem simples usada para criação de documentos e que possui um conjunto de vantagens, das quais resultam, um **histórico**, onde é possivel ver a última vez que o ficheiro foi alterado e que alterações foram feitas; fazer **compare** entre dois ficheiros e escolher a parte(s) mais acertada(s) para a produção do documento final; **simplicidade**, através de comandos básicos é possivel produzir a documentação pretendida, assim que concluida, por facilmente ser convertida em .PDF.
+Markdown é uma linguagem simples usada para criação de documentos e que possui um conjunto de vantagens, das quais resultam, um **histórico**, onde é possível ver a última vez que o ficheiro foi alterado e que alterações foram feitas; fazer **compare** entre dois ficheiros e escolher a parte(s) mais acertada(s) para a produção do documento final; **simplicidade**, através de comandos básicos é possível produzir a documentação pretendida, assim que concluída, por facilmente ser convertida em .PDF.
 
 ## Comandos Básicos
-### Titulos
-Para os Titulos são usados **"#"**, quantos mais **"#"** mais pequenos o seu texto vai ficar. O máximo de "#" a usar são 6. 
+### Títulos
+Para os Títulos são usados **"#"**, quantos mais **"#"** mais pequenos o seu texto vai ficar. O máximo de "#" a usar são 6. 
 
     # Lu ban Workshop Portugal
     ## Lu ban Workshop Portugal
@@ -41,11 +41,11 @@ Para os Titulos são usados **"#"**, quantos mais **"#"** mais pequenos o seu te
 
 ### Formatação de Texto
 
-A formatação de texto pode ser feita a **"Negrito"**, **"Italico"**, **"Negrito/Italico"** e **"Riscado"**.
+A formatação de texto pode ser feita a **"Negrito"**, **"Itálico"**, **"Negrito/Itálico"** e **"Riscado"**.
 
     Negrito: ***Lu ban Workshop Portugal**
-    Italico: *Lu ban Workshop Portugal*
-    Negrito/Italico: ***Lu ban Workshop Portugal***
+    Itálico: *Lu ban Workshop Portugal*
+    Negrito/Itálico: ***Lu ban Workshop Portugal***
     Riscado: ~~Lu ban Workshop Portugal~~
     
 ### Citações
