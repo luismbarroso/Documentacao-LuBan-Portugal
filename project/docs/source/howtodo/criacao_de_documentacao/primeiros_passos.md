@@ -144,3 +144,12 @@ No caso de aparecer esta janela, no **Prompt de Comando**, digite o comandos aba
 O Read the docs, foi a ferramenta escolhida para a renderização da documentação, simples é facil de utilizar.
 
 ### Como utilizar
+
+![1](./imagens/primeiros_passos/erros_vsc/1.png)
+![2](./imagens/primeiros_passos/erros_vsc/2.png)
+![3](./imagens/primeiros_passos/erros_vsc/3.png)
+![4](./imagens/primeiros_passos/erros_vsc/4.png)
+![5](./imagens/primeiros_passos/erros_vsc/5.png)
+![6](./imagens/primeiros_passos/erros_vsc/6.png)
+![7](./imagens/primeiros_passos/erros_vsc/7.png)
+![8](./imagens/primeiros_passos/erros_vsc/8.png)
