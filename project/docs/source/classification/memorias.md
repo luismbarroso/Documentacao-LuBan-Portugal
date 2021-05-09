@@ -7,7 +7,7 @@
   - [Modbus](#modbus)
 - [Mapas de Memória: Geral](#mapas-de-memoria-geral)
 - [Mapas de Memória: PLCs](#mapas-de-memoria-plcs)
-  - [19PLC](#id1)
+  - [19PLC](#plc)
   - [29PLC](#id2)
   - [39PLC](#id3)
   - [49PLC](#id4)
@@ -60,7 +60,7 @@ Modbus|MB200|MB201|MB202|MB203|MB204|MB205|MB206
 19PLC, corresponde ao PLC Master da Line 32. Responsável por receber/enviar informações entre os vários PLC e por receber ordens do Tesla Scada.
 
 - Memórias - I/O Locais: 
-    - MB0, MB1, MB2, MB3, MB4, MB5, MB
+    - MB0, MB1, MB2, MB3, MB4, MB5, MB6
 - Memórias - Etapas de Grafcet 
     - MB10, MB11, MB12, MB13, MB14 e MB15
 - Memórias - Profinet
