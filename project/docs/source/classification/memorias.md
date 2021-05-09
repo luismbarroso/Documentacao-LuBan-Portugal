@@ -24,25 +24,25 @@ Cada PLC da Line 32 está divido 4 Zonas de Memórias:
 
 I/O Locais, consiste nas memórias destinadas aos Input's e Output's do próprio PLC, como por exemplo, um Sensor, uma eletroválvula, entre outros.
 
-Para isso estão reservados 4 Bytes: MB0, MB1, MB2, MB3.
+Para isso estão reservados 7 Bytes: MB0, MB1, MB2, MB3, MB4, MB5, MB6
 
 ### Etapas de Grafcet
 
 Etapas de Grafcet, para o funcionamento de um Grafcet são necessárias memórias.
 
-Para isso estão reservados 96 Bytes: MB10 até à MB99.
+Para isso estão reservados 7 Bytes: MB10, MB11, MB12, MB13, MB14, MB15, MB16.
 
 ### Profinet
 
 Profinet, para a comunicação entre os vários PLC é necessário definir uma **Área de Transferência de Bytes**, para que estas comunicações ocorram de forma segura e eficaz. 
 
-Para isso estão reservados 99 Bytes: MB100 até à MB199.
+Para isso estão reservados 7 Bytes: MB100, MB101, MB102, MB103, MB104, MB105, MB106.
 
 ### Modbus
 
 Á semelhança do Profinet, o Modbus, também necessita de uma **Área de Transferência de Bytes**, para a comunicação entre o PLC Master e o Tesla Scada. 
 
-Para isso estão reservados 99 Bytes: MB200 até à MB299.
+Para isso estão reservados 7 Bytes: MB200, MB201, MB202, MB203, MB204, MB205, MB206.
 
 ## Mapa de Memória
 ### 19PLC
@@ -50,7 +50,7 @@ Para isso estão reservados 99 Bytes: MB200 até à MB299.
 19PLC, corresponde ao PLC Master da Line 32. Responsável por receber/enviar informações entre os vários PLC e por receber ordens do Tesla Scada.
 
 - Memórias - I/O Locais: 
-    - MB0, MB1, MB2, MB3
+    - MB0, MB1, MB2, MB3, MB4, MB5, MB
 - Memórias - Etapas de Grafcet 
     - MB10, MB11, MB12, MB13, MB14 e MB15
 - Memórias - Profinet
@@ -81,7 +81,7 @@ Para isso estão reservados 99 Bytes: MB200 até à MB299.
 29PLC, corresponde ao um dos 4 PLC's Slave da Line 32. Responsável por receber/enviar informações sobre ele para o PLC Master. 
 
 - Memórias - I/O Locais: 
-    - MB0, MB1, MB2, MB3
+    - MB0, MB1, MB2, MB3, MB4, MB5, MB6
 - Memórias - Etapas de Grafcet 
     - MB10
 - Memórias - Profinet
@@ -101,7 +101,7 @@ Para isso estão reservados 99 Bytes: MB200 até à MB299.
 Responsável por receber/enviar informações sobre ele para o PLC Master. 
 
 - Memórias - I/O Locais: 
-    - MB0, MB1, MB2, MB3
+    - MB0, MB1, MB2, MB3, MB4, MB5, MB6
 - Memórias - Etapas de Grafcet 
     - MB10
 - Memórias - Profinet
@@ -121,7 +121,7 @@ Responsável por receber/enviar informações sobre ele para o PLC Master.
 Responsável por receber/enviar informações sobre ele para o PLC Master. 
 
 - Memórias - I/O Locais: 
-    - MB0, MB1, MB2, MB3
+    - MB0, MB1, MB2, MB3, MB4, MB5, MB6
 - Memórias - Etapas de Grafcet 
     - MB10, MB11 e MB12 
 - Memórias - Profinet
@@ -142,7 +142,7 @@ Responsável por receber/enviar informações sobre ele para o PLC Master.
 Responsável por receber/enviar informações sobre ele para o PLC Master. 
 
 - Memórias - I/O Locais: 
-    - MB0, MB1, MB2, MB3
+    - MB0, MB1, MB2, MB3, MB4, MB5, MB6
 - Memórias - Etapas de Grafcet 
     - MB10, MB11, MB12 e MB13
 - Memórias - Profinet
@@ -155,3 +155,22 @@ Responsável por receber/enviar informações sobre ele para o PLC Master.
     - IDW212 < QDW200 - 59PLC
     - **Outputs:**
     - QDW212 > IDW200 - 59PLC 
+
+
+## Tabela
+
+||||IOLocais||||
+-- | - | - | - | - | - | -
+MB0|MB1|MB2| ⠀ MB3|MB4|MB5|MB6	
+	
+||||Etapas de Grafet||||
+--- | -- | -- | -- | -- | -- | --							
+MB10|MB11|MB12| ⠀  ⠀  ⠀MB13|MB14|MB15|MB16	
+														
+||||Profinet||||
+--- | -- | -- | -- | -- | -- | --						
+MB100|MB101|MB102|MB103|MB104|MB105|MB106	
+							
+||||Modbus||||
+---- | --- | --- | --- | --- | --- | ---
+MB200|MB201|MB202|MB203|MB204|MB205|MB206		
