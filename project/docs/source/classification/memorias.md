@@ -1,12 +1,12 @@
 # Memórias
 
 - [Zonas de Memória](#zonas-de-memoria)
-  - [I/O Locais](i/o-locais)
+  - [I/O Locais](i-o-locais)
   - [Etapas de Grafcet](#etapas-de-grafcet)
   - [Profinet](#profinet)
   - [Modbus](#modbus)
-- [Mapas de Memória: Geral](#mapas-de-memoria:-geral)
-- [Mapas de Memória: PLCs](#mapas-de-memoria:-plcs)
+- [Mapas de Memória: Geral](#mapas-de-memoria-geral)
+- [Mapas de Memória: PLCs](#mapas-de-memoria-plcs)
   - [19PLC](#19plc)
   - [29PLC](#29plc)
   - [39PLC](#39plc)
