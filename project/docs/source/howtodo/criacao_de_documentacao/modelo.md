@@ -6,7 +6,7 @@
 
 # Modelo
 
-**Autor:** Luis Barroso
+**Autor:** Luís Barroso
 
 ## Índice
 - [Objetivo](#objetivo)
@@ -26,7 +26,7 @@ Este modelo pode ser obtido no repositório principal: [Github - Repositório Pr
 
 Para que o documento criado, seja facilmente identificado e distinguido dos restante são necessárias fazer algumas alterações, que passaremos a explicar.
 
-    Nota: Todos os 'xx' apresentados ao longo deste documento, devem ser subsituidos por numeração real, como por exemplo o número da Line e as datas.
+    Nota: Todos os 'xx' apresentados ao longo deste documento, devem ser substituídos por numeração real, como por exemplo o número da Line e as datas.
 
 1.No ficheiro **“README.md”**, localizado na raiz do repositório, altere o **“Nome do Aluno”** e o **“Número do Aluno”** para os seus dados.
 
@@ -39,10 +39,10 @@ Para que o documento criado, seja facilmente identificado e distinguido dos rest
     "repo_url": "https://github.com/../..";
     "repo_name": "Nome do Aluno - Documentação ";
 
-- **Copyright** - Correponde ao ano de criação do documento e o seu autor, apresentados no final da página.
+- **Copyright** - Corresponde ao ano de criação do documento e o seu autor, apresentados no final da página.
 - **Author** - Como o nome diz, corresponde o autor do documento.
-- **Repo_url** - Correponde ao URL do repositório onde estão alocados os ficheiros do Github.
-- **Repo_name** - Correponde ao que aparecerá na Navbar, relativo ao R repositório alocados no Github.
+- **Repo_url** - Corresponde ao URL do repositório onde estão alocados os ficheiros do Github.
+- **Repo_name** - Corresponde ao que aparecerá na Navbar, relativo ao R repositório alocados no Github.
 
 ![](./imagens/modelo_documentacao/2.PNG)
 ![](./imagens/modelo_documentacao/3.PNG)
