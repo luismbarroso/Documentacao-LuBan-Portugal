@@ -47,21 +47,12 @@ Para isso estão reservados 7 Bytes: MB200, MB201, MB202, MB203, MB204, MB205, M
 
 ## Mapas de Memória: Geral
 
-||||IOLocais||||
---- | -- | -- | -- | -- | -- | --
-MB0|MB1|MB2| ⠀ MB3|MB4|MB5|MB6	
-	
-||||Etapas de Grafet||||
---- | -- | -- | -- | -- | -- | --							
-MB10|MB11|MB12| ⠀  ⠀  ⠀MB13|MB14|MB15|MB16	
-														
-||||Profinet||||
---- | -- | -- | -- | -- | -- | --						
-MB100|MB101|MB102|MB103|MB104|MB105|MB106	
-							
-||||Modbus||||
---- | -- | -- | -- | -- | -- | --
-MB200|MB201|MB202|MB203|MB204|MB205|MB206		
+|||| Mapa de Memórias |||||
+-- | -- | -- | -- | -- | -- | -- | --
+IOLocais|MB0|MB1|MB2|MB3|MB4|MB5|MB6
+Etapas de Grafet|MB10|MB11|MB12|MB13|MB14|MB15|MB16
+Profinet|MB100|MB101|MB102|MB103|MB104|MB105|MB106
+Modbus|MB200|MB201|MB202|MB203|MB204|MB205|MB206		
 
 ## Mapas de Memória: PLCs
 ### 19PLC
