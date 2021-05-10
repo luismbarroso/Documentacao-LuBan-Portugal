@@ -64,10 +64,10 @@ As Notas são feitas usando a tecla **"TAB"**, indentado o texto pretendido.
 
 As tabelas são feitas da seguinte maneira:
 
-|Coluna 1|Coluna 2|
-| ------ | ------ |
-| Item1 | Item2 |
-| Item4 | Item4 |
+    |Coluna 1|Coluna 2|
+    | ------ | ------ |
+    | Item1 | Item2 |
+    | Item4 | Item4 |
 
 ### Tipos de Lista
 
