@@ -25,7 +25,7 @@
 
 Este documento consiste num Guia com alguns conceitos básicos para a criação de documentação para a Lu ban Workshop Portugal, usando o Markdown.
 
-Markdown é uma linguagem simples usada para criação de documentos e que possui um conjunto de vantagens, das quais resultam, um **histórico**, onde é possível ver a última vez que o ficheiro foi alterado e que alterações foram feitas; fazer **compare** entre dois ficheiros e escolher a parte(s) mais acertada(s) para a produção do documento final; **simplicidade**, através de comandos básicos é possível produzir a documentação pretendida, assim que concluída, por facilmente ser convertida em .PDF.
+Markdown é uma linguagem simples usada para criação de documentos. Através de comandos básicos é possível produzir a documentação pretendida e assim que concluída, pode facilmente ser convertida em .PDF.
 
 ## Comandos Básicos
 ### Títulos
