@@ -156,11 +156,11 @@ O Read the docs, foi a ferramenta escolhida para a renderização da documentaç
 
 ![3](./imagens/primeiros_passos/read_the_docs/3.png)
 
-4.Em **importar repositório**, carrega no **Icon de Atulizar**. Assim que atualizado selecione, o projeto pretendido.
+4.Em **importar repositório**, carrega no **Icon de Atualizar**. Assim que atualizado selecione, o projeto pretendido.
 
 ![4](./imagens/primeiros_passos/read_the_docs/4.png)
 
-5.Em **destalhes do projeto**, mantenha a opções predefinidas e carregue em **"Próximo"**.
+5.Em **detalhes do projeto**, mantenha a opções predefinidas e carregue em **"Próximo"**.
 
 ![5](./imagens/primeiros_passos/read_the_docs/5.png)
 
@@ -168,9 +168,9 @@ O Read the docs, foi a ferramenta escolhida para a renderização da documentaç
 
 ![6](./imagens/primeiros_passos/read_the_docs/6.png)
 
-7.Quando a build for concluida, carregue em **Visualizar Documentação. 
+7.Quando a build for concluída, carregue em **Visualizar Documentação. 
 
 ![7](./imagens/primeiros_passos/read_the_docs/7.png)
 ![8](./imagens/primeiros_passos/read_the_docs/8.png)
 
-8.E a renderização do repositório foi concluida. 
+8.E a renderização do repositório foi concluída. 
