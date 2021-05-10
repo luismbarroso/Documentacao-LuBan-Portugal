@@ -94,6 +94,7 @@ html_theme_options = {
     #"heroes": {
     #    "index": "Instituto Politécnico de Setúbal",
     #}
+    }
 
 language = "en"
 html_last_updated_fmt = ""
