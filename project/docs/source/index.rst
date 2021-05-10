@@ -2,7 +2,7 @@
 Bem-Vindo à Lu ban Workshop Portugal
 ####################################
 
-O presente documento tem como objetivo principal descrever todo o trabalho relizado na Oficina Lu Ban.
+O presente documento tem como objetivo principal descrever todo o trabalho realizado na Oficina Lu Ban.
 
 *********
 Processos
@@ -42,10 +42,11 @@ Grupo 30 - YL-335B
 How to do 
 *********
 
-*Aqui encontrará guias, com liguagem simples e clara. Com ele chegará ao objetivo pretendido.*
+*Aqui encontrará guias, com linguagem simples e clara. Com ele chegará ao objetivo pretendido.*
 
 .. toctree::
    :caption: How to do
    :maxdepth: 2
    
    criacao_de_documentacao
+   fluxograma
