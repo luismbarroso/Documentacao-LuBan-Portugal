@@ -33,9 +33,7 @@ Para perceber o funcionamento do Visual Studio Code + Git são necessários algu
 - Commit: Assim que o trabalho for concluído é necessário fazer o **commit**, ou seja, o *save* das alterações feitas no documento.
 - Push: Como o **commit** realizado, é necessário enviar os ficheiros, que estão guardados localmente, para o repositório do Github. Para isso fazemos o **push** (empurrar) e assim a sua documentação já se encontra disponível no repositório Github.
 - Pull: **Pull** (puxar), consiste na transferência da documentação localizada no repositório Github, para o seu PC. Este tipo de ações acontece quando, são varias pessoas a utilizar o mesmo repositório ou até quando você trabalha em computadores diferentes.
-- Branch: **Branch** consiste numa *cópia* do repositório principal, desta forma, é possível criar novos documentos, corrigir erros com segurança se alterar o repositório principal
-- Merge: *Loading...*
-- Fetch: *Loading...*
+- Merge: Une um ou mais documentos, na existência de conflitos. Por exemplo, se duas pessoas estiverem a trabalhar no mesmo documento, assim que for feito o commit e tentar fazer respetivo push, vai ser gerado um conflito. Para a resolução do conflito é necessário fazer um merge, ou seja, as alterações que foram feitas por ambas as partes serão apresentas e terá optar por uma das opções ou fazer uma versão mista. Desta forma, o conflito estará resolvido.
 
 ## Instalação
 ### Visual Studio Code
@@ -145,11 +143,34 @@ O Read the docs, foi a ferramenta escolhida para a renderização da documentaç
 
 ### Como utilizar
 
+
+1.Entre no site do Read the Docs: [Read the Docs](https://readthedocs.org/) e faça o **Login**.
+
 ![1](./imagens/primeiros_passos/read_the_docs/1.png)
+
+2.Faça o Login usando a conta de Github.
+
 ![2](./imagens/primeiros_passos/read_the_docs/2.png)
+
+3.Carregue em **importar um projeto**
+
 ![3](./imagens/primeiros_passos/read_the_docs/3.png)
+
+4.Em **importar repositório**, carrega no **Icon de Atulizar**. Assim que atualizado selecione, o projeto pretendido.
+
 ![4](./imagens/primeiros_passos/read_the_docs/4.png)
+
+5.Em **destalhes do projeto**, mantenha a opções predefinidas e carregue em **"Próximo"**.
+
 ![5](./imagens/primeiros_passos/read_the_docs/5.png)
+
+6.Assim que aparecer a janela abaixo o projeto foi importado com sucesso. Carregue em **Build Version** para fazer a renderização o repositório.
+
 ![6](./imagens/primeiros_passos/read_the_docs/6.png)
+
+7.Quando a build for concluida, carregue em **Visualizar Documentação. 
+
 ![7](./imagens/primeiros_passos/read_the_docs/7.png)
 ![8](./imagens/primeiros_passos/read_the_docs/8.png)
+
+8.E a renderização do repositório foi concluida. 
