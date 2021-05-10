@@ -96,6 +96,16 @@ html_theme_options = {
     #}
     }
 
+    "nav_links": [
+        {"href": "index", "internal": True, "title": "Material"},
+        {
+            "href": "https://squidfunk.github.io/mkdocs-material/",
+            "internal": False,
+            "title": "Material for MkDocs",
+        },
+    ],
+
+
 language = "en"
 html_last_updated_fmt = ""
 
