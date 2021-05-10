@@ -91,10 +91,29 @@ html_theme_options = {
     "color_accent": "orange", #"cyan",
     "theme_color": "4b231b", #"#2196f3",
     "master_doc": False,
-    #"heroes": {
-    #    "index": "Instituto Politécnico de Setúbal",
-    #}
-    }
+    "nav_links": [
+        {"href": "index", "internal": True, "title": "Material"},
+        {
+            "href": "https://squidfunk.github.io/mkdocs-material/",
+            "internal": False,
+            "title": "Material for MkDocs",
+        },
+    ],
+    "heroes": {
+        "index": "A responsive Material Design theme for Sphinx sites.",
+        "customization": "Configuration options to personalize your site.",
+    },
+    "version_dropdown": True,
+    "version_json": "_static/versions.json",
+    "version_info": {
+        "Release": "https://bashtage.github.io/sphinx-material/",
+        "Development": "https://bashtage.github.io/sphinx-material/devel/",
+        "Release (rel)": "/sphinx-material/",
+        "Development (rel)": "/sphinx-material/devel/",
+    },
+    "table_classes": ["plain"],
+}
+
 
 language = "en"
 html_last_updated_fmt = ""
