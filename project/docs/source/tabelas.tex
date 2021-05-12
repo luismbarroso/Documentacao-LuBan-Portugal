@@ -1,0 +1,182 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+\usepackage{wrapfig}
+\usepackage{multirow}
+\usepackage{tabularx}
+
+
+%-19PLC---------------------------------------------------------------------
+\begin{table}[h!]
+\caption{I/0 Locais - 19PLC}
+\vspace{1cm}
+\begin{tabular}{|c|c|c|c|c|c|}
+ \hline
+ \multicolumn{3}{|c|}{Entrada} \\
+ \hline
+ Label & Endereço & Comentário \\
+ \hline
+ 3211*B42 & I0.3 & Sensor de Garra em Baixo \\
+ \hline
+ 3211*B41 & I0.4 & Sensor de Garra em Cima \\
+ \hline
+ 3211*B32 & I0.5 & Sensor Garra (Rotação) \\
+ \hline
+ 3211*B31 & I0.6 & Sensor Garra (Posição Inicial) \\
+ \hline
+ 3211*B21 & I0.7 & Sensor de Garra á Frente \\
+ \hline
+ 3211*B22 & I1.0 & Sensor de Garra Atrás \\
+ \hline
+ 3211*B11 & I1.1 & Sensor de Garra Fechada \\
+ \hline
+ 321920SB22 & I8.4 & Botão Vermelho \\
+ \hline
+ 321920SB21 & I8.5 & Botão Verde \\
+ \hline
+ 321920QS24 & I8.6 & Botão Emergência \\
+ \hline
+ 321920SA23 & I8.7 & Seletor \\
+ \hline\hline
+ 
+ \multicolumn{3}{|c|}{Saidas} \\
+ \hline
+ Label & Endereço & Comentário \\
+ \hline
+ 3211*Y40 & Q0.3 & Cilindro da Garra (Sobe e Baixa) \\
+ \hline
+ 3211*Y30B & Q0.4 & Cilindro da Garra (Rotação) \\
+ \hline
+ 3211*Y30A & Q0.5 & Cilindro da Garra (Posição Inicial) \\
+ \hline
+ 3211*Y20 & Q0.6 & Cilindro da Garra (Frente e Atrás) \\
+ \hline
+ 3211*Y10B & Q0.7 & Cilindro de Fecho Garra \\
+ \hline
+ 3211*Y10A & Q1.0 & Cilindro de Abertura da Garra \\
+ \hline
+ 321920HL11 & Q8.5 & Painel Luz Laranja \\
+ \hline
+ 321920HL12 & Q8.6 & Painel Luz Verde \\
+ \hline
+ 321920HL13 & Q8.7 & Painel Luz Vermelha \\
+ \hline
+ \end{tabular}
+ \end{table}
+%---------------------------------------------------------------------
+
+\newpage
+\vspace{1cm}
+
+%-29PLC---------------------------------------------------------------------
+\begin{table}[h!]
+\caption{I/0 Locais - 29PLC}
+\vspace{1cm}
+\begin{tabular}{|c|c|c|c|c|c|}
+ \hline
+ \multicolumn{3}{|c|}{Entrada} \\
+ \hline
+ Label & Endereço & Comentário \\
+ \hline
+ 3220*B11 & I0.4 & Sensor de Peça à Frente \\
+ \hline
+ 3221*B11 & I0.0 & Sensor Cilindro1 Avançado \\
+ \hline
+ 3221*B12 & I0.1 & Sensor Cilindro1 Recuado \\
+ \hline
+ 3221*B21 & I0.2 & Sensor Cilindro2 Avançado \\
+ \hline
+ 3221*B22 & I0.3 & Sensor Cilindro2 Recuado \\
+ \hline
+ 3221*B32 & I0.5 & Sensor no Copo (Cima) \\
+ \hline
+ 3221*B33 & I0.6 & Sensor no Copo (Baixo) \\
+ \hline
+ 3221*B31 & I0.7 & Sensor de Peça Metálica \\
+ \hline
+ 322920SB22 & I1.2 & Botão Vermelho \\
+ \hline
+ 322920SB21 & I1.3 & Botão Verde \\
+ \hline
+ 322920QS24 & I1.4 & Botão Emergência \\
+ \hline
+ 322920SA23 & I1.5 & Seletor \\
+ \hline\hline
+ 
+ \multicolumn{3}{|c|}{Saidas} \\
+ \hline
+ Label & Endereço & Comentário \\
+ \hline
+ 3221*Y10 & Q0.0 & Cilindro 1 \\
+ \hline
+ 3221*Y20 & Q0.1 & Cilindro 2 \\
+ \hline
+ 322920HL11 & Q0.7 & Painel Luz Laranja \\
+ \hline
+ 322920HL12 & Q1.0 & Painel Luz Verde \\
+ \hline
+ 322920HL13 & Q1.1 & Painel Luz Vermelha \\
+ \hline
+ \end{tabular}
+ \end{table}
+%---------------------------------------------------------------------
+
+\newpage
+\vspace{1cm}
+
+%-39PLC---------------------------------------------------------------------
+\begin{table}[h!]
+\caption{I/0 Locais - 39PLC}
+\vspace{1cm}
+\begin{tabular}{|c|c|c|c|c|c|}
+ \hline
+ \multicolumn{3}{|c|}{Entrada} \\
+ \hline
+ Label & Endereço & Comentário \\
+ \hline
+ 3231*B11 & I0.0 & Sensor Peça na Pinça \\
+ \hline
+ 3231*B21 & I0.1 & Sensor da Pinça (Abrir/Fechar) \\
+ \hline 
+ 3231*B31 & I0.2 & Sensor de Pinça Avancada \\
+ \hline
+ 3231*B32 & I0.3 & Sensor de Pinça Recuada \\
+ \hline
+ 3232*B11 & I0.4 & Sensor de Prensa Subida \\
+ \hline
+ 3232*B12 & I0.5 & Sensor de Prensa Descida \\
+ \hline
+ 323920SB22 & I1.2 & Botão Vermelho \\
+ \hline
+ 323920SB21 & I1.3 & Botão Verde \\
+ \hline
+ 323920QS24 & I1.4 & Botão Emergência \\
+ \hline
+ 323920SA23 & I1.5 & Seletor \\
+ \hline\hline
+ 
+ \multicolumn{3}{|c|}{Saidas} \\
+ \hline
+ Label & Endereço & Comentário \\
+ \hline
+ 3231*Y20 & Q0.0 & Cilindro de Fechar a Pinça \\
+ \hline
+ 3231*Y20 & Q0.2 & Cilindro da Pinça (Avanço e Recuo) \\
+ \hline
+ 3232*Y10 & Q0.3 & Cilindro da Prensa (Sobe e Desce) \\
+ \hline
+  323920HL11 & Q0.7 & Painel Luz Laranja \\
+ \hline
+ 323920HL12 & Q1.0 & Painel Luz Verde \\
+ \hline
+ 323920HL13 & Q1.1 & Painel Luz Vermelha \\
+ \hline
+ \end{tabular}
+ \end{table}
+%---------------------------------------------------------------------
+
+
+
+
+
+\end{document}
