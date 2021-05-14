@@ -1,4 +1,4 @@
-# Grupo 30 - YL335B - ola
+# Grupo 30 - YL335B
 
 - [Classificação](#classificacao)
   - [Estações](./classification/estacoes.md)
