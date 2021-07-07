@@ -75,6 +75,8 @@ Para perceber o funcionamento do Visual Studio Code + Git são necessários algu
 
 5.Nesta janela, selecione a opção **"Use Visual Studio Code as Git's default editor"**, assim que concluído, carregue em **"Next"**.
 
+![5](./imagens/primeiros_passos/inst_git/5.png)
+
 6.Mantenha a opções predefinidas e carregue em **"Next"**, nas várias janelas que vão aparecendo. 
 
 7.Quando aparecer a seguinte janela, a instalação do Git foi concluida.
