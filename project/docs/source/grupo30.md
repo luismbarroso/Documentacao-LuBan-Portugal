@@ -41,8 +41,7 @@
   - [GEMMA](#gemma)
 
 ## Classificação
-### [Estações](./classification/estacoes.md)
-### [Memórias](./classification/memorias.md)
+
 
 ## Componentes
 ### Sensor Fotoelétrico
