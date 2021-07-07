@@ -16,23 +16,24 @@
   - [Servo Motor](#servo-motor)
     - [Manual Servo Motor](./equipments/manuais/manual_servo.md)
   - [Inversor de Frequência](#inversor-de-frequencia)
-  - [HMI-T](#hmi-t)
+  - [HMI](#hmi)
+  - [Switch](#switch)
 - [Lines](#lines)
   - [Line 31](#line-31)
-    - [2020_2021](./lines/line31/2020_2021/line31.md)
+    - [2020_2021](#line31_2020_2021)
       - [João Evartisto](https://joaoevaristo-documentacao.readthedocs.io/en/latest/line31.html)
       - [Fábio Santo](https://fabiosanto-documentacao.readthedocs.io/en/latest/line31.html)
-    - [2021_2022](./lines/line31/2021_2022/line31.md)
-    - [2022_2023](./lines/line31/2022_2023/line31.md) 
+    - [2021_2022](#line31_2021_2022)
+    - [2022_2023](#line31_2022_2023)
   - [Line 32](#line-32)
-    - [2020_2021](./lines/line32/2020_2021/line3222.md)
+    - [2020_2021](#line32_2020_2021)
       - [Luís Barroso](https://luisbarroso-documentacao.readthedocs.io/en/latest/line32.html)
-    - [2021_2022](./lines/line32/2021_2022/line32.md)
-    - [2022_2023](./lines/line32/2022_2023/line32.md)  
+    - [2021_2022](#line32_2021_2022)
+    - [2022_2023](#line32_2022_2023)
   - [Line 33](#line-33)
-    - [2020_2021](./lines/line33/2020_2021/line33.md)
-    - [2021_2022](./lines/line33/2021_2022/line33.md)
-    - [2022_2023](./lines/line33/2022_2023/line33.md)  
+    - [2020_2021](#line33_2020_2021)
+    - [2021_2022](#line33_2021_2022)
+    - [2022_2023](#line33_2022_2023)
 - [Software](#software)
   - [TIA Portal](#tia-portal)
   - [Tesla Scada](#tesla-scada)
@@ -70,6 +71,12 @@ Os sensores óticos, são sensores que nos permitem a diferenciação entre peç
 O cilindro pneumático é o componente responsável por fazer movimentar as peças ao longo do processo. Estes componentes trabalham a partir de ar comprimido, ou seja, nas suas extremidades possuem pequenos orificios, sendo assim possivel, mover a haste para frente e para trás, alternando a entrada que recebem o ar. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), os cilindros pneumáticos usados são de duplo efeito.
 
 ## Equipamentos
+### Siemens S7 1200
+
+Siemens S7 1200, é um equipamento eletrónico, produzido pela Siemens. Consiste no PLC (Controladores Lógicos Programáveis) capaz de controlar uma variedade de aplicações de automação. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), este equipamento, é o **"cérebro"** de todos o processo. Responsável por processar e realizar as ordens recebidas pelo seu operador. É o PLC ideal quando se trata de executar tarefas de automação com flexibilidade e eficiência. Eles apresentam uma gama abrangente de funções tecnológicas e comunicação integrada, bem como um design especialmente compacto e compacto.
+
+#### - [Manual Geral - Siemens S7 1200](https://cache.industry.siemens.com/dl/files/465/36932465/att_106119/v1/s71200_system_manual_en-US_en-US.pdf)
+
 ### Enconder
 
 Encoders são equipamentos eletromecânicos, utilizados para conversão de movimentos rotativos ou deslocamentos lineares em impulsos elétricos de onda quadrada, que geram uma quantidade exata de impulsos por volta em uma distribuição perfeita dos pulsos ao longo dos 360 graus do giro do eixo. 
@@ -90,30 +97,44 @@ Oficina Luban, mais especificamente no Grupo 30 (YL-335B), o Servo Motor esta li
 
 Um Inversor de Frequência é um equipamento eletrónico, utilizado para variar a velocidade de um motor. Este equipamento transforma o Sinal Analógico, vindo do PLC, em corrente alternada. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), o Inversor de Frequência esta ligado a um Motor Triásico e a este está acoplado um Enconder que permite as seleção das peças de forma correta e precisa. 
 
-### Siemens S7 1200
-
-Siemens S7 1200, é um equipamento eletrónico, produzido pela Siemens. Consiste no PLC (Controladores Lógicos Programáveis) capaz de controlar uma variedade de aplicações de automação. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), este equipamento, é o **"cérebro"** de todos o processo. Responsável por processar e realizar as ordens recebidas pelo seu operador. É o PLC ideal quando se trata de executar tarefas de automação com flexibilidade e eficiência. Eles apresentam uma gama abrangente de funções tecnológicas e comunicação integrada, bem como um design especialmente compacto e compacto.
-
-#### - [Manual Geral - Siemens S7 1200](https://cache.industry.siemens.com/dl/files/465/36932465/att_106119/v1/s71200_system_manual_en-US_en-US.pdf)
+### HMI
+### Switch
 
 ## Lines
 ### Line 31
 #### 2020_2021
+<a id="line31_2020_2021"></a>
+
 - [João Evartisto](https://joaoevaristo-documentacao.readthedocs.io/en/latest/line31.html)
 - [Fábio Santo](https://fabiosanto-documentacao.readthedocs.io/en/latest/line31.html)
+
 #### 2021_2022
+<a id="line31_2021_2022"></a>
+
 #### 2022_2023
+<a id="line31_2022_2023"></a>
 
 ### Line 32
 #### 2020_2021
+<a id="line32_2020_2021"></a>
+
 - [Luís Barroso](https://luisbarroso-documentacao.readthedocs.io/en/latest/line32.html)
+
 #### 2021_2022
+<a id="line32_2021_2022"></a>
+
 #### 2022_2023
+<a id="line32_2022_2023"></a>
 
 ### Line 33
 #### 2020_2021
+<a id="line33_2020_2021"></a>
+
 #### 2021_2022
+<a id="line33_2021_2022"></a>
+
 #### 2022_2023
+<a id="line33_2022_2023"></a>
 
 ## Software
 ### TIA Portal
