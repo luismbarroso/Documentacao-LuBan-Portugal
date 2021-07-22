@@ -9,5 +9,3 @@
 Consiste num projecto para criação de documentação de forma simples e rápida usado o Markdown, usando como base o Sphinx.
 
 Website: https://documentacao-luban-portugal.readthedocs.io/en/latest/index.html
-
-Canal de Youtube: https://www.youtube.com/channel/UC1P4ACs0hsr7AWcl-mWKQbQ
