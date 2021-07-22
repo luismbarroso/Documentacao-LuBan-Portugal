@@ -1,8 +1,20 @@
 # Grupo 30 - YL335B
 
-- [Classificação](#classificacao)
-  - [Estações](./classification/estacoes.md)
-  - [Memórias](#memorias)
+- [Introdução](#introducao)
+- [Processo](#processo)
+    - [Peças](#pecas)
+    - [Estações](#estacoes)
+        - [Estação 10](#est-estacao-10)
+        - [Estação 20](#est-estacao-20)
+        - [Estação 30](#est-estacao-30)
+        - [Estação 40](#est-estacao-40)
+        - [Estação 50](#est-estacao-50)
+    - [Modo de Funcionamento](#modo-de-funcionamento)
+    - [Comunicações](#comunicacoes)
+        - [Modbus](#modbus)
+            - [Zonas de Comunicação](#modbus-zonas-de-comunicacao)
+        - [Profinet](#profinet)
+            - [Zonas de Comunicação](#profinet-zonas-de-comunicacao)
 - [Componentes](#componentes)
   - [Sensor Fotoelétrico](#sensor-fotoeletrico)
   - [Sensor Magnético](#sensor-magnetico) 
@@ -40,18 +52,115 @@
   - [Draw io](#draw-io)
   - [GEMMA](#gemma)
 
-## Classificação
+## Introdução
 
+As Linhas 31, 32 e 33, do Grupo 30, dividem-se em 5 estações das quais resultam: **Transporte (Estação 10)**, **Aplicação (Estação 30)**, **Alimentação do Corpo (Estação 20) e do Miolo (Estação 40)** e **Seleção (Estação 50)**.
+
+![LIN32_1](./lines/lines_30/line/line32_1.jpg)
+
+## Processo
+
+O Grupo 30, consiste num de linhas em que cada uma delas contém um conjunto de estações, **cada uma com Equipamentos/Componentes independentes**. As Linhas 31, 32 e 33, assim com cada uma da estações, funcionam usando **sistemas pneumáticos** e **sistemas eletromecânicos**.
+
+Os **sistemas pneumáticos** estão presentes em todas as estações. Responsáveis pelos movimentos dos Cilindros, o avanço e recuo. Já os **sistemas eletromecânicos** só estão presentes nas estações 10 e 50. Na estação 10, são responsáveis pelo movimento do **robô**. Este robô é utilizado para o transporte das peças pelas diversas estações. Acoplado ao robô, temos uma **garra**, sendo assim possível realizar as tarefas pretendidas, com por exemplo, o avança e recuo da garra. Para se deslocar pelas diversas estações, o robô, está conectado a um **Servo Motor** (Simotics S-1FL6) e um **Inversor de Frequência** (Siemens V90); Na estação 50, são responsáveis pelo movimento do tapete. Para o movimento deste tapete é usado um **Motor Trifásico** que acoplado tem um **Enconder**, que, através da sua posição é possível fazer o encaminhamento das peças. Para a movimento do Motor é utilizado um **Inversor de Frequência** (Siemens G120C), que converte o sinal elétrico em sinal analógico sendo assim possível fazer o movimento do tapete e controlo da velocidade.
+
+Para o controlo das peças são usados Sensores, como: **Sensores Fotoelétricos**, usados para a deteção das peças em determinadas posições; **Sensores Indutivos** usados para distinguir as peças metálicas das peças de plástico; **Sensores Óticos** usados para distinguir a peças brancas das peças pretas e **Sensores Magnéticos** usados para detetar a posição da haste do cilindro.
+
+Para a comunicação entre as diversas estações é usado o protocolo de comunicação **PROFINET**, este protocolo é baseado em **Ethernet**, ou seja, todas as comunicações entre PC/PLC ou PLC/PLC são feitas em rede. No programa TIA Portal é definida uma área de transferência de Bytes, desta forma, tanto o Master com os *Slaves* podem operar na zona definida. 
+
+### Peças
+
+![P_1](./lines/lines_30/station/p_1.jpg)
+
+Peças, constituídas por Corpo (Parte Exterior) e por um Miolo (Parte Interior). Representa o objeto processado na Linha 32, quando os elementos são unificados representam o produto final. Podem ser classificadas de 9 maneiras, como nos mostra a tabela abaixo.
+
+||Metálico|Branco|Preto|
+-| ------ | ---- | --- |
+Metálico|**x**|x|x|
+Branco|x|**x**|x|
+Preto|x|x|**x**|
+
+Os **x** a negrito indicam-nos as combinações pretendidas, quando essas combinações são processadas são encaminhadas para o respetivo armazém.
+
+### Estações
+#### Estação 10
+<a id="est-estacao-10"></a>
+
+A Estação 10, **estação de transporte da peça**, desde a sua fase inicial até à sua finalização. A Estação 10 é constituída por 7 sensores e 6 cilindros, dos quais resultam: Sensor de Garra em baixo, Sensor de Garra em cima, Sensor de Garra de rotação à esquerda, Sensor de Garra de rotação à direita, Sensor de Garra avançada, Sensor de Garra recuada, Sensor de Garra fechada; Cilindro de Garra subida e descida, Cilindro de rotação à esquerda da Garra, Cilindro de rotação à direita da Garra, Cilindro de Garra avançada e recuada, Cilindro de fecho da Garra, Cilindro de abertura da Garra.
+
+![ST10](./lines/lines_30/station/st_10.jpg)
+
+#### Estação 20
+<a id="est-estacao-20"></a>
+
+A Estação 20, **estação de alimentação do corpo da peça**, o corpo da peça, é colocado no funil para ser processado. A Estação 20 é constituída por 8 sensores e 2 cilindros, dos quais resultam: Sensor de Peça à Frente, Sensor Cilindro1 Avançado, Sensor Cilindro1 Recuado, Sensor Cilindro2 Avançado, Sensor Cilindro2 Recuado, Sensor no Funil (Cima), Sensor no Funil (Baixo), Sensor de Peça Metálica; Cilindro 1, Cilindro 2.
+
+![ST20](.//lines/lines_30/station/st_20.jpg)
+
+#### Estação 30
+<a id="est-estacao-30"></a>
+
+A Estação 30, **estação de aplicação**, é aplicada uma *cola* para fixar o miolo ao corpo da peça. A Estação 30 é constituída por 7 sensores e 6 cilindros, dos quais resultam: Sensor de peça na Pinça, Sensor de Pinça aberta e fechada, Sensor de Pinça avançada, Sensor de Pinça recuada, Sensor de Prensa subida, Sensor de Prensa descida; Cilindro de fecho da Pinça, Cilindro de Pinça avançada e recuada, Cilindro da Prensa subida e descida.
+
+![ST30](./lines/lines_30/station/st_30.jpg)
+
+#### Estação 40
+<a id="est-estacao-40"></a>
+
+A Estação 40, **estação de alimentação do miolo da peça**, o miolo da peça, é colocado na funil para ser processado. A Estação 40 é constituída por 16 sensores e 6 cilindros, dos quais resultam: Sensor Cilindro1 Avançado, Sensor Cilindro1 Recuado, Sensor Cilindro2 Avançado, Sensor Cilindro2 Recuado, Sensor Prato de rotação à esquerda, Sensor Prato de rotação à direita, Sensor copo em cima, Sensor copo em baixo, Sensor do Prato à esquerda, Sensor do Prato à direita, Sensor de Garra avançada, Sensor de Garra recuada, Sensor de Garra subida, Sensor de Garra descida, Sensor de Garra fechada, Sensor de Peça à frente; Cilindro 1, Cilindro 2, Cilindro Prato, Cilindro da Garra avançada e recuada, Cilindro da Garra subida e descida, Cilindro da Garra aberta e fechada.
+
+![ST40](/lines/lines_30/station/st_40.jpg)
+
+#### Estação 50
+<a id="est-estacao-50"></a>
+
+A Estação 50, **estação de seleção**, responsável por ordenar as peças no respetivo armazém.  Estação 40 é constituída por 6 sensores e 3 cilindros, dos quais resultam:
+Sensor de Peça no Tapete, Sensor de Peça Metálica, Sensor de Peça Branca/Metálica, Sensor Cilindro1 Avançado, Sensor Cilindro2 Avançado, Sensor Cilindro3 Avançado; Cilindro 1, Cilindro 2, Cilindro 3.
+
+![ST50](./lines/lines_30/station/st_50.jpg)
+
+### Modo de Funcionamento
+
+Assim que a Estação 20 for alimentada com o corpo da peça, essa informação é enviada para o PLC Master (Estação 10), assim que recebida, a Estação 20 processa a peça. Quando concluído o processamento, a peça, esta pronta para o robô a processar e avançar para a próxima estação. Quando o robô estiver na posição relativa à estação 30, a garra avança e pousa a peça na pinça e a peça é processada. Quando concluído o processamento, a peça, esta pronta para o robô a processar e avançar para a próxima estação. Quando o robô estiver na posição relativa à estação 40, a garra avança e pousa a peça no *suporte*. Assim que o corpo da peça for recebido pela estação 40, a estação entra em processamento, ou seja, o miolo é colocado no corpo da peça. Quando concluído o processamento, a peça, esta pronta para o robô a processar e avançar para a próxima estação. Quando o robô estiver na posição relativa à estação 50, a garra avança e pousa a peça no tapete. O tapete entra em funcionamento, a peça é identificada, pelos sensores e encaminhada. Caso for uma peça pretendida (Metálico/Metálico; Branco/Branco; Preto/Preto) é encaminhada para o respetivo armazém, senão, a peça é rejeitada. Depois do robô, pousar a peça no tapete da estação 50, retorna para a sua posição de *home* e desta forma o ciclo foi concluído e pronto a realizar um novo ciclo. 
+
+A Linha 32 é composta por 3 modos de funcionamento: **Local**, **HMI** e **Remoto**. **No Modo de Funcionamento Local**, os comandos para as estações são dados através da Botoneiras. Já os comandos para a linha são dados pela HMI. **No Modo de Funcionamento HMI**, todos os comandos, tanto para as estações como para a linha, são dados pela HMI. **No Modo de Funcionamento Remoto**, todos os comandos, tanto para as estações como para a linha, são dados remotamente, usando o software Tesla Scada. Quando um destes Modos de Funcionamento é selecionado, na HMI, os outros dois modos, mesmo que sejam selecionados, não terão efeito, prevenido assim qualquer acidente ou falha no sistema. Por exemplo: se estivermos a funcionar em modo HMI, se forem dados comandos através da Botoneiras ou através do Tesla Scada, este comandos não funcionaram, pois o Modo HMI está selecionado. 
+
+[![ModoAutomatico](./lines/line32/2020_2021/images/videos/1.png)](https://youtu.be/W-IelbxjGBI)
+
+### Comunicações
+
+A linha 32, usa dois protocolos de comunicação: **Profinet** e **Modbus**.
+
+### Modbus
+
+ModBus é um protocolo de comunicação de *Send/Receive* que utiliza um relacionamento **Master/Slave**. A comunicação **Master/Slave** ocorre em pares, ou seja, assim que o **Slave** fizer um pedido, fica aguardar a resposta por parte do **Master**. Assim que **Master** receber este pedido envia a informação pretendida para o **Slave**.
+
+![](./lines/lines_30/modbus/modbus.png)
+
+O Modbus é constituído por 4 zonas de memorias, como mostra a tabela abaixo: 
+
+| Tipo de Objeto   | Acesso     | Tamanho    | Espaço de Endereços |
+|:----------------:|:----------:|:----------:|:-------------------:|
+| Holding Coil     | Read-write | 1 bit      | 00001 - 09999       |
+| Discrete input   | Read-only  | 1 bit      | 10001 - 19999       |
+| Input register   | Read-only  | 16 bits    | 30001 - 39999       |
+| Holding register | Read-write | 16 bits    | 40001 - 49999       |
+
+Este protocolo de comunicação é usado pelo software Tesla Scada, permitindo assim que ordens para a linha ou para as Estações sejam dadas remotamente.
+
+### Profinet
+
+Profinet é um protocolo de comunicação baseado em **Ethernet**, este protocolo destina-se ao **controle de dispositivos de campo** como: Cilindros, Motores, Inversores, Válvulas, Sensores, entre outros, como acontece no Grupo 30. O Profinet, assim como o ModBus, é um protocolo de comunicação de *Send/Receive* que utiliza um relacionamento **Master/Slave**.
 
 ## Componentes
 ### Sensor Fotoelétrico
 
-Os sensores fotoelétricos são sensores que usam um feixe de luz para detetar a presença/ausência de objetos. Quando algum objeto  interrompe esse feixe de luz, o receptor detecta esse objeto e realiza a sua função para que foi programa, como por exemplo, o avanço de um cilindro.
+Os sensores fotoelétricos são sensores que usam um feixe de luz para detetar a presença/ausência de objetos. Quando algum objeto  interrompe esse feixe de luz, o recetor deteta esse objeto e realiza a sua função para que foi programa, como por exemplo, o avanço de um cilindro.
 
 Este tipo de sensor podem ser aplicado de 2 maneiras diferentes:
 
-  - Sensor Fotoelétrico de Barreira, 2 sensores distintos (emissor/recetor). Normalmente são instalados frente a frente, desta forma, sempre que este feixe for interropido, resulta numa ação. 
-  - Sensor Fotoelétrico Retrorreflexivo, 1 único sensor com emissor/recetor no mesmo **"corpo"**. A este tipo de sensor é acrescentado um espelho prismático. O seu funcionamento é identico ao funcionamento do *Sensor Fotoelétrico de Barreira*.
+  - Sensor Fotoelétrico de Barreira, 2 sensores distintos (emissor/recetor). Normalmente são instalados frente a frente, desta forma, sempre que este feixe for interrompido, resulta numa ação. 
+  - Sensor Fotoelétrico Retrorreflexivo, 1 único sensor com emissor/recetor no mesmo **"corpo"**. A este tipo de sensor é acrescentado um espelho prismático. O seu funcionamento é idêntico ao funcionamento do *Sensor Fotoelétrico de Barreira*.
 
 ### Sensor Magnético
 
@@ -59,15 +168,15 @@ Os sensores magnético são sensores que nos permitem saber em que posição a h
 
 ### Sensor Indutivo
 
-Os sensores indutivos, são sensores que nos permitem e destiação entre as peças metálicas e as peças de plástico. O sensor indutivo funciona a partir de um campo eletromagnético. Quando a peça metálica entra neste campo, devido à indução no metal ocorre uma diminuição na energia do campo, desta forma, o sensor deteta a presença de objeto metálico.
+Os sensores indutivos, são sensores que nos permitem e distinção entre as peças metálicas e as peças de plástico. O sensor indutivo funciona a partir de um campo eletromagnético. Quando a peça metálica entra neste campo, devido à indução no metal ocorre uma diminuição na energia do campo, desta forma, o sensor deteta a presença de objeto metálico.
 
 ### Sensor Ótico
 
-Os sensores óticos, são sensores que nos permitem a diferenciação entre peça branca e preta. O seu principio de funcionamento é parecido ao do **"Sensor Fotoelétrico"**, ou seja, o sensor possui um emissor e recetor, no mesmo corpo. Assim que a peça entra no campo do sensor, um feixe de luz é refleitdo e parte da luz emitida. A quantidade de luz refletida vai definir se a peça é branca ou preta. O sensor é composto por duas partes: o sensor e um amplificador ótico.
+Os sensores óticos, são sensores que nos permitem a diferenciação entre peça branca e preta. O seu principio de funcionamento é parecido ao do **"Sensor Fotoelétrico"**, ou seja, o sensor possui um emissor e recetor, no mesmo corpo. Assim que a peça entra no campo do sensor, um feixe de luz é refletido e parte da luz emitida. A quantidade de luz refletida vai definir se a peça é branca ou preta. O sensor é composto por duas partes: o sensor e um amplificador ótico.
 
 ### Cilindro Pneumático
 
-O cilindro pneumático é o componente responsável por fazer movimentar as peças ao longo do processo. Estes componentes trabalham a partir de ar comprimido, ou seja, nas suas extremidades possuem pequenos orificios, sendo assim possivel, mover a haste para frente e para trás, alternando a entrada que recebem o ar. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), os cilindros pneumáticos usados são de duplo efeito.
+O cilindro pneumático é o componente responsável por fazer movimentar as peças ao longo do processo. Estes componentes trabalham a partir de ar comprimido, ou seja, nas suas extremidades possuem pequenos orifícios, sendo assim possível, mover a haste para frente e para trás, alternando a entrada que recebem o ar. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), os cilindros pneumáticos usados são de duplo efeito.
 
 ## Equipamentos
 ### Siemens S7 1200
@@ -97,7 +206,14 @@ Oficina Luban, mais especificamente no Grupo 30 (YL-335B), o Servo Motor esta li
 Um Inversor de Frequência é um equipamento eletrónico, utilizado para variar a velocidade de um motor. Este equipamento transforma o Sinal Analógico, vindo do PLC, em corrente alternada. Na Oficina Luban, mais especificamente no Grupo 30 (YL-335B), o Inversor de Frequência esta ligado a um Motor Triásico e a este está acoplado um Enconder que permite as seleção das peças de forma correta e precisa. 
 
 ### HMI
+
+HMI, Human Machine Interface (Interface Homem-Máquina), consiste num painel que permite o operador comunicar com a máquina. Na Linha 32 existem dois tipos de HMI: 
+- **HMI Painel**, consiste num Painel com 3 Luzes de Sinalização: Vermelho, Verde, Amarelo e 4 Botões: dois botões Switch, usados normalmente para o Start e Stop; um Seletor e um botão de emergência. 
+- **HMI Touch**, ao contrário da HMI Painel, fornece a componente gráfica, sendo assim possível adicionar botões, iluminação, gráficos, imagens consoante a necessidade do seu operador, tornando-se assim uma ferramenta bastante versátil e eficiente.
+
 ### Switch
+
+Um Switch consiste num equipamento ativo que permite a interligação entre vários equipamentos. Os Switches têm a capacidade de registar o Endereço MAC dos dispositivos que estão ligados a ele, desta forma, a informação recebida pelo Switch é enviada para o dispositivo pretendido e não para todos os dispositivos com acontecer por exemplo com os Hubs. Na Linha 32 o Switch é responsável por fazer a interligação dos cinco PLC’s e da HMI, que por sua vez, está conectado á segunda porta da Bancada e na primeira porta está ligado o PC.
 
 ## Lines
 ### Line 31
