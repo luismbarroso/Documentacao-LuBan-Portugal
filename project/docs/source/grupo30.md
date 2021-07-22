@@ -56,7 +56,7 @@
 
 As Linhas 31, 32 e 33, do Grupo 30, dividem-se em 5 estações das quais resultam: **Transporte (Estação 10)**, **Aplicação (Estação 30)**, **Alimentação do Corpo (Estação 20) e do Miolo (Estação 40)** e **Seleção (Estação 50)**.
 
-![LIN32_1](./lines/lines_30/line/line32_1.jpg)
+![LIN32](./lines/lines_30/line/line32_1.jpg)
 
 ## Processo
 
