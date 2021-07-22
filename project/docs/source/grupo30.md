@@ -262,7 +262,7 @@ utilizada para a programação das HMI's na Ofina Luban.
 tempo real de sistemas e processos industriais baseados em PLC. 
 
 ### Draw io
-[Draw.io](Draw.io), é um software gratuito que premite a criação de Grafcets, Fluxogramas, entre outras.
+[Draw.io](Draw.io), é um software gratuito que permite a criação de Grafcets, Fluxogramas, entre outras.
 
 ### Gemma
 O Gemma consiste num Guia de estudo dos modos de Marcha e Paragem. Num processo automaziado, por necessidade, é necessário prever todos os estados possíveis, desta forma, com o
@@ -283,7 +283,6 @@ um dele correspondem um conjunto de funções/tarefas.
   substituição/reparação de uma peça/produto, entre outros.
   - **A6 - Colocação no estado inicial** -> Neste estado, procedesse a inicialização do sistema.
   - **A7 - Colocação em estado específico** -> Neste estado, o processo é retornado para uma posição específica, quando não é necessário voltar ao estado inicial.
-
 - **Procedimentos de execução**
   - **F1 - Marcha de produção COM ordem** -> Neste estado, o processo produz normalmente. Aqui as tarefas para as quais o processo foi desenvolvido devem ser realizadas.
   - **F2 - Marcha de preparação** -> Corresponde as ações necessárias para a máquina entrar produção.
@@ -293,7 +292,6 @@ um dele correspondem um conjunto de funções/tarefas.
   - **F5 - Marchas de verificação COM ordem** -> Neste estado, o processo, realiza o ciclo completo de operação em ordem. Corresponde ao Modo Semi - Automático, normalmente usado
   para manutenção e verificação de possiveis erros não encontrados na Marchas de TESTE.
   - **F6 - Marchas de TESTE** -> Nesse estado, realizam-se operações de ajuste e manutenção preventiva.
-
 - **Procedimentos de falha**
   - **D1 - Paragem de emergência** ->  Neste estado, por imposição do Homem ou do Processo, o processo entra em emergência, desta forma, evita-se e reduz-se o perigo.
   - **D2 - Diagnóstico/tratamento de falha** -> Neste estado, o processo, é examinado após uma falha. Esta falha pode ser tratada com ou sem a intervrção do operador. Quando concluida o processo está pronto para reiniciar.
