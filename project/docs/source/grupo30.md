@@ -70,7 +70,7 @@ Para a comunicação entre as diversas estações é usado o protocolo de comuni
 ### Peças
 
 ![Peças](./lines/lines_30/Estacoes/Pecas.png)
-
+s
 <img src="./lines/lines_30/Estacoes/Pecas.png" width="500" height="500">
 
 *Peças*
