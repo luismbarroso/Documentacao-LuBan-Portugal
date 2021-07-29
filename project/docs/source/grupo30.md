@@ -313,7 +313,7 @@ Alguns manuais importantes para a programação da linhas 31, 32 e 33.
 - [Manual Enconder](./equipments/manuais/manual_enconder.md)
 - [Manual Servo Motor](./equipments/manuais/manual_servo.md)
 - [Siemens S7 S7-1200](https://cache.industry.siemens.com/dl/files/465/36932465/att_106119/v1/s71200_system_manual_en-US_en-US.pdf) 
-- [Modbus - MB_CLIENT and MB_SERVER](https://cache.industry.siemens.com/dl/files/380/94766380/att_57741/v1/net_modbus_tcp_s7-1500_en.pdf)
+- [Modbus - MB_CLIENT e MB_SERVER](https://cache.industry.siemens.com/dl/files/380/94766380/att_57741/v1/net_modbus_tcp_s7-1500_en.pdf)
     
 ## Lines
 ### Line 31
