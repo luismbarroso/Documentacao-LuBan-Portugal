@@ -4,16 +4,6 @@ Bem-Vindo à Lu ban Workshop Portugal
 
 O presente documento tem como objetivo principal descrever todo o trabalho realizado na Oficina Lu Ban.
 
-********************************
-Sobre a Lu ban Workshop Portugal
-********************************
-
-.. toctree::
-   :caption: Sobre a Lu ban Workshop Portugal
-   :maxdepth: 2
-   
-   about
-
 *********
 Processos
 *********
@@ -60,3 +50,14 @@ How to do
    
    criacao_de_documentacao
    fluxograma
+
+********************************
+Sobre a Lu ban Workshop Portugal
+********************************
+
+.. toctree::
+   :caption: Sobre a Lu ban Workshop Portugal
+   :maxdepth: 2
+   
+   about
+
