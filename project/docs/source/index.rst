@@ -56,7 +56,7 @@ Sobre a Lu ban Workshop Portugal
 ********************************
 
 .. toctree::
-   :caption: Sobre a Lu ban Workshop Portugal
+   :caption: About
    :maxdepth: 2
    
    about
