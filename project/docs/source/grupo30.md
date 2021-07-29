@@ -71,6 +71,8 @@ Para a comunicação entre as diversas estações é usado o protocolo de comuni
 
 ![Peças](./lines/lines_30/Estacoes/Pecas.png)
 
+<img src="./lines/lines_30/Estacoes/Pecas.png" width="500" height="500">
+
 *Peças*
 
 Peças, constituídas por Corpo (Parte Exterior) e por um Miolo (Parte Interior). Representa o objeto processado na Linha 32, quando os elementos são unificados representam o produto final. Podem ser classificadas de 9 maneiras, como nos mostra a tabela abaixo.
