@@ -131,7 +131,7 @@ Sensor de Peça no Tapete, Sensor de Peça Metálica, Sensor de Peça Branca/Met
 *Estação 50*
 
 ## Hardware
-## Componentes
+### Componentes
 #### Sensor Fotoelétrico
 
 Os sensores fotoelétricos são sensores que usam um feixe de luz para detetar a presença/ausência de objetos. Quando algum objeto  interrompe esse feixe de luz, o recetor deteta esse objeto e realiza a sua função para que foi programa, como por exemplo, o avanço de um cilindro.
