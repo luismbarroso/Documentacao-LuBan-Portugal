@@ -8,13 +8,11 @@ O presente documento tem como objetivo principal descrever todo o trabalho reali
 Sobre a Lu ban Workshop Portugal
 ********************************
 
-*Toda a Informação sobre o Grupo 10 - SX-185Q*
-
 .. toctree::
+   :caption: Sobre a Lu ban Workshop Portugal
    :maxdepth: 2
    
    about
-   
 
 *********
 Processos
