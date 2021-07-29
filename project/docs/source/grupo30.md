@@ -308,7 +308,7 @@ Este protocolo de comunicação é usado pelo software Tesla Scada, permitindo a
 
 ## Manuais
 
-Alguns manuais importante para a programação da linhas 31, 32 e 33.
+Alguns manuais importantes para a programação da linhas 31, 32 e 33.
 
 - [Manual Enconder](./equipments/manuais/manual_enconder.md)
 - [Manual Servo Motor](./equipments/manuais/manual_servo.md)
