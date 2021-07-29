@@ -232,7 +232,7 @@ Um Switch consiste num equipamento ativo que permite a interligação entre vár
 
 *Imagem do Switch*
 
-![Redes](./lines/lines_30/Redes/Rede_Luban.PNG)
+![Redes](./lines/lines_30/Redes/Rede_Luban.png)
 
 *Esquema de Rede do Grupo 30*
 
@@ -242,7 +242,7 @@ O Gemma consiste num Guia de estudo dos modos de Marcha e Paragem. Num processo 
 
 Como podemos observar na figura a baixo, o Gemma, divide-se em 3 grande blocos: **"Procedimentos de paragem"**, **"Procedimentos de execução"**, **"Procedimentos de falha"** e a cada um dele correspondem um conjunto de funções/tarefas.
 
-![Gemma](./software/imagens/gemma.svg)
+![Gemma](./software/imagens/GEMMA.svg)
 
 ---
 
