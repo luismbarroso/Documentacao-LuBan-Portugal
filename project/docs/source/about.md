@@ -1,6 +1,6 @@
 ## Apresentação da Lu ban Workshop Portugal
 
-A Oficina Lu Ban Portuguesa, localizada nas instalações da Escola Superior de Tecnologia de Setúbal do Instituto Politécnico de Setúbal, Inaugurada no dia 5 de dezembro de 2018 como resultado de uma parceria entre o Instituto Politécnico de Setúbal e a Escola Vocacional de Mecânica e Eletricidade de Tianjin. As Oficinas Lu Ban foram inspiradas num inventor, engenheiro e carpinteiro chinês, Gongshu Ban que viveu na dinastia Zhou. Estas oficinas são plataformas de colaboração tecnológica entre a China e alguns outros países, Índia, Reino Unido, Indonésia, Tailândia, Paquistão e Portugal, sendo a única no nosso pais. 
+A Oficina Lu Ban Portuguesa, localizada nas instalações da Escola Superior de Tecnologia de Setúbal do Instituto Politécnico de Setúbal, foi Inaugurada no dia 5 de dezembro de 2018 como resultado de uma parceria entre o Instituto Politécnico de Setúbal e a Escola Vocacional de Mecânica e Eletricidade de Tianjin. As Oficinas Lu Ban foram inspiradas num inventor, engenheiro e carpinteiro chinês, Gongshu Ban que viveu na dinastia Zhou. Estas oficinas são plataformas de colaboração tecnológica entre a China e alguns outros países, Índia, Reino Unido, Indonésia, Tailândia, Paquistão e Portugal, sendo a única no nosso pais. 
 
 A Oficina Lu Ban é constituída por 4 processos: 
 
