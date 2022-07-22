@@ -309,7 +309,6 @@ nosso processo.
 - **Distance:** Distancia do ponto de referencia a qual o servo de moverá
 - **Velocity:** Velocidade com a qual o servo executará o movimento
 
-*EM FALTA*
 ### Axis Error
 
 Assim que o servo dispara a paragem de emergência quando um dos fins de curso é acionado, é necessario remover a emergência usado os blocos **"MC_Power"** e **"MC_Reset"** anteriomente explicados.
