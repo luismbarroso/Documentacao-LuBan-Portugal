@@ -63,7 +63,7 @@ Para o controlo das peças são usados Sensores, como: **Sensores Fotoelétricos
 
 Para a comunicação entre as diversas estações é usado o protocolo de comunicação **PROFINET**, este protocolo é baseado em **Ethernet**, ou seja, todas as comunicações entre PC/PLC ou PLC/PLC são feitas em rede. No programa TIA Portal é definida uma área de transferência de Bytes, desta forma, tanto o Master com os *Slaves* podem operar na zona definida. 
 
-![Line32](./lines/lines_30/Linhas/Linha_30.jpg)
+![Line32](./lines/lines_30/Linha_30.jpg)
 
 *Imagem da Linha 32*
 
