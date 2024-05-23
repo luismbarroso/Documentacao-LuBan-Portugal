@@ -42,6 +42,7 @@ snowballstemmer==2.2.0
 Sphinx==7.3.7
 sphinx-rtd-theme==2.0.0
 sphinx-material==0.0.36
+sphinx-markdown-tables==0.0.17
 sphinxcontrib-applehelp==1.0.8
 sphinxcontrib-devhelp==1.0.6
 sphinxcontrib-htmlhelp==2.0.5
